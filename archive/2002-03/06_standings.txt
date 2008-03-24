@@ -1,0 +1,27 @@
+          Competitor:                    Pts: Res:
+ 1. ( +2) Leanne Mahon                   124   11
+ 2. ( - ) Bryvoski                       123   10
+ 3. ( -2) Guru                           121    8
+ 4. ( +2) el pampero                     120    8
+ 5. ( - ) Miljenko                       119   12
+ 6. ( -2) Ivo                            119    8
+ 7. ( - ) Eduardo Liguori                115    8
+ 8. ( - ) Klaa                           110   10
+ 9. ( +1) GargoyleBG                     109   11
+10. ( +1) Marc Robbins                   102    4
+11. ( -2) The Wielder of the Scythe       98    4
+12. ( - ) James Williams                  96    7
+13. ( +2) agyemang                        84    3
+14. ( -1) Jamie                           80    7
+15. ( +1) MrT                             80    7
+16. ( -2) GrooveJet                       79    9
+17. ( +1) gary scholes                    73    2
+18. ( +1) Peter Smyth                     67    2
+19. ( -2) Bluebird                        65    4
+20. ( - ) Foxy                            44    3
+21. ( - ) Martin                          43    1
+22. ( - ) Erik Jorstad                    42    2
+23. ( - ) Norman Moore                    18    1
+24. ( - ) Bugs                            17    2
+25. ( - ) Hamish                          16    1
+26. (new) Paul Bray                       12    2

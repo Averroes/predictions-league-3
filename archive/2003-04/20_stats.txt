@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Newcastle v PSV                      2 -  1   47   3.133
+ 2. Valencia v Bordeaux                  2 -  1   33   2.200
+ 3. Villarreal v Celtic                  2 -  0   20   1.333
+ 4. Internazionale v Marseille           0 -  1    6   0.400
+
+Competitors = 15
+Total points scored = 106
+Average points scored = 7.067
+Average points per game = 1.767

@@ -1,0 +1,41 @@
+          Competitor:                    Pts: Res:
+ 1. ( - ) Guru                           260   16
+ 2. ( - ) Ivo                            257   17
+ 3. ( - ) Miljenko                       255   23
+ 4. ( - ) Eduardo Liguori                253   16
+ 5. ( +1) GargoyleBG                     229   15
+ 6. ( -1) The Wielder of the Scythe      228   17
+ 7. ( - ) Bryvoski                       227   13
+ 8. ( - ) James Williams                 212   17
+ 9. ( - ) Klaa                           200   19
+10. ( - ) Peter Smyth                    192   13
+11. ( +1) agyemang                       188   10
+12. ( -1) Marc Robbins                   180    6
+13. ( - ) el pampero                     177   10
+14. ( - ) gary scholes                   165    8
+15. ( - ) Leanne Mahon                   144   13
+16. ( - ) Erik Jorstad                   119   10
+17. ( - ) Jamie                           80    7
+18. ( - ) MrT                             80    7
+19. ( - ) GrooveJet                       79    9
+20. ( - ) Niek Bakker                     72    7
+21. ( +2) Big B                           68    6
+22. ( -1) Bluebird                        67    4
+23. ( -1) Eddy de Visser                  65    4
+24. ( - ) Foxy                            44    3
+25. ( - ) Martin                          43    1
+26. ( - ) digitalMOSQUITO                 41    1
+27. ( - ) Michael Pallisgaard Jensen      36    3
+28. ( +1) silencio                        32    5
+29. ( +9) Nes                             20    1
+30. ( -2) Dazzler                         19    1
+31. ( - ) Dan                             18    2
+32. ( -2) Lilywhite                       18    2
+33. ( -1) Norman Moore                    18    1
+34. ( -1) Bugs                            17    2
+35. ( -1) Hamish                          16    1
+36. ( -1) Paul Bray                       12    2
+37. ( - ) Sierro                          11    1
+38. ( -2) Dixon                           10    0
+39. (new) Baltogok                         9    1
+40. (new) DannyM                           6    0

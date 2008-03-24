@@ -1,0 +1,14 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. *****General                    6   0  2  0
+ 2. Mark Goodge                     6   0  2  0
+ 3. Nick the Greek                  6   0  2  0
+ 4. Eduardo Liguori                 3   0  1  0
+ 5. Hari Seldon                     3   0  1  0
+ 6. AGCM Oracle                     2   0  0  1
+ 7. GargoyleBG                      2   0  0  1
+ 8. Miljenko                        2   0  0  1
+ 9. Mr. Pink                        2   0  0  1
+10. Hamish                          0   0  0  0
+11. Stephen Weir                    0   0  0  0
+12. The Wielder of the Scythe       0   0  0  0

@@ -1,0 +1,33 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) MiniMe                         10 120 158  12  18  28
+  2. ( - ) Nick the Greek                 10 120 156  12  18  27
+  3. ( - ) Miljenko                       10 120 155  13  15  29
+  4. ( - ) Daniel Marsh                   10 120 152   9  18  31
+  5. ( - ) Hamish                         10 120 143  11  15  27
+  6. ( - ) Marc Robbins                   10 120 143  11  11  33
+  7. ( - ) GargoyleBG                     10 120 139   9  17  26
+  8. ( +2) The Wielder of the Scythe      10 120 138  11  12  29
+  9. ( - ) Ivo                            10 120 133   6  17  29
+ 10. ( -2) Khamelion                       9 104 132  11  16  20
+ 11. ( - ) The Brazilian Man              10 120 129   7  15  28
+ 12. ( +1) AGCM Oracle                    10 120 127   6  13  32
+ 13. ( -1) Stephan                        10 120 126   7  12  31
+ 14. ( - ) Steven                          5  80 105  11  13  11
+ 15. ( - ) Mr. Pink                        5  72  86   8   8  15
+ 16. ( - ) Klaa                            4  64  80   8   8  12
+ 17. ( - ) rsstrnc                         5  52  71   5   9  12
+ 18. ( - ) Toby Briggs                     6  80  70   4   6  18
+ 19. ( - ) HCwest Pete Fella               4  64  65   5   7  12
+ 20. ( - ) Nes                             6  68  63   8   5   8
+ 21. ( - ) Bam Bam                         4  64  57   4   7  10
+ 22. ( - ) Eddy da Fisherman               3  48  56   3   4  16
+ 23. ( - ) Nick Marstin                    4  36  51   4   7   7
+ 24. ( - ) MrT                             2  32  40   2   6   7
+ 25. ( - ) Baroje                          4  32  35   2   3   9
+ 26. ( +2) Hagen                           3  20  27   2   3   5
+ 27. ( -1) Spankin                         2  32  25   1   1   9
+ 28. ( -1) DannyM                          1  16  23   1   1   8
+ 29. ( - ) digitalMOSQUITO                 1  16  20   1   4   2
+ 30. ( - ) Bom Bom                         1  16  19   2   1   4
+ 31. ( - ) Suhi                            1   8   7   0   1   2

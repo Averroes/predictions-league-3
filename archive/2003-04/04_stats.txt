@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Xamax v Auxerre                      0 -  1   56   2.545
+ 2. Liverpool v Olimpija                 3 -  0   54   2.455
+ 3. Malmö v Sporting                     0 -  1   40   1.818
+ 4. Steaua v Southampton                 1 -  0   30   1.364
+ 5. Molde v Leiria                       3 -  1   27   1.227
+ 6. Lokeren v Man. City                  0 -  1   26   1.182
+ 7. Lyn v PAOK                           0 -  3   20   0.909
+ 8. H. Tel-Aviv v Gaziantepspor          0 -  0   19   0.864
+ 9. Trabzonspor v Villarreal             2 -  3   19   0.864
+10. MTK v Dinamo Zagreb                  0 -  0   16   0.727
+11. Hajduk v Grasshoppers                0 -  0   15   0.682
+12. Petrzalka v Bordeaux                 1 -  1   11   0.500
+13. Blackburn v Gençlerbirligi           1 -  1    8   0.364
+14. NEC v Wisla                          1 -  2    6   0.273
+15. Nordsjaelland v Panionios            0 -  1    5   0.227
+16. Dnipro v Hamburg                     3 -  0    2   0.091
+
+Competitors = 22
+Total points scored = 354
+Average points scored = 16.091
+Average points per game = 1.006

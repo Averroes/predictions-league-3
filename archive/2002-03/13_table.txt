@@ -1,0 +1,19 @@
+    Competitor:                   Pts: Res:
+ 1. Marc Robbins                   13   2
+ 2. Dixon                          10   0
+ 3. Erik Jorstad                    9   1
+ 4. The Wielder of the Scythe       9   1
+ 5. Sierro                          9   1
+ 6. Ivo                             9   0
+ 7. James Williams                  8   2
+ 8. GargoyleBG                      8   1
+ 9. Klaa                            8   0
+10. Nes                             8   0
+11. agyemang                        7   1
+12. Michael Pallisgaard Jensen      7   1
+13. Eduardo Liguori                 7   0
+14. Bryvoski                        6   1
+15. Miljenko                        6   0
+16. digitalMOSQUITO                 5   0
+17. Guru                            4   0
+18. gary scholes                    2   0

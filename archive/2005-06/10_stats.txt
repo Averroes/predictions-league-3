@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Villarreal v Lille                   1 -  0   32   2.286
+ 2. Udinese v Barcelona                  0 -  2   30   2.143
+ 3. Milan v Schalke                      3 -  2   30   2.143
+ 4. PSV v Fenerbahce                     2 -  0   29   2.071
+ 5. Lyon v Rosenborg                     2 -  1   26   1.857
+ 6. Rapid v Juventus                     1 -  3   26   1.857
+ 7. Bremen v Panathinaikos               5 -  1   22   1.571
+ 8. Artmedia v Porto                     0 -  0   17   1.214
+ 9. Chelsea v Liverpool                  0 -  0   16   1.143
+10. Rangers v Internazionale             1 -  1   12   0.857
+11. Arsenal v Ajax                       0 -  0   10   0.714
+12. Sparta v Thun                        0 -  0    9   0.643
+13. Olympiacos v Real Madrid             2 -  1    7   0.500
+14. Benfica v Man. United                2 -  1    5   0.357
+15. Club Brugge v Bayern                 1 -  1    3   0.214
+16. Betis v Anderlecht                   0 -  1    0   0.000
+
+Competitors = 14
+Total points scored = 274
+Average points scored = 19.571
+Average points per game = 1.223

@@ -1,0 +1,20 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Steven                         23   3  3  1
+ 2. The Wielder of the Scythe      21   3  1  3
+ 3. Daniel Marsh                   21   2  3  2
+ 4. Nes                            19   3  1  2
+ 5. AGCM Oracle                    18   0  2  6
+ 6. Marc Robbins                   17   1  1  5
+ 7. Ivo                            16   1  2  3
+ 8. GargoyleBG                     15   2  1  2
+ 9. Klaa                           15   2  1  2
+10. Miljenko                       15   2  1  2
+11. Nick the Greek                 15   1  1  4
+12. MiniMe                         12   0  2  3
+13. Hamish                         11   1  1  2
+14. Spankin                        11   0  1  4
+15. HCwest Pete Fella              10   1  0  3
+16. Stephan                         9   0  1  3
+17. The Brazilian Man               9   0  1  3
+18. Bam Bam                         7   0  1  2

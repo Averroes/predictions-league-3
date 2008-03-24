@@ -1,0 +1,25 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Hamish                          4   1  0  0
+ 2. Miljenko                        4   1  0  0
+ 3. MiniMe                          4   1  0  0
+ 4. The Wielder of the Scythe       4   1  0  0
+ 5. Nick the Greek                  3   0  1  0
+ 6. The Brazilian Man               3   0  1  0
+ 7. ~#Bluebird#~                    3   0  1  0
+ 8. Mr. Pink                        2   0  0  1
+ 9. AGCM Oracle                     0   0  0  0
+10. Dan                             0   0  0  0
+11. Daniel Marsh                    0   0  0  0
+12. GargoyleBG                      0   0  0  0
+13. Grue                            0   0  0  0
+14. Hagen                           0   0  0  0
+15. Ivo                             0   0  0  0
+16. James Williams                  0   0  0  0
+17. Klaa                            0   0  0  0
+18. Mark Goodge                     0   0  0  0
+19. Nick Marstin                    0   0  0  0
+20. Stephan                         0   0  0  0
+21. Stephen Weir                    0   0  0  0
+22. Thomas Gaspardo                 0   0  0  0
+23. rsstrnc                         0   0  0  0

@@ -1,0 +1,44 @@
+          Competitor:                    Pts: Res:
+ 1. ( - ) Ivo                            262   17
+ 2. ( - ) Guru                           262   16
+ 3. ( - ) Miljenko                       260   23
+ 4. ( - ) Eduardo Liguori                259   17
+ 5. ( - ) GargoyleBG                     235   16
+ 6. ( - ) Bryvoski                       231   14
+ 7. ( - ) The Wielder of the Scythe      230   17
+ 8. ( +1) Klaa                           216   21
+ 9. ( -1) James Williams                 216   18
+10. ( - ) Peter Smyth                    192   13
+11. ( - ) agyemang                       188   10
+12. ( - ) Marc Robbins                   185    6
+13. ( - ) el pampero                     177   10
+14. ( - ) gary scholes                   165    8
+15. ( - ) Leanne Mahon                   144   13
+16. ( - ) Erik Jorstad                   121   10
+17. ( - ) Jamie                           80    7
+18. ( - ) MrT                             80    7
+19. ( - ) GrooveJet                       79    9
+20. ( - ) Niek Bakker                     72    7
+21. ( - ) Big B                           70    6
+22. ( - ) Bluebird                        67    4
+23. ( - ) Eddy de Visser                  65    4
+24. ( - ) digitalMOSQUITO                 46    1
+25. ( +2) silencio                        44    6
+26. ( -1) Foxy                            44    3
+27. ( -1) Martin                          43    1
+28. ( - ) Michael Pallisgaard Jensen      36    3
+29. ( - ) Nes                             27    2
+30. ( - ) Dazzler                         19    1
+31. ( - ) Dan                             18    2
+32. ( - ) Lilywhite                       18    2
+33. ( - ) Norman Moore                    18    1
+34. ( - ) Bugs                            17    2
+35. ( - ) Dixon                           17    1
+36. ( - ) DannyM                          17    1
+37. ( - ) Hamish                          16    1
+38. ( - ) Paul Bray                       12    2
+39. ( - ) Sierro                          11    1
+40. ( - ) Baltogok                         9    1
+41. ( - ) Jesper                           3    0
+42. ( - ) Nick                             0    0
+43. (new) aa                               0    0

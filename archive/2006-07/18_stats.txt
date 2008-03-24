@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Roma v Man. United                   2 -  1    9   1.125
+ 2. Milan v Bayern                       2 -  2    5   0.625
+ 3. PSV v Liverpool                      0 -  3    4   0.500
+ 4. Chelsea v Valencia                   1 -  1    0   0.000
+
+Competitors = 8
+Total points scored = 18
+Average points scored = 2.250
+Average points per game = 0.563

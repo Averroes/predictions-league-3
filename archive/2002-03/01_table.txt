@@ -1,0 +1,24 @@
+    Competitor:                   Pts: Res:
+ 1. Guru                           36   2
+ 2. Eduardo Liguori                27   3
+ 3. Miljenko                       25   2
+ 4. Foxy                           24   3
+ 5. Martin                         24   0
+ 6. agyemang                       23   0
+ 7. el pampero                     22   2
+ 8. Marc Robbins                   21   1
+ 9. Peter Smyth                    21   1
+10. GrooveJet                      20   3
+11. Bluebird                       20   2
+12. GargoyleBG                     20   1
+13. Ivo                            20   0
+14. Klaa                           19   2
+15. Norman Moore                   18   1
+16. The Wielder of the Scythe      18   1
+17. Bugs                           17   2
+18. Bryvoski                       17   1
+19. Hamish                         16   1
+20. Jamie                          15   1
+21. James Williams                 15   1
+22. Leanne Mahon                   15   0
+23. MrT                            11   1

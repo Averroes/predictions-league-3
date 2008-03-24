@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Portugal v Greece                    0 -  1   18   0.783
+
+Competitors = 23
+Total points scored = 18
+Average points scored = 0.783
+Average points per game = 0.783

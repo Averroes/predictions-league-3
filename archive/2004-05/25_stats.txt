@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Milan v PSV                          2 -  0   50   2.941
+ 2. Chelsea v Liverpool                  0 -  0    3   0.176
+
+Competitors = 17
+Total points scored = 53
+Average points scored = 3.118
+Average points per game = 1.559

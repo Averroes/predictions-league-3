@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Barcelona v Arsenal                  2 -  1   17   1.545
+
+Competitors = 11
+Total points scored = 17
+Average points scored = 1.545
+Average points per game = 1.545

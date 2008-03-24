@@ -1,0 +1,22 @@
+    Game:                               Result: Pts:   Avg:
+ 1. Barcelona v Newcastle                3 - 1   40   2.857
+ 2. Dortmund v Milan                     0 - 1   32   2.286
+ 3. Lens v Porto                         1 - 0   32   2.286
+ 4. Liverpool v Vitesse                  1 - 0   31   2.214
+ 5. Internazionale v Leverkusen          3 - 2   28   2.000
+ 6. Juventus v Basel                     4 - 0   28   2.000
+ 7. Celta v Celtic                       2 - 1   22   1.571
+ 8. Man. United v Deportivo              2 - 0   22   1.571
+ 9. Fulham v Hertha                      0 - 0   20   1.429
+10. Ajax v Roma                          2 - 1   19   1.357
+11. Auxerre v Betis                      2 - 0   18   1.286
+12. Stuttgart v Club Brugge              1 - 0   16   1.143
+13. Dynamo v Besiktas                    0 - 0   12   0.857
+14. Arsenal v Valencia                   0 - 0    8   0.571
+15. Madrid v Lokomotiv                   2 - 2    2   0.143
+16. Lyon v Denizlispor                   0 - 1    0   0.000
+
+Competitors = 14
+Total points scored = 330
+Average points scored = 23.571
+Average points per game = 1.473

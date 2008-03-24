@@ -1,0 +1,24 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. MiniMe                         26   4  0  5
+ 2. sarts                          26   3  0  7
+ 3. Miljenko                       26   2  2  6
+ 4. Mark Goodge                    25   3  1  5
+ 5. Stephan                        24   1  2  7
+ 6. ray                            23   1  1  8
+ 7. mentalalien                    22   3  0  5
+ 8. AGCM Oracle                    21   0  3  6
+ 9. Nick the Greek                 20   2  0  6
+10. Daniel Marsh                   20   0  2  7
+11. Ronald Scholman                20   0  2  7
+12. Marc Robbins                   19   2  1  4
+13. Hagen                          19   1  3  3
+14. The Wielder of the Scythe      18   1  2  4
+15. Mark Thompson                  17   1  1  5
+16. GargoyleBG                     17   0  3  4
+17. Ivo                            17   0  1  7
+18. The Brazilian Man              16   0  2  5
+19. Hamish                         15   0  1  6
+20. Pete Heslop                    15   0  1  6
+21. Klaa                           14   0  2  4
+22. Toby Briggs                    13   0  1  5

@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Valencia v Marseille                 2 -  0   30   1.765
+
+Competitors = 17
+Total points scored = 30
+Average points scored = 1.765
+Average points per game = 1.765

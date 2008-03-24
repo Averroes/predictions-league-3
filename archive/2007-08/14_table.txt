@@ -1,0 +1,11 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. biz                            11   1  1  2
+ 2. Miljenko                       10   1  2  0
+ 3. Mark Goodge                     9   1  1  1
+ 4. Hamish                          8   1  0  2
+ 5. Nick the Greek                  7   1  1  0
+ 6. AGCM Oracle                     4   0  0  2
+ 7. Timofei Shatrov                 3   0  1  0
+ 8. The Wielder of the Scythe       0   0  0  0
+ 9. Toby                            0   0  0  0

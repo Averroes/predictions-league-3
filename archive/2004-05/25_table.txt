@@ -1,0 +1,19 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Marc Robbins                    5   0  1  1
+ 2. Hagen                           4   1  0  0
+ 3. Ivo                             4   1  0  0
+ 4. Mark Goodge                     4   1  0  0
+ 5. Nick the Greek                  4   1  0  0
+ 6. Stephan                         4   1  0  0
+ 7. The Wielder of the Scythe       4   1  0  0
+ 8. Z                               4   1  0  0
+ 9. ray                             4   1  0  0
+10. Pete Heslop                     3   0  1  0
+11. Ronald Scholman                 3   0  1  0
+12. AGCM Oracle                     2   0  0  1
+13. Hamish                          2   0  0  1
+14. Miljenko                        2   0  0  1
+15. Toby Briggs                     2   0  0  1
+16. Xtasia                          2   0  0  1
+17. Hari Seldon                     0   0  0  0

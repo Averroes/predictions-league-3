@@ -1,0 +1,19 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Nick the Greek                 29   4  1  5
+ 2. Daniel Marsh                   25   3  1  5
+ 3. Stephan                        24   2  4  2
+ 4. Miljenko                       24   2  2  5
+ 5. Mark Goodge                    23   3  1  4
+ 6. MiniMe                         22   0  4  5
+ 7. Ronald Scholman                19   2  1  4
+ 8. Ivo                            18   1  2  4
+ 9. Marc Robbins                   17   1  1  5
+10. ray                            16   0  2  5
+11. Toby Briggs                    14   1  0  5
+12. Hagen                          14   0  2  4
+13. Hamish                         13   2  1  1
+14. The Brazilian Man              12   0  2  3
+15. The Wielder of the Scythe      12   0  2  3
+16. AGCM Oracle                    10   0  2  2
+17. mentalalien                     9   0  1  3

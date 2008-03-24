@@ -1,0 +1,22 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Sevilla v Steaua                     1 -  0   18   2.571
+ 2. Espanyol v Livorno                   2 -  0   15   2.143
+ 3. PSG v AEK                            2 -  0   14   2.000
+ 4. Newcastle v Zulte Waregem            1 -  0   14   2.000
+ 5. M. Haifa v CSKA Moskva               1 -  0   12   1.714
+ 6. Celta v Spartak Moskva               2 -  1   12   1.714
+ 7. Rangers v H. Tel-Aviv                4 -  0   12   1.714
+ 8. Panathinaikos v Lens                 0 -  0   10   1.429
+ 9. Ajax v Bremen                        3 -  1    6   0.857
+10. Osasuna v Bordeaux                   0 -  0    4   0.571
+11. Blackburn v Leverkusen               0 -  0    3   0.429
+12. Nancy v Shakhtar                     0 -  1    2   0.286
+13. AZ v Fenerbahce                      2 -  2    0   0.000
+14. Dinamo Bucuresti v Benfica           1 -  2    0   0.000
+15. Parma v Braga                        0 -  1    0   0.000
+
+Competitors = 7
+Total points scored = 122
+Average points scored = 17.429
+Average points per game = 1.162

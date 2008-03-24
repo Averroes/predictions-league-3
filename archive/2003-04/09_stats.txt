@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Panathinaikos v Man. United          0 -  1   40   2.222
+ 2. Deportivo v AEK                      3 -  0   38   2.111
+ 3. Stuttgart v Rangers                  1 -  0   33   1.833
+ 4. Porto v Partizan                     2 -  1   30   1.667
+ 5. Marseille v Real Madrid              1 -  2   28   1.556
+ 6. Ajax v Milan                         0 -  1   26   1.444
+ 7. Lokomotiv Moskva v Dynamo Kyiv       3 -  2   22   1.222
+ 8. Lazio v Besiktas                     1 -  1   19   1.056
+ 9. Celtic v Bayern                      0 -  0   19   1.056
+10. Anderlecht v Lyon                    1 -  0   11   0.611
+11. Monaco v PSV                         1 -  1   10   0.556
+12. Galatasaray v Juventus               2 -  0    6   0.333
+13. Olympiacos v Real Sociedad           2 -  2    6   0.333
+14. Internazionale v Arsenal             1 -  5    4   0.222
+15. Chelsea v Sparta                     0 -  0    0   0.000
+16. Celta v Club Brugge                  1 -  1    0   0.000
+
+Competitors = 18
+Total points scored = 292
+Average points scored = 16.222
+Average points per game = 1.014

@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Villarreal v Zenit                   2 -  1   21   2.333
+ 2. Fiorentina v Rosenborg               2 -  1   21   2.333
+ 3. Bayern v Aberdeen                    5 -  1   18   2.000
+ 4. Everton v Brann                      6 -  1   18   2.000
+ 5. Getafe v AEK                         3 -  0   17   1.889
+ 6. Leverkusen v Galatasaray             5 -  1   14   1.556
+ 7. Helsingborg v PSV                    1 -  2   14   1.556
+ 8. Spartak Moskva v Marseille           2 -  0   12   1.333
+ 9. Nurnberg v Benfica                   2 -  2   12   1.333
+10. Bordeaux v Anderlecht                1 -  1   11   1.222
+11. Braga v Bremen                       0 -  1   10   1.111
+12. Panathinaikos v Rangers              1 -  1    8   0.889
+13. Tottenham v Slavia                   1 -  1    3   0.333
+14. Hamburg v Zurich                     0 -  0    0   0.000
+15. Atletico v Bolton                    0 -  0    0   0.000
+16. Basel v Sporting                     0 -  3    0   0.000
+
+Competitors = 9
+Total points scored = 179
+Average points scored = 19.889
+Average points per game = 1.243

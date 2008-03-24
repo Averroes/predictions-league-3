@@ -1,0 +1,24 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. GargoyleBG                     30   4  2  4
+ 2. Mr. Pink                       28   4  2  3
+ 3. Ivo                            26   2  4  3
+ 4. Steven                         26   2  4  3
+ 5. Stephan                        25   3  1  5
+ 6. Klaa                           25   2  1  7
+ 7. The Brazilian Man              25   2  1  7
+ 8. MiniMe                         24   3  2  3
+ 9. MrT                            24   3  0  6
+10. Bam Bam                        22   3  0  5
+11. The Wielder of the Scythe      22   3  0  5
+12. digitalMOSQUITO                22   3  0  5
+13. Daniel Marsh                   21   0  3  6
+14. Miljenko                       19   2  1  4
+15. Khamelion                      19   1  1  6
+16. Eddy da Fisherman              18   2  0  5
+17. AGCM Oracle                    17   1  1  5
+18. Nick the Greek                 17   1  1  5
+19. HCwest Pete Fella              15   1  1  4
+20. Marc Robbins                   15   0  1  6
+21. Toby Briggs                    13   1  1  3
+22. Hamish                         13   0  1  5

@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Bremen v Celta                       2 -  0   24   3.000
+ 2. Tottenham v Braga                    3 -  2   19   2.375
+ 3. Leverkusen v Lens                    3 -  0   14   1.750
+ 4. Espanyol v M. Haifa                  4 -  0   14   1.750
+ 5. Benfica v PSG                        3 -  1   10   1.250
+ 6. Osasuna v Rangers                    1 -  0    8   1.000
+ 7. Shakhtar v Sevilla                   2 -  2    8   1.000
+ 8. AZ v Newcastle                       2 -  0    4   0.500
+
+Competitors = 8
+Total points scored = 101
+Average points scored = 12.625
+Average points per game = 1.578

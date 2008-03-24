@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Valencia v Genclerbirligi            1 -  0   48   2.400
+ 2. Roma v Villarreal                    2 -  1   41   2.050
+ 3. Internazionale v Benfica             4 -  3   36   1.800
+ 4. PSV v Auxerre                        3 -  0   32   1.600
+ 5. Marseille v Liverpool                2 -  1   28   1.400
+ 6. Mallorca v Newcastle                 0 -  3   12   0.600
+ 7. Club Brugge v Bordeaux               0 -  1   11   0.550
+ 8. Barcelona v Celtic                   0 -  0    6   0.300
+
+Competitors = 20
+Total points scored = 214
+Average points scored = 10.700
+Average points per game = 1.337

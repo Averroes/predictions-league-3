@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Celta v Arsenal                      2 -  3   37   2.056
+ 2. Bayern v Real Madrid                 1 -  1   30   1.667
+ 3. Lokomotiv Moskva v Monaco            2 -  1   17   0.944
+ 4. Deportivo v Juventus                 1 -  0   16   0.889
+ 5. Stuttgart v Chelsea                  0 -  1   15   0.833
+ 6. Porto v Man. United                  2 -  1   12   0.667
+ 7. Real Sociedad v Lyon                 0 -  1    9   0.500
+ 8. Sparta v Milan                       0 -  0    6   0.333
+
+Competitors = 18
+Total points scored = 142
+Average points scored = 7.889
+Average points per game = 0.986

@@ -1,0 +1,15 @@
+Alkmaar;AZ
+Olympiakos;Olympiacos
+RC Genk;Genk
+Gençlerbirligi;Genclerbirligi
+Fenerbahçe;Fenerbahce
+Besiktas JK;Besiktas
+Panionios GSS;Panionios
+Dynamo;Dynamo Kyiv
+M. Petach-Tikva;M. Petah-Tikva
+Lokomotiv;Lokomotiv Moskva
+Austria;Austria Wien
+Petrzalka;Artmedia
+Spartak;Spartak Moskva
+Malmö;Malmo
+Madrid;Real Madrid

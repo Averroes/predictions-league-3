@@ -1,0 +1,19 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Mark Goodge                    37   5  3  4
+ 2. Marc Robbins                   34   3  4  5
+ 3. Ivo                            32   2  4  6
+ 4. Miljenko                       32   2  4  6
+ 5. Toby Briggs                    31   4  1  6
+ 6. Hamish                         30   2  4  5
+ 7. Nick the Greek                 26   2  4  3
+ 8. *****General                   25   1  5  3
+ 9. Eduardo Liguori                25   1  3  6
+10. Pete Heslop                    25   1  3  6
+11. Hari Seldon                    23   1  1  8
+12. PivotalG                       23   0  3  7
+13. Stephen Weir                   22   1  2  6
+14. Mr. Pink                       22   0  2  8
+15. AGCM Oracle                    20   1  0  8
+16. Mikael Scholer                 18   1  0  7
+17. Ronald Scholman                16   0  2  5

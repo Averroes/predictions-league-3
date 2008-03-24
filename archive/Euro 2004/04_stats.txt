@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Czech Republic v Denmark             3 -  0   44   1.833
+ 2. Portugal v England                   1 -  1   22   0.917
+ 3. Sweden v Netherlands                 0 -  0   17   0.708
+ 4. France v Greece                      0 -  1    6   0.250
+
+Competitors = 24
+Total points scored = 89
+Average points scored = 3.708
+Average points per game = 0.927

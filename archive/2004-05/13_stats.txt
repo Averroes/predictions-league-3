@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Heerenveen v Beveren                 1 -  0   42   2.625
+ 2. Stuttgart v Dinamo Zagreb            2 -  1   35   2.188
+ 3. Sochaux v Panionios                  1 -  0   34   2.125
+ 4. Villarreal v Egaleo                  4 -  0   34   2.125
+ 5. Parma v Besiktas                     3 -  2   32   2.000
+ 6. Middlesbrough v Partizan             3 -  0   26   1.625
+ 7. Utrecht v Austria                    1 -  2   24   1.500
+ 8. Newcastle v Sporting                 1 -  1   21   1.313
+ 9. Basel v Feyenoord                    1 -  0   20   1.250
+10. Lille v Sevilla                      1 -  0   20   1.250
+11. GAK v Alkmaar                        2 -  0   18   1.125
+12. Standard v Athletic                  1 -  7   16   1.000
+13. Hearts v Ferencvaros                 0 -  1   10   0.625
+14. AEK v Aachen                         0 -  2    8   0.500
+15. Club Brugge v Zaragoza               1 -  1    7   0.438
+16. Rangers v Auxerre                    0 -  2    2   0.125
+
+Competitors = 16
+Total points scored = 349
+Average points scored = 21.813
+Average points per game = 1.363

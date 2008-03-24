@@ -1,0 +1,14 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Hari Seldon                     5   0  1  1
+ 2. Hamish                          4   1  0  0
+ 3. Mark Goodge                     4   1  0  0
+ 4. Nick the Greek                  4   1  0  0
+ 5. *****General                    3   0  1  0
+ 6. GargoyleBG                      3   0  1  0
+ 7. AGCM Oracle                     2   0  0  1
+ 8. Miljenko                        2   0  0  1
+ 9. Stephen Weir                    2   0  0  1
+10. The Wielder of the Scythe       2   0  0  1
+11. frano-d                         2   0  0  1
+12. Eduardo Liguori                 0   0  0  0

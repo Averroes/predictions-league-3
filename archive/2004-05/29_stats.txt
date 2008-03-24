@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Sporting v CSKA Moskva               1 -  3    9   0.750
+
+Competitors = 12
+Total points scored = 9
+Average points scored = 0.750
+Average points per game = 0.750

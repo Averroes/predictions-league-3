@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Middlesbrough v Basel                4 -  1   20   1.818
+ 2. Zenit v Sevilla                      1 -  1   11   1.000
+ 3. Schalke v Levski                     1 -  1    8   0.727
+ 4. Steaua v Rapid Bucuresti             0 -  0    6   0.545
+
+Competitors = 11
+Total points scored = 45
+Average points scored = 4.091
+Average points per game = 1.023

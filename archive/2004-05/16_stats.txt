@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Sevilla v Panathinaikos              2 -  0   45   2.647
+ 2. Middlesbrough v GAK                  2 -  1   40   2.353
+ 3. Newcastle v Heerenveen               2 -  1   37   2.176
+ 4. Zaragoza v Fenerbahce                2 -  1   35   2.059
+ 5. Villarreal v Dynamo Kyiv             2 -  0   34   2.000
+ 6. Alkmaar v Aachen                     2 -  1   30   1.765
+ 7. Lille v Basel                        2 -  0   27   1.588
+ 8. Austria v Athletic                   0 -  0   23   1.353
+ 9. Sochaux v Olympiacos                 0 -  1   14   0.824
+10. Steaua v Valencia                    2 -  0   13   0.765
+11. Stuttgart v Parma                    0 -  0   13   0.765
+12. Auxerre v Ajax                       3 -  1   12   0.706
+13. Benfica v CSKA Moskva                1 -  1    8   0.471
+14. Feyenoord v Sporting                 1 -  2    6   0.353
+15. Schalke v Shakhtar                   0 -  1    0   0.000
+16. Dnipro v Partizan                    0 -  1    0   0.000
+
+Competitors = 17
+Total points scored = 337
+Average points scored = 19.824
+Average points per game = 1.239

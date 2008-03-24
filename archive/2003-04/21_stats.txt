@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Porto v Deportivo                    0 -  0   18   0.900
+ 2. Monaco v Chelsea                     3 -  1   16   0.800
+
+Competitors = 20
+Total points scored = 34
+Average points scored = 1.700
+Average points per game = 0.850

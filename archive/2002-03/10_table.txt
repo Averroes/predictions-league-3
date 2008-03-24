@@ -1,0 +1,20 @@
+    Competitor:                   Pts: Res:
+ 1. Ivo                            32   3
+ 2. Eduardo Liguori                28   2
+ 3. Guru                           27   2
+ 4. Marc Robbins                   26   0
+ 5. Klaa                           24   2
+ 6. Peter Smyth                    24   2
+ 7. Erik Jorstad                   24   1
+ 8. Miljenko                       23   2
+ 9. The Wielder of the Scythe      23   2
+10. Bryvoski                       23   0
+11. GargoyleBG                     23   0
+12. Eddy de Visser                 20   1
+13. James Williams                 19   2
+14. Dazzler                        19   1
+15. Big B                          18   1
+16. digitalMOSQUITO                18   1
+17. Niek Bakker                    17   1
+18. el pampero                     17   0
+19. gary scholes                    8   0

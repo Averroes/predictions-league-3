@@ -1,0 +1,16 @@
+    Competitor:                   Pts: Res:
+ 1. Klaa                           25   3
+ 2. agyemang                       21   3
+ 3. Miljenko                       19   1
+ 4. silencio                       18   3
+ 5. Peter Smyth                    17   2
+ 6. Guru                           17   1
+ 7. Erik Jorstad                   16   3
+ 8. Eduardo Liguori                16   1
+ 9. GargoyleBG                     16   0
+10. James Williams                 14   0
+11. The Wielder of the Scythe      13   2
+12. Ivo                            13   0
+13. Michael Pallisgaard Jensen     10   1
+14. Eddy de Visser                 10   1
+15. gary scholes                    7   0

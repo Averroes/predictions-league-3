@@ -1,0 +1,17 @@
+    Competitor:                   Pts: Res:
+ 1. Klaa                            6   1
+ 2. DannyM                          5   0
+ 3. Eduardo Liguori                 4   1
+ 4. silencio                        4   1
+ 5. digitalMOSQUITO                 3   0
+ 6. Jesper                          3   0
+ 7. Miljenko                        3   0
+ 8. The Wielder of the Scythe       2   0
+ 9. Ivo                             0   0
+10. GargoyleBG                      0   0
+11. James Williams                  0   0
+12. Bryvoski                        0   0
+13. Nick                            0   0
+14. Guru                            0   0
+15. Marc Robbins                    0   0
+16. Erik Jorstad                    0   0

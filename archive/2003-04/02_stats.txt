@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Sporting v Malmö                     2 -  0   64   2.909
+ 2. Dinamo Zagreb v MTK                  3 -  1   49   2.227
+ 3. AIK v Valencia                       0 -  1   45   2.045
+ 4. H. Ramat-Gan v Levski                0 -  1   44   2.000
+ 5. Ventspils v Rosenborg                1 -  4   43   1.955
+ 6. Man. City v Lokeren                  3 -  2   43   1.955
+ 7. Austria v Dortmund                   1 -  2   42   1.909
+ 8. Newcastle v NAC                      5 -  0   42   1.909
+ 9. Dundee v Perugia                     1 -  2   30   1.364
+10. Grasshoppers v Hajduk                1 -  1   30   1.364
+11. Valerenga v GAK                      0 -  0   28   1.273
+12. Olimpija v Liverpool                 1 -  1   14   0.636
+13. Villarreal v Trabzonspor             0 -  0   12   0.545
+14. La Louviere v Benfica                1 -  1    6   0.273
+15. Southampton v Steaua                 1 -  1    6   0.273
+16. Gençlerbirligi v Blackburn           3 -  1    4   0.182
+
+Competitors = 22
+Total points scored = 502
+Average points scored = 22.818
+Average points per game = 1.426

@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Internazionale v Villarreal          2 -  1   22   2.200
+ 2. Lyon v Milan                         0 -  0   17   1.700
+ 3. Arsenal v Juventus                   2 -  0    6   0.600
+ 4. Benfica v Barcelona                  0 -  0    4   0.400
+
+Competitors = 10
+Total points scored = 49
+Average points scored = 4.900
+Average points per game = 1.225

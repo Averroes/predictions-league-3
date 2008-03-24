@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Newcastle v Sporting                 1 -  0   33   1.941
+ 2. CSKA Moskva v Auxerre                4 -  0   24   1.412
+ 3. Austria v Parma                      1 -  1   21   1.235
+ 4. Villarreal v Alkmaar                 1 -  2   10   0.588
+
+Competitors = 17
+Total points scored = 88
+Average points scored = 5.176
+Average points per game = 1.294

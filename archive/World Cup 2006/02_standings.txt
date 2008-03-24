@@ -1,0 +1,16 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Pivotalgubbins                  2  32  62   7   4  11
+  2. ( +1) Diesel                          2  32  53   7   5   5
+  3. ( +4) Miljenko                        2  32  52   7   2   9
+  4. ( -2) Nick the Greek                  2  32  52   4   4  12
+  5. ( -1) Eduardo Liguori                 2  32  49   2   5  13
+  6. ( +3) Timofei Shatrov                 2  32  47   3   5  10
+  7. ( -1) Hamish                          2  32  47   2   7   9
+  8. ( +4) Mark Goodge                     2  32  46   3   4  11
+  9. ( -4) GargoyleBG                      2  32  44   4   4   8
+ 10. ( -2) Frank                           2  32  42   1   4  13
+ 11. ( - ) AGCM Oracle                     2  32  36   1   2  13
+ 12. ( -2) Millsy                          1  16  22   0   4   5
+ 13. ( - ) viktorkessler                   1  16  17   2   1   3
+ 14. ( - ) traveler                        1  16  17   1   1   5

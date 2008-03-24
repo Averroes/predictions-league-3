@@ -1,0 +1,36 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) The Brazilian Man              11 122 196  15  20  38
+  2. ( - ) Ivo                            11 122 176  16  18  29
+  3. ( - ) Miljenko                       11 122 175  14  23  25
+  4. ( - ) Stephan                        11 122 175  14  23  25
+  5. ( +1) MiniMe                         11 122 171  14  17  32
+  6. ( -1) GargoyleBG                     11 122 171  11  21  32
+  7. ( - ) Nick the Greek                 11 122 165  16  15  28
+  8. ( - ) The Wielder of the Scythe      11 122 161  12  17  31
+  9. ( - ) Marc Robbins                   11 122 152  14  12  30
+ 10. ( - ) Daniel Marsh                   11 122 148  10  14  33
+ 11. ( - ) Hamish                         10 118 143  11  17  24
+ 12. ( - ) Steven                          7 104 139  13  15  21
+ 13. ( - ) AGCM Oracle                    11 122 125   7  11  32
+ 14. ( - ) Bam Bam                         5  80 106  12   6  20
+ 15. ( - ) HCwest Pete Fella               6  96 100   6   8  26
+ 16. ( - ) Eddy da Fisherman               5  80  91   6   7  23
+ 17. ( - ) Khamelion                       9  90  90   6  10  18
+ 18. ( +3) Nes                             7  66  87   5  11  17
+ 19. ( -1) Klaa                            6  82  86   8   6  18
+ 20. ( - ) Toby Briggs                     8  82  86   7   8  17
+ 21. ( -2) MrT                             4  64  85   7   9  15
+ 22. ( - ) Mr. Pink                        4  56  76  10   6   9
+ 23. ( +1) rsstrnc                         6  42  49   3   7   8
+ 24. ( -1) Spankin                         2  32  46   3   6   8
+ 25. ( - ) digitalMOSQUITO                 2  32  40   3   2  11
+ 26. ( - ) Mark Goodge                     1  16  28   3   2   5
+ 27. ( +2) Baroje                          5  26  24   1   4   4
+ 28. ( -1) Joy Division                    1  16  22   3   0   5
+ 29. ( -1) Henning Munk                    1  16  22   0   2   8
+ 30. ( +2) Nick Marstin                    5  26  21   1   3   4
+ 31. ( -1) Mikael Scholer                  1  16  19   1   1   6
+ 32. ( -1) DannyM                          1  16  19   0   3   5
+ 33. ( - ) Hagen                           4  18  16   1   2   3
+ 34. ( - ) Bom Bom                         1   8  14   1   2   2

@@ -1,0 +1,22 @@
+    Game:                               Result: Pts:   Avg:
+ 1. Juventus v Feyenoord                 2 - 0   42   2.625
+ 2. Internazionale v Rosenborg           3 - 0   40   2.500
+ 3. Club Brugge v Barcelona              0 - 1   28   1.750
+ 4. Leverkusen v Olympiakos              2 - 0   27   1.688
+ 5. Dortmund v Arsenal                   2 - 1   26   1.625
+ 6. Newcastle v Dynamo                   2 - 1   23   1.438
+ 7. PSV v Auxerre                        3 - 0   22   1.375
+ 8. Lyon v Ajax                          0 - 2   15   0.938
+ 9. Spartak v Basel                      0 - 2   13   0.813
+10. Deportivo v Bayern                   2 - 1   10   0.625
+11. AEK v Genk                           1 - 1   10   0.625
+12. Liverpool v Valencia                 0 - 1    9   0.563
+13. Madrid v Roma                        0 - 1    6   0.375
+14. Lens v Milan                         2 - 1    4   0.250
+15. M. Haifa v Man. United               3 - 0    0   0.000
+16. Galatasaray v Lokomotiv              1 - 2    0   0.000
+
+Competitors = 16
+Total points scored = 275
+Average points scored = 17.188
+Average points per game = 1.074

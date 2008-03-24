@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Lille v Sevilla                      1 -  0   23   1.917
+ 2. Rapid Bucuresti v Hamburg            2 -  0   14   1.167
+ 3. Steaua v Betis                       0 -  0    9   0.750
+ 4. Middlesbrough v Roma                 1 -  0    8   0.667
+ 5. Palermo v Schalke                    1 -  0    5   0.417
+ 6. Basel v Strasbourg                   2 -  0    4   0.333
+ 7. Udinese v Levski                     0 -  0    3   0.250
+ 8. Marseille v Zenit                    0 -  1    0   0.000
+
+Competitors = 12
+Total points scored = 66
+Average points scored = 5.500
+Average points per game = 0.688

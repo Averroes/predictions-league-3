@@ -1,0 +1,17 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. The Wielder of the Scythe      13   2  1  1
+ 2. AGCM Oracle                    10   0  2  2
+ 3. Daniel Marsh                    8   1  0  2
+ 4. Miljenko                        8   1  0  2
+ 5. Stephan                         8   1  0  2
+ 6. Marc Robbins                    7   0  1  2
+ 7. The Brazilian Man               7   0  1  2
+ 8. Baroje                          6   1  0  1
+ 9. GargoyleBG                      6   1  0  1
+10. Hagen                           6   1  0  1
+11. Hamish                          6   1  0  1
+12. Ivo                             6   0  0  3
+13. MiniMe                          6   0  0  3
+14. Nick the Greek                  5   0  1  1
+15. Khamelion                       4   0  0  2

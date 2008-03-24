@@ -1,0 +1,40 @@
+To qualify: 70% (7/9)
+
+Qualified:
+
+    Competitor:                     Avg:   Rnds:
+ 1. Peter Smyth                    21.571    7
+ 2. Guru                           21.000    9
+ 3. Ivo                            20.889    9
+ 4. Miljenko                       20.778    9
+ 5. Leanne Mahon                   20.571    7
+ 6. Eduardo Liguori                19.889    9
+ 7. Bryvoski                       19.667    9
+ 8. GargoyleBG                     19.444    9
+ 9. Marc Robbins                   18.857    7
+10. The Wielder of the Scythe      17.889    9
+11. el pampero                     17.778    9
+12. agyemang                       17.625    8
+13. James Williams                 16.667    9
+14. Klaa                           16.500    8
+15. gary scholes                   16.125    8
+
+Did not qualify:
+
+    Competitor:                     Avg:   Rnds:
+16. Eddy de Visser                 25.000    1
+17. Big B                          23.000    2
+18. Foxy                           22.000    2
+19. Bluebird                       21.667    3
+20. Martin                         21.500    2
+21. GrooveJet                      19.750    4
+22. Lilywhite                      18.000    1
+23. Norman Moore                   18.000    1
+24. Niek Bakker                    17.000    3
+25. Bugs                           17.000    1
+26. MrT                            16.000    5
+27. Jamie                          16.000    5
+28. Hamish                         16.000    1
+29. Erik Jorstad                   14.750    4
+30. Paul Bray                      12.000    1
+31. digitalMOSQUITO                11.000    1

@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. England v Ecuador                    1 -  0   24   2.400
+ 2. Germany v Sweden                     2 -  0   16   1.600
+ 3. Portugal v Holland                   1 -  0   11   1.100
+ 4. Argentina v Mexico                   1 -  1    0   0.000
+
+Competitors = 10
+Total points scored = 51
+Average points scored = 5.100
+Average points per game = 1.275

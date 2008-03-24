@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Palermo v Slavia                     1 -  0   31   2.583
+ 2. Hamburg v Thun                       2 -  0   30   2.500
+ 3. Roma v Club Brugge                   2 -  1   29   2.417
+ 4. Levski v Artmedia                    2 -  0   28   2.333
+ 5. Zenit v Rosenborg                    2 -  1   26   2.167
+ 6. Sevilla v Lokomotiv Moskva           2 -  0   19   1.583
+ 7. Marseille v Bolton                   2 -  1   14   1.167
+ 8. Strasbourg v Litex                   0 -  0   11   0.917
+ 9. Lens v Udinese                       1 -  0   11   0.917
+10. Monaco v Basel                       1 -  1    7   0.583
+11. AZ v Betis                           2 -  0    6   0.500
+12. Steaua v Heerenveen                  0 -  1    6   0.500
+13. Shakhtar v Lille                     0 -  0    4   0.333
+14. Espanyol v Schalke                   0 -  3    4   0.333
+15. Middlesbrough v Stuttgart            0 -  1    4   0.333
+16. Rapid Bucuresti v Hertha             2 -  0    2   0.167
+
+Competitors = 12
+Total points scored = 232
+Average points scored = 19.333
+Average points per game = 1.208

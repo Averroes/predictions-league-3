@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Athletic v Steaua                    1 -  0   43   2.529
+ 2. Zaragoza v Dnipro                    2 -  1   35   2.059
+ 3. Beveren v Benfica                    0 -  3   35   2.059
+ 4. Auxerre v Amica                      5 -  1   31   1.824
+ 5. Austria v Club Brugge                1 -  1   23   1.353
+ 6. Feyenoord v Schalke                  2 -  1   22   1.294
+ 7. Sevilla v AEK                        3 -  2   21   1.235
+ 8. Partizan v Villarreal                1 -  1   19   1.118
+ 9. Alkmaar v Rangers                    1 -  0   18   1.059
+10. Panionios v Dinamo Tbilisi           5 -  2   16   0.941
+11. Aachen v Zenit                       2 -  2   14   0.824
+12. Dinamo Zagreb v Heerenveen           2 -  2   11   0.647
+13. Sporting v Sochaux                   0 -  1    7   0.412
+14. Ferencvaros v Basel                  1 -  2    4   0.235
+15. Egaleo v Lazio                       2 -  2    2   0.118
+16. Besiktas v Standard                  1 -  1    0   0.000
+
+Competitors = 17
+Total points scored = 301
+Average points scored = 17.706
+Average points per game = 1.107

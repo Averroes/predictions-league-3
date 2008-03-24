@@ -1,0 +1,14 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Nick the Greek                 13   2  1  1
+ 2. Eduardo Liguori                11   1  1  2
+ 3. Marc Robbins                   10   2  0  1
+ 4. Mark Goodge                     9   1  1  1
+ 5. *****General                    8   0  2  1
+ 6. Toby Briggs                     6   1  0  1
+ 7. Stephen Weir                    4   1  0  0
+ 8. Miljenko                        3   0  1  0
+ 9. Hamish                          2   0  0  1
+10. AGCM Oracle                     0   0  0  0
+11. Hari Seldon                     0   0  0  0
+12. The Wielder of the Scythe       0   0  0  0

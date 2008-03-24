@@ -1,0 +1,7 @@
+    Game:                               Result: Pts:   Avg:
+ 1. Juventus v Milan                     0 - 0    9   0.692
+
+Competitors = 13
+Total points scored =  9
+Average points scored = 0.692
+Average points per game = 0.692

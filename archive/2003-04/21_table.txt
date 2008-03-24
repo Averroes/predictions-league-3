@@ -1,0 +1,22 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. MiniMe                          5   0  1  1
+ 2. Nes                             5   0  1  1
+ 3. rsstrnc                         4   1  0  0
+ 4. AGCM Oracle                     3   0  1  0
+ 5. Baroje                          3   0  1  0
+ 6. GargoyleBG                      3   0  1  0
+ 7. Khamelion                       3   0  1  0
+ 8. Nick Marstin                    3   0  1  0
+ 9. Toby Briggs                     3   0  1  0
+10. Daniel Marsh                    2   0  0  1
+11. Hagen                           0   0  0  0
+12. Hamish                          0   0  0  0
+13. Ivo                             0   0  0  0
+14. Klaa                            0   0  0  0
+15. Marc Robbins                    0   0  0  0
+16. Miljenko                        0   0  0  0
+17. Nick the Greek                  0   0  0  0
+18. Stephan                         0   0  0  0
+19. The Brazilian Man               0   0  0  0
+20. The Wielder of the Scythe       0   0  0  0

@@ -1,0 +1,23 @@
+    Competitor:                   Pts: Res:
+ 1. silencio                       14   2
+ 2. Nes                            12   1
+ 3. agyemang                       11   0
+ 4. Baltogok                        9   1
+ 5. Bryvoski                        8   0
+ 6. Eduardo Liguori                 8   0
+ 7. digitalMOSQUITO                 7   0
+ 8. GargoyleBG                      7   0
+ 9. The Wielder of the Scythe       6   1
+10. gary scholes                    6   0
+11. James Williams                  6   0
+12. Miljenko                        6   0
+13. Michael Pallisgaard Jensen      6   0
+14. DannyM                          6   0
+15. Erik Jorstad                    5   0
+16. Ivo                             5   0
+17. Guru                            5   0
+18. Klaa                            5   0
+19. Niek Bakker                     4   1
+20. Big B                           4   0
+21. Bluebird                        2   0
+22. Sierro                          2   0

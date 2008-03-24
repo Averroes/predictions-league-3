@@ -1,0 +1,39 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Miljenko                       25 249 336  27  38  57
+  2. ( +1) The Brazilian Man              25 249 335  23  37  66
+  3. ( -1) MiniMe                         25 249 334  26  36  61
+  4. ( - ) Nick the Greek                 25 249 326  28  34  56
+  5. ( - ) Ivo                            25 249 320  23  36  60
+  6. ( - ) GargoyleBG                     25 249 317  20  39  60
+  7. ( - ) The Wielder of the Scythe      25 249 310  25  30  60
+  8. ( - ) Stephan                        25 249 309  22  35  58
+  9. ( - ) Daniel Marsh                   25 249 308  19  34  65
+ 10. ( - ) Marc Robbins                   25 249 304  26  24  64
+ 11. ( - ) Hamish                         24 245 290  23  32  51
+ 12. ( - ) AGCM Oracle                    25 249 258  13  24  67
+ 13. ( - ) Steven                         12 184 244  24  28  32
+ 14. ( - ) Khamelion                      21 200 230  17  28  39
+ 15. ( - ) Klaa                           13 152 176  16  16  32
+ 16. ( - ) HCwest Pete Fella              10 160 165  11  15  38
+ 17. ( - ) Bam Bam                         9 144 163  16  13  30
+ 18. ( - ) Mr. Pink                        9 128 162  18  14  24
+ 19. ( - ) Toby Briggs                    15 164 156  11  14  35
+ 20. ( - ) Nes                            14 136 153  13  17  25
+ 21. ( - ) Eddy da Fisherman               8 128 147   9  11  39
+ 22. ( - ) rsstrnc                        15 101 126   8  18  20
+ 23. ( - ) MrT                             6  96 125   9  15  22
+ 24. ( - ) Nick Marstin                   13  69  76   6  10  11
+ 25. ( - ) Spankin                         4  64  71   4   7  17
+ 26. ( - ) Baroje                         11  61  64   3   8  14
+ 27. ( - ) digitalMOSQUITO                 3  48  60   4   6  13
+ 28. ( - ) Hagen                          11  45  45   3   5   9
+ 29. ( - ) DannyM                          2  32  42   1   4  13
+ 30. ( - ) Bom Bom                         2  24  33   3   3   6
+ 31. ( - ) Mark Goodge                     1  16  28   3   2   5
+ 32. ( - ) Joy Division                    1  16  22   3   0   5
+ 33. ( - ) Henning Munk                    1  16  22   0   2   8
+ 34. ( - ) Mikael Scholer                  1  16  19   1   1   6
+ 35. ( - ) Suhi                            1   8   7   0   1   2
+ 36. ( +1) ~#Bluebird#~                    3   5   6   1   0   1
+ 37. ( -1) Damian Wood                     3   6   5   0   1   1

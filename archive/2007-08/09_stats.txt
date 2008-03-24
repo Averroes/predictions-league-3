@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Milan v Celtic                       1 -  0   14   1.750
+ 2. Shakhtar v Benfica                   1 -  2    4   0.500
+
+Competitors = 8
+Total points scored = 18
+Average points scored = 2.250
+Average points per game = 1.125

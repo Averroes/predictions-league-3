@@ -1,0 +1,19 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. (new) Mark Goodge                     1  16  37   5   3   4
+  2. (new) Marc Robbins                    1  16  34   3   4   5
+  3. (new) Ivo                             1  16  32   2   4   6
+  4. (new) Miljenko                        1  16  32   2   4   6
+  5. (new) Toby Briggs                     1  16  31   4   1   6
+  6. (new) Hamish                          1  16  30   2   4   5
+  7. (new) Nick the Greek                  1  16  26   2   4   3
+  8. (new) *****General                    1  16  25   1   5   3
+  9. (new) Eduardo Liguori                 1  16  25   1   3   6
+ 10. (new) Pete Heslop                     1  16  25   1   3   6
+ 11. (new) Hari Seldon                     1  16  23   1   1   8
+ 12. (new) PivotalG                        1  16  23   0   3   7
+ 13. (new) Stephen Weir                    1  16  22   1   2   6
+ 14. (new) Mr. Pink                        1  16  22   0   2   8
+ 15. (new) AGCM Oracle                     1  16  20   1   0   8
+ 16. (new) Mikael Scholer                  1  16  18   1   0   7
+ 17. (new) Ronald Scholman                 1  16  16   0   2   5
