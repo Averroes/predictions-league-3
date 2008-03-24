@@ -1,0 +1,12 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Eduardo Liguori                 9   1  1  1
+ 2. Miljenko                        8   1  0  2
+ 3. Timofei Shatrov                 8   1  0  2
+ 4. Hamish                          6   1  0  1
+ 5. Nick the Greek                  5   0  1  1
+ 6. Mark Goodge                     4   0  0  2
+ 7. Pivotalgubbins                  4   0  0  2
+ 8. Diesel                          3   0  1  0
+ 9. AGCM Oracle                     2   0  0  1
+10. GargoyleBG                      2   0  0  1

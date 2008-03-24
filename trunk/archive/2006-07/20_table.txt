@@ -1,0 +1,9 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Mark Goodge                     7   0  1  2
+ 2. The Edu Tor                     5   0  1  1
+ 3. Timofei Shatrov                 5   0  1  1
+ 4. Miljenko                        4   0  0  2
+ 5. Nick the Greek                  4   0  0  2
+ 6. The Wielder of the Scythe       4   0  0  2
+ 7. AGCM Oracle                     2   0  0  1

@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Liverpool v Chelsea                  1 -  0    8   1.143
+ 2. Milan v Man. United                  3 -  0    6   0.857
+
+Competitors = 7
+Total points scored = 14
+Average points scored = 2.000
+Average points per game = 1.000

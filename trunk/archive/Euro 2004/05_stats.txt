@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Portugal v Netherlands               2 -  1   23   1.000
+ 2. Greece v Czech Republic              0 -  0    4   0.174
+
+Competitors = 23
+Total points scored = 27
+Average points scored = 1.174
+Average points per game = 0.587

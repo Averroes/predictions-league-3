@@ -1,0 +1,14 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Juventus v Bremen                    2 -  1   38   3.167
+ 2. Barcelona v Chelsea                  1 -  1   21   1.750
+ 3. Arsenal v Real Madrid                0 -  0   21   1.750
+ 4. Lyon v PSV                           4 -  0   18   1.500
+ 5. Milan v Bayern                       4 -  1   14   1.167
+ 6. Villarreal v Rangers                 1 -  1    4   0.333
+ 7. Liverpool v Benfica                  0 -  2    4   0.333
+
+Competitors = 12
+Total points scored = 120
+Average points scored = 10.000
+Average points per game = 1.429

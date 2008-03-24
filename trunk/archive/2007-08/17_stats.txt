@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Marseille v Zenit                    3 -  1   23   2.300
+ 2. Bolton v Sporting                    1 -  1   16   1.600
+ 3. Fiorentina v Everton                 2 -  0   12   1.200
+ 4. Anderlecht v Bayern                  0 -  5   12   1.200
+ 5. Rangers v Bremen                     2 -  0    8   0.800
+ 6. Leverkusen v Hamburg                 1 -  0    6   0.600
+ 7. Benfica v Getafe                     1 -  2    3   0.300
+ 8. Tottenham v PSV                      0 -  1    0   0.000
+
+Competitors = 10
+Total points scored = 80
+Average points scored = 8.000
+Average points per game = 1.000

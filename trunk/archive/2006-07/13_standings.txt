@@ -1,0 +1,15 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Mark Goodge                    13 199 303  30  31  45
+  2. ( +1) Miljenko                       13 199 269  24  27  46
+  3. ( +1) Timofei Shatrov                13 199 263  24  21  52
+  4. ( -2) The Edu Tor                    13 199 261  24  23  48
+  5. ( - ) Nick the Greek                 13 199 233  17  19  54
+  6. ( - ) Hamish                         13 199 202  16  16  45
+  7. ( +1) AGCM Oracle                    13 199 173  14  15  36
+  8. ( -1) Pivotalgubbins                  9 144 172  12  16  38
+  9. ( - ) Tobes                           8 127 149  19   9  23
+ 10. ( - ) The Wielder of the Scythe       4  55  48   5   4   8
+ 11. ( - ) Mr. Pink                        1  16  21   2   1   5
+ 12. ( - ) Hari Seldon                     1  16  19   1   1   6
+ 13. ( - ) biz                             1  16   3   0   1   0

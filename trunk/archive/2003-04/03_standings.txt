@@ -1,0 +1,27 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Steven                          3  48  85   9  11   8
+  2. ( +4) Ivo                             3  48  81   5  11  14
+  3. ( +8) GargoyleBG                      3  48  79   5   9  16
+  4. ( - ) The Wielder of the Scythe       3  48  78   8   4  17
+  5. ( +4) MiniMe                          3  48  76   4  10  15
+  6. ( -1) Miljenko                        3  48  74   8   6  12
+  7. ( -4) Nick the Greek                  3  48  74   7   6  14
+  8. ( +4) Klaa                            3  48  73   7   5  15
+  9. ( -7) Hamish                          3  48  71   6   5  16
+ 10. ( - ) Daniel Marsh                    3  48  70   3   8  17
+ 11. ( +4) The Brazilian Man               3  48  70   3   6  20
+ 12. ( +1) Bam Bam                         3  48  68   7   6  11
+ 13. ( -6) HCwest Pete Fella               3  48  68   5   4  18
+ 14. ( -6) Marc Robbins                    3  48  67   4   7  15
+ 15. ( -1) Eddy da Fisherman               3  48  64   4   2  21
+ 16. ( +1) Stephan                         3  48  63   7   3  13
+ 17. ( +1) MrT                             3  48  60   4   6  13
+ 18. ( +5) Mr. Pink                        2  32  48   6   4   6
+ 19. ( - ) AGCM Oracle                     3  48  47   3   3  13
+ 20. ( - ) Toby Briggs                     3  48  42   3   4   9
+ 21. ( -5) DannyM                          2  32  42   1   4  13
+ 22. ( +2) Khamelion                       2  32  37   3   3   8
+ 23. ( -2) Mark Goodge                     1  16  28   3   2   5
+ 24. (new) digitalMOSQUITO                 1  16  22   3   0   5
+ 25. ( -3) Henning Munk                    1  16  22   0   2   8

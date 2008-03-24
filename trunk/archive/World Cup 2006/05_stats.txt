@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Brazil v Ghana                       3 -  0   25   2.500
+ 2. Italy v Australia                    1 -  0   20   2.000
+ 3. Switzerland v Ukraine                0 -  0   13   1.300
+ 4. Spain v France                       1 -  3    6   0.600
+
+Competitors = 10
+Total points scored = 64
+Average points scored = 6.400
+Average points per game = 1.600

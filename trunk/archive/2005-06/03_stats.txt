@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Real Madrid v Rosenborg              4 -  1   34   2.429
+ 2. Ajax v Thun                          2 -  0   33   2.357
+ 3. Lyon v Olympiacos                    2 -  1   32   2.286
+ 4. Chelsea v Betis                      4 -  0   28   2.000
+ 5. Anderlecht v Liverpool               0 -  1   28   2.000
+ 6. Sparta v Arsenal                     0 -  2   23   1.643
+ 7. Udinese v Bremen                     1 -  1   15   1.071
+ 8. Bayern v Juventus                    2 -  1   12   0.857
+ 9. Villarreal v Benfica                 1 -  1    8   0.571
+10. Fenerbahce v Schalke                 3 -  3    7   0.500
+11. Rangers v Artmedia                   0 -  0    7   0.500
+12. Rapid v Club Brugge                  0 -  1    6   0.429
+13. Panathinaikos v Barcelona            0 -  0    2   0.143
+14. Milan v PSV                          0 -  0    2   0.143
+15. Porto v Internazionale               2 -  0    2   0.143
+16. Man. United v Lille                  0 -  0    0   0.000
+
+Competitors = 14
+Total points scored = 239
+Average points scored = 17.071
+Average points per game = 1.067

@@ -1,0 +1,12 @@
+    Game:                               Result: Pts:   Avg:
+ 1. Internazionale v Valencia            1 - 0   36   2.000
+ 2. Madrid v Man. United                 3 - 1   31   1.722
+ 3. Juventus v Barcelona                 1 - 1   26   1.444
+ 4. Ajax v Milan                         0 - 0   20   1.111
+ 5. Porto v Lazio                        4 - 1   12   0.667
+ 6. Celtic v Boavista                    1 - 1   10   0.556
+
+Competitors = 18
+Total points scored = 135
+Average points scored = 7.500
+Average points per game = 1.250

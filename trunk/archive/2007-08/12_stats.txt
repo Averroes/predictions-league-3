@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Fiorentina v Mlada Boleslav          2 -  1   16   2.286
+ 2. Bayern v Aris                        6 -  0   14   2.000
+ 3. Atletico v Panathinaikos             2 -  1   12   1.714
+ 4. Rennes v Dinamo Zagreb               1 -  1   12   1.714
+ 5. Getafe v Anderlecht                  2 -  1   11   1.571
+ 6. Larissa v Nurnberg                   1 -  3   10   1.429
+ 7. Braga v Crvena Zvezda                2 -  0   10   1.429
+ 8. Zurich v Leverkusen                  0 -  5    8   1.143
+ 9. Aberdeen v Kobenhavn                 4 -  0    8   1.143
+10. Panionios v Bordeaux                 2 -  3    6   0.857
+11. Toulouse v Spartak Moskva            2 -  1    6   0.857
+12. AZ v Everton                         2 -  3    5   0.714
+13. AEK v Villarreal                     1 -  2    5   0.714
+14. Hamburg v Basel                      1 -  1    3   0.429
+15. H. Tel-Aviv v AaB                    1 -  3    0   0.000
+16. Galatasaray v Austria Wien           0 -  0    0   0.000
+
+Competitors = 7
+Total points scored = 126
+Average points scored = 18.000
+Average points per game = 1.125

@@ -1,0 +1,7 @@
+    Game:                               Result: Pts:   Avg:
+ 1. Celtic v Porto                       2 - 2    6   0.375
+
+Competitors = 16
+Total points scored =  6
+Average points scored = 0.375
+Average points per game = 0.375

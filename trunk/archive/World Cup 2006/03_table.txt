@@ -1,0 +1,13 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Pivotalgubbins                 37   6  1  5
+ 2. Nick the Greek                 32   2  4  6
+ 3. Timofei Shatrov                30   2  2  8
+ 4. Miljenko                       29   4  1  5
+ 5. Eduardo Liguori                28   1  4  6
+ 6. Mark Goodge                    28   1  4  6
+ 7. Diesel                         27   3  1  6
+ 8. GargoyleBG                     21   3  1  3
+ 9. Hamish                         16   1  2  3
+10. AGCM Oracle                    14   0  2  4
+11. Frank                          10   0  0  5

@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Osasuna v Sevilla                    1 -  0    6   0.857
+ 2. Espanyol v Bremen                    3 -  0    4   0.571
+
+Competitors = 7
+Total points scored = 10
+Average points scored = 1.429
+Average points per game = 0.714

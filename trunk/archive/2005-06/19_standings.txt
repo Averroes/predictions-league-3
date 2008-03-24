@@ -1,0 +1,23 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Mark Goodge                    19 248 353  32  35  60
+  2. ( +1) *****General                   18 232 338  32  36  51
+  3. ( -1) Hari Seldon                    19 248 337  32  27  64
+  4. ( - ) Eduardo Liguori                19 248 335  26  27  75
+  5. ( +1) Stephen Weir                   19 248 326  24  36  61
+  6. ( +1) Hamish                         19 248 324  26  36  56
+  7. ( -2) Miljenko                       19 248 324  25  30  67
+  8. ( - ) Marc Robbins                   17 240 312  23  26  71
+  9. ( - ) Nick the Greek                 19 248 309  26  31  56
+ 10. ( - ) AGCM Oracle                    19 248 296  28  20  62
+ 11. ( - ) Toby Briggs                    17 240 252  24  18  51
+ 12. ( - ) PivotalG                        9 144 186  13  14  46
+ 13. ( - ) Pete Heslop                     8 128 177  12  15  42
+ 14. ( - ) Ronald Scholman                 7 112 132   8  12  32
+ 15. ( - ) The Wielder of the Scythe      11 120 110   9   8  25
+ 16. ( - ) Mr. Pink                        4  56  70   7   4  15
+ 17. ( - ) GargoyleBG                      4  52  70   5   8  13
+ 18. ( - ) DannyM                          3  48  55   3   5  14
+ 19. ( - ) Ivo                             2  32  53   3   7  10
+ 20. ( - ) xtasia                          1  16  21   3   1   3
+ 21. ( - ) Mikael Scholer                  1  16  18   1   0   7

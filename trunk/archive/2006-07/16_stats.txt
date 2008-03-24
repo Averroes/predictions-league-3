@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. PSG v Benfica                        2 -  1   16   2.000
+ 2. Lens v Leverkusen                    2 -  1   13   1.625
+ 3. Newcastle v AZ                       4 -  2   12   1.500
+ 4. Celta v Bremen                       0 -  1    8   1.000
+ 5. Sevilla v Shakhtar                   2 -  2    8   1.000
+ 6. M. Haifa v Espanyol                  0 -  0    7   0.875
+ 7. Braga v Tottenham                    2 -  3    7   0.875
+ 8. Rangers v Osasuna                    1 -  1    0   0.000
+
+Competitors = 8
+Total points scored = 71
+Average points scored = 8.875
+Average points per game = 1.109

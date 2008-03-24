@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Sevilla v Tottenham                  2 -  1   14   1.750
+ 2. Espanyol v Benfica                   3 -  2   10   1.250
+ 3. AZ v Bremen                          0 -  0    6   0.750
+ 4. Leverkusen v Osasuna                 0 -  3    6   0.750
+
+Competitors = 8
+Total points scored = 36
+Average points scored = 4.500
+Average points per game = 1.125

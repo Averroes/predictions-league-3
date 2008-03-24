@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Schalke v Porto                      1 -  0   13   1.444
+ 2. Celtic v Barcelona                   2 -  3   10   1.111
+ 3. Lyon v Man. United                   1 -  1    8   0.889
+ 4. Fenerbahce v Sevilla                 3 -  2    7   0.778
+ 5. Roma v Real Madrid                   2 -  1    6   0.667
+ 6. Arsenal v Milan                      0 -  0    6   0.667
+ 7. Liverpool v Internazionale           2 -  0    2   0.222
+ 8. Olympiacos v Chelsea                 0 -  0    0   0.000
+
+Competitors = 9
+Total points scored = 52
+Average points scored = 5.778
+Average points per game = 0.722

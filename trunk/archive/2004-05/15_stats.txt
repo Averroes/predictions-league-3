@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Barcelona v Chelsea                  2 -  1   29   1.526
+ 2. Real Madrid v Juventus               1 -  0   27   1.421
+ 3. PSV v Monaco                         1 -  0   27   1.421
+ 4. Porto v Internazionale               1 -  1   24   1.263
+ 5. Liverpool v Leverkusen               3 -  1   23   1.211
+ 6. Man. United v Milan                  0 -  1   17   0.895
+ 7. Bayern v Arsenal                     3 -  1   16   0.842
+ 8. Bremen v Lyon                        0 -  3    2   0.105
+
+Competitors = 19
+Total points scored = 165
+Average points scored = 8.684
+Average points per game = 1.086

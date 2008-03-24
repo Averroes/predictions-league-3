@@ -1,0 +1,13 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Hamish                         10   0  2  2
+ 2. Stephen Weir                    8   1  0  2
+ 3. *****General                    7   0  1  2
+ 4. GargoyleBG                      6   1  0  1
+ 5. Eduardo Liguori                 4   0  0  2
+ 6. Hari Seldon                     4   0  0  2
+ 7. AGCM Oracle                     2   0  0  1
+ 8. Mark Goodge                     2   0  0  1
+ 9. Miljenko                        2   0  0  1
+10. Nick the Greek                  2   0  0  1
+11. The Wielder of the Scythe       0   0  0  0

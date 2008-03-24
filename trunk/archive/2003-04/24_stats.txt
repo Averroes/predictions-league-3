@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Valencia v Villarreal                1 -  0   32   1.684
+ 2. Marseille v Newcastle                2 -  0   17   0.895
+
+Competitors = 19
+Total points scored = 49
+Average points scored = 2.579
+Average points per game = 1.289

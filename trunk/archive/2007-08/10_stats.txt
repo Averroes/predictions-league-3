@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Villarreal v Elfsborg                2 -  0   30   3.750
+ 2. Spartak Moskva v Zurich              1 -  0   24   3.000
+ 3. Everton v Zenit                      1 -  0   23   2.875
+ 4. Basel v Brann                        1 -  0   21   2.625
+ 5. Panathinaikos v Lokomotiv Moskva     2 -  0   16   2.000
+ 6. Anderlecht v Tottenham               1 -  1   16   2.000
+ 7. Leverkusen v Sparta                  1 -  0   15   1.875
+ 8. Bordeaux v Helsingborg               2 -  1   15   1.875
+ 9. Nurnberg v AZ                        2 -  1   14   1.750
+10. Mlada Boleslav v AEK                 0 -  1   12   1.500
+11. AaB v Getafe                         1 -  2   10   1.250
+12. Kobenhavn v Atletico                 0 -  2    8   1.000
+13. Aris v Braga                         1 -  1    8   1.000
+14. Crvena Zvezda v Bolton               0 -  1    8   1.000
+15. Dinamo Zagreb v Hamburg              0 -  2    6   0.750
+16. Austria Wien v Panionios             0 -  1    2   0.250
+
+Competitors = 8
+Total points scored = 228
+Average points scored = 28.500
+Average points per game = 1.781

@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Anderlecht v Milan                   0 -  1   25   2.778
+ 2. Man. United v Kobenhavn              3 -  0   20   2.222
+ 3. Internazionale v Spartak Moskva      2 -  1   20   2.222
+ 4. Valencia v Shakhtar                  2 -  0   20   2.222
+ 5. Bremen v Levski                      2 -  0   18   2.000
+ 6. Porto v Hamburg                      4 -  1   15   1.667
+ 7. Sporting v Bayern                    0 -  1   13   1.444
+ 8. Lille v AEK                          3 -  1   13   1.444
+ 9. Steaua v Real Madrid                 1 -  4   12   1.333
+10. Celtic v Benfica                     3 -  0   12   1.333
+11. Dynamo Kyiv v Lyon                   0 -  3   12   1.333
+12. Chelsea v Barcelona                  1 -  0   12   1.333
+13. Olympiacos v Roma                    0 -  1   11   1.222
+14. Bordeaux v Liverpool                 0 -  1    9   1.000
+15. Galatasaray v PSV                    1 -  2    2   0.222
+16. CSKA Moskva v Arsenal                1 -  0    0   0.000
+
+Competitors = 9
+Total points scored = 214
+Average points scored = 23.778
+Average points per game = 1.486

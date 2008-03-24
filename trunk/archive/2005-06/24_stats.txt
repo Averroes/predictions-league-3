@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Villarreal v Arsenal                 0 -  0   25   2.083
+ 2. Barcelona v Milan                    0 -  0    6   0.500
+
+Competitors = 12
+Total points scored = 31
+Average points scored = 2.583
+Average points per game = 1.292

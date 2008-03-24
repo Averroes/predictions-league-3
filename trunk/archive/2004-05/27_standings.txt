@@ -1,0 +1,33 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Nick the Greek                 27 294 463  46  33  90
+  2. ( - ) Mark Goodge                    27 294 461  46  35  86
+  3. ( - ) Miljenko                       27 294 446  41  38  84
+  4. ( - ) ray                            26 293 442  38  40  85
+  5. ( - ) Stephan                        27 294 400  27  40  86
+  6. ( - ) Ivo                            27 294 393  32  37  77
+  7. ( - ) Marc Robbins                   26 285 359  31  27  77
+  8. ( - ) MiniMe                         20 272 355  31  31  69
+  9. ( - ) The Wielder of the Scythe      27 294 336  23  28  80
+ 10. ( - ) Toby Briggs                    27 294 321  18  37  69
+ 11. ( - ) Hamish                         27 294 298  17  26  76
+ 12. ( - ) Daniel Marsh                   22 256 286  27  18  62
+ 13. ( - ) AGCM Oracle                    27 294 282   9  36  69
+ 14. ( - ) Pete Heslop                    19 214 279  13  33  64
+ 15. ( - ) The Brazilian Man              18 216 277  18  29  59
+ 16. ( - ) Hagen                          24 246 274  11  38  58
+ 17. ( - ) Ronald Scholman                19 228 270  16  28  61
+ 18. ( - ) Nestor Badudoy                 14 216 249  16  21  61
+ 19. ( - ) sarts                           8 128 169  12  13  41
+ 20. ( - ) GargoyleBG                      6  96 135  11  15  23
+ 21. ( - ) mentalalien                     7 112 127  10   5  36
+ 22. ( - ) Mark Thompson                   7 112 124   6  16  26
+ 23. ( - ) PivotalG                        5  80 107   5  13  24
+ 24. ( - ) Klaa                            6  96 105   5  15  20
+ 25. ( - ) Frank_The_Poet                  3  34  47   4   5   8
+ 26. ( - ) Xtasia                          6  37  41   2   5   9
+ 27. ( - ) Richard Mills                   1  16  14   0   2   4
+ 28. ( - ) Z                               6  20  13   2   1   1
+ 29. ( - ) K                               1   1   4   1   0   0
+ 30. ( +1) Hari Seldon                     3   6   4   1   0   0
+ 31. ( -1) Baroje                          2   8   2   0   0   1

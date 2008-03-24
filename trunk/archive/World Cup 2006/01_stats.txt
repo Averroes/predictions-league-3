@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Italy v Ghana                        2 -  0   43   3.071
+ 2. Mexico v Iran                        3 -  1   35   2.500
+ 3. Germany v Costa Rica                 4 -  2   34   2.429
+ 4. England v Paraguay                   1 -  0   31   2.214
+ 5. Angola v Portugal                    0 -  1   30   2.143
+ 6. Argentina v Ivory Coast              2 -  1   30   2.143
+ 7. Brazil v Croatia                     1 -  0   30   2.143
+ 8. Republic of Korea v Togo             2 -  1   23   1.643
+ 9. Serbia and Montenegro v Holland      0 -  1   23   1.643
+10. Australia v Japan                    3 -  1   14   1.000
+11. Tunisia v Saudi Arabia               2 -  2   13   0.929
+12. USA v Czech Republic                 0 -  3   10   0.714
+13. Spain v Ukraine                      4 -  0    8   0.571
+14. France v Switzerland                 0 -  0    7   0.500
+15. Trinidad and Tobago v Sweden         0 -  0    7   0.500
+16. Poland v Ecuador                     0 -  2    2   0.143
+
+Competitors = 14
+Total points scored = 340
+Average points scored = 24.286
+Average points per game = 1.518

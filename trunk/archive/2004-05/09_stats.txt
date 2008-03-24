@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Man. United v Lyon                   2 -  1   42   2.211
+ 2. Dynamo Kyiv v Roma                   2 -  0   41   2.158
+ 3. Olympiacos v Deportivo               1 -  0   40   2.105
+ 4. Anderlecht v Valencia                1 -  2   40   2.105
+ 5. Juventus v Ajax                      1 -  0   38   2.000
+ 6. Milan v Shakhtar                     4 -  0   36   1.895
+ 7. Bayern v M. Tel-Aviv                 5 -  1   32   1.684
+ 8. Bremen v Internazionale              1 -  1   30   1.579
+ 9. PSV v Arsenal                        1 -  1   26   1.368
+10. Monaco v Liverpool                   1 -  0   19   1.000
+11. CSKA Moskva v Porto                  0 -  1   10   0.526
+12. Sparta v Fenerbahce                  0 -  1    8   0.421
+13. Rosenborg v Panathinaikos            2 -  2    6   0.316
+14. Real Madrid v Leverkusen             1 -  1    3   0.158
+15. Chelsea v PSG                        0 -  0    3   0.158
+16. Barcelona v Celtic                   1 -  1    3   0.158
+
+Competitors = 19
+Total points scored = 377
+Average points scored = 19.842
+Average points per game = 1.240

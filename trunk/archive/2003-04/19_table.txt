@@ -1,0 +1,19 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Marc Robbins                   10   2  0  1
+ 2. Hamish                          8   2  0  0
+ 3. MiniMe                          8   2  0  0
+ 4. Nes                             8   2  0  0
+ 5. Nick Marstin                    8   2  0  0
+ 6. Nick the Greek                  7   1  1  0
+ 7. AGCM Oracle                     5   0  1  1
+ 8. Daniel Marsh                    5   0  1  1
+ 9. Khamelion                       4   1  0  0
+10. Miljenko                        4   1  0  0
+11. Stephan                         4   1  0  0
+12. Baroje                          2   0  0  1
+13. The Wielder of the Scythe       2   0  0  1
+14. GargoyleBG                      0   0  0  0
+15. Ivo                             0   0  0  0
+16. The Brazilian Man               0   0  0  0
+17. rsstrnc                         0   0  0  0

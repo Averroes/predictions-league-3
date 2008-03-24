@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. M. Petah-Tikva v Palermo             1 -  2   34   2.429
+ 2. Shakhtar v PAOK                      1 -  0   31   2.214
+ 3. Tromso v Roma                        1 -  2   28   2.000
+ 4. Halmstad v Hertha                    0 -  1   28   2.000
+ 5. Zenit v Guimaraes                    2 -  1   20   1.429
+ 6. Grasshoppers v Middlesbrough         0 -  1   19   1.357
+ 7. Besiktas v Bolton                    1 -  1   18   1.286
+ 8. Dnipro v AZ                          1 -  2   17   1.214
+ 9. CSKA Sofia v Hamburg                 0 -  1   16   1.143
+10. Rennes v Stuttgart                   0 -  2   14   1.000
+11. Lokomotiv Moskva v Espanyol          0 -  1   13   0.929
+12. CSKA Moskva v Marseille              1 -  2   12   0.857
+13. Steaua v Lens                        4 -  0   10   0.714
+14. Dinamo Bucuresti v Heerenveen        0 -  0    9   0.643
+15. Viking v Monaco                      1 -  0    4   0.286
+16. Basel v Strasbourg                   0 -  2    0   0.000
+
+Competitors = 14
+Total points scored = 273
+Average points scored = 19.500
+Average points per game = 1.219

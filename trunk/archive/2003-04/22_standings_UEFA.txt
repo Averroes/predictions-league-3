@@ -1,0 +1,34 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( +1) Nick the Greek                 11 122 159  12  19  27
+  2. ( -1) MiniMe                         11 122 158  12  18  28
+  3. ( - ) Miljenko                       11 122 155  13  15  29
+  4. ( - ) Daniel Marsh                   11 122 152   9  18  31
+  5. ( - ) Hamish                         11 122 147  12  15  27
+  6. ( - ) Marc Robbins                   11 122 146  11  12  33
+  7. ( +1) The Wielder of the Scythe      11 122 141  11  13  29
+  8. ( -1) GargoyleBG                     11 122 139   9  17  26
+  9. ( - ) Ivo                            11 122 136   6  18  29
+ 10. ( - ) Khamelion                      10 106 135  11  17  20
+ 11. ( - ) The Brazilian Man              11 122 132   7  16  28
+ 12. ( - ) AGCM Oracle                    11 122 129   6  13  33
+ 13. ( - ) Stephan                        11 122 126   7  12  31
+ 14. ( - ) Steven                          5  80 105  11  13  11
+ 15. ( - ) Mr. Pink                        5  72  86   8   8  15
+ 16. ( - ) Klaa                            5  66  85   8   9  13
+ 17. ( - ) rsstrnc                         6  54  77   5  11  12
+ 18. ( - ) Toby Briggs                     7  82  70   4   6  18
+ 19. ( +1) Nes                             7  70  66   8   6   8
+ 20. ( -1) HCwest Pete Fella               4  64  65   5   7  12
+ 21. ( - ) Bam Bam                         4  64  57   4   7  10
+ 22. ( - ) Eddy da Fisherman               3  48  56   3   4  16
+ 23. ( - ) Nick Marstin                    5  38  51   4   7   7
+ 24. ( - ) MrT                             2  32  40   2   6   7
+ 25. ( - ) Baroje                          5  34  38   2   4   9
+ 26. ( - ) Hagen                           4  22  27   2   3   5
+ 27. ( - ) Spankin                         2  32  25   1   1   9
+ 28. ( - ) DannyM                          1  16  23   1   1   8
+ 29. ( - ) digitalMOSQUITO                 1  16  20   1   4   2
+ 30. ( - ) Bom Bom                         1  16  19   2   1   4
+ 31. ( - ) Suhi                            1   8   7   0   1   2
+ 32. (new) Damian Wood                     1   2   0   0   0   0

@@ -1,0 +1,34 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) ~#Bluebird#~                    6  31  52   6   4   8
+  2. ( +1) Mr. Pink                        6  31  50   6   6   4
+  3. ( +1) The Wielder of the Scythe       6  31  50   4   6   8
+  4. ( -2) Miljenko                        6  31  48   6   4   6
+  5. ( - ) Hamish                          6  31  45   5   3   8
+  6. ( - ) MiniMe                          6  31  45   5   3   8
+  7. ( - ) Klaa                            5  30  45   3   7   6
+  8. ( - ) Dan                             6  31  45   2   7   8
+  9. ( - ) Nick the Greek                  6  31  44   4   4   8
+ 10. ( - ) Stephan                         6  31  42   5   4   5
+ 11. ( - ) Nick Marstin                    6  31  38   3   4   7
+ 12. ( - ) Grue                            6  31  36   3   2   9
+ 13. ( - ) James Williams                  6  31  35   2   3   9
+ 14. ( - ) Mark Goodge                     6  31  34   3   4   5
+ 15. ( +4) Daniel Marsh                    6  31  34   2   6   4
+ 16. ( -1) rsstrnc                         6  31  33   4   3   4
+ 17. ( +1) Dougal                          5  29  33   3   3   6
+ 18. ( -2) Stephen Weir                    6  31  33   2   3   8
+ 19. ( -2) Thomas Gaspardo                 6  31  31   1   5   6
+ 20. ( - ) Ivo                             6  31  27   3   1   6
+ 21. ( - ) GargoyleBG                      6  31  27   2   3   5
+ 22. ( - ) AGCM Oracle                     6  31  27   1   5   4
+ 23. ( - ) The Brazilian Man               5  23  26   1   4   5
+ 24. ( - ) Chris F                         2  16  23   2   1   6
+ 25. ( - ) Marc Robbins                    2  16  19   3   1   2
+ 26. ( - ) Dr Hugh M. Aye                  1   8  15   1   3   1
+ 27. ( - ) Hagen                           4  22  15   1   1   4
+ 28. ( - ) Baroje                          2  16  13   0   3   2
+ 29. ( - ) Samurai Sendo                   1   8   9   1   1   1
+ 30. ( - ) [Raven]                         1   8   6   0   0   3
+ 31. (new) Fil Arkonus                     1   1   4   1   0   0
+ 32. ( -1) Matt                            1   8   4   0   0   2

@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Alkmaar v Sporting                   2 -  1   28   1.750
+ 2. CSKA Moskva v Parma                  3 -  0   26   1.625
+
+Competitors = 16
+Total points scored = 54
+Average points scored = 3.375
+Average points per game = 1.688

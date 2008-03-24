@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Italy v Ukraine                      3 -  0   14   1.400
+ 2. England v Portugal                   0 -  0   12   1.200
+ 3. Germany v Argentina                  1 -  1   11   1.100
+ 4. Brazil v France                      0 -  1    3   0.300
+
+Competitors = 10
+Total points scored = 40
+Average points scored = 4.000
+Average points per game = 1.000

@@ -1,0 +1,13 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Miljenko                        2   0  0  1
+ 2. Nick the Greek                  2   0  0  1
+ 3. AGCM Oracle                     0   0  0  0
+ 4. Frank_The_Poet                  0   0  0  0
+ 5. Hamish                          0   0  0  0
+ 6. Marc Robbins                    0   0  0  0
+ 7. Mark Goodge                     0   0  0  0
+ 8. Stephan                         0   0  0  0
+ 9. The Brazilian Man               0   0  0  0
+10. The Wielder of the Scythe       0   0  0  0
+11. Toby Briggs                     0   0  0  0

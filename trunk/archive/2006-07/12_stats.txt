@@ -1,0 +1,22 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Benfica v Dinamo Bucuresti           1 -  0   21   2.333
+ 2. Lens v Panathinaikos                 3 -  1   19   2.111
+ 3. Zulte Waregem v Newcastle            1 -  3   16   1.778
+ 4. Spartak Moskva v Celta               1 -  1   12   1.333
+ 5. Bordeaux v Osasuna                   0 -  0   11   1.222
+ 6. Bremen v Ajax                        3 -  0   10   1.111
+ 7. Leverkusen v Blackburn               3 -  2    8   0.889
+ 8. AEK v PSG                            0 -  2    8   0.889
+ 9. Braga v Parma                        1 -  0    8   0.889
+10. Fenerbahce v AZ                      3 -  3    6   0.667
+11. CSKA Moskva v M. Haifa               0 -  0    6   0.667
+12. Livorno v Espanyol                   1 -  2    5   0.556
+13. Shakhtar v Nancy                     1 -  1    4   0.444
+14. Steaua v Sevilla                     0 -  2    4   0.444
+15. H. Tel-Aviv v Rangers                2 -  1    0   0.000
+
+Competitors = 9
+Total points scored = 138
+Average points scored = 15.333
+Average points per game = 1.022

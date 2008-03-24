@@ -1,0 +1,8 @@
+    Game:                               Result: Pts:   Avg:
+ 1. Internazionale v Milan               1 - 1   21   1.313
+ 2. Juventus v Madrid                    3 - 1    9   0.563
+
+Competitors = 16
+Total points scored = 30
+Average points scored = 1.875
+Average points per game = 0.938

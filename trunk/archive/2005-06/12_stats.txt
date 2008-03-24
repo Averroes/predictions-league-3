@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Schalke v Espanyol                   2 -  1   31   2.385
+ 2. Club Brugge v Roma                   1 -  2   26   2.000
+ 3. Udinese v Lens                       3 -  0   20   1.538
+ 4. Betis v AZ                           2 -  0   19   1.462
+ 5. Litex v Strasbourg                   0 -  2   14   1.077
+ 6. Lille v Shakhtar                     3 -  2   13   1.000
+ 7. Basel v Monaco                       1 -  0   12   0.923
+ 8. Artmedia v Levski                    0 -  1   10   0.769
+ 9. Stuttgart v Middlesbrough            1 -  2   10   0.769
+10. Slavia v Palermo                     2 -  1    8   0.615
+11. Bolton v Marseille                   0 -  0    8   0.615
+12. Thun v Hamburg                       1 -  0    8   0.615
+13. Lokomotiv Moskva v Sevilla           0 -  1    7   0.538
+14. Heerenveen v Steaua                  1 -  3    7   0.538
+15. Hertha v Rapid Bucuresti             0 -  1    2   0.154
+16. Rosenborg v Zenit                    0 -  2    2   0.154
+
+Competitors = 13
+Total points scored = 197
+Average points scored = 15.154
+Average points per game = 0.947

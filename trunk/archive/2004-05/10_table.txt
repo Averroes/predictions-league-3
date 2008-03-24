@@ -1,0 +1,21 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Ronald Scholman                30   4  2  4
+ 2. Mark Goodge                    27   3  1  6
+ 3. Miljenko                       24   4  0  4
+ 4. Nick the Greek                 22   2  0  7
+ 5. Ivo                            22   1  2  6
+ 6. Hamish                         21   2  1  5
+ 7. ray                            21   1  3  4
+ 8. The Wielder of the Scythe      20   3  0  4
+ 9. MiniMe                         20   1  2  5
+10. Pete Heslop                    19   0  3  5
+11. Marc Robbins                   18   1  0  7
+12. Nestor Badudoy                 18   1  0  7
+13. The Brazilian Man              17   2  1  3
+14. mentalalien                    15   1  1  4
+15. Hagen                          14   0  2  4
+16. Stephan                        13   1  1  3
+17. AGCM Oracle                    13   0  1  5
+18. Daniel Marsh                   12   1  0  4
+19. Toby Briggs                    11   1  1  2

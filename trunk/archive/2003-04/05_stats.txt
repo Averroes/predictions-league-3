@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Juventus v Real Sociedad             4 -  2   48   2.400
+ 2. Stuttgart v Panathinaikos            2 -  0   45   2.250
+ 3. Deportivo v Monaco                   1 -  0   41   2.050
+ 4. Real Madrid v Partizan               1 -  0   40   2.000
+ 5. Ajax v Celta                         1 -  0   39   1.950
+ 6. Chelsea v Lazio                      2 -  1   36   1.800
+ 7. Sparta v Besiktas                    2 -  1   33   1.650
+ 8. Galatasaray v Olympiacos             1 -  0   31   1.550
+ 9. Lyon v Bayern                        1 -  1   28   1.400
+10. Rangers v Man. United                0 -  1   25   1.250
+11. AEK v PSV                            0 -  1   25   1.250
+12. Anderlecht v Celtic                  1 -  0   24   1.200
+13. Dynamo Kyiv v Arsenal                2 -  1   15   0.750
+14. Marseille v Porto                    2 -  3   12   0.600
+15. Milan v Club Brugge                  0 -  1    7   0.350
+16. Lokomotiv Moskva v Internazionale    3 -  0    2   0.100
+
+Competitors = 20
+Total points scored = 451
+Average points scored = 22.550
+Average points per game = 1.409

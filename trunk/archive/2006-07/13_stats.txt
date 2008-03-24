@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Celtic v Milan                       0 -  0   19   2.375
+ 2. Lille v Man. United                  0 -  1   18   2.250
+ 3. Real Madrid v Bayern                 3 -  2   13   1.625
+ 4. Roma v Lyon                          0 -  0   12   1.500
+ 5. Porto v Chelsea                      1 -  1   10   1.250
+ 6. PSV v Arsenal                        1 -  0    9   1.125
+ 7. Barcelona v Liverpool                1 -  2    2   0.250
+ 8. Internazionale v Valencia            2 -  2    0   0.000
+
+Competitors = 8
+Total points scored = 83
+Average points scored = 10.375
+Average points per game = 1.297

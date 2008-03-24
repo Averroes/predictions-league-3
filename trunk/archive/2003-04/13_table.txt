@@ -1,0 +1,19 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Miljenko                       26   0  6  4
+ 2. The Brazilian Man              24   1  4  4
+ 3. Stephan                        23   0  3  7
+ 4. AGCM Oracle                    22   2  2  4
+ 5. Marc Robbins                   21   2  1  5
+ 6. The Wielder of the Scythe      21   2  1  5
+ 7. Toby Briggs                    21   2  1  5
+ 8. Daniel Marsh                   21   1  1  7
+ 9. Khamelion                      20   2  2  3
+10. rsstrnc                        20   1  2  5
+11. Bom Bom                        19   2  1  4
+12. MiniMe                         19   1  3  3
+13. Nick the Greek                 18   1  2  4
+14. Nick Marstin                   17   2  1  3
+15. Ivo                            16   1  2  3
+16. Hamish                         12   1  0  4
+17. GargoyleBG                     10   0  0  5

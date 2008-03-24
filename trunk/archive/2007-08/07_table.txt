@@ -1,0 +1,11 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. biz                            27   3  1  6
+ 2. Edu Liguori                    24   2  2  5
+ 3. Nick the Greek                 22   0  4  5
+ 4. Diesel                         20   2  2  3
+ 5. Mark Goodge                    20   1  2  5
+ 6. Timofei Shatrov                20   0  4  4
+ 7. Miljenko                       19   0  3  5
+ 8. The Wielder of the Scythe      18   2  0  5
+ 9. AGCM Oracle                     7   0  1  2

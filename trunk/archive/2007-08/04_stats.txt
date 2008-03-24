@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Leverkusen v Toulouse                1 -  0   28   3.111
+ 2. Brann v Hamburg                      0 -  1   19   2.111
+ 3. Crvena Zvezda v Bayern               2 -  3   17   1.889
+ 4. Everton v Larissa                    3 -  1   15   1.667
+ 5. Panathinaikos v Aberdeen             3 -  0   14   1.556
+ 6. Basel v Rennes                       1 -  0   14   1.556
+ 7. Zenit v AZ                           1 -  1   12   1.333
+ 8. Anderlecht v H. Tel-Aviv             2 -  0   12   1.333
+ 9. Helsingborg v Panionios GSS          1 -  1   12   1.333
+10. Lokomotiv Moskva v Atletico          3 -  3   11   1.222
+11. Elfsborg v AEK                       1 -  1   10   1.111
+12. Villarreal v Fiorentina              1 -  1    8   0.889
+13. Bordeaux v Galatasaray               2 -  1    6   0.667
+14. Bolton v Braga                       1 -  1    4   0.444
+15. Tottenham v Getafe                   1 -  2    3   0.333
+16. Sparta v Zurich                      1 -  2    0   0.000
+
+Competitors = 9
+Total points scored = 185
+Average points scored = 20.556
+Average points per game = 1.285

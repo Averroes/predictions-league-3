@@ -1,0 +1,20 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( +2) Marc Robbins                    4  64 106   8  12  19
+  2. ( - ) *****General                    4  64 105  11  13  11
+  3. ( -2) Hamish                          4  64 100   9  12  14
+  4. ( +7) Stephen Weir                    4  64  86   7   8  17
+  5. ( +2) Mark Goodge                     4  64  85   9   7  14
+  6. ( +4) Hari Seldon                     4  64  84   5   8  20
+  7. ( -2) Pete Heslop                     4  64  84   5   8  20
+  8. ( -4) Miljenko                        4  64  83   6   9  16
+  9. ( +4) Eduardo Liguori                 4  64  81   5   9  17
+ 10. ( -4) PivotalG                        4  64  81   4   7  22
+ 11. ( -2) Nick the Greek                  4  64  80   6  10  13
+ 12. ( -4) AGCM Oracle                     4  64  76   7   4  18
+ 13. ( +2) Ronald Scholman                 4  64  73   4   7  18
+ 14. ( -2) Toby Briggs                     4  64  70   8   2  16
+ 15. ( -1) Ivo                             2  32  53   3   7  10
+ 16. ( - ) Mr. Pink                        1  16  22   0   2   8
+ 17. ( - ) xtasia                          1  16  21   3   1   3
+ 18. ( - ) Mikael Scholer                  1  16  18   1   0   7
