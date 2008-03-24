@@ -1,0 +1,9 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Eduardo Liguori                 3   0  1  0
+ 2. GargoyleBG                      3   0  1  0
+ 3. Hamish                          3   0  1  0
+ 4. Mark Goodge                     3   0  1  0
+ 5. Nick the Greek                  3   0  1  0
+ 6. Timofei Shatrov                 3   0  1  0
+ 7. Pivotalgubbins                  2   0  0  1
