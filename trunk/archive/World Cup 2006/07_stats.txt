@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Portugal v France                    0 -  1   19   2.111
+ 2. Germany v Italy                      0 -  0    3   0.333
+
+Competitors = 9
+Total points scored = 22
+Average points scored = 2.444
+Average points per game = 1.222
