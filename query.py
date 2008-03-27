@@ -16,16 +16,16 @@ cur.execute("""SELECT *
 for player in cur.fetchall():
   cur.execute("""SELECT COUNT(*)
                    FROM prediction
-                  WHERE home != 9
-                    AND away != 9
+                  WHERE home != -1
+                    AND away != -1
                     AND player_id = ?""", (player[0], ))
 
   games_predicted = cur.fetchone()[0]
 
   cur.execute("""SELECT home, away, COUNT(*)
                    FROM prediction
-                  WHERE home != 9
-                    AND away != 9
+                  WHERE home != -1
+                    AND away != -1
                     AND player_id = ?
                   GROUP BY 1, 2
                   ORDER BY 3 DESC""", (player[0], ))
@@ -43,16 +43,16 @@ for player in cur.fetchall():
 
 cur.execute("""SELECT COUNT(*)
                  FROM prediction
-                WHERE home != 9
-                  AND away != 9
+                WHERE home != -1
+                  AND away != -1
                   AND player_id != 44""")
 
 games_predicted = cur.fetchone()[0]
 
 cur.execute("""SELECT home, away, COUNT(*)
                  FROM prediction
-                WHERE home != 9
-                  AND away != 9
+                WHERE home != -1
+                  AND away != -1
                   AND player_id != 44
                 GROUP BY 1, 2
                 ORDER BY 3 DESC""")
@@ -70,15 +70,15 @@ f.close()
 
 cur.execute("""SELECT COUNT(*)
                  FROM game
-                WHERE home_result != 9
-                  AND away_result != 9""")
+                WHERE home_result != -1
+                  AND away_result != -1""")
 
 games_played = cur.fetchone()[0]
 
 cur.execute("""SELECT home_result, away_result, COUNT(*)
                  FROM game
-                WHERE home_result != 9
-                  AND away_result != 9
+                WHERE home_result != -1
+                  AND away_result != -1
                 GROUP BY 1, 2
                 ORDER BY 3 DESC""")
 
@@ -97,23 +97,23 @@ hda = []
 
 cur.execute("""SELECT COUNT(*)
                  FROM game
-                WHERE home_result != 9
-                  AND away_result != 9""")
+                WHERE home_result != -1
+                  AND away_result != -1""")
 
 games_played = cur.fetchone()[0]
 
 cur.execute("""SELECT COUNT(*)
                  FROM game
-                WHERE home_result != 9
-                  AND away_result != 9
+                WHERE home_result != -1
+                  AND away_result != -1
                   AND home_result > away_result""")
 
 hda.append(cur.fetchone()[0])
 
 cur.execute("""SELECT COUNT(*)
                  FROM game
-                WHERE home_result != 9
-                  AND away_result != 9
+                WHERE home_result != -1
+                  AND away_result != -1
                   AND home_result = away_result""")
 
 hda.append(cur.fetchone()[0])
@@ -132,23 +132,23 @@ hda = []
 
 cur.execute("""SELECT COUNT(*)
                  FROM prediction
-                WHERE home != 9
-                  AND away != 9""")
+                WHERE home != -1
+                  AND away != -1""")
 
 games_predicted = cur.fetchone()[0]
 
 cur.execute("""SELECT COUNT(*)
                  FROM prediction
-                WHERE home != 9
-                  AND away != 9
+                WHERE home != -1
+                  AND away != -1
                   AND home > away""")
 
 hda.append(cur.fetchone()[0])
 
 cur.execute("""SELECT COUNT(*)
                  FROM prediction
-                WHERE home != 9
-                  AND away != 9
+                WHERE home != -1
+                  AND away != -1
                   AND home = away""")
 
 hda.append(cur.fetchone()[0])
@@ -169,8 +169,8 @@ cur.execute("""SELECT *
 for player in cur.fetchall():
   cur.execute("""SELECT COUNT(*)
                    FROM prediction
-                  WHERE home != 9
-                    AND away != 9
+                  WHERE home != -1
+                    AND away != -1
                     AND player_id = ?""", (player[0], ))
 
   games_predicted = cur.fetchone()[0]
@@ -178,16 +178,16 @@ for player in cur.fetchall():
 
   cur.execute("""SELECT COUNT(*)
                    FROM prediction
-                  WHERE home != 9
-                    AND away != 9
+                  WHERE home != -1
+                    AND away != -1
                     AND home > away
                     AND player_id = ?""", (player[0], ))
   hda.append(cur.fetchone()[0])
 
   cur.execute("""SELECT COUNT(*)
                    FROM prediction
-                  WHERE home != 9
-                    AND away != 9
+                  WHERE home != -1
+                    AND away != -1
                     AND home = away
                     AND player_id = ?""", (player[0], ))
 
@@ -211,8 +211,8 @@ for team in cur.fetchall():
                     AND game.home_id = home.id
                     AND game.away_id = away.id
                     AND game.season_id = season.id
-                    AND game.home_result != 9
-                    AND game.away_result != 9
+                    AND game.home_result != -1
+                    AND game.away_result != -1
                   ORDER BY 1, 2""", (team[0], team[0]))
 
   j = 0

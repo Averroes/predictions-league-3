@@ -59,13 +59,16 @@ def read_predictions(filename, n, game_id_list, cur):
     for i in range(0, n):
       try:
         (home, away) = struct.unpack('hh', f.read(4))
+        if (home == 9 and away == 9): # no prediction made
+          home = -1
+          away = -1
         # calculate points
         cur.execute('SELECT home_result, away_result FROM game WHERE id = ?', (game_id_list[i], ))
         result = cur.fetchone()
         points_scored = 0
         if result[0] == 9 and result[1] == 9:
           points_scored = 0
-        elif home == 9 and away == 9:
+        elif home == -1 and away == -1:
           points_scored = 0
         elif home == result[0] and away == result[1]:
           points_scored = 4
