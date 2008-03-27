@@ -1,0 +1,28 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( +1) Miljenko                       14 224 358  32  32  67
+  2. ( +1) Mark Goodge                    14 224 356  35  24  72
+  3. ( -2) Nick the Greek                 14 224 347  32  23  75
+  4. ( - ) ray                            14 224 335  25  31  71
+  5. ( - ) Stephan                        14 224 306  18  32  69
+  6. ( - ) MiniMe                         14 224 303  26  27  59
+  7. ( - ) Ivo                            14 224 293  19  27  68
+  8. ( +1) Marc Robbins                   14 224 290  27  16  67
+  9. ( -1) The Wielder of the Scythe      14 224 271  18  21  68
+ 10. ( +2) Toby Briggs                    14 224 241  14  25  55
+ 11. ( - ) Ronald Scholman                12 192 236  14  24  54
+ 12. ( +1) Hamish                         14 224 232  12  20  62
+ 13. ( -3) Pete Heslop                    10 160 225  10  27  52
+ 14. ( - ) Nestor Badudoy                 12 192 219  14  17  56
+ 15. ( +2) Hagen                          11 176 206  10  26  44
+ 16. ( -1) AGCM Oracle                    14 224 205   6  25  53
+ 17. ( -1) Daniel Marsh                   12 192 203  19  11  47
+ 18. ( - ) The Brazilian Man              10 160 194  11  20  45
+ 19. ( - ) sarts                           8 128 169  12  13  41
+ 20. ( - ) GargoyleBG                      6  96 135  11  15  23
+ 21. ( - ) mentalalien                     7 112 127  10   5  36
+ 22. ( - ) Mark Thompson                   7 112 124   6  16  26
+ 23. ( - ) PivotalG                        5  80 107   5  13  24
+ 24. ( - ) Klaa                            6  96 105   5  15  20
+ 25. ( - ) Frank_The_Poet                  2  32  41   3   5   7
+ 26. ( - ) Richard Mills                   1  16  14   0   2   4
