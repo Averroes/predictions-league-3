@@ -1,7 +1,7 @@
-import os, re, string, struct
+import os, re, string, struct, time
 from pysqlite2 import dbapi2 as sqlite
 
-def read_games(filename, syn_list, cur):
+def read_games(filename, team_syn_list, cur):
   games_line_pattern = re.compile("(?P<home_team>^.*)\sv\s(?P<away_team>.*$)")
   f = open(filename, 'r')
   l = f.readlines()
@@ -11,7 +11,7 @@ def read_games(filename, syn_list, cur):
     if found_game:
       home = found_game.group('home_team')
       away = found_game.group('away_team')
-      for syn in syn_list:
+      for syn in team_syn_list:
         if home == syn[0]:
           home = syn[1]
         if away == syn[0]:
@@ -39,7 +39,7 @@ def read_results(filename, n):
   f.close()
   return result_list
 
-def read_predictions(filename, n, game_id_list, cur):
+def read_predictions(filename, n, game_id_list, player_syn_list, cur):
   f = open(filename, 'rb')
   while f:
     try: 
@@ -48,7 +48,10 @@ def read_predictions(filename, n, game_id_list, cur):
       else:
         name = struct.unpack('31s', f.read(31))[0]
       name = name[:name.index('\0')]
-      cur.execute('SELECT * FROM player WHERE name LIKE ?', (name, ))
+      for syn in player_syn_list:
+        if name == syn[0]:
+          name = syn[1]
+      cur.execute('SELECT * FROM player WHERE name = ?', (name, ))
       row = cur.fetchone()
       if row == None:
         cur.execute('INSERT INTO player(id, name) VALUES(NULL, ?)', (name, ))
@@ -86,6 +89,15 @@ def read_predictions(filename, n, game_id_list, cur):
       except: break
   f.close()
 
+def load_synonyms(path):
+  syn_file = open(path, 'r')
+  synonyms = syn_file.readlines()
+  syn_file.close()
+  syn_list = [s[:-1].split(';') for s in synonyms]
+  #for s in synonyms:
+  #  syn_list.append(s[:-1].split(';'))
+  return syn_list
+
 start_dir = 'archive'
 resources_dir = 'resources'
 games_file_pattern = re.compile("(?P<round>\d+)_games.txt$")
@@ -93,15 +105,12 @@ results_file_pattern = re.compile("(?P<round>\d+)_results.txt$")
 predictions_file_pattern = re.compile("(?P<round>\d+)_predictions.txt$")
 num_games = {}
 
-syn_file = open(os.path.join(resources_dir, 'synonyms.txt'), 'r')
-synonyms = syn_file.readlines()
-syn_file.close()
-syn_list = []
-for s in synonyms:
-  syn_list.append(s[:-1].split(';'))
+team_syn_list = load_synonyms(os.path.join(resources_dir, 'team_synonyms.txt'))
+player_syn_list = load_synonyms(os.path.join(resources_dir, 'player_synonyms.txt'))
 
 con = sqlite.connect('agcmpl.db')
 cur = con.cursor()
+time.clock()
 
 for d in os.walk(start_dir):
   if d[0].find('Euro') > -1 or d[0].find('World') > -1:
@@ -110,16 +119,16 @@ for d in os.walk(start_dir):
   for f in d[2]:
     found_games = games_file_pattern.search(f)
     if found_games:
-      n, team_list = read_games(os.path.join(d[0], f), syn_list, cur)
+      n, team_list = read_games(os.path.join(d[0], f), team_syn_list, cur)
       r = found_games.group('round')
       if num_games.has_key(season): # new round
         num_games[season][r] = n
       else: # new season
         num_games[season] = {r: n}
-        cur.execute('SELECT * FROM season WHERE id LIKE ?', (season, ))
+        cur.execute('SELECT * FROM season WHERE id = ?', (season, ))
         if cur.fetchall() == []:
           cur.execute('INSERT INTO season(id) VALUES(?)', (season, ))
-      cur.execute('SELECT * FROM round WHERE season_id LIKE ? AND id = ?', (season, r))
+      cur.execute('SELECT * FROM round WHERE season_id = ? AND id = ?', (season, r))
       if cur.fetchall() == []:
         cur.execute('INSERT INTO round(season_id, id) VALUES(?, ?)', (season, r))
       # read results
@@ -137,7 +146,7 @@ for d in os.walk(start_dir):
         game_id_list.append(cur.lastrowid)
       # read predictions
       f = f[:3] + 'predictions.txt'
-      read_predictions(os.path.join(d[0], f), num_games[season][r], game_id_list, cur)
+      read_predictions(os.path.join(d[0], f), num_games[season][r], game_id_list, player_syn_list, cur)
 
 uefa_members_file = open(os.path.join(resources_dir, "uefa_members.txt"), "r")
 uefa_members_codes_file = open(os.path.join(resources_dir, "uefa_members_codes.txt"), "r")
@@ -157,6 +166,8 @@ for country in uefa_members_file:
       cur.execute("""UPDATE team
                         SET country_id = ?
                         WHERE id = ?""", (i, team_id))
+
+print "Done in %s s" % time.clock()
 
 teams_by_country_file.close()
 uefa_members_codes_file.close()

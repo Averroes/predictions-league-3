@@ -8,6 +8,8 @@ cur.executescript("""CREATE TABLE IF NOT EXISTS player
                       name TEXT
                     );""")
 
+cur.executescript("""CREATE INDEX player_name_idx ON player(name);""")
+
 cur.executescript("""CREATE TABLE IF NOT EXISTS round
                     ( season_id      TEXT,
                       id             INTEGER,
@@ -25,6 +27,8 @@ cur.executescript("""CREATE TABLE IF NOT EXISTS team
                       name        TEXT,
                       country_id  INTEGER
                     );""")
+
+cur.executescript("""CREATE INDEX team_name_idx ON team(name);""")
 
 cur.executescript("""CREATE TABLE IF NOT EXISTS game
                     ( id          INTEGER PRIMARY KEY,
