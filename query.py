@@ -199,6 +199,21 @@ for player in cur.fetchall():
     f.write("%s: %6d %6.2f%%\n" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100))
   f.close()
 
+# total predictions made
+
+cur.execute("""SELECT player.name, COUNT(*)
+                 FROM prediction, player
+                WHERE prediction.player_id = player.id
+                GROUP BY player_id
+                ORDER BY 2 DESC""")
+
+i = 0
+f = open(os.path.join(stats_dir, "number_of_predictions.txt"), "w")
+for res in cur.fetchall():
+  i += 1
+  f.write("%3d. %-35s %5d\n" % (i, res[0], res[1]))
+f.close()
+
 # results of all games by team
 
 cur.execute("""SELECT *
