@@ -1,5 +1,5 @@
 from pysqlite2 import dbapi2 as sqlite
-import os
+import os, time
 
 stats_dir = 'stats'
 team_stats_dir = os.path.join(stats_dir, 'team')
@@ -7,6 +7,7 @@ player_stats_dir = os.path.join(stats_dir, 'player')
 
 con = sqlite.connect('agcmpl.db')
 cur = con.cursor()
+time.clock()
 
 # predictions distribution by player
 
@@ -30,12 +31,10 @@ for player in cur.fetchall():
                   GROUP BY 1, 2
                   ORDER BY 3 DESC""", (player[0], ))
   
-  #print 'Predictions for %s:' % player[1]
   j = 0
   f = open(os.path.join(player_stats_dir, 'predictions_distribution_%s.txt' % player[1].replace(' ', '_').replace('*', '_')), 'w')
   for res in cur.fetchall():
     j += 1
-    #print "%2d. %2d - %2d %4d %6.2f%%" % (j, res[0], res[1], res[2], float(res[2]) / games_predicted * 100)
     f.write("%2d. %2d - %2d %4d %6.2f%%\n" % (j, res[0], res[1], res[2], float(res[2]) / games_predicted * 100))
   f.close()
 
@@ -205,13 +204,28 @@ cur.execute("""SELECT player.name, COUNT(*)
                  FROM prediction, player
                 WHERE prediction.player_id = player.id
                 GROUP BY player_id
-                ORDER BY 2 DESC""")
+                ORDER BY 2 DESC, 1""")
 
 i = 0
 f = open(os.path.join(stats_dir, "number_of_predictions.txt"), "w")
 for res in cur.fetchall():
   i += 1
   f.write("%3d. %-35s %5d\n" % (i, res[0], res[1]))
+f.close()
+
+# player - average points per game
+
+cur.execute("""SELECT player.name, AVG(points), COUNT(*)
+                 FROM prediction, player
+                WHERE prediction.player_id = player.id
+                GROUP BY player_id
+                ORDER BY 2 DESC, 1""")
+
+i = 0
+f = open(os.path.join(stats_dir, "average_points_scored.txt"), "w")
+for res in cur.fetchall():
+  i += 1
+  f.write("%3d. %-35s %5.3f %5d\n" % (i, res[0], res[1], res[2]))
 f.close()
 
 # results of all games by team
@@ -239,3 +253,4 @@ for team in cur.fetchall():
   #print 'Done: %s' % team[1]
 
 con.commit()
+print "Completed in %ss" % time.clock()
