@@ -64,7 +64,7 @@ goals_conceded = {}
 result_frequency = {}
 total_games = 0
 
-syn_file = open(os.path.join(resources_dir, 'synonyms.txt'), 'r')
+syn_file = open(os.path.join(resources_dir, 'team_synonyms.txt'), 'r')
 synonyms = syn_file.readlines()
 syn_file.close()
 syn_list = []
