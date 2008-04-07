@@ -60,4 +60,19 @@ cur.executescript("""CREATE TABLE IF NOT EXISTS country
                       code  TEXT
                     );""")
 
+cur.executescript("""CREATE TABLE IF NOT EXISTS team_stats
+                    ( stat_id INTEGER,
+                      team_id INTEGER,
+                      sum     INTEGER,
+                      count   INTEGER,
+                      average FLOAT,
+                      PRIMARY KEY(stat_id, team_id)
+                    );""")
+
+cur.executescript("""CREATE TABLE IF NOT EXISTS team_stats_description
+                    ( id          INTEGER PRIMARY KEY,
+                      title       TEXT,
+                      description TEXT
+                    );""")
+
 con.commit()
