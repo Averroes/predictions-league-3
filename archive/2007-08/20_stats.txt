@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Fiorentina v PSV                     1 -  1    4   0.444
+ 2. Rangers v Sporting                   0 -  0    0   0.000
+ 3. Bayern v Getafe                      1 -  1    0   0.000
+ 4. Leverkusen v Zenit                   1 -  4    0   0.000
+
+Competitors = 9
+Total points scored = 4
+Average points scored = 0.444
+Average points per game = 0.111
