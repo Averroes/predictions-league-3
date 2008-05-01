@@ -67,10 +67,7 @@ total_games = 0
 syn_file = open(os.path.join(resources_dir, 'team_synonyms.txt'), 'r')
 synonyms = syn_file.readlines()
 syn_file.close()
-syn_list = []
-
-for s in synonyms:
-  syn_list.append(s[:-1].split(';'))
+syn_list = [s[:-1].split(';') for s in synonyms]
 
 for d in os.walk(start_dir):
   if d[0].find('Euro') > -1 or d[0].find('World') > -1:
