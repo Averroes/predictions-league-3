@@ -1,4 +1,4 @@
-import os, re
+import os, re, time
 
 def print_stats(teams, min_games = 20, file = None):
   i = 1
@@ -63,6 +63,8 @@ goals_scored = {}
 goals_conceded = {}
 result_frequency = {}
 total_games = 0
+
+time.clock()
 
 syn_file = open(os.path.join(resources_dir, 'team_synonyms.txt'), 'r')
 synonyms = syn_file.readlines()
@@ -163,29 +165,31 @@ goals_scored_total, goals_scored_home, goals_scored_away = calculate_stats(goals
 goals_conceded_total, goals_conceded_home, goals_conceded_away = calculate_stats(goals_conceded, True)
 
 # stats for teams with min_games games played
-print_stats(prediction_success_total, file = "prediction_success.txt")
-print_stats(prediction_success_home, 10, "prediction_success_home.txt")
-print_stats(prediction_success_away, 10, "prediction_success_away.txt")
-print_stats(team_success_total, file = "team_success.txt")
-print_stats(team_success_home, 10, "team_success_home.txt")
-print_stats(team_success_away, 10, "team_success_away.txt")
-print_stats(goals_scored_total, file = "goals_scored.txt")
-print_stats(goals_scored_home, 10, "goals_scored_home.txt")
-print_stats(goals_scored_away, 10, "goals_scored_away.txt")
-print_stats(goals_conceded_total, file = "goals_conceded.txt")
-print_stats(goals_conceded_home, 10, "goals_conceded_home.txt")
-print_stats(goals_conceded_away, 10, "goals_conceded_away.txt")
+print_stats(prediction_success_total, file = "plstatr_prediction_success.txt")
+print_stats(prediction_success_home, 10, "plstatr_prediction_success_home.txt")
+print_stats(prediction_success_away, 10, "plstatr_prediction_success_away.txt")
+print_stats(team_success_total, file = "plstatr_team_success.txt")
+print_stats(team_success_home, 10, "plstatr_team_success_home.txt")
+print_stats(team_success_away, 10, "plstatr_team_success_away.txt")
+print_stats(goals_scored_total, file = "plstatr_goals_scored.txt")
+print_stats(goals_scored_home, 10, "plstatr_goals_scored_home.txt")
+print_stats(goals_scored_away, 10, "plstatr_goals_scored_away.txt")
+print_stats(goals_conceded_total, file = "plstatr_goals_conceded.txt")
+print_stats(goals_conceded_home, 10, "plstatr_goals_conceded_home.txt")
+print_stats(goals_conceded_away, 10, "plstatr_goals_conceded_away.txt")
 
 # stats for all teams
-print_stats(prediction_success_total, 1, file = "prediction_success_all.txt")
-print_stats(prediction_success_home, 1, "prediction_success_home_all.txt")
-print_stats(prediction_success_away, 1, "prediction_success_away_all.txt")
-print_stats(team_success_total, 1, file = "team_success_all.txt")
-print_stats(team_success_home, 1, "team_success_home_all.txt")
-print_stats(team_success_away, 1, "team_success_away_all.txt")
-print_stats(goals_scored_total, 1, file = "goals_scored_all.txt")
-print_stats(goals_scored_home, 1, "goals_scored_home_all.txt")
-print_stats(goals_scored_away, 1, "goals_scored_away_all.txt")
-print_stats(goals_conceded_total, 1, file = "goals_conceded_all.txt")
-print_stats(goals_conceded_home, 1, "goals_conceded_home_all.txt")
-print_stats(goals_conceded_away, 1, "goals_conceded_away_all.txt")
+print_stats(prediction_success_total, 1, file = "plstatr_prediction_success_all.txt")
+print_stats(prediction_success_home, 1, "plstatr_prediction_success_home_all.txt")
+print_stats(prediction_success_away, 1, "plstatr_prediction_success_away_all.txt")
+print_stats(team_success_total, 1, file = "plstatr_team_success_all.txt")
+print_stats(team_success_home, 1, "plstatr_team_success_home_all.txt")
+print_stats(team_success_away, 1, "plstatr_team_success_away_all.txt")
+print_stats(goals_scored_total, 1, file = "plstatr_goals_scored_all.txt")
+print_stats(goals_scored_home, 1, "plstatr_goals_scored_home_all.txt")
+print_stats(goals_scored_away, 1, "plstatr_goals_scored_away_all.txt")
+print_stats(goals_conceded_total, 1, file = "plstatr_goals_conceded_all.txt")
+print_stats(goals_conceded_home, 1, "plstatr_goals_conceded_home_all.txt")
+print_stats(goals_conceded_away, 1, "plstatr_goals_conceded_away_all.txt")
+
+print "Completed in %ss" % time.clock()
