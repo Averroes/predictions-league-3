@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS country
 CREATE TABLE IF NOT EXISTS country_stats
 ( stat_id    INTEGER,
   country_id INTEGER,
-  sum        INTEGER,
+  sum        FLOAT,
   count      INTEGER,
   average    FLOAT,
   PRIMARY KEY(stat_id, country_id)
@@ -23,6 +23,7 @@ CREATE INDEX country_stats_idx ON country_stats(country_id);
 CREATE TABLE IF NOT EXISTS country_stats_description
 ( id          INTEGER PRIMARY KEY,
   title       TEXT,
+  sort_order  INTEGER,
   description TEXT
 );
 
@@ -75,7 +76,7 @@ CREATE UNIQUE INDEX team_name_idx ON team(name);
 CREATE TABLE IF NOT EXISTS team_stats
 ( stat_id INTEGER,
   team_id INTEGER,
-  sum     INTEGER,
+  sum     FLOAT,
   count   INTEGER,
   average FLOAT,
   PRIMARY KEY(stat_id, team_id)
@@ -86,5 +87,12 @@ CREATE INDEX team_stats_idx ON team_stats(team_id);
 CREATE TABLE IF NOT EXISTS team_stats_description
 ( id          INTEGER PRIMARY KEY,
   title       TEXT,
+  sort_order  INTEGER,
   description TEXT
 );
+
+CREATE VIEW IF NOT EXISTS game_predictability AS
+  SELECT game.id AS game_id, game.home_id AS home_id, game.away_id AS away_id, avg(points) AS average
+    FROM game, prediction
+   WHERE game.id = prediction.game_id
+   GROUP BY game.id;
