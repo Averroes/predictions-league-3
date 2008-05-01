@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Rangers v Fiorentina                 0 -  0   14   1.556
+ 2. Bayern v Zenit                       1 -  1    0   0.000
+
+Competitors = 9
+Total points scored = 14
+Average points scored = 1.556
+Average points per game = 0.778

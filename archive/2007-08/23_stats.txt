@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Barcelona v Man. United              0 -  0   13   1.444
+ 2. Liverpool v Chelsea                  1 -  1    4   0.444
+
+Competitors = 9
+Total points scored = 17
+Average points scored = 1.889
+Average points per game = 0.944

@@ -19,10 +19,10 @@ def read_games(filename, team_syn_list, cur):
       team_list.append(home)
       team_list.append(away)
       cur.execute('SELECT * FROM team WHERE name = ?', (home, ))
-      if cur.fetchall() == []:
+      if not cur.fetchall():
         cur.execute('INSERT INTO team(id, name, country_id) VALUES(NULL, ?, 0)', (home, ))
       cur.execute('SELECT * FROM team WHERE name = ?', (away, ))
-      if cur.fetchall() == []:
+      if not cur.fetchall():
         cur.execute('INSERT INTO team(id, name, country_id) VALUES(NULL, ?, 0)', (away, ))
   f.close()
   return len(l), team_list
@@ -62,7 +62,7 @@ def read_predictions(filename, n, game_id_list, player_syn_list, cur):
     for i in range(0, n):
       try:
         (home, away) = struct.unpack('hh', f.read(4))
-        if (home == 9 and away == 9): # no prediction made
+        if (home == 9 and away == 9): # no prediction made (old format: 9 - 9, new format: -1 - -1)
           home = -1
           away = -1
         # calculate points
@@ -94,8 +94,6 @@ def load_synonyms(path):
   synonyms = syn_file.readlines()
   syn_file.close()
   syn_list = [s[:-1].split(';') for s in synonyms]
-  #for s in synonyms:
-  #  syn_list.append(s[:-1].split(';'))
   return syn_list
 
 start_dir = 'archive'
@@ -126,10 +124,10 @@ for d in os.walk(start_dir):
       else: # new season
         num_games[season] = {r: n}
         cur.execute('SELECT * FROM season WHERE id = ?', (season, ))
-        if cur.fetchall() == []:
+        if not cur.fetchall():
           cur.execute('INSERT INTO season(id) VALUES(?)', (season, ))
       cur.execute('SELECT * FROM round WHERE season_id = ? AND id = ?', (season, r))
-      if cur.fetchall() == []:
+      if not cur.fetchall():
         cur.execute('INSERT INTO round(season_id, id) VALUES(?, ?)', (season, r))
       # read results
       f = f[:3] + 'results.txt'
@@ -167,7 +165,7 @@ for country in uefa_members_file:
                         SET country_id = ?
                         WHERE id = ?""", (i, team_id))
 
-print "Done in %s s" % time.clock()
+print "Completed in %ss" % time.clock()
 
 teams_by_country_file.close()
 uefa_members_codes_file.close()
