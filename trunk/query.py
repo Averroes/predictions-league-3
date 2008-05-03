@@ -252,6 +252,25 @@ def results_by_team(cur, team_stats_dir):
       f.write("%3d. %10s %2d %25s - %-25s %2d - %2d\n" % (i, res[0], res[1], res[2], res[3], res[4], res[5]))
     f.close()
 
+def stats_by_team(cur, team_stats_dir):
+  """Prints all team stats described in team_stats_description by team."""
+
+  cur.execute("""SELECT *
+                   FROM team""")
+
+  for team in cur.fetchall():
+    cur.execute("""SELECT description, average
+                     FROM team, team_stats, team_stats_description
+                    WHERE team.id = ?
+                      AND team_stats.team_id = team.id
+                      AND team_stats.stat_id = team_stats_description.id
+                    ORDER BY team_stats.stat_id""", (team[0], ))
+
+    f = open(os.path.join(team_stats_dir, 'stats_%s.txt' % team[1].replace(' ', '_')), 'w')
+    for res in cur.fetchall():
+      f.write("%-35s = %5.3f\n" % tuple(res))
+    f.close()
+
 def print_stats(filename, l):
   """Prints team stats to file."""
 
@@ -322,6 +341,28 @@ def country_stats(cur, country_stats_dir):
   for stat in stats_list:
     query_country_stats(country_stats_dir, '%s.txt', stat, 1)
 
+def most_predictable_games(cur, stats_dir, count):
+  """Prints top (count) most predictable games."""
+
+  cur.execute("""SELECT game.season_id, game.round_id, t1.name, t2.name, game.home_result, game.away_result, sum, average
+                   FROM game_predictability, game, team t1, team t2
+                  WHERE game_predictability.game_id = game.id
+                    AND game.home_id = t1.id
+                    AND game.away_id = t2.id
+                  ORDER BY 8 DESC, 7 DESC""")
+
+  print "Most predictable games:"
+  i = 0
+  f = open(os.path.join(stats_dir, "most_predictable_games.txt"), "w")
+  for res in cur.fetchall()[:count]:
+    i += 1
+    l = [i]
+    for val in res:
+      l.append(val)
+    print "%2d. [%7s, %2d] %22s - %-22s %2d - %2d  %3d  %5.3f" % tuple(l)
+    f.write("%2d. [%7s, %2d] %22s - %-22s %2d - %2d  %3d  %5.3f\n" % tuple(l))
+  f.close()
+
 if __name__ == '__main__':
   stats_dir = 'stats'
   team_stats_dir = os.path.join(stats_dir, 'team')
@@ -342,8 +383,10 @@ if __name__ == '__main__':
   player_predictions_made_total(cur, stats_dir)
   player_avg_pts_per_game(cur, stats_dir)
   results_by_team(cur, team_stats_dir)
+  stats_by_team(cur, team_stats_dir)
   team_stats(cur, stats_dir)
   country_stats(cur, country_stats_dir)
+  most_predictable_games(cur, stats_dir, 20)
 
   con.commit()
   print "Completed in %ss" % time.clock()
