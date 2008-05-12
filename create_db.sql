@@ -92,7 +92,21 @@ CREATE TABLE IF NOT EXISTS team_stats_description
 );
 
 CREATE VIEW IF NOT EXISTS game_predictability AS
-  SELECT game.id AS game_id, game.home_id AS home_id, game.away_id AS away_id, SUM(points) AS sum, COUNT(*) AS count, AVG(points) AS average
+  SELECT game.id AS game_id, game.home_id AS home_id, game.away_id AS away_id,
+         SUM(points) AS sum, COUNT(*) AS count, AVG(points) AS average,
+         SUM(CASE WHEN prediction.home > prediction.away THEN 3
+                  WHEN prediction.home = prediction.away THEN 1
+                  ELSE 0 END) AS home_points_total,
+         CAST(SUM(CASE WHEN prediction.home > prediction.away THEN 3
+                        WHEN prediction.home = prediction.away THEN 1
+                        ELSE 0 END) AS FLOAT) / COUNT(*) AS home_points,
+         SUM(CASE WHEN prediction.away > prediction.home THEN 3
+                  WHEN prediction.home = prediction.away THEN 1
+                  ELSE 0 END) AS away_points_total,
+         CAST(SUM(CASE WHEN prediction.away > prediction.home THEN 3
+                        WHEN prediction.home = prediction.away THEN 1
+                        ELSE 0 END) AS FLOAT) / COUNT(*) AS away_points
     FROM game, prediction
    WHERE game.id = prediction.game_id
+     AND (prediction.home != -1 OR prediction.away != -1)
    GROUP BY game.id;
