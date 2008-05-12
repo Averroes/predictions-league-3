@@ -69,6 +69,18 @@ team_success_away_insert = """INSERT INTO team_stats
                                     GROUP BY 2
                                     ORDER BY 4 DESC"""
 
+predicted_team_success_home_insert = """INSERT INTO team_stats
+                                             SELECT %s, home_id, SUM(home_points), COUNT(*), CAST(SUM(home_points) AS FLOAT) / COUNT(*)
+                                               FROM game_predictability
+                                              GROUP BY 2
+                                              ORDER BY 4 DESC"""
+
+predicted_team_success_away_insert = """INSERT INTO team_stats
+                                             SELECT %s, away_id, SUM(away_points), COUNT(*), CAST(SUM(away_points) AS FLOAT) / COUNT(*)
+                                               FROM game_predictability
+                                              GROUP BY 2
+                                              ORDER BY 4 DESC"""
+
 prediction_success_home_insert = """INSERT INTO team_stats
                                          SELECT %s, home_id, SUM(average), COUNT(*), CAST(SUM(average) AS FLOAT) / COUNT(*)
                                            FROM game_predictability
@@ -92,9 +104,12 @@ goals_conceded_total_stat_id = 6
 team_success_home_stat_id = 7
 team_success_away_stat_id = 8
 team_success_total_stat_id = 9
-prediction_success_home_stat_id = 10
-prediction_success_away_stat_id = 11
-prediction_success_total_stat_id = 12
+predicted_team_success_home_stat_id = 10
+predicted_team_success_away_stat_id = 11
+predicted_team_success_total_stat_id = 12
+prediction_success_home_stat_id = 13
+prediction_success_away_stat_id = 14
+prediction_success_total_stat_id = 15
 
 sort_desc = 0
 sort_asc = 1
@@ -112,6 +127,10 @@ get_total(cur, goals_conceded_home_stat_id, goals_conceded_away_stat_id, goals_c
 cur.execute(team_success_home_insert % team_success_home_stat_id)
 cur.execute(team_success_away_insert % team_success_away_stat_id)
 get_total(cur, team_success_home_stat_id, team_success_away_stat_id, team_success_total_stat_id)
+
+cur.execute(predicted_team_success_home_insert % predicted_team_success_home_stat_id)
+cur.execute(predicted_team_success_away_insert % predicted_team_success_away_stat_id)
+get_total(cur, predicted_team_success_home_stat_id, predicted_team_success_away_stat_id, predicted_team_success_total_stat_id)
 
 cur.execute(prediction_success_home_insert % prediction_success_home_stat_id)
 cur.execute(prediction_success_away_insert % prediction_success_away_stat_id)
@@ -138,6 +157,12 @@ cur.execute("""INSERT INTO team_stats_description
                     VALUES(?, 'team_success_away', ?, 'Avg. points scored away')""", (team_success_away_stat_id, 0))
 cur.execute("""INSERT INTO team_stats_description
                     VALUES(?, 'team_success', ?, 'Avg. points scored')""", (team_success_total_stat_id, 0))
+cur.execute("""INSERT INTO team_stats_description
+                    VALUES(?, 'predicted_team_success_home', ?, 'Avg. points predicted home')""", (predicted_team_success_home_stat_id, 0))
+cur.execute("""INSERT INTO team_stats_description
+                    VALUES(?, 'predicted_team_success_away', ?, 'Avg. points predicted away')""", (predicted_team_success_away_stat_id, 0))
+cur.execute("""INSERT INTO team_stats_description
+                    VALUES(?, 'predicted_team_success', ?, 'Avg. points predicted')""", (predicted_team_success_total_stat_id, 0))
 cur.execute("""INSERT INTO team_stats_description
                     VALUES(?, 'prediction_success_home', ?, 'Avg. prediction points scored home')""", (prediction_success_home_stat_id, 0))
 cur.execute("""INSERT INTO team_stats_description
