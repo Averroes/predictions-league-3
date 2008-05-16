@@ -363,6 +363,31 @@ def most_predictable_games(cur, stats_dir, count):
     f.write("%2d. [%7s, %2d] %22s - %-22s %2d - %2d  %3d  %5.3f\n" % tuple(l))
   f.close()
 
+def team_rating(cur, stats_dir):
+  query = """SELECT team.name, t1.average - t2.average, t1.count
+               FROM team, team_stats t1, team_stats t2, team_stats_description t1d, team_stats_description t2d
+              WHERE team.id = t1.team_id
+                AND t1.team_id = t2.team_id
+                AND t1.stat_id = t1d.id
+                AND t2.stat_id = t2d.id
+                AND t1d.title = ?
+                AND t2d.title = ?
+              ORDER BY 2 DESC, 3 DESC"""
+
+  for stat in ['', '_home', '_away']:
+    cur.execute(query, ('predicted_team_success%s' % stat, 'team_success%s' % stat))
+    res = cur.fetchall()
+    i, j = 0, 0
+    f_all = open(os.path.join(stats_dir, "most_overrated_teams_diff%s_all.txt" % stat), "w")
+    f = open(os.path.join(stats_dir, "most_overrated_teams_diff%s.txt" % stat), "w")
+    for team in res:
+      i += 1
+      f_all.write("%3d. %-22s %+5.3f %4d\n" % (i, team[0], team[1], team[2]))
+      if (team[2] >= 20 and stat == '') or (team[2] >= 10 and stat != ''):
+        j += 1
+        f.write("%3d. %-22s %+5.3f %4d\n" % (j, team[0], team[1], team[2]))
+    f_all.close()
+
 if __name__ == '__main__':
   stats_dir = 'stats'
   team_stats_dir = os.path.join(stats_dir, 'team')
@@ -387,6 +412,7 @@ if __name__ == '__main__':
   team_stats(cur, stats_dir)
   country_stats(cur, country_stats_dir)
   most_predictable_games(cur, stats_dir, 20)
+  team_rating(cur, stats_dir)
 
   con.commit()
   print "Completed in %ss" % time.clock()

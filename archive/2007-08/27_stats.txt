@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Zenit v Rangers                      2 -  0   12   1.200
+
+Competitors = 10
+Total points scored = 12
+Average points scored = 1.200
+Average points per game = 1.200
