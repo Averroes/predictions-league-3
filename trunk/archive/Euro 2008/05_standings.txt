@@ -1,0 +1,16 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Diesel                          5  30  49   4   3  12
+  2. ( - ) Timofei Shatrov                 5  30  49   3   5  11
+  3. ( - ) Pivotalgubbins                  5  30  45   5   5   5
+  4. ( +1) Mark Goodge                     5  30  43   5   3   7
+  5. ( -1) The Wielder of the Scythe       5  30  41   5   1   9
+  6. ( - ) Miljenko                        5  30  39   4   1  10
+  7. ( - ) Hari Seldon                     5  30  38   4   2   8
+  8. ( - ) Chris F                         5  30  32   2   2   9
+  9. ( +1) Nick the Greek                  5  30  28   3   0   8
+ 10. ( -1) Stephen Weir                    5  30  27   1   5   4
+ 11. ( - ) Dougal                          5  30  25   1   1   9
+ 12. ( +1) AGCM Oracle                     5  30  23   2   1   6
+ 13. ( -1) biz                             3  24  23   1   1   8
+ 14. ( - ) Toby                            5  30  18   2   2   2

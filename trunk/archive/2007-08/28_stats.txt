@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Man. United v Chelsea                1 -  1    7   0.875
+
+Competitors = 8
+Total points scored = 7
+Average points scored = 0.875
+Average points per game = 0.875

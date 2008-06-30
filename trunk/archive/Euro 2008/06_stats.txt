@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Germany v Spain                      0 -  1   27   2.250
+
+Competitors = 12
+Total points scored = 27
+Average points scored = 2.250
+Average points per game = 2.250

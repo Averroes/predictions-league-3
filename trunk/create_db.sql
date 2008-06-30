@@ -74,12 +74,13 @@ CREATE TABLE IF NOT EXISTS team
 CREATE UNIQUE INDEX team_name_idx ON team(name);
 
 CREATE TABLE IF NOT EXISTS team_stats
-( stat_id INTEGER,
-  team_id INTEGER,
-  sum     FLOAT,
-  count   INTEGER,
-  average FLOAT,
-  PRIMARY KEY(stat_id, team_id)
+( stat_id   INTEGER,
+  team_id   INTEGER,
+  season_id TEXT,
+  sum       FLOAT,
+  count     INTEGER,
+  average   FLOAT,
+  PRIMARY KEY(stat_id, team_id, season_id)
 );
 
 CREATE INDEX team_stats_idx ON team_stats(team_id);
@@ -92,7 +93,8 @@ CREATE TABLE IF NOT EXISTS team_stats_description
 );
 
 CREATE VIEW IF NOT EXISTS game_predictability AS
-  SELECT game.id AS game_id, game.home_id AS home_id, game.away_id AS away_id,
+  SELECT game.id AS game_id, game.season_id AS season_id,
+         game.home_id AS home_id, game.away_id AS away_id,
          SUM(points) AS sum, COUNT(*) AS count, AVG(points) AS average,
          SUM(CASE WHEN prediction.home > prediction.away THEN 3
                   WHEN prediction.home = prediction.away THEN 1
