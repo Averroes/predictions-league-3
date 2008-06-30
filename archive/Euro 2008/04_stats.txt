@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Spain v Italy                        0 -  0   11   0.846
+ 2. Portugal v Germany                   2 -  3    9   0.692
+ 3. Netherlands v Russia                 1 -  1    4   0.308
+ 4. Croatia v Turkey                     0 -  0    3   0.231
+
+Competitors = 13
+Total points scored = 27
+Average points scored = 2.077
+Average points per game = 0.519

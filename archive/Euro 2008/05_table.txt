@@ -1,0 +1,15 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Mark Goodge                     5   0  1  1
+ 2. Hari Seldon                     4   1  0  0
+ 3. Timofei Shatrov                 4   0  0  2
+ 4. AGCM Oracle                     2   0  0  1
+ 5. Chris F                         2   0  0  1
+ 6. Diesel                          2   0  0  1
+ 7. Miljenko                        2   0  0  1
+ 8. Nick the Greek                  2   0  0  1
+ 9. Pivotalgubbins                  2   0  0  1
+10. The Wielder of the Scythe       2   0  0  1
+11. Toby                            2   0  0  1
+12. Dougal                          0   0  0  0
+13. Stephen Weir                    0   0  0  0

@@ -1,0 +1,16 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Pivotalgubbins                 20   2  2  3
+ 2. Diesel                         18   3  0  3
+ 3. The Wielder of the Scythe      16   3  0  2
+ 4. Mark Goodge                    16   2  0  4
+ 5. Timofei Shatrov                16   1  2  3
+ 6. Stephen Weir                   13   0  3  2
+ 7. Miljenko                       12   2  0  2
+ 8. Nick the Greek                 12   2  0  2
+ 9. Chris F                        11   1  1  2
+10. biz                            10   1  0  3
+11. Dougal                          8   1  0  2
+12. Hari Seldon                     5   0  1  1
+13. AGCM Oracle                     4   0  0  2
+14. Toby                            0   0  0  0

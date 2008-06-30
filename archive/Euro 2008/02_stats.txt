@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Greece v Russia                      0 -  1   36   2.571
+ 2. Czech Republic v Portugal            1 -  3   28   2.000
+ 3. Sweden v Spain                       1 -  2   27   1.929
+ 4. Switzerland v Turkey                 1 -  2   20   1.429
+ 5. Netherlands v France                 4 -  1   12   0.857
+ 6. Austria v Poland                     1 -  1   11   0.786
+ 7. Italy v Romania                      1 -  1    3   0.214
+ 8. Croatia v Germany                    2 -  1    2   0.143
+
+Competitors = 14
+Total points scored = 139
+Average points scored = 9.929
+Average points per game = 1.241

@@ -1,0 +1,15 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Diesel                          7   1  1  0
+ 2. AGCM Oracle                     4   1  0  0
+ 3. Hari Seldon                     4   1  0  0
+ 4. Dougal                          3   0  1  0
+ 5. Pivotalgubbins                  3   0  1  0
+ 6. Timofei Shatrov                 3   0  1  0
+ 7. Toby                            3   0  1  0
+ 8. Chris F                         0   0  0  0
+ 9. Mark Goodge                     0   0  0  0
+10. Miljenko                        0   0  0  0
+11. Nick the Greek                  0   0  0  0
+12. Stephen Weir                    0   0  0  0
+13. The Wielder of the Scythe       0   0  0  0

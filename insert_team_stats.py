@@ -1,17 +1,33 @@
 from pysqlite2 import dbapi2 as sqlite
 import time
 
-def get_total(cur, home_stat_id, away_stat_id, total_stat_id):
-  """Calculates overall stats (home and away combined)."""
+def get_seasons(cur):
+  """Returns a list of season ids."""
+
+  cur.execute("SELECT id FROM season")
+  return [t[0] for t in cur.fetchall()]
+
+def get_season_total(cur, home_stat_id, away_stat_id, total_stat_id, season_id):
+  """Calculates overall stats for given season (home and away combined)."""
 
   total_insert = """INSERT INTO team_stats
-                         SELECT %s, team_id, SUM(sum), SUM(count), CAST(SUM(sum) AS FLOAT) / SUM(count)
+                         SELECT %s, team_id, season_id, SUM(sum), SUM(count), CAST(SUM(sum) AS FLOAT) / SUM(count)
                            FROM team_stats
-                          WHERE stat_id = %s
-                             OR stat_id = %s
+                          WHERE (stat_id = %s OR stat_id = %s)
+                            AND season_id = ?
                           GROUP BY team_id"""
 
-  cur.execute(total_insert % (total_stat_id, home_stat_id, away_stat_id))
+  cur.execute(total_insert % (total_stat_id, home_stat_id, away_stat_id), (season_id, ))
+
+def sum_all_seasons(cur, all_seasons_const):
+  """Calculates overall stats for all seasons (home and away combined)."""
+
+  total_insert = """INSERT INTO team_stats
+                         SELECT stat_id, team_id, '%s', SUM(sum), SUM(count), CAST(SUM(sum) AS FLOAT) / SUM(count)
+                           FROM team_stats
+                          GROUP BY stat_id, team_id"""
+
+  cur.execute(total_insert % all_seasons_const)
 
 con = sqlite.connect('agcmpl.db')
 cur = con.cursor()
@@ -20,31 +36,35 @@ time.clock()
 cur.execute('DELETE FROM team_stats')
 
 goals_scored_home_insert = """INSERT INTO team_stats
-                                   SELECT %s, home_id, SUM(home_result), COUNT(*), CAST(SUM(home_result) AS FLOAT) / COUNT(*)
+                                   SELECT %s, home_id, season_id, SUM(home_result), COUNT(*), CAST(SUM(home_result) AS FLOAT) / COUNT(*)
                                      FROM game
-                                    GROUP BY 2
-                                    ORDER BY 4 DESC, 3 DESC, 1"""
+                                    WHERE season_id = ?
+                                    GROUP BY 2, 3
+                                    ORDER BY 2, 3"""
 
 goals_scored_away_insert = """INSERT INTO team_stats
-                                   SELECT %s, away_id, SUM(away_result), COUNT(*), CAST(SUM(away_result) AS FLOAT) / COUNT(*)
+                                   SELECT %s, away_id, season_id, SUM(away_result), COUNT(*), CAST(SUM(away_result) AS FLOAT) / COUNT(*)
                                      FROM game
-                                    GROUP BY 2
-                                    ORDER BY 4 DESC, 3 DESC, 1"""
+                                    WHERE season_id = ?
+                                    GROUP BY 2, 3
+                                    ORDER BY 2, 3"""
 
 goals_conceded_home_insert = """INSERT INTO team_stats
-                                     SELECT %s, home_id, SUM(away_result), COUNT(*), CAST(SUM(away_result) AS FLOAT) / COUNT(*)
+                                     SELECT %s, home_id, season_id, SUM(away_result), COUNT(*), CAST(SUM(away_result) AS FLOAT) / COUNT(*)
                                        FROM game
-                                      GROUP BY 2
-                                      ORDER BY 4 DESC, 3 DESC, 1"""
+                                      WHERE season_id = ?
+                                      GROUP BY 2, 3
+                                      ORDER BY 2, 3"""
 
 goals_conceded_away_insert = """INSERT INTO team_stats
-                                     SELECT %s, away_id, SUM(home_result), COUNT(*), CAST(SUM(home_result) AS FLOAT) / COUNT(*)
+                                     SELECT %s, away_id, season_id, SUM(home_result), COUNT(*), CAST(SUM(home_result) AS FLOAT) / COUNT(*)
                                        FROM game
-                                      GROUP BY 2
-                                      ORDER BY 4 DESC, 3 DESC, 1"""
+                                      WHERE season_id = ?
+                                      GROUP BY 2, 3
+                                      ORDER BY 2, 3"""
 
 team_success_home_insert = """INSERT INTO team_stats
-                                   SELECT %s, home_id,
+                                   SELECT %s, home_id, season_id,
                                           SUM(CASE WHEN game.home_result > game.away_result THEN 3
                                                    WHEN game.home_result = game.away_result THEN 1
                                                    ELSE 0 END),
@@ -53,11 +73,12 @@ team_success_home_insert = """INSERT INTO team_stats
                                                         WHEN game.home_result = game.away_result THEN 1
                                                         ELSE 0 END) AS FLOAT) / COUNT(*)
                                      FROM game
-                                    GROUP BY 2
-                                    ORDER BY 4 DESC"""
+                                    WHERE season_id = ?
+                                    GROUP BY 2, 3
+                                    ORDER BY 2, 3"""
 
 team_success_away_insert = """INSERT INTO team_stats
-                                   SELECT %s, away_id,
+                                   SELECT %s, away_id, season_id,
                                           SUM(CASE WHEN game.away_result > game.home_result THEN 3
                                                    WHEN game.home_result = game.away_result THEN 1
                                                    ELSE 0 END),
@@ -66,32 +87,37 @@ team_success_away_insert = """INSERT INTO team_stats
                                                         WHEN game.home_result = game.away_result THEN 1
                                                         ELSE 0 END) AS FLOAT) / COUNT(*)
                                      FROM game
-                                    GROUP BY 2
-                                    ORDER BY 4 DESC"""
+                                    WHERE season_id = ?
+                                    GROUP BY 2, 3
+                                    ORDER BY 2, 3"""
 
 predicted_team_success_home_insert = """INSERT INTO team_stats
-                                             SELECT %s, home_id, SUM(home_points), COUNT(*), CAST(SUM(home_points) AS FLOAT) / COUNT(*)
+                                             SELECT %s, home_id, season_id, SUM(home_points), COUNT(*), CAST(SUM(home_points) AS FLOAT) / COUNT(*)
                                                FROM game_predictability
-                                              GROUP BY 2
-                                              ORDER BY 4 DESC"""
+                                              WHERE season_id = ?
+                                              GROUP BY 2, 3
+                                              ORDER BY 2, 3"""
 
 predicted_team_success_away_insert = """INSERT INTO team_stats
-                                             SELECT %s, away_id, SUM(away_points), COUNT(*), CAST(SUM(away_points) AS FLOAT) / COUNT(*)
+                                             SELECT %s, away_id, season_id, SUM(away_points), COUNT(*), CAST(SUM(away_points) AS FLOAT) / COUNT(*)
                                                FROM game_predictability
-                                              GROUP BY 2
-                                              ORDER BY 4 DESC"""
+                                              WHERE season_id = ?
+                                              GROUP BY 2, 3
+                                              ORDER BY 2, 3"""
 
 prediction_success_home_insert = """INSERT INTO team_stats
-                                         SELECT %s, home_id, SUM(average), COUNT(*), CAST(SUM(average) AS FLOAT) / COUNT(*)
+                                         SELECT %s, home_id, season_id, SUM(average), COUNT(*), CAST(SUM(average) AS FLOAT) / COUNT(*)
                                            FROM game_predictability
-                                          GROUP BY 2
-                                          ORDER BY 4 DESC"""
+                                          WHERE season_id = ?
+                                          GROUP BY 2, 3
+                                          ORDER BY 2, 3"""
 
 prediction_success_away_insert = """INSERT INTO team_stats
-                                         SELECT %s, away_id, SUM(average), COUNT(*), CAST(SUM(average) AS FLOAT) / COUNT(*)
+                                         SELECT %s, away_id, season_id, SUM(average), COUNT(*), CAST(SUM(average) AS FLOAT) / COUNT(*)
                                            FROM game_predictability
-                                          GROUP BY 2
-                                          ORDER BY 4 DESC"""
+                                          WHERE season_id = ?
+                                          GROUP BY 2, 3
+                                          ORDER BY 2, 3"""
 
 # constants
 
@@ -114,27 +140,33 @@ prediction_success_total_stat_id = 15
 sort_desc = 0
 sort_asc = 1
 
+all_seasons_const = 'all'
+
 # calculate stats and insert into team_stats
 
-cur.execute(goals_scored_home_insert % goals_scored_home_stat_id)
-cur.execute(goals_scored_away_insert % goals_scored_away_stat_id)
-get_total(cur, goals_scored_home_stat_id, goals_scored_away_stat_id, goals_scored_total_stat_id)
+seasons = get_seasons(cur)
+for season in seasons:
+  cur.execute(goals_scored_home_insert % goals_scored_home_stat_id, (season, ))
+  cur.execute(goals_scored_away_insert % goals_scored_away_stat_id, (season, ))
+  get_season_total(cur, goals_scored_home_stat_id, goals_scored_away_stat_id, goals_scored_total_stat_id, season)
 
-cur.execute(goals_conceded_home_insert % goals_conceded_home_stat_id)
-cur.execute(goals_conceded_away_insert % goals_conceded_away_stat_id)
-get_total(cur, goals_conceded_home_stat_id, goals_conceded_away_stat_id, goals_conceded_total_stat_id)
+  cur.execute(goals_conceded_home_insert % goals_conceded_home_stat_id, (season, ))
+  cur.execute(goals_conceded_away_insert % goals_conceded_away_stat_id, (season, ))
+  get_season_total(cur, goals_conceded_home_stat_id, goals_conceded_away_stat_id, goals_conceded_total_stat_id, season)
 
-cur.execute(team_success_home_insert % team_success_home_stat_id)
-cur.execute(team_success_away_insert % team_success_away_stat_id)
-get_total(cur, team_success_home_stat_id, team_success_away_stat_id, team_success_total_stat_id)
+  cur.execute(team_success_home_insert % team_success_home_stat_id, (season, ))
+  cur.execute(team_success_away_insert % team_success_away_stat_id, (season, ))
+  get_season_total(cur, team_success_home_stat_id, team_success_away_stat_id, team_success_total_stat_id, season)
 
-cur.execute(predicted_team_success_home_insert % predicted_team_success_home_stat_id)
-cur.execute(predicted_team_success_away_insert % predicted_team_success_away_stat_id)
-get_total(cur, predicted_team_success_home_stat_id, predicted_team_success_away_stat_id, predicted_team_success_total_stat_id)
+  cur.execute(predicted_team_success_home_insert % predicted_team_success_home_stat_id, (season, ))
+  cur.execute(predicted_team_success_away_insert % predicted_team_success_away_stat_id, (season, ))
+  get_season_total(cur, predicted_team_success_home_stat_id, predicted_team_success_away_stat_id, predicted_team_success_total_stat_id, season)
 
-cur.execute(prediction_success_home_insert % prediction_success_home_stat_id)
-cur.execute(prediction_success_away_insert % prediction_success_away_stat_id)
-get_total(cur, prediction_success_home_stat_id, prediction_success_away_stat_id, prediction_success_total_stat_id)
+  cur.execute(prediction_success_home_insert % prediction_success_home_stat_id, (season, ))
+  cur.execute(prediction_success_away_insert % prediction_success_away_stat_id, (season, ))
+  get_season_total(cur, prediction_success_home_stat_id, prediction_success_away_stat_id, prediction_success_total_stat_id, season)
+
+sum_all_seasons(cur, all_seasons_const)
 
 # insert stat descriptions into team_stats_description
 

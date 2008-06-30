@@ -288,6 +288,7 @@ def query_team_stats(stats_dir, name_pattern, stat, min_games):
                           FROM team_stats, team
                          WHERE team_stats.stat_id = ?
                            AND team_stats.team_id = team.id
+                           AND season_id = 'all'
                            AND count >= ?
                          ORDER BY 3 %s, 2 DESC, 1"""
 
@@ -386,7 +387,9 @@ def team_rating(cur, stats_dir):
       if (team[2] >= 20 and stat == '') or (team[2] >= 10 and stat != ''):
         j += 1
         f.write("%3d. %-22s %+5.3f %4d\n" % (j, team[0], team[1], team[2]))
+    f.close()
     f_all.close()
+
 
 if __name__ == '__main__':
   stats_dir = 'stats'
@@ -398,7 +401,7 @@ if __name__ == '__main__':
   cur = con.cursor()
   time.clock()
 
-  # print the stats
+  # print the overall stats
   predictions_distribution_total(cur, stats_dir)
   predictions_distribution_by_player(cur, player_stats_dir)
   predictions_outcome_distribution_total(cur, stats_dir)

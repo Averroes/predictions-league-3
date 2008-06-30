@@ -1,0 +1,16 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. (new) Pivotalgubbins                  1   8  20   2   2   3
+  2. (new) Diesel                          1   8  18   3   0   3
+  3. (new) The Wielder of the Scythe       1   8  16   3   0   2
+  4. (new) Mark Goodge                     1   8  16   2   0   4
+  5. (new) Timofei Shatrov                 1   8  16   1   2   3
+  6. (new) Stephen Weir                    1   8  13   0   3   2
+  7. (new) Miljenko                        1   8  12   2   0   2
+  8. (new) Nick the Greek                  1   8  12   2   0   2
+  9. (new) Chris F                         1   8  11   1   1   2
+ 10. (new) biz                             1   8  10   1   0   3
+ 11. (new) Dougal                          1   8   8   1   0   2
+ 12. (new) Hari Seldon                     1   8   5   0   1   1
+ 13. (new) AGCM Oracle                     1   8   4   0   0   2
+ 14. (new) Toby                            1   8   0   0   0   0
