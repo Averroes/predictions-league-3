@@ -12,10 +12,11 @@ CREATE TABLE IF NOT EXISTS country
 CREATE TABLE IF NOT EXISTS country_stats
 ( stat_id    INTEGER,
   country_id INTEGER,
+  season_id  TEXT,
   sum        FLOAT,
   count      INTEGER,
   average    FLOAT,
-  PRIMARY KEY(stat_id, country_id)
+  PRIMARY KEY(stat_id, country_id, season_id)
 );
 
 CREATE INDEX country_stats_idx ON country_stats(country_id);

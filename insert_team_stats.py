@@ -1,13 +1,13 @@
 from pysqlite2 import dbapi2 as sqlite
 import time
 
-def get_seasons(cur):
+def get_seasons():
   """Returns a list of season ids."""
 
   cur.execute("SELECT id FROM season")
   return [t[0] for t in cur.fetchall()]
 
-def get_season_total(cur, home_stat_id, away_stat_id, total_stat_id, season_id):
+def get_season_total(home_stat_id, away_stat_id, total_stat_id, season_id):
   """Calculates overall stats for given season (home and away combined)."""
 
   total_insert = """INSERT INTO team_stats
@@ -19,7 +19,7 @@ def get_season_total(cur, home_stat_id, away_stat_id, total_stat_id, season_id):
 
   cur.execute(total_insert % (total_stat_id, home_stat_id, away_stat_id), (season_id, ))
 
-def sum_all_seasons(cur, all_seasons_const):
+def sum_all_seasons(all_seasons_const):
   """Calculates overall stats for all seasons (home and away combined)."""
 
   total_insert = """INSERT INTO team_stats
@@ -28,6 +28,7 @@ def sum_all_seasons(cur, all_seasons_const):
                           GROUP BY stat_id, team_id"""
 
   cur.execute(total_insert % all_seasons_const)
+
 
 con = sqlite.connect('agcmpl.db')
 cur = con.cursor()
@@ -144,29 +145,29 @@ all_seasons_const = 'all'
 
 # calculate stats and insert into team_stats
 
-seasons = get_seasons(cur)
+seasons = get_seasons()
 for season in seasons:
   cur.execute(goals_scored_home_insert % goals_scored_home_stat_id, (season, ))
   cur.execute(goals_scored_away_insert % goals_scored_away_stat_id, (season, ))
-  get_season_total(cur, goals_scored_home_stat_id, goals_scored_away_stat_id, goals_scored_total_stat_id, season)
+  get_season_total(goals_scored_home_stat_id, goals_scored_away_stat_id, goals_scored_total_stat_id, season)
 
   cur.execute(goals_conceded_home_insert % goals_conceded_home_stat_id, (season, ))
   cur.execute(goals_conceded_away_insert % goals_conceded_away_stat_id, (season, ))
-  get_season_total(cur, goals_conceded_home_stat_id, goals_conceded_away_stat_id, goals_conceded_total_stat_id, season)
+  get_season_total(goals_conceded_home_stat_id, goals_conceded_away_stat_id, goals_conceded_total_stat_id, season)
 
   cur.execute(team_success_home_insert % team_success_home_stat_id, (season, ))
   cur.execute(team_success_away_insert % team_success_away_stat_id, (season, ))
-  get_season_total(cur, team_success_home_stat_id, team_success_away_stat_id, team_success_total_stat_id, season)
+  get_season_total(team_success_home_stat_id, team_success_away_stat_id, team_success_total_stat_id, season)
 
   cur.execute(predicted_team_success_home_insert % predicted_team_success_home_stat_id, (season, ))
   cur.execute(predicted_team_success_away_insert % predicted_team_success_away_stat_id, (season, ))
-  get_season_total(cur, predicted_team_success_home_stat_id, predicted_team_success_away_stat_id, predicted_team_success_total_stat_id, season)
+  get_season_total(predicted_team_success_home_stat_id, predicted_team_success_away_stat_id, predicted_team_success_total_stat_id, season)
 
   cur.execute(prediction_success_home_insert % prediction_success_home_stat_id, (season, ))
   cur.execute(prediction_success_away_insert % prediction_success_away_stat_id, (season, ))
-  get_season_total(cur, prediction_success_home_stat_id, prediction_success_away_stat_id, prediction_success_total_stat_id, season)
+  get_season_total(prediction_success_home_stat_id, prediction_success_away_stat_id, prediction_success_total_stat_id, season)
 
-sum_all_seasons(cur, all_seasons_const)
+sum_all_seasons(all_seasons_const)
 
 # insert stat descriptions into team_stats_description
 
