@@ -392,6 +392,8 @@ def most_predictable_games(count):
   f.close()
 
 def team_rating():
+  """Prints most overrated teams, per season and overall."""
+
   query = """SELECT team.name, t1.average - t2.average, t1.count
                FROM team, team_stats t1, team_stats t2, team_stats_description t1d, team_stats_description t2d
               WHERE team.id = t1.team_id
@@ -427,6 +429,38 @@ def team_rating():
         f.close()
       f_all.close()
 
+def country_rating():
+  """Prints most overrated countries, per season and overall."""
+
+  query = """SELECT country.name, c1.average - c2.average, c1.count
+               FROM country, country_stats c1, country_stats c2, country_stats_description c1d, country_stats_description c2d
+              WHERE country.id = c1.country_id
+                AND c1.country_id = c2.country_id
+                AND c1.stat_id = c1d.id
+                AND c2.stat_id = c2d.id
+                AND c1.season_id = ?
+                AND c2.season_id = ?
+                AND c1d.title = ?
+                AND c2d.title = ?
+              ORDER BY 2 DESC, 3 DESC"""
+
+  seasons = get_seasons()
+  seasons.append('all')
+
+  for season in seasons:
+    for stat in ['', '_home', '_away']:
+      cur.execute(query, (season, season, 'predicted_country_success%s' % stat, 'country_success%s' % stat))
+      res = cur.fetchall()
+      i = 0
+      if season != 'all':
+        f_all = open(os.path.join(country_seasons_dir, season, "most_overrated_countries_diff%s_all.txt" % stat), "w")
+      else:
+        f_all = open(os.path.join(country_stats_dir, "most_overrated_countries_diff%s_all.txt" % stat), "w")
+      for country in res:
+        i += 1
+        f_all.write("%3d. %-22s %+5.3f %4d\n" % (i, country[0], country[1], country[2]))
+      f_all.close()
+
 
 stats_dir = 'stats'
 team_stats_dir = os.path.join(stats_dir, 'team')
@@ -456,6 +490,7 @@ if __name__ == '__main__':
   country_stats()
   most_predictable_games(20)
   team_rating()
+  country_rating()
 
   print "Completed in %ss" % time.clock()
 
