@@ -1,4 +1,5 @@
 from pysqlite2 import dbapi2 as sqlite
+from pl_constants import *
 import os, time
 
 def get_seasons():
@@ -271,7 +272,7 @@ def stats_by_team():
                       AND team_stats.team_id = team.id
                       AND team_stats.stat_id = team_stats_description.id
                       AND team_stats.season_id = ?
-                    ORDER BY team_stats.stat_id""", (team[0], 'all'))
+                    ORDER BY team_stats.stat_id""", (team[0], all_seasons_const))
 
     f = open(os.path.join(team_stats_dir, 'stats_%s.txt' % team[1].replace(' ', '_')), 'w')
     for res in cur.fetchall():
@@ -299,7 +300,7 @@ def query_team_stats(name_pattern, season, stat, min_games):
                            AND count >= ?
                          ORDER BY 3 %s, 2 DESC, 1"""
 
-  if season != 'all':
+  if season != all_seasons_const:
     filename = os.path.join(seasons_dir, season, name_pattern % stat[1])
   else:
     filename = os.path.join(stats_dir, name_pattern % stat[1])
@@ -317,15 +318,15 @@ def team_stats():
 
   stats_list = cur.fetchall()
   seasons = get_seasons()
-  seasons.append('all')
+  seasons.append(all_seasons_const)
 
   for season in seasons:
     s_dir = os.path.join(seasons_dir, season)
-    if not os.path.exists(s_dir) and season != 'all':
+    if not os.path.exists(s_dir) and season != all_seasons_const:
       os.makedirs(s_dir)
     for stat in stats_list:
       query_team_stats('%s_all.txt', season, stat, 1)
-      if season == 'all':
+      if season == all_seasons_const:
         if stat[1].find('home') != -1 or stat[1].find('away') != -1:
           query_team_stats('%s.txt', season, stat, 10)
         else:
@@ -342,7 +343,7 @@ def query_country_stats(name_pattern, season, stat, min_games):
                               AND count >= ?
                             ORDER BY 3 %s, 2 DESC, 1"""
 
-  if season != 'all':
+  if season != all_seasons_const:
     filename = os.path.join(country_seasons_dir, season, name_pattern % stat[1])
   else:
     filename = os.path.join(country_stats_dir, name_pattern % stat[1])
@@ -360,11 +361,11 @@ def country_stats():
 
   stats_list = cur.fetchall()
   seasons = get_seasons()
-  seasons.append('all')
+  seasons.append(all_seasons_const)
 
   for season in seasons:
     s_dir = os.path.join(country_seasons_dir, season)
-    if not os.path.exists(s_dir) and season != 'all':
+    if not os.path.exists(s_dir) and season != all_seasons_const:
       os.makedirs(s_dir)
     for stat in stats_list:
       query_country_stats('%s.txt', season, stat, 1)
@@ -407,14 +408,14 @@ def team_rating():
               ORDER BY 2 DESC, 3 DESC"""
 
   seasons = get_seasons()
-  seasons.append('all')
+  seasons.append(all_seasons_const)
 
   for season in seasons:
     for stat in ['', '_home', '_away']:
       cur.execute(query, (season, season, 'predicted_team_success%s' % stat, 'team_success%s' % stat))
       res = cur.fetchall()
       i, j = 0, 0
-      if season != 'all':
+      if season != all_seasons_const:
         f_all = open(os.path.join(seasons_dir, season, "most_overrated_teams_diff%s_all.txt" % stat), "w")
       else:
         f_all = open(os.path.join(stats_dir, "most_overrated_teams_diff%s_all.txt" % stat), "w")
@@ -422,10 +423,10 @@ def team_rating():
       for team in res:
         i += 1
         f_all.write("%3d. %-22s %+5.3f %4d\n" % (i, team[0], team[1], team[2]))
-        if season == 'all' and ((team[2] >= 20 and stat == '') or (team[2] >= 10 and stat != '')):
+        if season == all_seasons_const and ((team[2] >= 20 and stat == '') or (team[2] >= 10 and stat != '')):
           j += 1
           f.write("%3d. %-22s %+5.3f %4d\n" % (j, team[0], team[1], team[2]))
-      if season == 'all':
+      if season == all_seasons_const:
         f.close()
       f_all.close()
 
@@ -445,14 +446,14 @@ def country_rating():
               ORDER BY 2 DESC, 3 DESC"""
 
   seasons = get_seasons()
-  seasons.append('all')
+  seasons.append(all_seasons_const)
 
   for season in seasons:
     for stat in ['', '_home', '_away']:
       cur.execute(query, (season, season, 'predicted_country_success%s' % stat, 'country_success%s' % stat))
       res = cur.fetchall()
       i = 0
-      if season != 'all':
+      if season != all_seasons_const:
         f_all = open(os.path.join(country_seasons_dir, season, "most_overrated_countries_diff%s_all.txt" % stat), "w")
       else:
         f_all = open(os.path.join(country_stats_dir, "most_overrated_countries_diff%s_all.txt" % stat), "w")
