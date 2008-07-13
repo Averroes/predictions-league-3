@@ -66,6 +66,15 @@ def read_predictions(filename, n, game_id_list, player_syn_list, cur):
           home = -1
           away = -1
         # calculate points
+        if (home == -1 and away == -1):
+          home_points, away_points = -1, -1
+        else:
+          if home > away:
+            home_points, away_points = 3, 0
+          elif home == away:
+            home_points, away_points = 1, 1
+          else:
+            home_points, away_points = 0, 3
         cur.execute('SELECT home_result, away_result FROM game WHERE id = ?', (game_id_list[i], ))
         result = cur.fetchone()
         points_scored = 0
@@ -84,8 +93,8 @@ def read_predictions(filename, n, game_id_list, player_syn_list, cur):
           points_scored = 3
         elif (home > away and result[0] > result[1]) or (home < away and result[0] < result[1]):
           points_scored = 2
-        cur.execute('INSERT INTO prediction(id, player_id, game_id, home, away, points) VALUES(NULL, ?, ?, ?, ?, ?)',
-                    (player_id, game_id_list[i], home, away, points_scored))
+        cur.execute('INSERT INTO prediction(id, player_id, game_id, home, away, home_points, away_points, points) VALUES(NULL, ?, ?, ?, ?, ?, ?, ?)',
+                    (player_id, game_id_list[i], home, away, home_points, away_points, points_scored))
       except: break
   f.close()
 
@@ -138,9 +147,17 @@ for d in os.walk(start_dir):
         home_id = cur.fetchall()[0][0]
         cur.execute('SELECT id FROM team WHERE name = ?', (team_list[i * 2 + 1], ))
         away_id = cur.fetchall()[0][0]
-        cur.execute("""INSERT INTO game(id, round_id, season_id, home_id, away_id, home_result, away_result)
-                          VALUES(NULL, ?, ?, ?, ?, ?, ?)""",
-                         (r, season, home_id, away_id, result_list[i * 2], result_list[i * 2 + 1]))
+        home_result = result_list[i * 2]
+        away_result = result_list[i * 2 + 1]
+        if home_result > away_result:
+          home_points, away_points = 3, 0
+        elif home_result == away_result:
+          home_points, away_points = 1, 1
+        else:
+          home_points, away_points = 0, 3
+        cur.execute("""INSERT INTO game(id, round_id, season_id, home_id, away_id, home_result, away_result, home_points, away_points)
+                          VALUES(NULL, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                         (r, season, home_id, away_id, home_result, away_result, home_points, away_points))
         game_id_list.append(cur.lastrowid)
       # read predictions
       f = f[:3] + 'predictions.txt'

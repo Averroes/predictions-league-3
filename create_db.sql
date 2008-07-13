@@ -35,7 +35,9 @@ CREATE TABLE IF NOT EXISTS game
   home_id     INTEGER,
   away_id     INTEGER,
   home_result INTEGER,
-  away_result INTEGER
+  away_result INTEGER,
+  home_points INTEGER,
+  away_points INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS player
@@ -46,12 +48,14 @@ CREATE TABLE IF NOT EXISTS player
 CREATE UNIQUE INDEX player_name_idx ON player(name);
 
 CREATE TABLE IF NOT EXISTS prediction
-( id        INTEGER PRIMARY KEY,
-  player_id INTEGER,
-  game_id   INTEGER,
-  home      INTEGER,
-  away      INTEGER,
-  points    INTEGER
+( id          INTEGER PRIMARY KEY,
+  player_id   INTEGER,
+  game_id     INTEGER,
+  home        INTEGER,
+  away        INTEGER,
+  home_points INTEGER,
+  away_points INTEGER,
+  points      INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS round
@@ -97,18 +101,10 @@ CREATE VIEW IF NOT EXISTS game_predictability AS
   SELECT game.id AS game_id, game.season_id AS season_id,
          game.home_id AS home_id, game.away_id AS away_id,
          SUM(points) AS sum, COUNT(*) AS count, AVG(points) AS average,
-         SUM(CASE WHEN prediction.home > prediction.away THEN 3
-                  WHEN prediction.home = prediction.away THEN 1
-                  ELSE 0 END) AS home_points_total,
-         CAST(SUM(CASE WHEN prediction.home > prediction.away THEN 3
-                        WHEN prediction.home = prediction.away THEN 1
-                        ELSE 0 END) AS FLOAT) / COUNT(*) AS home_points,
-         SUM(CASE WHEN prediction.away > prediction.home THEN 3
-                  WHEN prediction.home = prediction.away THEN 1
-                  ELSE 0 END) AS away_points_total,
-         CAST(SUM(CASE WHEN prediction.away > prediction.home THEN 3
-                        WHEN prediction.home = prediction.away THEN 1
-                        ELSE 0 END) AS FLOAT) / COUNT(*) AS away_points
+         SUM(prediction.home_points) AS home_points_total,
+         CAST(SUM(prediction.home_points) AS FLOAT) / COUNT(*) AS home_points,
+         SUM(prediction.away_points) AS away_points_total,
+         CAST(SUM(prediction.away_points) AS FLOAT) / COUNT(*) AS away_points
     FROM game, prediction
    WHERE game.id = prediction.game_id
      AND (prediction.home != -1 OR prediction.away != -1)
