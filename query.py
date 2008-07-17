@@ -242,7 +242,8 @@ def results_by_team():
                    FROM team""")
 
   for team in cur.fetchall():
-    cur.execute("""SELECT season.id, game.round_id, home.name, away.name, game.home_result, game.away_result
+    cur.execute("""SELECT season.id, game.round_id, home.name, away.name, game.home_result, game.away_result,
+                          CASE WHEN game.home_id = ? THEN game.home_points ELSE game.away_points END
                      FROM season, game, team home, team away
                     WHERE (game.home_id = ? OR game.away_id = ?)
                       AND game.home_id = home.id
@@ -250,13 +251,13 @@ def results_by_team():
                       AND game.season_id = season.id
                       AND game.home_result != -1
                       AND game.away_result != -1
-                    ORDER BY 1, 2""", (team[0], team[0]))
+                    ORDER BY 1, 2""", (team[0], team[0], team[0]))
 
     i = 0
     f = open(os.path.join(team_stats_dir, 'results_%s.txt' % team[1].replace(' ', '_')), 'w')
     for res in cur.fetchall():
       i += 1
-      f.write("%3d. %10s %2d %25s - %-25s %2d - %2d\n" % (i, res[0], res[1], res[2], res[3], res[4], res[5]))
+      f.write("%3d. %10s %2d %25s - %-25s %2d - %2d  %d\n" % (i, res[0], res[1], res[2], res[3], res[4], res[5], res[6]))
     f.close()
 
 def stats_by_team():
