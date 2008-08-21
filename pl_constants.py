@@ -18,3 +18,7 @@ sort_desc = 0
 sort_asc = 1
 
 all_seasons_const = 'all'
+
+home_win_const = '1'
+draw_const = 'X'
+away_win_const = '2'

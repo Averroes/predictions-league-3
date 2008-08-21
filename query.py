@@ -8,6 +8,54 @@ def get_seasons():
   cur.execute("SELECT id FROM season")
   return [t[0] for t in cur.fetchall()]
 
+def get_games_played(season = all_seasons_const):
+  """Returns number of games played in a given season. If called with no argument
+     or with all_seasons_const as the season argument, returns total games played
+     in all seasons."""
+  
+  games_played_query = """SELECT COUNT(*)
+                            FROM game
+                           WHERE home_result != -1
+                             AND away_result != -1
+                             %s"""
+
+  season_query = "AND SEASON_ID = ?"
+
+  if season != all_seasons_const:
+    cur.execute(games_played_query % season_query, (season, ))
+  else:
+    cur.execute(games_played_query % '')
+  
+  return cur.fetchone()[0]
+
+def get_outcome_count(outcome, season = all_seasons_const):
+  """Returns a number of games (from a given season) that finished in a given outcome."""
+
+  outcome_count_query = """SELECT COUNT(*)
+                             FROM game
+                            WHERE home_result != -1
+                              AND away_result != -1
+                              AND home_result %s away_result
+                              %s"""
+
+  season_query = "AND SEASON_ID = ?"
+  
+  if outcome == home_win_const:
+    operator = '>'
+  elif outcome == draw_const:
+    operator = '='
+  elif outcome == away_win_const:
+    operator = '<'
+  else:
+    return -1
+
+  if season != all_seasons_const:
+    cur.execute(outcome_count_query % (operator, season_query), (season, ))
+  else:
+    cur.execute(outcome_count_query % (operator, ''))
+
+  return cur.fetchone()[0]
+
 def predictions_distribution_total():
   """Prints predictions distribution total (without AGCM Oracle)."""
 
@@ -97,7 +145,7 @@ def predictions_outcome_distribution_total():
 
   print 'Home win / draw / away win (predictions):'
   f = open(os.path.join(stats_dir, "predictions_outcome_distribution.txt"), "w")
-  for outcome in enumerate(['1', 'X', '2']):
+  for outcome in enumerate([home_win_const, draw_const, away_win_const]):
     print "%s: %6d %6.2f%%" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100)
     f.write("%s: %6d %6.2f%%\n" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100))
   f.close()
@@ -137,71 +185,67 @@ def predictions_outcome_distribution_by_player():
     hda.append(games_predicted - hda[0] - hda[1])
 
     f = open(os.path.join(player_stats_dir, "predictions_outcome_distribution_%s.txt" % player[1].replace(' ', '_').replace('*', '_')), "w")
-    for outcome in enumerate(['1', 'X', '2']):
+    for outcome in enumerate([home_win_const, draw_const, away_win_const]):
       f.write("%s: %6d %6.2f%%\n" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100))
     f.close()
 
 def results_distribution():
   """Prints results distribution."""
 
-  cur.execute("""SELECT COUNT(*)
-                   FROM game
-                  WHERE home_result != -1
-                    AND away_result != -1""")
+  results_query = """SELECT home_result, away_result, COUNT(*)
+                       FROM game
+                      WHERE home_result != -1
+                        AND away_result != -1
+                        %s
+                      GROUP BY 1, 2
+                      ORDER BY 3 DESC"""
 
-  games_played = cur.fetchone()[0]
+  season_query = "AND SEASON_ID = ?"
 
-  cur.execute("""SELECT home_result, away_result, COUNT(*)
-                   FROM game
-                  WHERE home_result != -1
-                    AND away_result != -1
-                  GROUP BY 1, 2
-                  ORDER BY 3 DESC""")
+  seasons = get_seasons()
+  seasons.append(all_seasons_const)
 
-  print 'Results:'
-  i = 0
-  f = open(os.path.join(stats_dir, "results_distribution.txt"), "w")
-  for res in cur.fetchall():
-    i += 1
-    print "%2d. %2d - %2d %4d %6.2f%%" % (i, res[0], res[1], res[2], float(res[2]) / games_played * 100)
-    f.write("%2d. %2d - %2d %4d %6.2f%%\n" % (i, res[0], res[1], res[2], float(res[2]) / games_played * 100))
-  f.close()
+  for season in seasons:
+    games_played = get_games_played(season)
+    if season != all_seasons_const:
+      cur.execute(results_query % season_query, (season, ))
+      filename = os.path.join(seasons_dir, season, "results_distribution.txt")
+    else:
+      cur.execute(results_query % '')
+      filename = os.path.join(stats_dir, "results_distribution.txt")
+      print 'Results:'
+    f = open(filename, 'w')
+    i = 0
+    for res in cur.fetchall():
+      i += 1
+      f.write("%2d. %2d - %2d %4d %6.2f%%\n" % (i, res[0], res[1], res[2], float(res[2]) / games_played * 100))
+      if season == all_seasons_const:
+        print "%2d. %2d - %2d %4d %6.2f%%" % (i, res[0], res[1], res[2], float(res[2]) / games_played * 100)
+    f.close()
 
 def results_outcome_distribution():
   """Prints results outcome distribution."""
 
-  hda = []
+  seasons = get_seasons()
+  seasons.append(all_seasons_const)
 
-  cur.execute("""SELECT COUNT(*)
-                   FROM game
-                  WHERE home_result != -1
-                    AND away_result != -1""")
+  for season in seasons:
+    hda = []
+    hda.append(get_outcome_count(home_win_const, season))
+    hda.append(get_outcome_count(draw_const, season))
+    hda.append(get_outcome_count(away_win_const, season))
+    games_played = get_games_played(season)
 
-  games_played = cur.fetchone()[0]
-
-  cur.execute("""SELECT COUNT(*)
-                   FROM game
-                  WHERE home_result != -1
-                    AND away_result != -1
-                    AND home_result > away_result""")
-
-  hda.append(cur.fetchone()[0])
-
-  cur.execute("""SELECT COUNT(*)
-                   FROM game
-                  WHERE home_result != -1
-                    AND away_result != -1
-                    AND home_result = away_result""")
-
-  hda.append(cur.fetchone()[0])
-  hda.append(games_played - hda[0] - hda[1])
-
-  print 'Home win / draw / away win (results):'
-  f = open(os.path.join(stats_dir, "results_outcome_distribution.txt"), "w")
-  for outcome in enumerate(['1', 'X', '2']):
-    print "%s: %6d %6.2f%%" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_played * 100)
-    f.write("%s: %6d %6.2f%%\n" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_played * 100))
-  f.close()
+    if season != all_seasons_const:
+      f = open(os.path.join(seasons_dir, season, "results_outcome_distribution.txt"), "w")
+    else:
+      print 'Home win / draw / away win (results):'
+      f = open(os.path.join(stats_dir, "results_outcome_distribution.txt"), "w")
+    for outcome in enumerate([home_win_const, draw_const, away_win_const]):
+      f.write("%s: %6d %6.2f%%\n" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_played * 100))
+      if season == all_seasons_const:
+        print "%s: %6d %6.2f%%" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_played * 100)
+    f.close()
 
 def player_predictions_made_total():
   """Prints total predictions made."""
@@ -281,7 +325,7 @@ def stats_by_team():
     f.close()
 
 def print_stats(filename, l):
-  """Prints team stats to file."""
+  """Prints team or country stats to file."""
 
   f = open(filename, 'w')
   i = 0
@@ -305,7 +349,7 @@ def query_team_stats(name_pattern, season, stat, min_games):
     filename = os.path.join(seasons_dir, season, name_pattern % stat[1])
   else:
     filename = os.path.join(stats_dir, name_pattern % stat[1])
-  sort_order = ('DESC' if stat[2] == 0 else 'ASC')
+  sort_order = ('DESC' if stat[2] == sort_desc else 'ASC')
   cur.execute(team_stats_query % sort_order, (stat[0], season, min_games))
   l = cur.fetchall()
   print_stats(filename, l)
@@ -348,7 +392,7 @@ def query_country_stats(name_pattern, season, stat, min_games):
     filename = os.path.join(country_seasons_dir, season, name_pattern % stat[1])
   else:
     filename = os.path.join(country_stats_dir, name_pattern % stat[1])
-  sort_order = ('DESC' if stat[2] == 0 else 'ASC')
+  sort_order = ('DESC' if stat[2] == sort_desc else 'ASC')
   cur.execute(country_stats_query % sort_order, (stat[0], season, min_games))
   l = cur.fetchall()
   print_stats(filename, l)
