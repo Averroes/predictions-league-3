@@ -2,6 +2,8 @@ from pysqlite2 import dbapi2 as sqlite
 from pl_constants import *
 import os, time
 
+# helper functions
+
 def get_seasons():
   """Returns a list of season ids."""
 
@@ -19,7 +21,7 @@ def get_games_played(season = all_seasons_const):
                              AND away_result != -1
                              %s"""
 
-  season_query = "AND SEASON_ID = ?"
+  season_query = "AND season_id = ?"
 
   if season != all_seasons_const:
     cur.execute(games_played_query % season_query, (season, ))
@@ -28,7 +30,70 @@ def get_games_played(season = all_seasons_const):
   
   return cur.fetchone()[0]
 
-def get_outcome_count(outcome, season = all_seasons_const):
+def get_games_predicted_and_outcome_count(player = None, season = all_seasons_const):
+  """Returns number of predicted games by a player in a given season and a list of
+     prediction outcome counts."""
+
+  games_predicted_query = """SELECT COUNT(*),
+                                    SUM(CASE WHEN home > away THEN 1 ELSE 0 END),
+                                    SUM(CASE WHEN home = away THEN 1 ELSE 0 END),
+                                    SUM(CASE WHEN home < away THEN 1 ELSE 0 END)
+                               FROM prediction
+                              WHERE home != -1
+                                AND away != -1
+                                 %s"""
+
+  games_predicted_season_query = """SELECT COUNT(*),
+                                           SUM(CASE WHEN home > away THEN 1 ELSE 0 END),
+                                           SUM(CASE WHEN home = away THEN 1 ELSE 0 END),
+                                           SUM(CASE WHEN home < away THEN 1 ELSE 0 END)
+                                      FROM prediction, game
+                                     WHERE prediction.game_id = game.id
+                                       AND home != -1
+                                       AND away != -1
+                                       %s
+                                       %s"""
+
+  player_query = "AND player_id = ?"
+  season_query = "AND season_id = ?"
+
+  if player != None: # single player
+    if season != all_seasons_const: # single season
+       cur.execute(games_predicted_season_query % (player_query, season_query), (player, season))
+    else: # all seasons
+       cur.execute(games_predicted_query % player_query, (player, ))
+  else: # all players
+    if season != all_seasons_const: # single season
+       cur.execute(games_predicted_season_query % ('', season_query), (season, ))
+    else: # all seasons
+       cur.execute(games_predicted_query % '')
+
+  count = cur.fetchone()
+  return count[0], count[1:]
+
+def get_prediction_distribution(season = all_seasons_const):
+  """Returns number of predicted games by a player in a given season and a list of
+     prediction outcome counts."""
+
+  predictions_distribution_query = """SELECT home, away, COUNT(*)
+                                        FROM prediction, game
+                                       WHERE prediction.game_id = game.id
+                                         AND home != -1
+                                         AND away != -1
+                                         %s
+                                       GROUP BY 1, 2
+                                       ORDER BY 3 DESC"""
+
+  season_query = "AND season_id = ?"
+
+  if season != all_seasons_const:
+     cur.execute(predictions_distribution_query % season_query, (season, ))
+  else:
+     cur.execute(predictions_distribution_query % '')
+
+  return cur.fetchall()
+
+def get_result_outcome_count(outcome, season = all_seasons_const):
   """Returns a number of games (from a given season) that finished in a given outcome."""
 
   outcome_count_query = """SELECT COUNT(*)
@@ -38,7 +103,7 @@ def get_outcome_count(outcome, season = all_seasons_const):
                               AND home_result %s away_result
                               %s"""
 
-  season_query = "AND SEASON_ID = ?"
+  season_query = "AND season_id = ?"
   
   if outcome == home_win_const:
     operator = '>'
@@ -56,33 +121,59 @@ def get_outcome_count(outcome, season = all_seasons_const):
 
   return cur.fetchone()[0]
 
+def get_player_id(name):
+  """Returns id of player with given name."""
+  
+  cur.execute("""SELECT id
+                   FROM player
+                  WHERE name = ?""", (name, ))
+
+  return cur.fetchone()[0]
+
+# stats functions
+
 def predictions_distribution_total():
   """Prints predictions distribution total (without AGCM Oracle)."""
 
-  cur.execute("""SELECT COUNT(*)
-                   FROM prediction
-                  WHERE home != -1
-                    AND away != -1
-                    AND player_id != 44""")
+  oracle_id = get_player_id('AGCM Oracle')
 
-  games_predicted = cur.fetchone()[0]
+  games_predicted_query = """SELECT COUNT(*)
+                               FROM prediction
+                              WHERE home != -1
+                                AND away != -1
+                                AND player_id != ?"""
 
-  cur.execute("""SELECT home, away, COUNT(*)
-                   FROM prediction
-                  WHERE home != -1
-                    AND away != -1
-                    AND player_id != 44
-                  GROUP BY 1, 2
-                  ORDER BY 3 DESC""")
+  games_predicted_season_query = """SELECT COUNT(*)
+                                      FROM prediction, game
+                                     WHERE prediction.game_id = game.id
+                                       AND home != -1
+                                       AND away != -1
+                                       AND player_id != ?
+                                       AND season_id = ?"""
 
-  print 'Predictions:'
-  i = 0
-  f = open(os.path.join(stats_dir, "predictions_distribution.txt"), "w")
-  for res in cur.fetchall():
-    i += 1
-    print "%2d. %2d - %2d %6d %6.2f%%" % (i, res[0], res[1], res[2], float(res[2]) / games_predicted * 100)
-    f.write("%2d. %2d - %2d %6d %6.2f%%\n" % (i, res[0], res[1], res[2], float(res[2]) / games_predicted * 100))
-  f.close()
+  seasons = get_seasons()
+  seasons.append(all_seasons_const)
+
+  for season in seasons:
+    if season != all_seasons_const:
+      cur.execute(games_predicted_season_query, (oracle_id, season))
+      games_predicted = cur.fetchone()[0]
+      distribution = get_prediction_distribution(season)
+      f = open(os.path.join(seasons_dir, season, "predictions_distribution.txt"), "w")
+    else:
+      cur.execute(games_predicted_query, (oracle_id, ))
+      games_predicted = cur.fetchone()[0]
+      distribution = get_prediction_distribution()
+      print 'Predictions:'
+      f = open(os.path.join(stats_dir, "predictions_distribution.txt"), "w")
+
+    i = 0
+    for res in distribution:
+      i += 1
+      f.write("%2d. %2d - %2d %6d %6.2f%%\n" % (i, res[0], res[1], res[2], float(res[2]) / games_predicted * 100))
+      if season == all_seasons_const:
+        print "%2d. %2d - %2d %6d %6.2f%%" % (i, res[0], res[1], res[2], float(res[2]) / games_predicted * 100)
+    f.close()
 
 def predictions_distribution_by_player():
   """Prints predictions distribution by player."""
@@ -91,13 +182,7 @@ def predictions_distribution_by_player():
                    FROM player""")
 
   for player in cur.fetchall():
-    cur.execute("""SELECT COUNT(*)
-                     FROM prediction
-                    WHERE home != -1
-                      AND away != -1
-                      AND player_id = ?""", (player[0], ))
-
-    games_predicted = cur.fetchone()[0]
+    games_predicted, hda = get_games_predicted_and_outcome_count(player[0])
 
     cur.execute("""SELECT home, away, COUNT(*)
                      FROM prediction
@@ -117,38 +202,22 @@ def predictions_distribution_by_player():
 def predictions_outcome_distribution_total():
   """Prints predictions outcome distribution total."""
 
-  hda = []
+  seasons = get_seasons()
+  seasons.append(all_seasons_const)
 
-  cur.execute("""SELECT COUNT(*)
-                   FROM prediction
-                  WHERE home != -1
-                    AND away != -1""")
+  for season in seasons:
+    games_predicted, hda = get_games_predicted_and_outcome_count(season = season)
 
-  games_predicted = cur.fetchone()[0]
-
-  cur.execute("""SELECT COUNT(*)
-                   FROM prediction
-                  WHERE home != -1
-                    AND away != -1
-                    AND home > away""")
-
-  hda.append(cur.fetchone()[0])
-
-  cur.execute("""SELECT COUNT(*)
-                   FROM prediction
-                  WHERE home != -1
-                    AND away != -1
-                    AND home = away""")
-
-  hda.append(cur.fetchone()[0])
-  hda.append(games_predicted - hda[0] - hda[1])
-
-  print 'Home win / draw / away win (predictions):'
-  f = open(os.path.join(stats_dir, "predictions_outcome_distribution.txt"), "w")
-  for outcome in enumerate([home_win_const, draw_const, away_win_const]):
-    print "%s: %6d %6.2f%%" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100)
-    f.write("%s: %6d %6.2f%%\n" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100))
-  f.close()
+    if season != all_seasons_const:
+      f = open(os.path.join(seasons_dir, season, "predictions_outcome_distribution.txt"), "w")
+    else:
+      print 'Home win / draw / away win (predictions):'
+      f = open(os.path.join(stats_dir, "predictions_outcome_distribution.txt"), "w")
+    for outcome in enumerate([home_win_const, draw_const, away_win_const]):
+      f.write("%s: %6d %6.2f%%\n" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100))
+      if season == all_seasons_const:
+        print "%s: %6d %6.2f%%" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100)
+    f.close()
 
 def predictions_outcome_distribution_by_player():
   """Prints predictions outcome distribution by player."""
@@ -157,32 +226,7 @@ def predictions_outcome_distribution_by_player():
                    FROM player""")
 
   for player in cur.fetchall():
-    cur.execute("""SELECT COUNT(*)
-                     FROM prediction
-                    WHERE home != -1
-                      AND away != -1
-                      AND player_id = ?""", (player[0], ))
-
-    games_predicted = cur.fetchone()[0]
-    hda = []
-
-    cur.execute("""SELECT COUNT(*)
-                     FROM prediction
-                    WHERE home != -1
-                      AND away != -1
-                      AND home > away
-                      AND player_id = ?""", (player[0], ))
-    hda.append(cur.fetchone()[0])
-
-    cur.execute("""SELECT COUNT(*)
-                     FROM prediction
-                    WHERE home != -1
-                      AND away != -1
-                      AND home = away
-                      AND player_id = ?""", (player[0], ))
-
-    hda.append(cur.fetchone()[0])
-    hda.append(games_predicted - hda[0] - hda[1])
+    games_predicted, hda = get_games_predicted_and_outcome_count(player[0])
 
     f = open(os.path.join(player_stats_dir, "predictions_outcome_distribution_%s.txt" % player[1].replace(' ', '_').replace('*', '_')), "w")
     for outcome in enumerate([home_win_const, draw_const, away_win_const]):
@@ -231,9 +275,9 @@ def results_outcome_distribution():
 
   for season in seasons:
     hda = []
-    hda.append(get_outcome_count(home_win_const, season))
-    hda.append(get_outcome_count(draw_const, season))
-    hda.append(get_outcome_count(away_win_const, season))
+    hda.append(get_result_outcome_count(home_win_const, season))
+    hda.append(get_result_outcome_count(draw_const, season))
+    hda.append(get_result_outcome_count(away_win_const, season))
     games_played = get_games_played(season)
 
     if season != all_seasons_const:
