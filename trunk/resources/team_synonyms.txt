@@ -13,3 +13,4 @@ Petrzalka;Artmedia
 Spartak;Spartak Moskva
 Malmö;Malmo
 Madrid;Real Madrid
+FC Steaua Bucuresti;Steaua
