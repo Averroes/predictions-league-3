@@ -3,12 +3,12 @@
 
 Austria Wien,GAK,Rapid,Salzburg
 
-
+BATE
 Anderlecht,Beveren,Club Brugge,Genk,La Louviere,Lokeren,Standard,Zulte Waregem
 
 CSKA Sofia,Levski,Litex
 Dinamo Zagreb,Hajduk
-
+Anorthosis
 Banik,Liberec,Mlada Boleslav,Sigma,Slavia,Sparta,Teplice
 AaB,Brondby,Kobenhavn,Nordsjaelland,OB
 Arsenal,Blackburn,Bolton,Chelsea,Everton,Fulham,Liverpool,Man. City,Man. United,Middlesbrough,Millwall,Newcastle,Southampton,Tottenham
@@ -38,7 +38,7 @@ AZ,Ajax,Feyenoord,Heerenveen,NAC,NEC,PSV,Utrecht,Vitesse
 Brann,Lyn,Molde,Odd,Rosenborg,Tromso,Valerenga,Viking
 Amica,Groclin,Wisla
 Benfica,Boavista,Braga,Guimaraes,Leiria,Maritimo,Porto,Sporting
-Dinamo Bucuresti,Rapid Bucuresti,Steaua
+CFR,Dinamo Bucuresti,Rapid Bucuresti,Steaua
 CSKA Moskva,Lokomotiv Moskva,Spartak Moskva,Torpedo Moskva,Zenit
 
 Aberdeen,Celtic,Dundee,Hearts,Rangers
