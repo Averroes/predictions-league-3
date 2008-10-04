@@ -159,7 +159,10 @@ def predictions_distribution_total():
       cur.execute(games_predicted_season_query, (oracle_id, season))
       games_predicted = cur.fetchone()[0]
       distribution = get_prediction_distribution(season)
-      f = open(os.path.join(seasons_dir, season, "predictions_distribution.txt"), "w")
+      s_dir = os.path.join(seasons_dir, season)
+      if not os.path.exists(s_dir):
+        os.makedirs(s_dir)
+      f = open(os.path.join(s_dir, "predictions_distribution.txt"), "w")
     else:
       cur.execute(games_predicted_query, (oracle_id, ))
       games_predicted = cur.fetchone()[0]
