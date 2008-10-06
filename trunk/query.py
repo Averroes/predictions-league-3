@@ -371,14 +371,16 @@ def stats_by_team():
       f.write("%-35s = %5.3f\n" % tuple(res))
     f.close()
 
-def print_stats(filename, l):
+def print_stats(filename, l, name_len=22):
   """Prints team or country stats to file."""
+
+  format_str = "".join(["%3d. %-", str(name_len), "s %5.3f %4d\n"])
 
   f = open(filename, 'w')
   i = 0
   for res in l:
     i += 1
-    f.write("%3d. %-22s %5.3f %4d\n" % (i, res[0], res[2], res[1]))
+    f.write(format_str % (i, res[0], res[2], res[1]))
   f.close()
 
 def query_team_stats(name_pattern, season, stat, min_games):
@@ -554,10 +556,57 @@ def country_rating():
         f_all.write("%3d. %-22s %+5.3f %4d\n" % (i, country[0], country[1], country[2]))
       f_all.close()
 
+def query_player_team_stats(name_pattern, season, stat, min_games):
+  """Retreives the player_team stats."""
+
+  cur.execute("""SELECT *
+                   FROM team""")
+  team_list = cur.fetchall()
+  
+  player_team_stats_query = """SELECT player.name, count, average
+                                 FROM player_team_stats, player
+                                WHERE player_team_stats.player_id = player.id
+                                  AND player_team_stats.stat_id = ?
+                                  AND player_team_stats.team_id = ?
+                                  AND season_id = ?
+                                  AND count >= ?
+                                ORDER BY 3 %s, 2 DESC, 1"""
+
+  sort_order = ('DESC' if stat[2] == sort_desc else 'ASC')
+  for team in team_list:
+    if season != all_seasons_const:
+      filename = os.path.join(team_seasons_dir, season, name_pattern % (stat[1], team[1].replace(' ', '_')))
+    else:
+      filename = os.path.join(team_stats_dir, name_pattern % (stat[1], team[1].replace(' ', '_')))
+    cur.execute(player_team_stats_query % sort_order, (stat[0], team[0], season, min_games))
+    l = cur.fetchall()
+    if l:
+      print_stats(filename, l, 30)
+
+def player_team_stats():
+  """Prints all player_team stats described in player_team_stats_description table."""
+
+  cur.execute("""SELECT id, title, sort_order
+                   FROM player_team_stats_description
+                  ORDER BY 1""")
+
+  stats_list = cur.fetchall()
+  seasons = get_seasons()
+  seasons.append(all_seasons_const)
+
+  for season in seasons:
+    s_dir = os.path.join(team_seasons_dir, season)
+    if not os.path.exists(s_dir) and season != all_seasons_const:
+      os.makedirs(s_dir)
+    for stat in stats_list:
+      query_player_team_stats('%s_%s.txt', season, stat, 1)
+
 
 stats_dir = 'stats'
 team_stats_dir = os.path.join(stats_dir, 'team')
+team_seasons_dir = os.path.join(team_stats_dir, 'season')
 player_stats_dir = os.path.join(stats_dir, 'player')
+player_seasons_dir = os.path.join(player_stats_dir, 'season')
 seasons_dir = os.path.join(stats_dir, 'season')
 country_stats_dir = os.path.join(stats_dir, 'country')
 country_seasons_dir = os.path.join(country_stats_dir, 'season')
@@ -584,6 +633,7 @@ if __name__ == '__main__':
   most_predictable_games(20)
   team_rating()
   country_rating()
+  player_team_stats()
 
   print "Completed in %ss" % time.clock()
 
