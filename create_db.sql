@@ -47,6 +47,27 @@ CREATE TABLE IF NOT EXISTS player
 
 CREATE UNIQUE INDEX player_name_idx ON player(name);
 
+CREATE TABLE IF NOT EXISTS player_team_stats
+( stat_id   INTEGER,
+  player_id INTEGER,
+  team_id   INTEGER,
+  season_id TEXT,
+  sum       FLOAT,
+  count     INTEGER,
+  average   FLOAT,
+  PRIMARY KEY(stat_id, player_id, team_id, season_id)
+);
+
+CREATE INDEX player_team_stats_player_idx ON player_team_stats(player_id);
+CREATE INDEX player_team_stats_team_idx ON player_team_stats(team_id);
+
+CREATE TABLE IF NOT EXISTS player_team_stats_description
+( id          INTEGER PRIMARY KEY,
+  title       TEXT,
+  sort_order  INTEGER,
+  description TEXT
+);
+
 CREATE TABLE IF NOT EXISTS prediction
 ( id          INTEGER PRIMARY KEY,
   player_id   INTEGER,
