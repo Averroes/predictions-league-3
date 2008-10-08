@@ -629,9 +629,14 @@ def player_team_stats():
     if not os.path.exists(p_dir) and season != all_seasons_const:
       os.makedirs(p_dir)
     for stat in stats_list:
-      query_player_team_stats_by_team('%s_%s.txt', season, stat, 1)
-      query_player_team_stats_by_player('%s_%s.txt', season, stat, 1)
-
+      if season == all_seasons_const:
+        query_player_team_stats_by_team('%s_%s_all.txt', season, stat, 1)
+        query_player_team_stats_by_player('%s_%s_all.txt', season, stat, 1)
+        query_player_team_stats_by_team('%s_%s.txt', season, stat, 10)
+        query_player_team_stats_by_player('%s_%s.txt', season, stat, 10)
+      else:
+        query_player_team_stats_by_team('%s_%s.txt', season, stat, 1)
+        query_player_team_stats_by_player('%s_%s.txt', season, stat, 1)
 
 stats_dir = 'stats'
 team_stats_dir = os.path.join(stats_dir, 'team')
