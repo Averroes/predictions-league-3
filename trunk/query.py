@@ -556,8 +556,8 @@ def country_rating():
         f_all.write("%3d. %-22s %+5.3f %4d\n" % (i, country[0], country[1], country[2]))
       f_all.close()
 
-def query_player_team_stats(name_pattern, season, stat, min_games):
-  """Retreives the player_team stats."""
+def query_player_team_stats_by_team(name_pattern, season, stat, min_games):
+  """Retreives the player_team stats by team."""
 
   cur.execute("""SELECT *
                    FROM team""")
@@ -583,6 +583,33 @@ def query_player_team_stats(name_pattern, season, stat, min_games):
     if l:
       print_stats(filename, l, 30)
 
+def query_player_team_stats_by_player(name_pattern, season, stat, min_games):
+  """Retreives the player_team stats by player."""
+
+  cur.execute("""SELECT *
+                   FROM player""")
+  player_list = cur.fetchall()
+  
+  player_team_stats_query = """SELECT team.name, count, average
+                                 FROM player_team_stats, team
+                                WHERE player_team_stats.team_id = team.id
+                                  AND player_team_stats.stat_id = ?
+                                  AND player_team_stats.player_id = ?
+                                  AND season_id = ?
+                                  AND count >= ?
+                                ORDER BY 3 %s, 2 DESC, 1"""
+
+  sort_order = ('DESC' if stat[2] == sort_desc else 'ASC')
+  for player in player_list:
+    if season != all_seasons_const:
+      filename = os.path.join(player_seasons_dir, season, name_pattern % (stat[1], player[1].replace(' ', '_').replace('*', '_')))
+    else:
+      filename = os.path.join(player_stats_dir, name_pattern % (stat[1], player[1].replace(' ', '_').replace('*', '_')))
+    cur.execute(player_team_stats_query % sort_order, (stat[0], player[0], season, min_games))
+    l = cur.fetchall()
+    if l:
+      print_stats(filename, l)
+
 def player_team_stats():
   """Prints all player_team stats described in player_team_stats_description table."""
 
@@ -596,10 +623,14 @@ def player_team_stats():
 
   for season in seasons:
     s_dir = os.path.join(team_seasons_dir, season)
+    p_dir = os.path.join(player_seasons_dir, season)
     if not os.path.exists(s_dir) and season != all_seasons_const:
       os.makedirs(s_dir)
+    if not os.path.exists(p_dir) and season != all_seasons_const:
+      os.makedirs(p_dir)
     for stat in stats_list:
-      query_player_team_stats('%s_%s.txt', season, stat, 1)
+      query_player_team_stats_by_team('%s_%s.txt', season, stat, 1)
+      query_player_team_stats_by_player('%s_%s.txt', season, stat, 1)
 
 
 stats_dir = 'stats'
