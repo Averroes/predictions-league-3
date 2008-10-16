@@ -11,11 +11,11 @@ Dinamo Zagreb,Hajduk
 Anorthosis
 Banik,Liberec,Mlada Boleslav,Sigma,Slavia,Sparta,Teplice
 AaB,Brondby,Kobenhavn,Nordsjaelland,OB
-Arsenal,Blackburn,Bolton,Chelsea,Everton,Fulham,Liverpool,Man. City,Man. United,Middlesbrough,Millwall,Newcastle,Southampton,Tottenham
+Arsenal,Aston Villa,Blackburn,Bolton,Chelsea,Everton,Fulham,Liverpool,Man. City,Man. United,Middlesbrough,Millwall,Newcastle,Portsmouth,Southampton,Tottenham
 
 
 
-Auxerre,Bordeaux,Lens,Lille,Lyon,Marseille,Monaco,Nancy,PSG,Rennes,Sochaux,Strasbourg,Toulouse
+Auxerre,Bordeaux,Lens,Lille,Lyon,Marseille,Monaco,Nancy,PSG,Rennes,Saint-Etienne,Sochaux,Strasbourg,Toulouse
 Dinamo Tbilisi
 Aachen,Bayern,Bochum,Bremen,Dortmund,Eintracht,Hamburg,Hertha,Leverkusen,Nurnberg,Schalke,Stuttgart
 AEK,Aris,Egaleo,Larissa,Olympiacos,PAOK,Panathinaikos,Panionios
@@ -33,7 +33,7 @@ Ventspils
 
 
 
-AZ,Ajax,Feyenoord,Heerenveen,NAC,NEC,PSV,Utrecht,Vitesse
+AZ Alkmaar,Ajax,Feyenoord,Heerenveen,NAC,NEC Nijmegen,PSV,Twente,Utrecht,Vitesse
 
 Brann,Lyn,Molde,Odd,Rosenborg,Tromso,Valerenga,Viking
 Amica,Groclin,Wisla
@@ -43,9 +43,9 @@ CSKA Moskva,Lokomotiv Moskva,Spartak Moskva,Torpedo Moskva,Zenit
 
 Aberdeen,Celtic,Dundee,Hearts,Rangers
 Crvena Zvezda,Partizan
-Artmedia
+Artmedia,MSK Zilina
 Maribor,Olimpija
-Athletic,Atletico,Barcelona,Betis,Celta,Deportivo,Espanyol,Getafe,Malaga,Mallorca,Osasuna,Real Madrid,Real Sociedad,Sevilla,Valencia,Villarreal,Zaragoza
+Athletic,Atletico,Barcelona,Betis,Celta,Deportivo,Espanyol,Getafe,Malaga,Mallorca,Osasuna,Racing Santander,Real Madrid,Real Sociedad,Sevilla,Valencia,Villarreal,Zaragoza
 AIK,Djurgarden,Elfsborg,Halmstad,Hammarby,Helsingborg,Malmo
 Basel,Grasshoppers,Thun,Xamax,Zurich
 Besiktas,Denizlispor,Fenerbahce,Galatasaray,Gaziantepspor,Genclerbirligi,Trabzonspor
