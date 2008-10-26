@@ -38,7 +38,7 @@ AZ Alkmaar,Ajax,Feyenoord,Heerenveen,NAC,NEC Nijmegen,PSV,Twente,Utrecht,Vitesse
 Brann,Lyn,Molde,Odd,Rosenborg,Tromso,Valerenga,Viking
 Amica,Groclin,Wisla
 Benfica,Boavista,Braga,Guimaraes,Leiria,Maritimo,Porto,Sporting
-CFR,Dinamo Bucuresti,Rapid Bucuresti,Steaua
+CFR Cluj,Dinamo Bucuresti,Rapid Bucuresti,Steaua
 CSKA Moskva,Lokomotiv Moskva,Spartak Moskva,Torpedo Moskva,Zenit
 
 Aberdeen,Celtic,Dundee,Hearts,Rangers

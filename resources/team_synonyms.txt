@@ -24,3 +24,4 @@ NEC;NEC Nijmegen
 Portsmouth FC;Portsmouth
 Aston Villa FC;Aston Villa
 AS Saint-Etienne;Saint-Etienne
+CFR;CFR Cluj
