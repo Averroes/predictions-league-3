@@ -17,7 +17,7 @@ Arsenal,Aston Villa,Blackburn,Bolton,Chelsea,Everton,Fulham,Liverpool,Man. City,
 
 Auxerre,Bordeaux,Lens,Lille,Lyon,Marseille,Monaco,Nancy,PSG,Rennes,Saint-Etienne,Sochaux,Strasbourg,Toulouse
 Dinamo Tbilisi
-Aachen,Bayern,Bochum,Bremen,Dortmund,Eintracht,Hamburg,Hertha,Leverkusen,Nurnberg,Schalke,Stuttgart
+Aachen,Bayern,Bochum,Bremen,Dortmund,Eintracht,Hamburg,Hertha,Leverkusen,Nurnberg,Schalke,Stuttgart,Wolfsburg
 AEK,Aris,Egaleo,Larissa,Olympiacos,PAOK,Panathinaikos,Panionios
 Debrecen,Ferencvaros,MTK
 
@@ -36,7 +36,7 @@ Ventspils
 AZ Alkmaar,Ajax,Feyenoord,Heerenveen,NAC,NEC Nijmegen,PSV,Twente,Utrecht,Vitesse
 
 Brann,Lyn,Molde,Odd,Rosenborg,Tromso,Valerenga,Viking
-Amica,Groclin,Wisla
+Amica,Groclin,Lech,Wisla
 Benfica,Boavista,Braga,Guimaraes,Leiria,Maritimo,Porto,Sporting
 CFR Cluj,Dinamo Bucuresti,Rapid Bucuresti,Steaua
 CSKA Moskva,Lokomotiv Moskva,Spartak Moskva,Torpedo Moskva,Zenit
@@ -49,4 +49,4 @@ Athletic,Atletico,Barcelona,Betis,Celta,Deportivo,Espanyol,Getafe,Malaga,Mallorc
 AIK,Djurgarden,Elfsborg,Halmstad,Hammarby,Helsingborg,Malmo
 Basel,Grasshoppers,Thun,Xamax,Zurich
 Besiktas,Denizlispor,Fenerbahce,Galatasaray,Gaziantepspor,Genclerbirligi,Trabzonspor
-Dnipro,Dynamo Kyiv,Shakhtar
+Dnipro,Dynamo Kyiv,Metalist,Shakhtar
