@@ -43,7 +43,7 @@ CSKA Moskva,Lokomotiv Moskva,Spartak Moskva,Torpedo Moskva,Zenit
 
 Aberdeen,Celtic,Dundee,Hearts,Rangers
 Crvena Zvezda,Partizan
-Artmedia,MSK Zilina
+Artmedia,Zilina
 Maribor,Olimpija
 Athletic,Atletico,Barcelona,Betis,Celta,Deportivo,Espanyol,Getafe,Malaga,Mallorca,Osasuna,Racing Santander,Real Madrid,Real Sociedad,Sevilla,Valencia,Villarreal,Zaragoza
 AIK,Djurgarden,Elfsborg,Halmstad,Hammarby,Helsingborg,Malmo
