@@ -11,7 +11,7 @@ Dinamo Zagreb,Hajduk
 Anorthosis
 Banik,Liberec,Mlada Boleslav,Sigma,Slavia,Sparta,Teplice
 AaB,Brondby,Kobenhavn,Nordsjaelland,OB
-Arsenal,Aston Villa,Blackburn,Bolton,Chelsea,Everton,Fulham,Liverpool,Man. City,Man. United,Middlesbrough,Millwall,Newcastle,Portsmouth,Southampton,Tottenham
+Arsenal,Aston Villa,Blackburn,Bolton,Chelsea,Everton,Fulham,Liverpool,Manchester City,Man. United,Middlesbrough,Millwall,Newcastle,Portsmouth,Southampton,Tottenham
 
 
 
