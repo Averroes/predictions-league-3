@@ -30,3 +30,5 @@ MSK Zilina;Zilina
 Real Racing Club;Racing Santander
 FC Barcelona;Barcelona
 Man. City;Manchester City
+FC Dynamo Kyiv;Dynamo Kyiv
+FC Shakhtar Donetsk;Shakhtar
