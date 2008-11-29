@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Deportivo v Feyenoord                3 -  0   18   2.000
+ 2. Rosenborg v Valencia                 0 -  4   16   1.778
+ 3. NEC v Tottenham                      0 -  1   16   1.778
+ 4. CSKA Moskva v Lech                   2 -  1   14   1.556
+ 5. Zilina v Slavia                      0 -  0   13   1.444
+ 6. Sampdoria v Stuttgart                1 -  1   12   1.333
+ 7. Olympiacos v Benfica                 5 -  1   10   1.111
+ 8. Dinamo Zagreb v Spartak Moskva       0 -  1    9   1.000
+ 9. Club Brugge v St Etienne             1 -  1    8   0.889
+10. Braga v Wolfsburg                    2 -  3    6   0.667
+11. PSG v Real Racing Club               2 -  2    6   0.667
+12. Portsmouth v Milan                   2 -  2    6   0.667
+13. Galatasaray v Metalist               0 -  1    4   0.444
+14. Schalke v Manchester City            0 -  2    4   0.444
+15. Hamburg v Ajax                       0 -  1    3   0.333
+16. Partizan v Standard                  0 -  1    2   0.222
+
+Competitors = 9
+Total points scored = 147
+Average points scored = 16.333
+Average points per game = 1.021
