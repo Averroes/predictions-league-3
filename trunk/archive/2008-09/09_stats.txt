@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Sevilla v Partizan                   3 -  0   18   2.000
+ 2. Wolfsburg v Portsmouth               3 -  2   15   1.667
+ 3. Slavia v Hamburg                     0 -  2   15   1.667
+ 4. Udinese v Dinamo Zagreb              2 -  1   12   1.333
+ 5. Heerenveen v Braga                   1 -  2   10   1.111
+ 6. Metalist v Olympiacos                1 -  0    8   0.889
+ 7. Twente v Schalke                     2 -  1    8   0.889
+ 8. Hertha v Galatasaray                 0 -  1    7   0.778
+ 9. Kobenhavn v Rosenborg                1 -  1    7   0.778
+10. Nancy v CSKA Moskva                  3 -  4    6   0.667
+11. Manchester City v PSG                0 -  0    5   0.556
+12. Lech v Deportivo                     1 -  1    4   0.444
+13. Valencia v Club Brugge               1 -  1    0   0.000
+14. Standard v Sampdoria                 3 -  0    0   0.000
+15. Spartak Moskva v NEC                 1 -  2    0   0.000
+16. Aston Villa v Zilina                 1 -  2    0   0.000
+
+Competitors = 9
+Total points scored = 115
+Average points scored = 12.778
+Average points per game = 0.799
