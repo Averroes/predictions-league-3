@@ -4,6 +4,15 @@ import os, time
 
 # helper functions
 
+def prepare_data(index, row_data, avg_index = -1, count = -1):
+  """Prefixes a row returned by an SQL query with an index and calculates the
+     average of a column if needed."""
+
+  if avg_index == -1:
+    return tuple([index] + list(row_data))
+  else:
+    return tuple([index] + list(row_data) + [float(row_data[avg_index]) / count * 100])
+
 def get_seasons():
   """Returns a list of season ids."""
 
@@ -173,9 +182,9 @@ def predictions_distribution_total():
     i = 0
     for res in distribution:
       i += 1
-      f.write("%2d. %2d - %2d %6d %6.2f%%\n" % (i, res[0], res[1], res[2], float(res[2]) / games_predicted * 100))
+      f.write("%2d. %2d - %2d %6d %6.2f%%\n" % prepare_data(i, res, len(res) - 1, games_predicted))
       if season == all_seasons_const:
-        print "%2d. %2d - %2d %6d %6.2f%%" % (i, res[0], res[1], res[2], float(res[2]) / games_predicted * 100)
+        print "%2d. %2d - %2d %6d %6.2f%%" % prepare_data(i, res, len(res) - 1, games_predicted)
     f.close()
 
 def predictions_distribution_by_player():
@@ -199,7 +208,7 @@ def predictions_distribution_by_player():
     f = open(os.path.join(player_stats_dir, 'predictions_distribution_%s.txt' % player[1].replace(' ', '_').replace('*', '_')), 'w')
     for res in cur.fetchall():
       i += 1
-      f.write("%2d. %2d - %2d %4d %6.2f%%\n" % (i, res[0], res[1], res[2], float(res[2]) / games_predicted * 100))
+      f.write("%2d. %2d - %2d %6d %6.2f%%\n" % prepare_data(i, res, len(res) - 1, games_predicted))
     f.close()
 
 def predictions_outcome_distribution_total():
@@ -265,9 +274,9 @@ def results_distribution():
     i = 0
     for res in cur.fetchall():
       i += 1
-      f.write("%2d. %2d - %2d %4d %6.2f%%\n" % (i, res[0], res[1], res[2], float(res[2]) / games_played * 100))
+      f.write("%2d. %2d - %2d %4d %6.2f%%\n" % prepare_data(i, res, len(res) - 1, games_played))
       if season == all_seasons_const:
-        print "%2d. %2d - %2d %4d %6.2f%%" % (i, res[0], res[1], res[2], float(res[2]) / games_played * 100)
+        print "%2d. %2d - %2d %4d %6.2f%%" % prepare_data(i, res, len(res) - 1, games_played)
     f.close()
 
 def results_outcome_distribution():
@@ -307,7 +316,7 @@ def player_predictions_made_total():
   f = open(os.path.join(stats_dir, "number_of_predictions.txt"), "w")
   for res in cur.fetchall():
     i += 1
-    f.write("%3d. %-35s %5d\n" % (i, res[0], res[1]))
+    f.write("%3d. %-35s %5d\n" % prepare_data(i, res))
   f.close()
 
 def player_avg_pts_per_game():
@@ -323,7 +332,7 @@ def player_avg_pts_per_game():
   f = open(os.path.join(stats_dir, "average_points_scored.txt"), "w")
   for res in cur.fetchall():
     i += 1
-    f.write("%3d. %-35s %5.3f %5d\n" % (i, res[0], res[1], res[2]))
+    f.write("%3d. %-35s %5.3f %5d\n" % prepare_data(i, res))
   f.close()
 
 def results_by_team():
@@ -348,7 +357,7 @@ def results_by_team():
     f = open(os.path.join(team_stats_dir, 'results_%s.txt' % team[1].replace(' ', '_')), 'w')
     for res in cur.fetchall():
       i += 1
-      f.write("%3d. %10s %2d %25s - %-25s %2d - %2d  %d\n" % (i, res[0], res[1], res[2], res[3], res[4], res[5], res[6]))
+      f.write("%3d. %10s %2d %25s - %-25s %2d - %2d  %d\n" % prepare_data(i, res))
     f.close()
 
 def stats_by_team():
@@ -368,7 +377,7 @@ def stats_by_team():
 
     f = open(os.path.join(team_stats_dir, 'stats_%s.txt' % team[1].replace(' ', '_')), 'w')
     for res in cur.fetchall():
-      f.write("%-35s = %5.3f\n" % tuple(res))
+      f.write("%-35s = %5.3f\n" % res)
     f.close()
 
 def print_stats(filename, l, name_len=22):
@@ -380,19 +389,19 @@ def print_stats(filename, l, name_len=22):
   i = 0
   for res in l:
     i += 1
-    f.write(format_str % (i, res[0], res[2], res[1]))
+    f.write(format_str % prepare_data(i, res))
   f.close()
 
 def query_team_stats(name_pattern, season, stat, min_games):
   """Retreives the team stats."""
 
-  team_stats_query = """SELECT team.name, count, average
+  team_stats_query = """SELECT team.name, average, count
                           FROM team_stats, team
                          WHERE team_stats.stat_id = ?
                            AND team_stats.team_id = team.id
                            AND season_id = ?
                            AND count >= ?
-                         ORDER BY 3 %s, 2 DESC, 1"""
+                         ORDER BY 2 %s, 3 DESC, 1"""
 
   if season != all_seasons_const:
     filename = os.path.join(seasons_dir, season, name_pattern % stat[1])
@@ -429,13 +438,13 @@ def team_stats():
 def query_country_stats(name_pattern, season, stat, min_games):
   """Retreives the country stats."""
 
-  country_stats_query = """SELECT country.name, count, average
+  country_stats_query = """SELECT country.name, average, count
                              FROM country_stats, country
                             WHERE country_stats.stat_id = ?
                               AND country_stats.country_id = country.id
                               AND season_id = ?
                               AND count >= ?
-                            ORDER BY 3 %s, 2 DESC, 1"""
+                            ORDER BY 2 %s, 3 DESC, 1"""
 
   if season != all_seasons_const:
     filename = os.path.join(country_seasons_dir, season, name_pattern % stat[1])
@@ -479,11 +488,8 @@ def most_predictable_games(count):
   f = open(os.path.join(stats_dir, "most_predictable_games.txt"), "w")
   for res in cur.fetchall()[:count]:
     i += 1
-    l = [i]
-    for val in res:
-      l.append(val)
-    print "%2d. [%7s, %2d] %22s - %-22s %2d - %2d  %3d  %5.3f" % tuple(l)
-    f.write("%2d. [%7s, %2d] %22s - %-22s %2d - %2d  %3d  %5.3f\n" % tuple(l))
+    print "%2d. [%7s, %2d] %22s - %-22s %2d - %2d  %3d  %5.3f" % prepare_data(i, res)
+    f.write("%2d. [%7s, %2d] %22s - %-22s %2d - %2d  %3d  %5.3f\n" % prepare_data(i, res))
   f.close()
 
 def team_rating():
@@ -563,14 +569,14 @@ def query_player_team_stats_by_team(name_pattern, season, stat, min_games):
                    FROM team""")
   team_list = cur.fetchall()
   
-  player_team_stats_query = """SELECT player.name, count, average
+  player_team_stats_query = """SELECT player.name, average, count
                                  FROM player_team_stats, player
                                 WHERE player_team_stats.player_id = player.id
                                   AND player_team_stats.stat_id = ?
                                   AND player_team_stats.team_id = ?
                                   AND season_id = ?
                                   AND count >= ?
-                                ORDER BY 3 %s, 2 DESC, 1"""
+                                ORDER BY 2 %s, 3 DESC, 1"""
 
   sort_order = ('DESC' if stat[2] == sort_desc else 'ASC')
   for team in team_list:
@@ -590,14 +596,14 @@ def query_player_team_stats_by_player(name_pattern, season, stat, min_games):
                    FROM player""")
   player_list = cur.fetchall()
   
-  player_team_stats_query = """SELECT team.name, count, average
+  player_team_stats_query = """SELECT team.name, average, count
                                  FROM player_team_stats, team
                                 WHERE player_team_stats.team_id = team.id
                                   AND player_team_stats.stat_id = ?
                                   AND player_team_stats.player_id = ?
                                   AND season_id = ?
                                   AND count >= ?
-                                ORDER BY 3 %s, 2 DESC, 1"""
+                                ORDER BY 2 %s, 3 DESC, 1"""
 
   sort_order = ('DESC' if stat[2] == sort_desc else 'ASC')
   for player in player_list:
