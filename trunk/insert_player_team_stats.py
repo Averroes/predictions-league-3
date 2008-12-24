@@ -54,6 +54,10 @@ cur.execute('DELETE FROM player_team_stats')
 
 seasons = get_seasons()
 for season in seasons:
+  calculate_stats(stat_insert, predicted_success_home_stat_id, 'home_id', 'prediction.home_points', season) # predicted home success
+  calculate_stats(stat_insert, predicted_success_away_stat_id, 'away_id', 'prediction.away_points', season) # predicted away success
+  get_season_total(predicted_success_home_stat_id, predicted_success_away_stat_id, predicted_success_total_stat_id, season)
+
   calculate_stats(stat_insert, prediction_success_home_stat_id, 'home_id', 'points', season) # prediction success home
   calculate_stats(stat_insert, prediction_success_away_stat_id, 'away_id', 'points', season) # prediction success away
   get_season_total(prediction_success_home_stat_id, prediction_success_away_stat_id, prediction_success_total_stat_id, season)
@@ -68,9 +72,12 @@ description_insert = """INSERT INTO player_team_stats_description
                              VALUES(?, ?, ?, ?)"""
 
 cur.execute('DELETE FROM player_team_stats_description')
-cur.execute(description_insert, (prediction_success_home_stat_id, 'prediction_success_home', sort_desc, 'Avg. prediction points scored home'))
-cur.execute(description_insert, (prediction_success_away_stat_id, 'prediction_success_away', sort_desc, 'Avg. prediction points scored away'))
-cur.execute(description_insert, (prediction_success_total_stat_id, 'prediction_success', sort_desc, 'Avg. prediction points scored'))
+cur.execute(description_insert, (predicted_success_home_stat_id, 'predicted_team_success_home', sort_desc, 'Avg. points predicted home'))
+cur.execute(description_insert, (predicted_success_away_stat_id, 'predicted_team_success_away', sort_desc, 'Avg. points predicted away'))
+cur.execute(description_insert, (predicted_success_total_stat_id, 'predicted_team_success', sort_desc, 'Avg. points predicted'))
+cur.execute(description_insert, (prediction_success_home_stat_id, 'prediction_success_team_home', sort_desc, 'Avg. prediction points scored home'))
+cur.execute(description_insert, (prediction_success_away_stat_id, 'prediction_success_team_away', sort_desc, 'Avg. prediction points scored away'))
+cur.execute(description_insert, (prediction_success_total_stat_id, 'prediction_success_team', sort_desc, 'Avg. prediction points scored'))
 
 con.commit()
 print "Completed in %ss" % time.clock()

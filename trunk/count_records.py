@@ -8,10 +8,16 @@ cur.execute("""SELECT name
                 WHERE type = 'table'
                 ORDER BY 1""")
 
-print 'table                             count'
-print '---------------------------------------'
+print 'table                              count'
+print '----------------------------------------'
+total = 0
 for table in cur.fetchall():
   cur.execute('SELECT COUNT(*) FROM %s' % table[0])
-  print '%-32s %6d' % (table[0], cur.fetchone()[0])
+  count = cur.fetchone()[0]
+  total += count
+  print '%-32s %7d' % (table[0], count)
+
+print '----------------------------------------'
+print '%-32s %7d' % ("total row count", total)
 
 con.commit()
