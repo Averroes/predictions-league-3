@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS country_stats
   PRIMARY KEY(stat_id, country_id, season_id)
 );
 
-CREATE INDEX country_stats_idx ON country_stats(country_id);
+CREATE INDEX IF NOT EXISTS country_stats_idx ON country_stats(country_id);
 
 CREATE TABLE IF NOT EXISTS country_stats_description
 ( id          INTEGER PRIMARY KEY,
@@ -45,7 +45,28 @@ CREATE TABLE IF NOT EXISTS player
   name TEXT
 );
 
-CREATE UNIQUE INDEX player_name_idx ON player(name);
+CREATE UNIQUE INDEX IF NOT EXISTS player_name_idx ON player(name);
+
+CREATE TABLE IF NOT EXISTS player_country_stats
+( stat_id    INTEGER,
+  player_id  INTEGER,
+  country_id INTEGER,
+  season_id  TEXT,
+  sum        FLOAT,
+  count      INTEGER,
+  average    FLOAT,
+  PRIMARY KEY(stat_id, player_id, country_id, season_id)
+);
+
+CREATE INDEX IF NOT EXISTS player_country_stats_player_idx ON player_country_stats(player_id);
+CREATE INDEX IF NOT EXISTS player_country_stats_country_idx ON player_country_stats(country_id);
+
+CREATE TABLE IF NOT EXISTS player_country_stats_description
+( id          INTEGER PRIMARY KEY,
+  title       TEXT,
+  sort_order  INTEGER,
+  description TEXT
+);
 
 CREATE TABLE IF NOT EXISTS player_team_stats
 ( stat_id   INTEGER,
@@ -58,8 +79,8 @@ CREATE TABLE IF NOT EXISTS player_team_stats
   PRIMARY KEY(stat_id, player_id, team_id, season_id)
 );
 
-CREATE INDEX player_team_stats_player_idx ON player_team_stats(player_id);
-CREATE INDEX player_team_stats_team_idx ON player_team_stats(team_id);
+CREATE INDEX IF NOT EXISTS player_team_stats_player_idx ON player_team_stats(player_id);
+CREATE INDEX IF NOT EXISTS player_team_stats_team_idx ON player_team_stats(team_id);
 
 CREATE TABLE IF NOT EXISTS player_team_stats_description
 ( id          INTEGER PRIMARY KEY,
@@ -97,7 +118,7 @@ CREATE TABLE IF NOT EXISTS team
   country_id  INTEGER
 );
 
-CREATE UNIQUE INDEX team_name_idx ON team(name);
+CREATE UNIQUE INDEX IF NOT EXISTS team_name_idx ON team(name);
 
 CREATE TABLE IF NOT EXISTS team_stats
 ( stat_id   INTEGER,
@@ -109,7 +130,7 @@ CREATE TABLE IF NOT EXISTS team_stats
   PRIMARY KEY(stat_id, team_id, season_id)
 );
 
-CREATE INDEX team_stats_idx ON team_stats(team_id);
+CREATE INDEX IF NOT EXISTS team_stats_idx ON team_stats(team_id);
 
 CREATE TABLE IF NOT EXISTS team_stats_description
 ( id          INTEGER PRIMARY KEY,

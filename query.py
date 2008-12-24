@@ -522,13 +522,62 @@ def team_rating():
         f = open(os.path.join(stats_dir, "most_overrated_teams_diff%s.txt" % stat), "w")
       for team in res:
         i += 1
-        f_all.write("%3d. %-22s %+5.3f %4d\n" % (i, team[0], team[1], team[2]))
+        f_all.write("%3d. %-22s %+5.3f %4d\n" % prepare_data(i, team))
         if season == all_seasons_const and ((team[2] >= 20 and stat == '') or (team[2] >= 10 and stat != '')):
           j += 1
-          f.write("%3d. %-22s %+5.3f %4d\n" % (j, team[0], team[1], team[2]))
+          f.write("%3d. %-22s %+5.3f %4d\n" % prepare_data(j, team))
       if season == all_seasons_const:
         f.close()
       f_all.close()
+
+def team_rating_by_player():
+  """Prints most overrated teams for each player, per season and overall."""
+
+  cur.execute("""SELECT id, name
+                   FROM player""")
+
+  players = cur.fetchall()
+
+  query = """SELECT team.name, t1.average - t2.average, t1.count
+               FROM team, player, player_team_stats t1, team_stats t2, player_team_stats_description t1d, team_stats_description t2d
+              WHERE team.id = t1.team_id
+                AND t1.team_id = t2.team_id
+                AND t1.stat_id = t1d.id
+                AND t2.stat_id = t2d.id
+                AND t1.season_id = ?
+                AND t2.season_id = ?
+                AND t1d.title = ?
+                AND t2d.title = ?
+                AND player.id = ?
+                AND player.id = t1.player_id
+              ORDER BY 2 DESC, 3 DESC"""
+
+  seasons = get_seasons()
+  seasons.append(all_seasons_const)
+
+  for season in seasons:
+    for player_id, player_name in players:
+      player_name = player_name.replace(' ', '_').replace('*', '_')
+      for stat in ['', '_home', '_away']:
+        cur.execute(query, (season, season, 'predicted_team_success%s' % stat, 'team_success%s' % stat, player_id))
+        res = cur.fetchall()
+        if len(res) == 0:
+          continue
+        i, j = 0, 0
+        if season != all_seasons_const:
+          f_all = open(os.path.join(player_seasons_dir, season, "most_overrated_teams_diff_%s%s_all.txt" % (player_name, stat)), "w")
+        else:
+          f_all = open(os.path.join(player_stats_dir, "most_overrated_teams_diff_%s%s_all.txt" % (player_name, stat)), "w")
+          f = open(os.path.join(player_stats_dir, "most_overrated_teams_diff_%s%s.txt" % (player_name, stat)), "w")
+        for team in res:
+          i += 1
+          f_all.write("%3d. %-22s %+5.3f %4d\n" % prepare_data(i, team))
+          if season == all_seasons_const and ((team[2] >= 20 and stat == '') or (team[2] >= 10 and stat != '')):
+            j += 1
+            f.write("%3d. %-22s %+5.3f %4d\n" % prepare_data(j, team))
+        if season == all_seasons_const:
+          f.close()
+        f_all.close()
 
 def country_rating():
   """Prints most overrated countries, per season and overall."""
@@ -559,8 +608,57 @@ def country_rating():
         f_all = open(os.path.join(country_stats_dir, "most_overrated_countries_diff%s_all.txt" % stat), "w")
       for country in res:
         i += 1
-        f_all.write("%3d. %-22s %+5.3f %4d\n" % (i, country[0], country[1], country[2]))
+        f_all.write("%3d. %-22s %+5.3f %4d\n" % prepare_data(i, country))
       f_all.close()
+
+def country_rating_by_player():
+  """Prints most overrated countries for each player, per season and overall."""
+
+  cur.execute("""SELECT id, name
+                   FROM player""")
+
+  players = cur.fetchall()
+
+  query = """SELECT country.name, t1.average - t2.average, t1.count
+               FROM country, player, player_country_stats t1, country_stats t2, player_country_stats_description t1d, country_stats_description t2d
+              WHERE country.id = t1.country_id
+                AND t1.country_id = t2.country_id
+                AND t1.stat_id = t1d.id
+                AND t2.stat_id = t2d.id
+                AND t1.season_id = ?
+                AND t2.season_id = ?
+                AND t1d.title = ?
+                AND t2d.title = ?
+                AND player.id = ?
+                AND player.id = t1.player_id
+              ORDER BY 2 DESC, 3 DESC"""
+
+  seasons = get_seasons()
+  seasons.append(all_seasons_const)
+
+  for season in seasons:
+    for player_id, player_name in players:
+      player_name = player_name.replace(' ', '_').replace('*', '_')
+      for stat in ['', '_home', '_away']:
+        cur.execute(query, (season, season, 'predicted_country_success%s' % stat, 'country_success%s' % stat, player_id))
+        res = cur.fetchall()
+        if len(res) == 0:
+          continue
+        i, j = 0, 0
+        if season != all_seasons_const:
+          f_all = open(os.path.join(player_seasons_dir, season, "most_overrated_countries_diff_%s%s_all.txt" % (player_name, stat)), "w")
+        else:
+          f_all = open(os.path.join(player_stats_dir, "most_overrated_countries_diff_%s%s_all.txt" % (player_name, stat)), "w")
+          f = open(os.path.join(player_stats_dir, "most_overrated_countries_diff_%s%s.txt" % (player_name, stat)), "w")
+        for country in res:
+          i += 1
+          f_all.write("%3d. %-22s %+5.3f %4d\n" % prepare_data(i, country))
+          if season == all_seasons_const and ((country[2] >= 20 and stat == '') or (country[2] >= 10 and stat != '')):
+            j += 1
+            f.write("%3d. %-22s %+5.3f %4d\n" % prepare_data(j, country))
+        if season == all_seasons_const:
+          f.close()
+        f_all.close()
 
 def query_player_team_stats_by_team(name_pattern, season, stat, min_games):
   """Retreives the player_team stats by team."""
@@ -644,6 +742,88 @@ def player_team_stats():
         query_player_team_stats_by_team('%s_%s.txt', season, stat, 1)
         query_player_team_stats_by_player('%s_%s.txt', season, stat, 1)
 
+def query_player_country_stats_by_country(name_pattern, season, stat, min_games):
+  """Retreives the player_country stats by country."""
+
+  cur.execute("""SELECT *
+                   FROM country""")
+  country_list = cur.fetchall()
+  
+  player_country_stats_query = """SELECT player.name, average, count
+                                    FROM player_country_stats, player
+                                   WHERE player_country_stats.player_id = player.id
+                                     AND player_country_stats.stat_id = ?
+                                     AND player_country_stats.country_id = ?
+                                     AND season_id = ?
+                                     AND count >= ?
+                                   ORDER BY 2 %s, 3 DESC, 1"""
+
+  sort_order = ('DESC' if stat[2] == sort_desc else 'ASC')
+  for country in country_list:
+    if season != all_seasons_const:
+      filename = os.path.join(country_seasons_dir, season, name_pattern % (stat[1], country[1].replace(' ', '_')))
+    else:
+      filename = os.path.join(country_stats_dir, name_pattern % (stat[1], country[1].replace(' ', '_')))
+    cur.execute(player_country_stats_query % sort_order, (stat[0], country[0], season, min_games))
+    l = cur.fetchall()
+    if l:
+      print_stats(filename, l, 30)
+
+def query_player_country_stats_by_player(name_pattern, season, stat, min_games):
+  """Retreives the player_country stats by player."""
+
+  cur.execute("""SELECT *
+                   FROM player""")
+  player_list = cur.fetchall()
+  
+  player_country_stats_query = """SELECT country.name, average, count
+                                    FROM player_country_stats, country
+                                   WHERE player_country_stats.country_id = country.id
+                                     AND player_country_stats.stat_id = ?
+                                     AND player_country_stats.player_id = ?
+                                     AND season_id = ?
+                                     AND count >= ?
+                                   ORDER BY 2 %s, 3 DESC, 1"""
+
+  sort_order = ('DESC' if stat[2] == sort_desc else 'ASC')
+  for player in player_list:
+    if season != all_seasons_const:
+      filename = os.path.join(player_seasons_dir, season, name_pattern % (stat[1], player[1].replace(' ', '_').replace('*', '_')))
+    else:
+      filename = os.path.join(player_stats_dir, name_pattern % (stat[1], player[1].replace(' ', '_').replace('*', '_')))
+    cur.execute(player_country_stats_query % sort_order, (stat[0], player[0], season, min_games))
+    l = cur.fetchall()
+    if l:
+      print_stats(filename, l)
+
+def player_country_stats():
+  """Prints all player_country stats described in player_country_stats_description table."""
+
+  cur.execute("""SELECT id, title, sort_order
+                   FROM player_country_stats_description
+                  ORDER BY 1""")
+
+  stats_list = cur.fetchall()
+  seasons = get_seasons()
+  seasons.append(all_seasons_const)
+
+  for season in seasons:
+    s_dir = os.path.join(country_seasons_dir, season)
+    p_dir = os.path.join(player_seasons_dir, season)
+    if not os.path.exists(s_dir) and season != all_seasons_const:
+      os.makedirs(s_dir)
+    if not os.path.exists(p_dir) and season != all_seasons_const:
+      os.makedirs(p_dir)
+    for stat in stats_list:
+      if season == all_seasons_const:
+        query_player_country_stats_by_country('%s_%s_all.txt', season, stat, 1)
+        query_player_country_stats_by_player('%s_%s_all.txt', season, stat, 1)
+        query_player_country_stats_by_country('%s_%s.txt', season, stat, 10)
+        query_player_country_stats_by_player('%s_%s.txt', season, stat, 10)
+      else:
+        query_player_country_stats_by_country('%s_%s.txt', season, stat, 1)
+        query_player_country_stats_by_player('%s_%s.txt', season, stat, 1)
+
 stats_dir = 'stats'
 team_stats_dir = os.path.join(stats_dir, 'team')
 team_seasons_dir = os.path.join(team_stats_dir, 'season')
@@ -674,8 +854,11 @@ if __name__ == '__main__':
   country_stats()
   most_predictable_games(20)
   team_rating()
+  team_rating_by_player()
   country_rating()
+  country_rating_by_player()
   player_team_stats()
+  player_country_stats()
 
   print "Completed in %ss" % time.clock()
 
