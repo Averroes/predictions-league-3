@@ -225,10 +225,10 @@ def predictions_outcome_distribution_total():
     else:
       print 'Home win / draw / away win (predictions):'
       f = open(os.path.join(stats_dir, "predictions_outcome_distribution.txt"), "w")
-    for outcome in enumerate([home_win_const, draw_const, away_win_const]):
-      f.write("%s: %6d %6.2f%%\n" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100))
+    for i, outcome in enumerate([home_win_const, draw_const, away_win_const]):
+      f.write("%s: %6d %6.2f%%\n" % (outcome, hda[i], float(hda[i]) / games_predicted * 100))
       if season == all_seasons_const:
-        print "%s: %6d %6.2f%%" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100)
+        print "%s: %6d %6.2f%%" % (outcome, hda[i], float(hda[i]) / games_predicted * 100)
     f.close()
 
 def predictions_outcome_distribution_by_player():
@@ -241,8 +241,8 @@ def predictions_outcome_distribution_by_player():
     games_predicted, hda = get_games_predicted_and_outcome_count(player[0])
 
     f = open(os.path.join(player_stats_dir, "predictions_outcome_distribution_%s.txt" % player[1].replace(' ', '_').replace('*', '_')), "w")
-    for outcome in enumerate([home_win_const, draw_const, away_win_const]):
-      f.write("%s: %6d %6.2f%%\n" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_predicted * 100))
+    for i, outcome in enumerate([home_win_const, draw_const, away_win_const]):
+      f.write("%s: %6d %6.2f%%\n" % (outcome, hda[i], float(hda[i]) / games_predicted * 100))
     f.close()
 
 def results_distribution():
@@ -297,10 +297,10 @@ def results_outcome_distribution():
     else:
       print 'Home win / draw / away win (results):'
       f = open(os.path.join(stats_dir, "results_outcome_distribution.txt"), "w")
-    for outcome in enumerate([home_win_const, draw_const, away_win_const]):
-      f.write("%s: %6d %6.2f%%\n" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_played * 100))
+    for i, outcome in enumerate([home_win_const, draw_const, away_win_const]):
+      f.write("%s: %6d %6.2f%%\n" % (outcome, hda[i], float(hda[i]) / games_played * 100))
       if season == all_seasons_const:
-        print "%s: %6d %6.2f%%" % (outcome[1], hda[outcome[0]], float(hda[outcome[0]]) / games_played * 100)
+        print "%s: %6d %6.2f%%" % (outcome, hda[i], float(hda[i]) / games_played * 100)
     f.close()
 
 def player_predictions_made_total():

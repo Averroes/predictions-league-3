@@ -119,14 +119,14 @@ con = sqlite.connect('agcmpl.db')
 cur = con.cursor()
 time.clock()
 
-for d in os.walk(start_dir):
-  if d[0].find('Euro') > -1 or d[0].find('World') > -1:
+for root, dirs, files in os.walk(start_dir):
+  if root.find('Euro') > -1 or root.find('World') > -1:
     continue
-  season = d[0][d[0].rfind('\\') + 1:]
-  for f in d[2]:
+  season = root[root.rfind('\\') + 1:]
+  for f in files:
     found_games = games_file_pattern.search(f)
     if found_games:
-      n, team_list = read_games(os.path.join(d[0], f), team_syn_list, cur)
+      n, team_list = read_games(os.path.join(root, f), team_syn_list, cur)
       r = found_games.group('round')
       if num_games.has_key(season): # new round
         num_games[season][r] = n
@@ -140,7 +140,11 @@ for d in os.walk(start_dir):
         cur.execute('INSERT INTO round(season_id, id) VALUES(?, ?)', (season, r))
       # read results
       f = f[:3] + 'results.txt'
-      result_list = read_results(os.path.join(d[0], f), num_games[season][r])
+      results_file = os.path.join(root, f)
+      if not os.path.exists(results_file):
+        print 'Missing file %s' % results_file
+        continue
+      result_list = read_results(results_file, num_games[season][r])
       game_id_list = []
       for i in range(0, n):
         cur.execute('SELECT id FROM team WHERE name = ?', (team_list[i * 2], ))
@@ -161,7 +165,7 @@ for d in os.walk(start_dir):
         game_id_list.append(cur.lastrowid)
       # read predictions
       f = f[:3] + 'predictions.txt'
-      read_predictions(os.path.join(d[0], f), num_games[season][r], game_id_list, player_syn_list, cur)
+      read_predictions(os.path.join(root, f), num_games[season][r], game_id_list, player_syn_list, cur)
 
 uefa_members_file = open(os.path.join(resources_dir, "uefa_members.txt"), "r")
 uefa_members_codes_file = open(os.path.join(resources_dir, "uefa_members_codes.txt"), "r")
