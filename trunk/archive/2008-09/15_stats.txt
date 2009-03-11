@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Barcelona v Lyon                     5 -  2   14   2.000
+ 2. Man. United v Internazionale         2 -  0   12   1.714
+ 3. Bayern v Sporting                    7 -  1   12   1.714
+ 4. Juventus v Chelsea                   2 -  2   11   1.571
+ 5. Roma v Arsenal                       1 -  0   11   1.571
+ 6. Panathinaikos v Villarreal           1 -  2    6   0.857
+ 7. Liverpool v Real Madrid              4 -  0    6   0.857
+ 8. Porto v Atletico                     0 -  0    3   0.429
+
+Competitors = 7
+Total points scored = 75
+Average points scored = 10.714
+Average points per game = 1.339
