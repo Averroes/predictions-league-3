@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Dynamo Kyiv v Metalist               1 -  0   20   2.857
+ 2. Marseille v Ajax                     2 -  1   19   2.714
+ 3. Bremen v St Etienne                  1 -  0   18   2.571
+ 4. Man. City v AaB                      2 -  0   18   2.571
+ 5. CSKA Moskva v Shakhtar               1 -  0   15   2.143
+ 6. Udinese v Zenit                      2 -  0    6   0.857
+ 7. Hamburg v Galatasaray                1 -  1    6   0.857
+ 8. PSG v Braga                          0 -  0    3   0.429
+
+Competitors = 7
+Total points scored = 105
+Average points scored = 15.000
+Average points per game = 1.875
