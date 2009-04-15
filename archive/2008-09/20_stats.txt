@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Porto v Man. United                  0 -  1   17   2.429
+ 2. Arsenal v Villarreal                 3 -  0   16   2.286
+ 3. Bayern v Barcelona                   1 -  1    8   1.143
+ 4. Chelsea v Liverpool                  4 -  4    6   0.857
+
+Competitors = 7
+Total points scored = 47
+Average points scored = 6.714
+Average points per game = 1.679
