@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Man. City v Hamburg                  2 -  1   12   1.714
+ 2. Dynamo Kyiv v PSG                    3 -  0   10   1.429
+ 3. Udinese v Bremen                     3 -  3    6   0.857
+ 4. Marseille v Shakhtar                 1 -  2    0   0.000
+
+Competitors = 7
+Total points scored = 28
+Average points scored = 4.000
+Average points per game = 1.000
