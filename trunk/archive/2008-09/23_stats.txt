@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Man. United v Arsenal                1 -  0   19   2.714
+ 2. Barcelona v Chelsea                  0 -  0    9   1.286
+
+Competitors = 7
+Total points scored = 28
+Average points scored = 4.000
+Average points per game = 2.000
