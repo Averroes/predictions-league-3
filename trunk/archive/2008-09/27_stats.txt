@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Barcelona v Man. United              2 -  0    4   0.571
+
+Competitors = 7
+Total points scored = 4
+Average points scored = 0.571
+Average points per game = 0.571
