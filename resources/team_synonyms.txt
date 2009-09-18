@@ -32,3 +32,5 @@ FC Barcelona;Barcelona
 Man. City;Manchester City
 FC Dynamo Kyiv;Dynamo Kyiv
 FC Shakhtar Donetsk;Shakhtar
+Maccabi Haifa;M. Haifa
+Werder;Bremen

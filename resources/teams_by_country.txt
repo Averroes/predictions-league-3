@@ -1,14 +1,14 @@
 
 
 
-Austria Wien,GAK,Rapid,Salzburg
+Austria Wien,GAK,Rapid,Salzburg,Sturm
 
 BATE
 Anderlecht,Beveren,Club Brugge,Genk,La Louviere,Lokeren,Standard,Zulte Waregem
 
 CSKA Sofia,Levski,Litex
 Dinamo Zagreb,Hajduk
-Anorthosis
+Anorthosis,APOEL
 Banik,Liberec,Mlada Boleslav,Sigma,Slavia,Sparta,Teplice
 AaB,Brondby,Kobenhavn,Nordsjaelland,OB
 Arsenal,Aston Villa,Blackburn,Bolton,Chelsea,Everton,Fulham,Liverpool,Manchester City,Man. United,Middlesbrough,Millwall,Newcastle,Portsmouth,Southampton,Tottenham
@@ -23,7 +23,7 @@ Debrecen,Ferencvaros,MTK
 
 
 H. Ramat-Gan,H. Tel-Aviv,M. Haifa,M. Petah-Tikva,M. Tel-Aviv
-Fiorentina,Internazionale,Juventus,Lazio,Livorno,Milan,Palermo,Parma,Perugia,Roma,Sampdoria,Udinese
+Fiorentina,Genoa,Internazionale,Juventus,Lazio,Livorno,Milan,Palermo,Parma,Perugia,Roma,Sampdoria,Udinese
 
 Ventspils
 
@@ -31,15 +31,15 @@ Ventspils
 
 
 
-
+Sheriff
 
 AZ Alkmaar,Ajax,Feyenoord,Heerenveen,NAC,NEC Nijmegen,PSV,Twente,Utrecht,Vitesse
 
 Brann,Lyn,Molde,Odd,Rosenborg,Tromso,Valerenga,Viking
 Amica,Groclin,Lech,Wisla
-Benfica,Boavista,Braga,Guimaraes,Leiria,Maritimo,Porto,Sporting
-CFR Cluj,Dinamo Bucuresti,Rapid Bucuresti,Steaua
-CSKA Moskva,Lokomotiv Moskva,Spartak Moskva,Torpedo Moskva,Zenit
+Benfica,Boavista,Braga,Guimaraes,Leiria,Maritimo,Nacional,Porto,Sporting
+CFR Cluj,Dinamo Bucuresti,Rapid Bucuresti,Steaua,Timisoara,Unirea Urziceni
+CSKA Moskva,Lokomotiv Moskva,Rubin,Spartak Moskva,Torpedo Moskva,Zenit
 
 Aberdeen,Celtic,Dundee,Hearts,Rangers
 Crvena Zvezda,Partizan
