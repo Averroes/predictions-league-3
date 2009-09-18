@@ -565,7 +565,10 @@ def team_rating_by_player():
           continue
         i, j = 0, 0
         if season != all_seasons_const:
-          f_all = open(os.path.join(player_seasons_dir, season, "most_overrated_teams_diff_%s%s_all.txt" % (player_name, stat)), "w")
+          s_dir = os.path.join(player_seasons_dir, season)
+          if not os.path.exists(s_dir):
+            os.makedirs(s_dir)
+          f_all = open(os.path.join(s_dir, "most_overrated_teams_diff_%s%s_all.txt" % (player_name, stat)), "w")
         else:
           f_all = open(os.path.join(player_stats_dir, "most_overrated_teams_diff_%s%s_all.txt" % (player_name, stat)), "w")
           f = open(os.path.join(player_stats_dir, "most_overrated_teams_diff_%s%s.txt" % (player_name, stat)), "w")
