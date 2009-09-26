@@ -1,0 +1,12 @@
+BEGIN TRANSACTION;
+INSERT INTO stage VALUES ('F',  'Final');
+INSERT INTO stage VALUES ('3',  '3rd place play-off');
+INSERT INTO stage VALUES ('2',  '1/2 Final');
+INSERT INTO stage VALUES ('4',  '1/4 Final');
+INSERT INTO stage VALUES ('8',  '1/8 Final');
+INSERT INTO stage VALUES ('16', '1/16 Final');
+INSERT INTO stage VALUES ('32', '1/32 Final');
+INSERT INTO stage VALUES ('2G', '2nd group stage');
+INSERT INTO stage VALUES ('G',  'Group stage');
+INSERT INTO stage VALUES ('GQ', 'Group stage qualifying round');
+END TRANSACTION;

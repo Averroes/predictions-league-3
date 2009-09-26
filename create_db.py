@@ -3,9 +3,12 @@ from pysqlite2 import dbapi2 as sqlite
 con = sqlite.connect('agcmpl.db')
 cur = con.cursor()
 
-f = open("create_db.sql", "r")
-script = f.read()
+sql_files = ['create_db.sql', 'competitions.sql', 'stages.sql']
 
-cur.executescript(script)
+for sql_file in sql_files:
+  f = open(sql_file, 'r')
+  script = f.read()
+  f.close()
+  cur.executescript(script)
 
 con.commit()
