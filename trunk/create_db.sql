@@ -112,6 +112,11 @@ CREATE TABLE IF NOT EXISTS season
   title TEXT
 );
 
+CREATE TABLE IF NOT EXISTS stage
+( id   TEXT PRIMARY KEY,
+  name TEXT
+);
+
 CREATE TABLE IF NOT EXISTS team
 ( id          INTEGER PRIMARY KEY,
   name        TEXT,
