@@ -1,6 +1,16 @@
-import os, re, string, struct, time
+import csv, os, re, string, struct, time
 from pysqlite2 import dbapi2 as sqlite
 
+class AutoVivification(dict):
+  """Implementation of perl's autovivification feature.
+     From: http://stackoverflow.com/questions/635483/what-is-the-best-way-to-implement-nested-dictionaries-in-python """
+  def __getitem__(self, item):
+    try:
+      return dict.__getitem__(self, item)
+    except KeyError:
+      value = self[item] = type(self)()
+      return value
+            
 def read_games(filename, team_syn_list, cur):
   games_line_pattern = re.compile("(?P<home_team>^.*)\sv\s(?P<away_team>.*$)")
   f = open(filename, 'r')
@@ -115,6 +125,13 @@ num_games = {}
 team_syn_list = load_synonyms(os.path.join(resources_dir, 'team_synonyms.txt'))
 player_syn_list = load_synonyms(os.path.join(resources_dir, 'player_synonyms.txt'))
 
+cs_dict = AutoVivification()
+cs_file = open(os.path.join(start_dir, 'competitions_and_stages.txt') ,'r')
+reader = csv.reader(cs_file, delimiter=';')
+for season, round, game, competition, stage in reader:
+  cs_dict[season][round][game] = (competition, stage)
+cs_file.close()
+
 con = sqlite.connect('agcmpl.db')
 cur = con.cursor()
 time.clock()
@@ -159,9 +176,25 @@ for root, dirs, files in os.walk(start_dir):
           home_points, away_points = 1, 1
         else:
           home_points, away_points = 0, 3
-        cur.execute("""INSERT INTO game(id, round_id, season_id, home_id, away_id, home_result, away_result, home_points, away_points)
-                          VALUES(NULL, ?, ?, ?, ?, ?, ?, ?, ?)""",
-                         (r, season, home_id, away_id, home_result, away_result, home_points, away_points))
+
+        # setting competition and stage id's
+        if '*' in cs_dict[season][r]:
+          competition_id, stage_id = cs_dict[season][r]['*']
+        elif str(i + 1) in cs_dict[season][r]:
+          competition_id, stage_id = cs_dict[season][r][str(i + 1)]
+        else:
+          for key in cs_dict[season][r]:
+            l, h = (int(x) for x in key.split('-'))
+            if l <= (i + 1) <= h:
+              competition_id, stage_id = cs_dict[season][r][key]
+              break
+          else:
+            competition_id, stage_id = 0, 0
+            print 'No competition and stage data found for season: %s, round: %s, game: %d' % (season, r, i + 1)
+
+        cur.execute("""INSERT INTO game(id, round_id, season_id, competition_id, stage_id, home_id, away_id, home_result, away_result, home_points, away_points)
+                          VALUES(NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                         (r, season, competition_id, stage_id, home_id, away_id, home_result, away_result, home_points, away_points))
         game_id_list.append(cur.lastrowid)
       # read predictions
       f = f[:3] + 'predictions.txt'

@@ -29,15 +29,17 @@ CREATE TABLE IF NOT EXISTS country_stats_description
 );
 
 CREATE TABLE IF NOT EXISTS game
-( id          INTEGER PRIMARY KEY,
-  round_id    INTEGER,
-  season_id   TEXT,
-  home_id     INTEGER,
-  away_id     INTEGER,
-  home_result INTEGER,
-  away_result INTEGER,
-  home_points INTEGER,
-  away_points INTEGER
+( id             INTEGER PRIMARY KEY,
+  round_id       INTEGER,
+  season_id      TEXT,
+  competition_id INTEGER,
+  stage_id       TEXT, 
+  home_id        INTEGER,
+  away_id        INTEGER,
+  home_result    INTEGER,
+  away_result    INTEGER,
+  home_points    INTEGER,
+  away_points    INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS player
@@ -103,7 +105,6 @@ CREATE TABLE IF NOT EXISTS prediction
 CREATE TABLE IF NOT EXISTS round
 ( season_id      TEXT,
   id             INTEGER,
-  competition_id INTEGER,
   PRIMARY KEY(season_id, id)
 );
 
