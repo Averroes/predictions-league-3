@@ -1,0 +1,32 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Athletic v Nacional                  2 -  1    7   1   0     3   2   2    22   2.750
+ 2. Panathinaikos v Sturm                1 -  0    8   1   0     3   1   4    23   2.556
+ 3. Ajax v Dinamo Zagreb                 2 -  1    9   0   0     0   3   6    21   2.333
+ 4. PSV v Kobenhavn                      1 -  0    7   0   1     2   0   5    18   2.250
+ 5. Salzburg v Levski                    1 -  0    6   1   1     2   1   3    17   2.125
+ 6. Ventspils v Sporting                 1 -  2    1   2   6     2   2   2    18   2.000
+ 7. Lazio v Villarreal                   2 -  1    5   2   1     2   2   1    16   2.000
+ 8. Galatasaray v Dinamo Bucuresti       4 -  1    8   1   0     0   0   8    16   1.778
+ 9. Fulham v Roma                        1 -  1    1   4   4     4   0   0    16   1.778
+10. Shakhtar v Toulouse                  4 -  0    6   2   0     0   0   6    12   1.500
+11. H. Tel-Aviv v Rapid Wien             5 -  1    6   2   1     0   0   6    12   1.333
+12. Sparta Praha v CFR Cluj              2 -  0    4   2   2     1   0   3    10   1.250
+13. Brugge v Partizan                    2 -  0    5   1   2     0   0   5    10   1.250
+14. Lille v Genoa                        3 -  0    4   3   2     1   0   3    10   1.111
+15. Celtic v Hamburg                     0 -  1    1   4   4     0   2   2    10   1.111
+16. Benfica v Everton                    5 -  0    4   3   1     0   0   4     8   1.000
+17. BATE v AEK                           2 -  1    3   5   0     0   2   1     8   1.000
+18. Timisoara v Anderlecht               0 -  0    3   3   3     0   2   1     8   0.889
+19. Steaua v Fenerbahce                  0 -  1    5   1   2     0   2   0     6   0.750
+20. Austria Wien v Werder                2 -  2    1   1   6     1   0   0     4   0.500
+21. Sheriff v Twente                     2 -  0    1   1   6     0   0   1     2   0.250
+22. CSKA Sofia v Basel                   0 -  2    6   3   0     0   0   0     0   0.000
+23. Hertha v Heerenveen                  0 -  1    5   4   0     0   0   0     0   0.000
+24. Valencia v Slavia Praha              1 -  1    8   0   1     0   0   0     0   0.000
+
+Competitors = 9
+Total points scored = 267
+Average points scored = 29.667
+Average points per game = 1.236
