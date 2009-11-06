@@ -1,0 +1,11 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Miljenko                        8 160 237  25  19  40
+  2. ( - ) Nick the Greek                  8 160 229  19  23  42
+  3. ( +1) Timofei Shatrov                 8 160 226  25  12  45
+  4. ( -1) FirstName LastName              8 160 217  22  15  42
+  5. ( - ) Mark Goodge                     8 160 211  21  19  35
+  6. ( +1) Toby                            8 160 203  19  13  44
+  7. ( -1) The Wielder of the Scythe       8 160 197  13  25  35
+  8. ( - ) Stephen Weir                    8 160 187  16  15  39
+  9. ( - ) AGCM Oracle                     8 160 160  11  12  40
