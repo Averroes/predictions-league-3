@@ -37,10 +37,10 @@ def add_edges(g):
   weights = []
   cur.execute("SELECT * FROM game")
   for x in cur.fetchall():
-    edges.append((x[3] - 1, x[4] - 1)) # home->away edge
-    weights.append(x[8]) # home->away edge weight is away's points scored
-    edges.append((x[4] - 1, x[3] - 1)) # away->home edge
-    weights.append(x[7]) # away->home edge weight is home's points scored
+    edges.append((x[5] - 1, x[6] - 1)) # home->away edge
+    weights.append(x[10]) # home->away edge weight is away's points scored
+    edges.append((x[6] - 1, x[5] - 1)) # away->home edge
+    weights.append(x[9]) # away->home edge weight is home's points scored
   con.commit()
   
   g.add_edges(edges)
