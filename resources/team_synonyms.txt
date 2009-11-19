@@ -34,3 +34,7 @@ FC Dynamo Kyiv;Dynamo Kyiv
 FC Shakhtar Donetsk;Shakhtar
 Maccabi Haifa;M. Haifa
 Werder;Bremen
+Slavia Praha;Slavia
+Sparta Praha;Sparta
+Brugge;Club Brugge
+Rapid Wien;Rapid
