@@ -1,0 +1,32 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Fulham v CSKA Sofia                  1 -  0    6   1   0     4   0   2    20   2.857
+ 2. Toulouse v Partizan                  1 -  0    5   0   2     5   0   0    20   2.857
+ 3. Galatasaray v Panathinaikos          1 -  0    6   1   0     3   1   2    19   2.714
+ 4. PSV v Sparta Praha                   1 -  0    6   1   0     3   0   3    18   2.571
+ 5. Roma v Basel                         2 -  1    6   0   1     1   3   2    17   2.429
+ 6. Hamburg v Rapid Wien                 2 -  0    5   2   0     2   0   3    14   2.000
+ 7. Celtic v H. Tel-Aviv                 2 -  0    6   0   1     1   0   5    14   2.000
+ 8. Ventspils v Hertha                   0 -  1    1   2   4     2   1   1    13   1.857
+ 9. Dinamo Bucuresti v Sturm             2 -  1    4   3   0     1   2   1    12   1.714
+10. Sheriff v Steaua                     1 -  1    3   3   1     3   0   0    12   1.714
+11. BATE v Benfica                       1 -  2    1   2   4     0   4   0    12   1.714
+12. Timisoara v Ajax                     1 -  2    1   2   4     1   1   2    11   1.571
+13. Werder v Nacional                    4 -  1    5   2   0     0   1   4    11   1.571
+14. Kobenhavn v CFR Cluj                 2 -  0    5   0   2     0   0   5    10   1.429
+15. Levski v Villarreal                  0 -  2    2   1   4     0   0   4     8   1.143
+16. Valencia v Lille                     3 -  1    4   2   1     0   0   4     8   1.143
+17. Twente v Fenerbahce                  0 -  1    4   1   2     1   1   0     7   1.000
+18. Sporting v Heerenveen                1 -  1    5   2   0     1   1   0     7   1.000
+19. Slavia Praha v Genoa                 0 -  0    3   1   3     0   1   0     3   0.429
+20. Salzburg v Lazio                     2 -  1    1   3   3     0   1   0     3   0.429
+21. AEK v Everton                        0 -  1    2   4   1     0   0   1     2   0.286
+22. Anderlecht v Dinamo Zagreb           0 -  1    6   1   0     0   0   0     0   0.000
+23. Austria Wien v Athletic              0 -  3    4   3   0     0   0   0     0   0.000
+24. Shakhtar v Brugge                    0 -  0    7   0   0     0   0   0     0   0.000
+
+Competitors = 7
+Total points scored = 241
+Average points scored = 34.429
+Average points per game = 1.435
