@@ -1,0 +1,11 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. FirstName LastName             21   2  1  5
+ 2. Miljenko                       19   2  1  4
+ 3. The Wielder of the Scythe      19   2  1  4
+ 4. Toby                           16   2  0  4
+ 5. Mark Goodge                    14   2  0  3
+ 6. Big_B                          14   1  0  5
+ 7. Timofei Shatrov                10   0  0  5
+ 8. AGCM Oracle                     7   0  1  2
+ 9. Nick the Greek                  6   0  0  3
