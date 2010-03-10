@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Arsenal v Porto                      5 -  0    7   0   0     0   0   7    14   2.000
+ 2. Man. United v Milan                  4 -  0    6   1   1     0   0   6    12   1.500
+ 3. Fiorentina v Bayern                  3 -  2    2   4   1     0   2   0     6   0.857
+ 4. Real Madrid v Lyon                   1 -  1    7   0   1     0   0   0     0   0.000
+
+Competitors = 8
+Total points scored = 32
+Average points scored = 4.000
+Average points per game = 1.000
