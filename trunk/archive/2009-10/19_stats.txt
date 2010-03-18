@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Barcelona v Stuttgart                4 -  0    8   0   0     0   0   8    16   2.000
+ 2. Bordeaux v Olympiacos                2 -  1    5   2   1     0   2   3    12   1.500
+ 3. Chelsea v Internazionale             0 -  1    6   1   1     0   1   0     3   0.375
+ 4. Sevilla v CSKA Moskva                1 -  2    7   1   0     0   0   0     0   0.000
+
+Competitors = 8
+Total points scored = 31
+Average points scored = 3.875
+Average points per game = 0.969
