@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Arsenal v Barcelona                  2 -  2    2   4   0     1   3   0    13   2.167
+ 2. Internazionale v CSKA Moskva         1 -  0    5   1   0     1   1   3    13   2.167
+ 3. Lyon v Bordeaux                      3 -  1    4   2   0     0   0   4     8   1.333
+ 4. Bayern v Man. United                 2 -  1    1   2   3     1   0   0     4   0.667
+
+Competitors = 6
+Total points scored = 38
+Average points scored = 6.333
+Average points per game = 1.583

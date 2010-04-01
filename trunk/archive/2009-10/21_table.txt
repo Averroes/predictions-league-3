@@ -1,0 +1,8 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Nick the Greek                 11   1  1  2
+ 2. The Wielder of the Scythe       7   1  1  0
+ 3. Miljenko                        7   0  1  2
+ 4. Timofei Shatrov                 7   0  1  2
+ 5. Mark Goodge                     6   1  0  1
+ 6. AGCM Oracle                     0   0  0  0
