@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Liverpool v Benfica                  4 -  1    5   0   1     0   0   5    10   1.667
+ 2. Wolfsburg v Fulham                   0 -  1    3   2   1     1   0   0     4   0.667
+ 3. Standard v Hamburg                   1 -  3    3   2   1     0   0   1     2   0.333
+ 4. Atletico v Valencia                  0 -  0    6   0   0     0   0   0     0   0.000
+
+Competitors = 6
+Total points scored = 16
+Average points scored = 2.667
+Average points per game = 0.667
