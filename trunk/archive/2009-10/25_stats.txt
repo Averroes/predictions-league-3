@@ -1,0 +1,10 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Bayern v Lyon                        1 -  0    3   2   1     1   2   0    10   1.667
+ 2. Internazionale v Barcelona           3 -  1    2   3   1     0   0   2     4   0.667
+
+Competitors = 6
+Total points scored = 14
+Average points scored = 2.333
+Average points per game = 1.167
