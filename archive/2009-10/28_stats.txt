@@ -1,0 +1,10 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Liverpool v Atletico                 1 -  0    5   0   0     2   1   2    15   3.000
+ 2. Fulham v Hamburg                     2 -  1    2   3   0     0   2   0     6   1.200
+
+Competitors = 5
+Total points scored = 21
+Average points scored = 4.200
+Average points per game = 2.100
