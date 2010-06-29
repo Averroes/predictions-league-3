@@ -242,3 +242,6 @@ World Cup 2006;08;2;4;F
 World Cup 2010;01;*;4;G
 World Cup 2010;02;*;4;G
 World Cup 2010;03;*;4;G
+World Cup 2010;04;*;4;8
+World Cup 2010;05;*;4;8
+World Cup 2010;06;*;4;4

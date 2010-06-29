@@ -1,0 +1,12 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Nick the Greek                  4  52  72   7   4  16
+  2. ( +1) Miljenko                        4  52  68   7   6  11
+  3. ( -1) Stephen Weir                    4  52  63   4   7  13
+  4. ( - ) Timofei Shatrov                 4  52  61   4   7  12
+  5. ( - ) The Wielder of the Scythe       4  52  55   1   7  15
+  6. ( - ) Mark Goodge                     4  52  54   5   4  11
+  7. ( - ) Hamish                          4  52  50   5   2  12
+  8. ( - ) Toby                            4  52  41   3   3  10
+  9. ( - ) AGCM Oracle                     4  52  32   1   6   5
+ 10. ( - ) Hari Seldon                     1  16  16   1   2   3

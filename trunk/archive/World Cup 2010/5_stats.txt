@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Netherlands v Slovakia               2 -  1    9   0   0     0   3   6    21   2.333
+ 2. Brazil v Chile                       3 -  0    8   1   0     0   0   8    16   1.778
+ 3. Spain v Portugal                     1 -  0    4   5   0     3   1   0    15   1.667
+ 4. Paraguay v Japan                     0 -  0    4   2   3     0   2   0     6   0.667
+
+Competitors = 9
+Total points scored = 58
+Average points scored = 6.444
+Average points per game = 1.611
