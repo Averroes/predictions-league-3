@@ -122,7 +122,7 @@ results_file_pattern = re.compile("(?P<round>\d+)_results.txt$")
 predictions_file_pattern = re.compile("(?P<round>\d+)_predictions.txt$")
 num_games = {}
 
-team_syn_list = load_synonyms(os.path.join(resources_dir, 'team_synonyms.txt'))
+team_syn_list = load_synonyms(os.path.join(resources_dir, 'country_synonyms.txt'))
 player_syn_list = load_synonyms(os.path.join(resources_dir, 'player_synonyms.txt'))
 
 cs_dict = AutoVivification()
@@ -132,12 +132,12 @@ for season, round, game, competition, stage in reader:
   cs_dict[season][round][game] = (competition, stage)
 cs_file.close()
 
-con = sqlite.connect('agcmpl.db')
+con = sqlite.connect('agcmpl_wc2010.db')
 cur = con.cursor()
 time.clock()
 
 for root, dirs, files in os.walk(start_dir):
-  if root.find('Euro') > -1 or root.find('World') > -1:
+  if root.find('World Cup 2010') == -1:
     continue
   season = root[root.rfind('\\') + 1:]
   for f in files:
@@ -156,7 +156,7 @@ for root, dirs, files in os.walk(start_dir):
       if not cur.fetchall():
         cur.execute('INSERT INTO round(season_id, id) VALUES(?, ?)', (season, r))
       # read results
-      f = f[:3] + 'results.txt'
+      f = f[:f.find('_') + 1] + 'results.txt'
       results_file = os.path.join(root, f)
       if not os.path.exists(results_file):
         print 'Missing file %s' % results_file
@@ -197,32 +197,8 @@ for root, dirs, files in os.walk(start_dir):
                          (r, season, competition_id, stage_id, home_id, away_id, home_result, away_result, home_points, away_points))
         game_id_list.append(cur.lastrowid)
       # read predictions
-      f = f[:3] + 'predictions.txt'
+      f = f[:f.find('_') + 1] + 'predictions.txt'
       read_predictions(os.path.join(root, f), num_games[season][r], game_id_list, player_syn_list, cur)
 
-uefa_members_file = open(os.path.join(resources_dir, "uefa_members.txt"), "r")
-uefa_members_codes_file = open(os.path.join(resources_dir, "uefa_members_codes.txt"), "r")
-teams_by_country_file = open(os.path.join(resources_dir, "teams_by_country.txt"), "r")
-i = 0
-for country in uefa_members_file:
-  i += 1
-  country_teams = teams_by_country_file.readline().strip().split(",")
-  code = uefa_members_codes_file.readline().strip()
-  cur.execute("""INSERT INTO country(id, name, code)
-                  VALUES(?, ?, ?)""", (i, country.strip(), code))
-  for team in country_teams:
-    cur.execute('SELECT id FROM team WHERE name = ?', (team, ))
-    row = cur.fetchone()
-    if row != None:
-      team_id = row[0]
-      cur.execute("""UPDATE team
-                        SET country_id = ?
-                        WHERE id = ?""", (i, team_id))
-
 print "Completed in %ss" % time.clock()
-
-teams_by_country_file.close()
-uefa_members_codes_file.close()
-uefa_members_file.close()
-
 con.commit()

@@ -836,7 +836,7 @@ seasons_dir = os.path.join(stats_dir, 'season')
 country_stats_dir = os.path.join(stats_dir, 'country')
 country_seasons_dir = os.path.join(country_stats_dir, 'season')
 
-con = sqlite.connect('agcmpl.db')
+con = sqlite.connect('agcmpl_wc2010.db')
 cur = con.cursor()
 
 if __name__ == '__main__':
@@ -854,14 +854,14 @@ if __name__ == '__main__':
   results_by_team()
   stats_by_team()
   team_stats()
-  country_stats()
+  #country_stats()
   most_predictable_games(20)
   team_rating()
   team_rating_by_player()
-  country_rating()
-  country_rating_by_player()
+  #country_rating()
+  #country_rating_by_player()
   player_team_stats()
-  player_country_stats()
+  #player_country_stats()
 
   print "Completed in %ss" % time.clock()
 

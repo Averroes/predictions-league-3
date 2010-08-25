@@ -36,7 +36,7 @@ def sum_all_seasons(all_seasons_const):
   cur.execute(total_insert % all_seasons_const)
 
 
-con = sqlite.connect('agcmpl.db')
+con = sqlite.connect('agcmpl_wc2010.db')
 cur = con.cursor()
 time.clock()
 

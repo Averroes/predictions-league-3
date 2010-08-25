@@ -1,6 +1,6 @@
 from pysqlite2 import dbapi2 as sqlite
 
-con = sqlite.connect('agcmpl.db')
+con = sqlite.connect('agcmpl_wc2010.db')
 cur = con.cursor()
 
 sql_files = ['create_db.sql', 'competitions.sql', 'stages.sql']
