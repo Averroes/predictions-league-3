@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Milan v Liverpool                    2 -  1   12   1.714
+
+Competitors = 7
+Total points scored = 12
+Average points scored = 1.714
+Average points per game = 1.714

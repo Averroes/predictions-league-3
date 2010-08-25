@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Celtic v Shakhtar                    2 -  1   25   2.778
+ 2. Internazionale v Fenerbahce          3 -  0   20   2.222
+ 3. Man. United v Sporting               2 -  1   17   1.889
+ 4. Lyon v Barcelona                     2 -  2   16   1.778
+ 5. Dynamo Kyiv v Roma                   1 -  4   15   1.667
+ 6. Rosenborg v Chelsea                  0 -  4   14   1.556
+ 7. Liverpool v Porto                    4 -  1   14   1.556
+ 8. Besiktas v Marseille                 2 -  1   11   1.222
+ 9. Stuttgart v Rangers                  3 -  2    8   0.889
+10. Lazio v Olympiacos                   1 -  2    8   0.889
+11. Benfica v Milan                      1 -  1    8   0.889
+12. Sevilla v Arsenal                    3 -  1    8   0.889
+13. Steaua v Slavia                      1 -  1    7   0.778
+14. Bremen v Real Madrid                 3 -  2    3   0.333
+15. CSKA Moskva v PSV                    0 -  1    3   0.333
+16. Valencia v Schalke                   0 -  0    0   0.000
+
+Competitors = 9
+Total points scored = 177
+Average points scored = 19.667
+Average points per game = 1.229

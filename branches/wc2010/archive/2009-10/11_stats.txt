@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Internazionale v Rubin               2 -  0    9   0   0     2   1   6    23   2.556
+ 2. Lyon v Debrecen                      4 -  0    9   0   0     0   0   9    18   2.000
+ 3. Sevilla v Rangers                    1 -  0    8   0   1     1   0   7    18   2.000
+ 4. Stuttgart v Unirea Urziceni          3 -  1    7   2   0     0   1   6    15   1.667
+ 5. Dynamo v Barcelona                   1 -  2    1   3   5     2   1   2    15   1.667
+ 6. Maccabi Haifa v Bordeaux             0 -  1    4   1   4     2   1   1    13   1.444
+ 7. Marseille v Real Madrid              1 -  3    2   4   3     1   0   2     8   0.889
+ 8. Besiktas v CSKA Moskva               1 -  2    8   0   1     1   0   0     4   0.444
+ 9. Wolfsburg v Man. United              1 -  3    5   2   2     0   0   2     4   0.444
+10. Zurich v Milan                       1 -  1    0   1   8     1   0   0     4   0.444
+11. Standard v AZ                        1 -  1    7   1   1     1   0   0     4   0.444
+12. Atletico v Porto                     0 -  3    8   1   0     0   0   0     0   0.000
+13. Liverpool v Fiorentina               1 -  2    7   2   0     0   0   0     0   0.000
+14. Juventus v Bayern                    1 -  4    8   1   0     0   0   0     0   0.000
+15. Olympiacos v Arsenal                 1 -  0    0   8   1     0   0   0     0   0.000
+16. Chelsea v APOEL                      2 -  2    9   0   0     0   0   0     0   0.000
+
+Competitors = 9
+Total points scored = 126
+Average points scored = 14.000
+Average points per game = 0.875

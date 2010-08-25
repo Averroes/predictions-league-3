@@ -1,0 +1,22 @@
+    Game:                               Result: Pts:   Avg:
+ 1. Dortmund v Auxerre                   2 - 1   45   2.368
+ 2. Leverkusen v Man. United             1 - 2   43   2.263
+ 3. Spartak v Valencia                   0 - 3   43   2.263
+ 4. Internazionale v Ajax                1 - 0   40   2.105
+ 5. Madrid v RC Genk                     6 - 0   38   2.000
+ 6. Juventus v Dynamo                    5 - 0   36   1.895
+ 7. Newcastle v Feyenoord                0 - 1   24   1.263
+ 8. Galatasaray v Barcelona              0 - 2   23   1.211
+ 9. PSV v Arsenal                        0 - 4   20   1.053
+10. Club Brugge v Lokomotiv              0 - 0   18   0.947
+11. Lyon v Rosenborg                     5 - 0   18   0.947
+12. AEK v Roma                           0 - 0   11   0.579
+13. Deportivo v Milan                    0 - 4    8   0.421
+14. Lens v Bayern                        1 - 1    7   0.368
+15. M. Haifa v Olympiakos                3 - 0    2   0.105
+16. Liverpool v Basel                    1 - 1    0   0.000
+
+Competitors = 19
+Total points scored = 376
+Average points scored = 19.789
+Average points per game = 1.237

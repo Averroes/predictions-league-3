@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Shakhtar v Bremen                    1 -  1    3   0.429
+
+Competitors = 7
+Total points scored = 3
+Average points scored = 0.429
+Average points per game = 0.429

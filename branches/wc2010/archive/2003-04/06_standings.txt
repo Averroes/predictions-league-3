@@ -1,0 +1,31 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( +1) Ivo                             6  96 153  13  19  22
+  2. ( +1) Nick the Greek                  6  96 150  15  14  24
+  3. ( +5) The Brazilian Man               6  96 149  11  13  33
+  4. ( - ) Miljenko                        6  96 146  13  16  23
+  5. ( -4) Steven                          6  96 145  14  17  19
+  6. ( -1) GargoyleBG                      6  96 142   9  18  26
+  7. ( - ) MiniMe                          6  96 137  10  15  26
+  8. ( +1) The Wielder of the Scythe       6  96 134  10  10  32
+  9. ( -3) Hamish                          6  96 129  10  13  25
+ 10. ( +2) Stephan                         6  96 123   9  13  24
+ 11. ( - ) Marc Robbins                    6  96 122  11  10  24
+ 12. ( -2) Daniel Marsh                    6  96 119   5  13  30
+ 13. ( - ) Eddy da Fisherman               6  96 118   8   6  34
+ 14. ( - ) HCwest Pete Fella               6  96 112   7  10  27
+ 15. ( +3) Bam Bam                         5  80 111  11   9  20
+ 16. ( -1) Mr. Pink                        5  80 108  12  12  12
+ 17. ( -1) Klaa                            5  80 100   9   6  23
+ 18. ( -1) MrT                             5  80  99   7  11  19
+ 19. ( - ) Khamelion                       5  80  94   8   8  19
+ 20. ( - ) AGCM Oracle                     6  96  87   6   5  24
+ 21. ( +1) Toby Briggs                     5  80  73   5   7  16
+ 22. ( -1) digitalMOSQUITO                 3  48  60   4   6  13
+ 23. ( - ) DannyM                          2  32  42   1   4  13
+ 24. ( +3) Nes                             2  32  33   0   5   9
+ 25. ( -1) Mark Goodge                     1  16  28   3   2   5
+ 26. (new) Spankin                         1  16  22   2   2   4
+ 27. ( -2) Henning Munk                    1  16  22   0   2   8
+ 28. ( -2) Mikael Scholer                  1  16  19   1   1   6
+ 29. (new) rsstrnc                         1  16  17   1   3   2

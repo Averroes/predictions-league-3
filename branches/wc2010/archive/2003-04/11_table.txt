@@ -1,0 +1,20 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Daniel Marsh                   19   3  1  2
+ 2. The Brazilian Man              13   1  3  0
+ 3. The Wielder of the Scythe      12   1  2  1
+ 4. Miljenko                       11   2  1  0
+ 5. AGCM Oracle                    11   0  1  4
+ 6. Steven                         10   1  2  0
+ 7. Khamelion                      10   0  2  2
+ 8. Marc Robbins                    9   1  1  1
+ 9. Mr. Pink                        8   2  0  0
+10. Stephan                         7   1  1  0
+11. Nick Marstin                    6   1  0  1
+12. MiniMe                          6   0  2  0
+13. rsstrnc                         6   0  2  0
+14. Hamish                          5   0  1  1
+15. GargoyleBG                      3   0  1  0
+16. Ivo                             3   0  1  0
+17. Nick the Greek                  3   0  1  0
+18. Baroje                          0   0  0  0

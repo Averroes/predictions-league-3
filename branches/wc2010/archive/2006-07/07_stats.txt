@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Internazionale v Sporting            1 -  0   27   3.000
+ 2. Arsenal v Hamburg                    3 -  1   25   2.778
+ 3. Levski v Barcelona                   0 -  2   22   2.444
+ 4. Liverpool v PSV                      2 -  0   22   2.444
+ 5. Valencia v Olympiacos                2 -  0   20   2.222
+ 6. Benfica v Kobenhavn                  3 -  1   18   2.000
+ 7. Bordeaux v Galatasaray               3 -  1   11   1.222
+ 8. Lille v Anderlecht                   2 -  2    8   0.889
+ 9. Real Madrid v Lyon                   2 -  2    6   0.667
+10. Spartak Moskva v Bayern              2 -  2    6   0.667
+11. Bremen v Chelsea                     1 -  0    6   0.667
+12. CSKA Moskva v Porto                  0 -  2    4   0.444
+13. AEK v Milan                          1 -  0    4   0.444
+14. Steaua v Dynamo Kyiv                 1 -  1    4   0.444
+15. Shakhtar v Roma                      1 -  0    4   0.444
+16. Celtic v Man. United                 1 -  0    2   0.222
+
+Competitors = 9
+Total points scored = 189
+Average points scored = 21.000
+Average points per game = 1.313

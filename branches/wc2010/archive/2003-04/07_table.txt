@@ -1,0 +1,25 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Hamish                         29   1  5  5
+ 2. MrT                            26   2  4  3
+ 3. Klaa                           21   2  3  2
+ 4. Nick the Greek                 21   2  1  5
+ 5. Daniel Marsh                   21   1  3  4
+ 6. Nes                            19   3  1  2
+ 7. Steven                         19   3  1  2
+ 8. Mr. Pink                       19   1  1  6
+ 9. GargoyleBG                     18   1  2  4
+10. Miljenko                       18   1  2  4
+11. Bam Bam                        17   2  1  3
+12. Khamelion                      17   1  1  5
+13. Marc Robbins                   17   1  1  5
+14. AGCM Oracle                    17   0  3  4
+15. Eddy da Fisherman              17   0  3  4
+16. MiniMe                         16   1  0  6
+17. The Wielder of the Scythe      15   0  1  6
+18. Spankin                        14   1  0  5
+19. Ivo                            14   0  2  4
+20. Toby Briggs                    14   0  2  4
+21. HCwest Pete Fella              12   1  2  1
+22. The Brazilian Man              11   0  1  4
+23. Stephan                        10   1  0  3

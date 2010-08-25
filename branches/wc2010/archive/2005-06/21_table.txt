@@ -1,0 +1,13 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. AGCM Oracle                     8   2  0  0
+ 2. Toby Briggs                     7   1  1  0
+ 3. Miljenko                        6   1  0  1
+ 4. Stephen Weir                    6   1  0  1
+ 5. GargoyleBG                      5   0  1  1
+ 6. The Wielder of the Scythe       5   0  1  1
+ 7. Eduardo Liguori                 2   0  0  1
+ 8. Hari Seldon                     2   0  0  1
+ 9. Mark Goodge                     2   0  0  1
+10. Nick the Greek                  2   0  0  1
+11. Hamish                          0   0  0  0

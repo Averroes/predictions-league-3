@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Schalke v Ferencvaros                2 -  0   49   2.579
+ 2. Benfica v Dinamo Zagreb              2 -  0   49   2.579
+ 3. Club Brugge v Utrecht                1 -  0   41   2.158
+ 4. Rangers v GAK                        3 -  0   40   2.105
+ 5. Dinamo Tbilisi v Sporting            0 -  4   28   1.474
+ 6. Dnipro v Austria                     1 -  0   28   1.474
+ 7. Sochaux v Newcastle                  0 -  4   26   1.368
+ 8. Amica v Alkmaar                      1 -  3   23   1.211
+ 9. Zenit v Sevilla                      1 -  1   15   0.789
+10. Villarreal v Middlesbrough           2 -  0   14   0.737
+11. Steaua v Besiktas                    2 -  1   12   0.632
+12. Standard v Parma                     2 -  1    9   0.474
+13. Basel v Hearts                       1 -  2    8   0.421
+14. AEK v Lille                          1 -  2    8   0.421
+15. Heerenveen v Stuttgart               1 -  0    7   0.368
+16. Lazio v Partizan                     2 -  2    0   0.000
+
+Competitors = 19
+Total points scored = 357
+Average points scored = 18.789
+Average points per game = 1.174

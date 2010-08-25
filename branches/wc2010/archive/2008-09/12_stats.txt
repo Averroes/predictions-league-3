@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Lech v Udinese                       2 -  2   16   2.000
+ 2. Dynamo Kyiv v Valencia               1 -  1   12   1.500
+ 3. Zenit v Stuttgart                    2 -  1   11   1.375
+ 4. PSG v Wolfsburg                      2 -  0   10   1.250
+ 5. Braga v Standard                     3 -  0    8   1.000
+ 6. NEC v Hamburg                        0 -  3    8   1.000
+ 7. Kobenhavn v Man. City                2 -  2    6   0.750
+ 8. Shakhtar v Tottenham                 2 -  0    4   0.500
+ 9. Sampdoria v Metalist                 0 -  1    4   0.500
+10. Bremen v Milan                       1 -  1    3   0.375
+11. Bordeaux v Galatasaray               0 -  0    3   0.375
+12. Olympiacos v St Etienne              1 -  3    0   0.000
+13. AaB v Deportivo                      3 -  0    0   0.000
+14. Aston Villa v CSKA Moskva            1 -  1    0   0.000
+15. Marseille v Twente                   0 -  1    0   0.000
+16. Fiorentina v Ajax                    0 -  1    0   0.000
+
+Competitors = 8
+Total points scored = 85
+Average points scored = 10.625
+Average points per game = 0.664

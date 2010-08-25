@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Lyon v Steaua                        2 -  0   30   3.333
+ 2. Sporting v Shakhtar                  1 -  0   16   1.778
+ 3. BATE v Zenit                         0 -  2   16   1.778
+ 4. Fiorentina v Bayern                  1 -  1   12   1.333
+ 5. Marseille v PSV                      3 -  0   10   1.111
+ 6. Celtic v Man. United                 1 -  1    7   0.778
+ 7. Dynamo Kyiv v Porto                  1 -  2    4   0.444
+ 8. AaB v Villarreal                     2 -  2    4   0.444
+ 9. Roma v Chelsea                       3 -  1    2   0.222
+10. Bremen v Panathinaikos               0 -  3    2   0.222
+11. Liverpool v Atletico                 1 -  1    0   0.000
+12. CFR Cluj v Bordeaux                  1 -  2    0   0.000
+13. Arsenal v Fenerbahce                 0 -  0    0   0.000
+14. Anorthosis v Internazionale          3 -  3    0   0.000
+15. FC Barcelona v Basel                 1 -  1    0   0.000
+16. Real Madrid v Juventus               0 -  2    0   0.000
+
+Competitors = 9
+Total points scored = 103
+Average points scored = 11.444
+Average points per game = 0.715

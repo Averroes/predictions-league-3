@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Sevilla v VfB Stuttgart              2 -  0   18   2.571
+ 2. FC Twente v Racing Santander         1 -  0   17   2.429
+ 3. Rosenborg v Club Brugge              0 -  0   15   2.143
+ 4. Aston Villa FC v Ajax                2 -  1   14   2.000
+ 5. Schalke v PSG                        3 -  1   14   2.000
+ 6. CSKA Moskva v Deportivo              3 -  0   12   1.714
+ 7. MSK Zilina v Hamburg                 1 -  2   11   1.571
+ 8. Galatasaray AS v Olympiacos          1 -  0   11   1.571
+ 9. Nancy v Feyenoord                    3 -  0   10   1.429
+10. Heerenveen v Milan                   1 -  3    9   1.286
+11. Dinamo Zagreb v NEC Nijmegen         3 -  2    8   1.143
+12. Partizan v UC Sampdoria              1 -  2    7   1.000
+13. Hertha BSC Berlin v Benfica          1 -  1    7   1.000
+14. Udinese v Tottenham                  2 -  0    6   0.857
+15. Braga v Portsmouth FC                3 -  0    2   0.286
+16. Kobenhavn v AS Saint-Etienne         1 -  3    0   0.000
+
+Competitors = 7
+Total points scored = 161
+Average points scored = 23.000
+Average points per game = 1.438

@@ -1,0 +1,18 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Daniel Marsh                    4   1  0  0
+ 2. Ivo                             4   1  0  0
+ 3. K                               4   1  0  0
+ 4. Marc Robbins                    4   1  0  0
+ 5. Miljenko                        4   1  0  0
+ 6. Nick the Greek                  4   1  0  0
+ 7. Stephan                         4   1  0  0
+ 8. The Brazilian Man               4   1  0  0
+ 9. AGCM Oracle                     3   0  1  0
+10. Hagen                           3   0  1  0
+11. MiniMe                          3   0  1  0
+12. Pete Heslop                     3   0  1  0
+13. Hamish                          2   0  0  1
+14. Mark Goodge                     2   0  0  1
+15. The Wielder of the Scythe       0   0  0  0
+16. Toby Briggs                     0   0  0  0

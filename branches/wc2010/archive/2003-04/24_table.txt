@@ -1,0 +1,21 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Ivo                             6   1  0  1
+ 2. GargoyleBG                      5   0  1  1
+ 3. Khamelion                       5   0  1  1
+ 4. The Wielder of the Scythe       4   1  0  0
+ 5. Miljenko                        4   0  0  2
+ 6. Stephan                         4   0  0  2
+ 7. The Brazilian Man               3   0  1  0
+ 8. AGCM Oracle                     2   0  0  1
+ 9. Damian Wood                     2   0  0  1
+10. Daniel Marsh                    2   0  0  1
+11. Hagen                           2   0  0  1
+12. Klaa                            2   0  0  1
+13. Marc Robbins                    2   0  0  1
+14. MiniMe                          2   0  0  1
+15. Nick the Greek                  2   0  0  1
+16. ~#Bluebird#~                    2   0  0  1
+17. Hamish                          0   0  0  0
+18. Nick Marstin                    0   0  0  0
+19. rsstrnc                         0   0  0  0

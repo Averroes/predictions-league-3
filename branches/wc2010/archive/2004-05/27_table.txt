@@ -1,0 +1,17 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Frank_The_Poet                  6   1  0  1
+ 2. Hari Seldon                     4   1  0  0
+ 3. Ivo                             3   0  1  0
+ 4. Marc Robbins                    3   0  1  0
+ 5. Hagen                           2   0  0  1
+ 6. Stephan                         2   0  0  1
+ 7. AGCM Oracle                     0   0  0  0
+ 8. Hamish                          0   0  0  0
+ 9. Mark Goodge                     0   0  0  0
+10. Miljenko                        0   0  0  0
+11. Nick the Greek                  0   0  0  0
+12. Pete Heslop                     0   0  0  0
+13. The Wielder of the Scythe       0   0  0  0
+14. Toby Briggs                     0   0  0  0
+15. ray                             0   0  0  0

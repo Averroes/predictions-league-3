@@ -1,0 +1,25 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Pete Heslop                    30   3  2  6
+ 2. Stephan                        25   1  5  3
+ 3. GargoyleBG                     23   2  3  3
+ 4. Ivo                            23   2  3  3
+ 5. The Brazilian Man              23   2  3  3
+ 6. PivotalG                       22   2  2  4
+ 7. The Wielder of the Scythe      21   2  1  5
+ 8. Nick the Greek                 21   1  1  7
+ 9. ray                            20   2  2  3
+10. Miljenko                       18   2  2  2
+11. mentalalien                    18   1  0  7
+12. AGCM Oracle                    18   0  4  3
+13. Marc Robbins                   18   0  2  6
+14. Daniel Marsh                   17   2  1  3
+15. Toby Briggs                    17   1  1  5
+16. Klaa                           16   1  2  3
+17. Nestor Badudoy                 16   1  2  3
+18. Mark Thompson                  15   1  1  4
+19. MiniMe                         13   1  1  3
+20. sarts                          13   0  1  5
+21. Mark Goodge                    12   1  0  4
+22. Hamish                         11   1  1  2
+23. Ronald Scholman                 9   0  1  3

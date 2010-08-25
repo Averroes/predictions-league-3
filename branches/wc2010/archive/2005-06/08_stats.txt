@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. CSKA Moskva v Levski                 2 -  1   32   2.133
+ 2. Lokomotiv Moskva v Brondby           4 -  2   31   2.067
+ 3. Marseille v Heerenveen               1 -  0   30   2.000
+ 4. Halmstad v Sampdoria                 1 -  3   29   1.933
+ 5. Espanyol v Palermo                   1 -  1   27   1.800
+ 6. PAOK v Stuttgart                     1 -  2   21   1.400
+ 7. Viking v Slavia                      2 -  2   17   1.133
+ 8. Monaco v Hamburg                     2 -  0   16   1.067
+ 9. Guimaraes v Bolton                   1 -  1   14   0.933
+10. Tromso v Crvena Zvezda               3 -  1   10   0.667
+11. Hertha v Lens                        0 -  0    9   0.600
+12. AZ v Middlesbrough                   0 -  0    7   0.467
+13. Dnipro v Litex                       0 -  2    4   0.267
+14. Roma v Strasbourg                    1 -  1    4   0.267
+15. Zenit v Sevilla                      2 -  1    4   0.267
+16. Shakhtar v Rapid                     0 -  1    0   0.000
+
+Competitors = 15
+Total points scored = 255
+Average points scored = 17.000
+Average points per game = 1.063

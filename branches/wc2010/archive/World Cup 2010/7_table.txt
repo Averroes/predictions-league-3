@@ -1,0 +1,10 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Hamish                          6   0  2  0
+ 2. Mark Goodge                     3   0  1  0
+ 3. Nick the Greek                  3   0  1  0
+ 4. Stephen Weir                    3   0  1  0
+ 5. Timofei Shatrov                 3   0  1  0
+ 6. AGCM Oracle                     2   0  0  1
+ 7. Miljenko                        2   0  0  1
+ 8. The Wielder of the Scythe       2   0  0  1

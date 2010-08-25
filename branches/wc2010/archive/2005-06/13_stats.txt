@@ -1,0 +1,15 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Rangers v Villarreal                 2 -  2   18   1.385
+ 2. Ajax v Internazionale                2 -  2   18   1.385
+ 3. Bayern v Milan                       1 -  1   12   0.923
+ 4. PSV v Lyon                           0 -  1    6   0.462
+ 5. Chelsea v Barcelona                  1 -  2    6   0.462
+ 6. Bremen v Juventus                    3 -  2    4   0.308
+ 7. Real Madrid v Arsenal                0 -  1    4   0.308
+ 8. Benfica v Liverpool                  1 -  0    2   0.154
+
+Competitors = 13
+Total points scored = 70
+Average points scored = 5.385
+Average points per game = 0.673

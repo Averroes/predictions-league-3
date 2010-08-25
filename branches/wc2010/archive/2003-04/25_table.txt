@@ -1,0 +1,19 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Marc Robbins                    4   1  0  0
+ 2. Stephan                         4   1  0  0
+ 3. The Brazilian Man               4   1  0  0
+ 4. ~#Bluebird#~                    4   1  0  0
+ 5. Daniel Marsh                    3   0  1  0
+ 6. MiniMe                          3   0  1  0
+ 7. Baroje                          2   0  0  1
+ 8. GargoyleBG                      2   0  0  1
+ 9. Ivo                             2   0  0  1
+10. Miljenko                        2   0  0  1
+11. AGCM Oracle                     0   0  0  0
+12. Hagen                           0   0  0  0
+13. Hamish                          0   0  0  0
+14. Nick Marstin                    0   0  0  0
+15. Nick the Greek                  0   0  0  0
+16. The Wielder of the Scythe       0   0  0  0
+17. rsstrnc                         0   0  0  0

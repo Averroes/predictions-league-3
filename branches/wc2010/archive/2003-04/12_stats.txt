@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Liverpool v Levski                   2 -  0   44   2.588
+ 2. Celtic v Teplice                     3 -  0   43   2.529
+ 3. Marseille v Dnipro                   1 -  0   40   2.353
+ 4. Club Brugge v Debrecen               1 -  0   37   2.176
+ 5. Valencia v Besiktas                  3 -  2   34   2.000
+ 6. Benfica v Rosenborg                  1 -  0   33   1.941
+ 7. Groclin v Bordeaux                   0 -  1   31   1.824
+ 8. Brondby v Barcelona                  0 -  1   30   1.765
+ 9. Perugia v PSV                        0 -  0   21   1.235
+10. Sochaux v Internazionale             2 -  2   17   1.000
+11. Galatasaray v Villarreal             2 -  2   15   0.882
+12. Auxerre v Panathinaikos              0 -  0    7   0.412
+13. Valerenga v Newcastle                1 -  1    7   0.412
+14. Parma v Genclerbirligi               0 -  1    2   0.118
+15. Spartak Moskva v Mallorca            0 -  3    0   0.000
+16. Gaziantepspor v Roma                 1 -  0    0   0.000
+
+Competitors = 17
+Total points scored = 361
+Average points scored = 21.235
+Average points per game = 1.327

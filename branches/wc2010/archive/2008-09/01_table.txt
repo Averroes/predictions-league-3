@@ -1,0 +1,12 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Timofei Shatrov                24   2  2  5
+ 2. Chris F                        22   2  2  4
+ 3. biz                            22   1  4  3
+ 4. Toby                           20   1  2  5
+ 5. Mark Goodge                    19   3  1  2
+ 6. The Wielder of the Scythe      19   2  1  4
+ 7. traveler                       19   2  1  4
+ 8. Nick the Greek                 18   2  0  5
+ 9. Miljenko                       16   0  2  5
+10. AGCM Oracle                    13   1  3  0

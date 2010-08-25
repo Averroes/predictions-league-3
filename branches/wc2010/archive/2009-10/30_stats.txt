@@ -1,0 +1,9 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Bayern v Internazionale              0 -  2    1   2   3     0   0   3     6   1.000
+
+Competitors = 6
+Total points scored = 6
+Average points scored = 1.000
+Average points per game = 1.000

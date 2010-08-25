@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Chelsea v Bayern                     4 -  2   37   2.176
+ 2. Milan v Internazionale               2 -  0   22   1.294
+ 3. Liverpool v Juventus                 2 -  1   13   0.765
+ 4. Lyon v PSV                           1 -  1    6   0.353
+
+Competitors = 17
+Total points scored = 78
+Average points scored = 4.588
+Average points per game = 1.147

@@ -1,0 +1,11 @@
+Pos: Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------
+  1. Mark Goodge                     1  16  30   3   2   6
+  2. Miljenko                        1  16  25   3   1   5
+  3. Diesel                          1  16  25   2   3   4
+  4. Hamish                          1  16  24   2   2   5
+  5. Timofei Shatrov                 1  16  19   1   3   3
+  6. Edu Liguori                     1  16  15   1   1   4
+  7. Nick the Greek                  1  16  14   0   2   4
+  8. The Wielder of the Scythe       1  16  12   2   0   2
+  9. AGCM Oracle                     1  16  10   1   0   3

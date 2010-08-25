@@ -1,0 +1,25 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( +1) Miljenko                        2  32  62   6   8   7
+  2. ( -1) Mark Goodge                     2  32  57   7   3  10
+  3. ( - ) MiniMe                          2  32  54   8   2   8
+  4. ( - ) Stephan                         2  32  51   3   5  12
+  5. ( +1) PivotalG                        2  32  47   2   3  15
+  6. ( +2) Nick the Greek                  2  32  46   7   0   9
+  7. ( -2) ray                             2  32  46   5   4   7
+  8. ( +4) sarts                           2  32  46   4   4   9
+  9. ( +5) Pete Heslop                     2  32  46   3   4  11
+ 10. ( +3) The Wielder of the Scythe       2  32  46   2   4  13
+ 11. ( -4) GargoyleBG                      2  32  45   5   5   5
+ 12. ( -1) Mark Thompson                   2  32  43   2   7   7
+ 13. ( +5) Ivo                             2  32  41   5   1   9
+ 14. ( -4) Frank_The_Poet                  2  32  41   3   5   7
+ 15. ( +1) Hamish                          2  32  39   2   3  11
+ 16. ( -7) Ronald Scholman                 2  32  39   2   3  11
+ 17. ( +4) Marc Robbins                    2  32  38   5   2   6
+ 18. ( +1) Nestor Badudoy                  2  32  37   3   1  11
+ 19. ( -4) Klaa                            2  32  33   1   5   7
+ 20. ( -3) Daniel Marsh                    2  32  28   3   0   8
+ 21. ( +2) Toby Briggs                     2  32  26   1   2   8
+ 22. ( - ) AGCM Oracle                     2  32  23   0   3   7
+ 23. ( -3) Richard Mills                   1  16  14   0   2   4

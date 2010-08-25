@@ -1,0 +1,9 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Atletico v Fulham                    1 -  1    2   2   1     1   1   0     7   1.400
+
+Competitors = 5
+Total points scored = 7
+Average points scored = 1.400
+Average points per game = 1.400

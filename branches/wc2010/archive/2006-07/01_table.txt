@@ -1,0 +1,13 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Miljenko                       31   2  5  4
+ 2. The Edu Tor                    30   4  2  4
+ 3. Hamish                         24   1  2  7
+ 4. Timofei Shatrov                22   2  2  4
+ 5. Pivotalgubbins                 22   1  2  6
+ 6. Mr. Pink                       21   2  1  5
+ 7. Mark Goodge                    20   0  2  7
+ 8. Tobes                          19   2  1  4
+ 9. Hari Seldon                    19   1  1  6
+10. Nick the Greek                 18   1  2  4
+11. AGCM Oracle                    12   2  0  2

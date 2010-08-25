@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Benfica v Molde                      3 -  1   58   2.522
+ 2. Panionios v Barcelona                0 -  3   45   1.957
+ 3. Roma v Hajduk                        1 -  0   44   1.913
+ 4. Schalke v Brondby                    2 -  1   43   1.870
+ 5. Steaua v Liverpool                   1 -  1   40   1.739
+ 6. Salzburg v Parma                     0 -  4   36   1.565
+ 7. Gençlerbirligi v Sporting            1 -  1   24   1.043
+ 8. Basel v Newcastle                    2 -  3   23   1.000
+ 9. Utrecht v Auxerre                    0 -  0   22   0.957
+10. Slavia v Levski                      2 -  2   22   0.957
+11. Valerenga v Wisla                    0 -  0   21   0.913
+12. Gaziantepspor v Lens                 3 -  0    6   0.261
+13. Dinamo Zagreb v Dnipro               0 -  2    5   0.217
+14. Valencia v M. Haifa                  0 -  0    5   0.217
+15. Dortmund v Sochaux                   2 -  2    4   0.174
+16. Man. City v Groclin                  1 -  1    4   0.174
+
+Competitors = 23
+Total points scored = 402
+Average points scored = 17.478
+Average points per game = 1.092

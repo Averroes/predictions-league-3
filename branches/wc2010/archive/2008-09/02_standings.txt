@@ -1,0 +1,12 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Timofei Shatrov                 2  32  58   5   6  10
+  2. ( - ) Chris F                         2  32  53   6   5   7
+  3. ( - ) biz                             2  32  45   3   7   6
+  4. ( - ) Toby                            2  32  45   3   3  12
+  5. ( +4) Miljenko                        2  32  43   4   3   9
+  6. ( - ) The Wielder of the Scythe       2  32  41   2   5   9
+  7. ( -2) Mark Goodge                     2  32  38   3   4   7
+  8. ( - ) Nick the Greek                  2  32  35   2   1  12
+  9. ( +1) AGCM Oracle                     2  32  23   1   5   2
+ 10. ( -3) traveler                        1  16  19   2   1   4

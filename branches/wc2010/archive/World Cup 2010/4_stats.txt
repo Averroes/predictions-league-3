@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Argentina v Mexico                   3 -  1    9   0   0     0   5   4    23   2.556
+ 2. Uruguay v South Korea                2 -  1    5   3   1     1   3   1    15   1.667
+ 3. Germany v England                    4 -  1    4   2   3     0   0   4     8   0.889
+ 4. USA v Ghana                          1 -  1    6   1   2     0   1   0     3   0.333
+
+Competitors = 9
+Total points scored = 49
+Average points scored = 5.444
+Average points per game = 1.361

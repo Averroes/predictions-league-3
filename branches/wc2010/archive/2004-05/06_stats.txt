@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Egaleo v Middlesbrough               0 -  1   52   2.364
+ 2. Panionios v Newcastle                0 -  1   48   2.182
+ 3. Zaragoza v Utrecht                   2 -  0   40   1.818
+ 4. Feyenoord v Hearts                   3 -  0   40   1.818
+ 5. Benfica v Heerenveen                 4 -  2   38   1.727
+ 6. Beveren v Stuttgart                  1 -  5   37   1.682
+ 7. Steaua v Standard                    2 -  0   33   1.500
+ 8. Amica v Rangers                      0 -  5   32   1.455
+ 9. Athletic v Parma                     2 -  0   27   1.227
+10. Lazio v Villarreal                   1 -  1   19   0.864
+11. Zenit v AEK                          5 -  1   18   0.818
+12. Dnipro v Club Brugge                 3 -  2   18   0.818
+13. Aachen v Lille                       1 -  0    9   0.409
+14. Auxerre v GAK                        0 -  0    8   0.364
+15. Dinamo Tbilisi v Sochaux             0 -  2    8   0.364
+16. Schalke v Basel                      1 -  1    6   0.273
+
+Competitors = 22
+Total points scored = 433
+Average points scored = 19.682
+Average points per game = 1.230

@@ -1,0 +1,18 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Miljenko                       31   3  3  5
+ 2. Hamish                         29   4  3  2
+ 3. *****General                   28   4  2  3
+ 4. Stephen Weir                   27   3  1  6
+ 5. AGCM Oracle                    26   2  4  3
+ 6. Marc Robbins                   26   1  4  5
+ 7. Pete Heslop                    24   3  0  6
+ 8. PivotalG                       24   2  2  5
+ 9. Nick the Greek                 23   1  3  5
+10. Hari Seldon                    22   1  2  6
+11. xtasia                         21   3  1  3
+12. Ivo                            21   1  3  4
+13. Eduardo Liguori                16   0  2  5
+14. Ronald Scholman                15   0  1  6
+15. Mark Goodge                    11   1  1  2
+16. Toby Briggs                    11   0  1  4

@@ -1,0 +1,14 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. *****General                   17   3  1  1
+ 2. Marc Robbins                   15   2  1  2
+ 3. Miljenko                       14   1  2  2
+ 4. AGCM Oracle                    13   2  1  1
+ 5. Hari Seldon                    12   2  0  2
+ 6. Hamish                         11   1  1  2
+ 7. Mark Goodge                     9   0  1  3
+ 8. Stephen Weir                    8   1  0  2
+ 9. The Wielder of the Scythe       8   0  0  4
+10. Eduardo Liguori                 6   1  0  1
+11. Nick the Greek                  4   0  0  2
+12. Toby Briggs                     3   0  1  0

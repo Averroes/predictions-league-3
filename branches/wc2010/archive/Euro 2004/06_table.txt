@@ -1,0 +1,25 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Daniel Marsh                    4   1  0  0
+ 2. Fil Arkonus                     4   1  0  0
+ 3. The Wielder of the Scythe       4   1  0  0
+ 4. Dougal                          3   0  1  0
+ 5. Mr. Pink                        3   0  1  0
+ 6. AGCM Oracle                     0   0  0  0
+ 7. Dan                             0   0  0  0
+ 8. GargoyleBG                      0   0  0  0
+ 9. Grue                            0   0  0  0
+10. Hamish                          0   0  0  0
+11. Ivo                             0   0  0  0
+12. James Williams                  0   0  0  0
+13. Mark Goodge                     0   0  0  0
+14. Miljenko                        0   0  0  0
+15. MiniMe                          0   0  0  0
+16. Nick Marstin                    0   0  0  0
+17. Nick the Greek                  0   0  0  0
+18. Stephan                         0   0  0  0
+19. Stephen Weir                    0   0  0  0
+20. The Brazilian Man               0   0  0  0
+21. Thomas Gaspardo                 0   0  0  0
+22. rsstrnc                         0   0  0  0
+23. ~#Bluebird#~                    0   0  0  0

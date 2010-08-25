@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Newcastle v Celta                    2 -  1   24   3.000
+ 2. Sevilla v Braga                      2 -  0   22   2.750
+ 3. OB v Lens                            1 -  1   19   2.375
+ 4. Parma v Heerenveen                   2 -  1   16   2.000
+ 5. Espanyol v Zulte Waregem             6 -  2   14   1.750
+ 6. Auxerre v Rangers                    2 -  2    9   1.125
+ 7. M. Haifa v Partizan                  1 -  0    8   1.000
+ 8. Liberec v Grasshoppers               4 -  1    6   0.750
+ 9. Fenerbahce v Palermo                 3 -  0    6   0.750
+10. Basel v Nancy                        2 -  2    5   0.625
+11. Feyenoord v Blackburn                0 -  0    4   0.500
+12. Club Brugge v Dinamo Bucuresti       1 -  1    4   0.500
+13. Sparta v Ajax                        0 -  0    3   0.375
+14. PSG v H. Tel-Aviv                    2 -  4    0   0.000
+15. Leverkusen v Tottenham               0 -  1    0   0.000
+16. Rapid Bucuresti v Mlada Boleslav     1 -  1    0   0.000
+
+Competitors = 8
+Total points scored = 140
+Average points scored = 17.500
+Average points per game = 1.094

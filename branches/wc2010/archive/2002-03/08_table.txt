@@ -1,0 +1,15 @@
+    Competitor:                   Pts: Res:
+ 1. Eduardo Liguori                32   1
+ 2. gary scholes                   31   4
+ 3. Big B                          29   5
+ 4. Peter Smyth                    27   2
+ 5. Ivo                            26   1
+ 6. The Wielder of the Scythe      25   2
+ 7. Bryvoski                       24   0
+ 8. Guru                           23   2
+ 9. Niek Bakker                    21   2
+10. James Williams                 21   2
+11. agyemang                       21   1
+12. GargoyleBG                     19   1
+13. el pampero                     17   1
+14. Miljenko                       14   0

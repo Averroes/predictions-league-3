@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Holland v Denmark                    2 -  0    7   3   0     4   0   3    22   2.200
+ 2. Argentina v Nigeria                  1 -  0    9   0   0     0   1   8    19   2.111
+ 3. Uruguay v France                     0 -  0    1   6   2     2   3   1    19   2.111
+ 4. Honduras v Chile                     0 -  1    1   2   7     3   1   3    21   2.100
+ 5. Brazil v North Korea                 2 -  1    9   0   1     0   1   8    19   1.900
+ 6. Germany v Australia                  4 -  0    8   1   1     0   0   8    16   1.600
+ 7. Algeria v Slovenia                   0 -  1    0   6   3     2   1   0    11   1.222
+ 8. Japan v Cameroon                     1 -  0    3   0   7     3   0   0    12   1.200
+ 9. Ivory Coast v Portugal               0 -  0    1   4   5     0   4   0    12   1.200
+10. Italy v Paraguay                     1 -  1    7   3   0     0   3   0     9   0.900
+11. South Africa v Mexico                1 -  1    3   2   4     1   1   0     7   0.778
+12. South Korea v Greece                 2 -  0    3   3   3     0   0   3     6   0.667
+13. England v USA                        1 -  1    8   0   1     0   0   0     0   0.000
+14. Serbia v Ghana                       0 -  1    3   6   0     0   0   0     0   0.000
+15. New Zealand v Slovakia               1 -  1    1   0   9     0   0   0     0   0.000
+16. Spain v Switzerland                  0 -  1    9   1   0     0   0   0     0   0.000
+
+Competitors = 10
+Total points scored = 173
+Average points scored = 17.300
+Average points per game = 1.081

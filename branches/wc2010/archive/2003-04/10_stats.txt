@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Partizan v Marseille                 1 -  1   50   2.381
+ 2. Bayern v Anderlecht                  1 -  0   47   2.238
+ 3. Man. United v Stuttgart              2 -  0   43   2.048
+ 4. Arsenal v Lokomotiv Moskva           2 -  0   38   1.810
+ 5. Besiktas v Chelsea                   0 -  2   32   1.524
+ 6. Lyon v Celtic                        3 -  2   31   1.476
+ 7. Dynamo Kyiv v Internazionale         1 -  1   31   1.476
+ 8. Juventus v Olympiacos                7 -  0   30   1.429
+ 9. Real Sociedad v Galatasaray          1 -  1   29   1.381
+10. AEK v Monaco                         0 -  0   27   1.286
+11. PSV v Deportivo                      3 -  2   19   0.905
+12. Sparta v Lazio                       1 -  0   18   0.857
+13. Club Brugge v Ajax                   2 -  1   14   0.667
+14. Real Madrid v Porto                  1 -  1   10   0.476
+15. Rangers v Panathinaikos              1 -  3    5   0.238
+16. Milan v Celta                        1 -  2    0   0.000
+
+Competitors = 21
+Total points scored = 424
+Average points scored = 20.190
+Average points per game = 1.262

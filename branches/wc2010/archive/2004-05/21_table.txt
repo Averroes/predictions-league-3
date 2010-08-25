@@ -1,0 +1,19 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Mark Goodge                     8   1  0  2
+ 2. AGCM Oracle                     8   0  2  1
+ 3. Marc Robbins                    8   0  2  1
+ 4. The Wielder of the Scythe       7   1  1  0
+ 5. Xtasia                          6   1  0  1
+ 6. ray                             6   1  0  1
+ 7. Hagen                           6   0  2  0
+ 8. Toby Briggs                     6   0  2  0
+ 9. Miljenko                        5   0  1  1
+10. The Brazilian Man               5   0  1  1
+11. Stephan                         4   0  0  2
+12. Z                               3   0  1  0
+13. Hamish                          2   0  0  1
+14. Ivo                             2   0  0  1
+15. Nick the Greek                  2   0  0  1
+16. Baroje                          0   0  0  0
+17. Daniel Marsh                    0   0  0  0

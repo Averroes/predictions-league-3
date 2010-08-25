@@ -1,0 +1,10 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Timofei Shatrov                19   3  1  2
+ 2. Miljenko                       15   2  1  2
+ 3. Nick the Greek                 12   1  2  1
+ 4. Mark Goodge                    12   1  0  4
+ 5. pegasus6                       10   0  2  2
+ 6. Toby                            8   2  0  0
+ 7. AGCM Oracle                     8   0  0  4
+ 8. biz                             4   0  0  2

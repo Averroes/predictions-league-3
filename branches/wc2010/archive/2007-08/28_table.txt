@@ -1,0 +1,10 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Nick the Greek                  4   1  0  0
+ 2. AGCM Oracle                     3   0  1  0
+ 3. Chris F                         0   0  0  0
+ 4. Mark Goodge                     0   0  0  0
+ 5. Miljenko                        0   0  0  0
+ 6. Timofei Shatrov                 0   0  0  0
+ 7. Toby                            0   0  0  0
+ 8. biz                             0   0  0  0

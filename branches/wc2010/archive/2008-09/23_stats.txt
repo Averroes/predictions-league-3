@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Dynamo Kyiv v Shakhtar               1 -  1    8   1.333
+ 2. Bremen v Hamburg                     0 -  1    2   0.333
+
+Competitors = 6
+Total points scored = 10
+Average points scored = 1.667
+Average points per game = 0.833

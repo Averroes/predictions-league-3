@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Fulham v Shakhtar                    2 -  1    7   0   1     1   5   1    21   2.625
+ 2. Lille v Fenerbahce                   2 -  1    6   0   2     2   2   2    18   2.250
+ 3. Liverpool v Unirea Urziceni          1 -  0    8   0   0     1   0   7    18   2.250
+ 4. Standard v Salzburg                  3 -  2    6   1   1     0   5   1    17   2.125
+ 5. Hamburg v PSV                        1 -  0    5   1   2     3   1   1    17   2.125
+ 6. Everton v Sporting                   2 -  1    6   1   1     0   4   2    16   2.000
+ 7. Twente v Werder                      1 -  0    4   3   1     2   1   1    13   1.625
+ 8. Rubin v H. Tel-Aviv                  3 -  0    5   0   3     0   0   5    10   1.250
+ 9. Panathinaikos v Roma                 3 -  2    3   2   3     0   2   1     8   1.000
+10. Kobenhavn v Marseille                1 -  3    2   3   3     0   0   3     6   0.750
+11. Club Brugge v Valencia               1 -  0    1   3   4     1   0   0     4   0.500
+12. Athletic v Anderlecht                1 -  1    7   1   0     1   0   0     4   0.500
+13. Atletico v Galatasaray               1 -  1    7   1   0     1   0   0     4   0.500
+14. Hertha v Benfica                     1 -  1    4   1   3     1   0   0     4   0.500
+15. Villarreal v Wolfsburg               2 -  2    5   1   2     0   1   0     3   0.375
+16. Ajax v Juventus                      1 -  2    3   4   1     0   1   0     3   0.375
+
+Competitors = 8
+Total points scored = 166
+Average points scored = 20.750
+Average points per game = 1.297

@@ -1,0 +1,13 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) The Edu Tor                     5  80 139  15  11  23
+  2. ( - ) Mark Goodge                     5  80 121  13   7  24
+  3. ( - ) Hamish                          5  80 113   9   9  25
+  4. ( - ) Miljenko                        5  80 108   9   8  24
+  5. ( - ) Timofei Shatrov                 5  80  97   7   7  24
+  6. ( +1) Pivotalgubbins                  5  80  94   5  12  19
+  7. ( +1) Nick the Greek                  5  80  89   7   3  26
+  8. ( +1) AGCM Oracle                     5  80  83   6   7  19
+  9. ( -3) Tobes                           4  64  78  11   4  11
+ 10. ( - ) Mr. Pink                        1  16  21   2   1   5
+ 11. ( - ) Hari Seldon                     1  16  19   1   1   6

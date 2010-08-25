@@ -1,0 +1,30 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. ~#Bluebird#~                   21   3  1  3
+ 2. Stephan                        17   1  3  2
+ 3. Dan                            15   1  3  1
+ 4. Dr Hugh M. Aye                 15   1  3  1
+ 5. The Wielder of the Scythe      14   1  2  2
+ 6. Marc Robbins                   13   2  1  1
+ 7. Chris F                        13   1  1  3
+ 8. Hamish                         13   1  1  3
+ 9. Mr. Pink                       12   2  0  2
+10. GargoyleBG                     12   1  2  1
+11. Nick Marstin                   11   1  1  2
+12. Nick the Greek                 11   1  1  2
+13. Thomas Gaspardo                11   0  3  1
+14. Stephen Weir                   11   0  1  4
+15. Ivo                            10   2  0  1
+16. MiniMe                         10   1  0  3
+17. Mark Goodge                     8   1  0  2
+18. Miljenko                        8   1  0  2
+19. AGCM Oracle                     8   0  2  1
+20. Daniel Marsh                    8   0  2  1
+21. Grue                            7   0  1  2
+22. Hagen                           7   0  1  2
+23. Klaa                            7   0  1  2
+24. James Williams                  6   0  0  3
+25. [Raven]                         6   0  0  3
+26. Baroje                          5   0  1  1
+27. Dougal                          5   0  1  1
+28. rsstrnc                         5   0  1  1

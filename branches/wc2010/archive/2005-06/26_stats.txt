@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Middlesbrough v Sevilla              0 -  4    6   0.600
+
+Competitors = 10
+Total points scored = 6
+Average points scored = 0.600
+Average points per game = 0.600

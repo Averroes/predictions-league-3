@@ -1,0 +1,16 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Roma v Middlesbrough                 2 -  1   26   2.167
+ 2. Hamburg v Rapid Bucuresti            3 -  1   24   2.000
+ 3. Internazionale v Ajax                1 -  0   23   1.917
+ 4. Strasbourg v Basel                   2 -  2   21   1.750
+ 5. Schalke v Palermo                    3 -  0   20   1.667
+ 6. Sevilla v Lille                      2 -  0   12   1.000
+ 7. Zenit v Marseille                    1 -  1    8   0.667
+ 8. Levski v Udinese                     2 -  1    7   0.583
+ 9. Betis v Steaua                       0 -  3    0   0.000
+
+Competitors = 12
+Total points scored = 141
+Average points scored = 11.750
+Average points per game = 1.306

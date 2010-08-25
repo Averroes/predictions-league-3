@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Valencia v Steaua                    2 -  0   49   2.882
+ 2. Olympiacos v Sochaux                 1 -  0   44   2.588
+ 3. Ajax v Auxerre                       1 -  0   39   2.294
+ 4. CSKA Moskva v Benfica                2 -  0   26   1.529
+ 5. Sporting v Feyenoord                 2 -  1   25   1.471
+ 6. Panathinaikos v Sevilla              1 -  0   25   1.471
+ 7. Heerenveen v Newcastle               1 -  2   25   1.471
+ 8. Parma v Stuttgart                    0 -  0   18   1.059
+ 9. Shakhtar v Schalke                   1 -  1   12   0.706
+10. Basel v Lille                        0 -  0   12   0.706
+11. Dynamo Kyiv v Villarreal             0 -  0   10   0.588
+12. Partizan v Dnipro                    2 -  2    8   0.471
+13. GAK v Middlesbrough                  2 -  2    8   0.471
+14. Aachen v Alkmaar                     0 -  0    6   0.353
+15. Fenerbahce v Zaragoza                0 -  1    3   0.176
+16. Athletic v Austria                   1 -  2    0   0.000
+
+Competitors = 17
+Total points scored = 310
+Average points scored = 18.235
+Average points per game = 1.140

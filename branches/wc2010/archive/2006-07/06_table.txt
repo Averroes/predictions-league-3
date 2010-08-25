@@ -1,0 +1,11 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Mark Goodge                    25   1  3  6
+ 2. The Edu Tor                    24   3  0  6
+ 3. Miljenko                       24   1  2  7
+ 4. Nick the Greek                 24   1  2  7
+ 5. Tobes                          22   2  2  4
+ 6. Timofei Shatrov                21   0  3  6
+ 7. Pivotalgubbins                 18   2  0  5
+ 8. Hamish                         12   1  0  4
+ 9. AGCM Oracle                    10   1  0  3

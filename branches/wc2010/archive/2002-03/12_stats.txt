@@ -1,0 +1,18 @@
+    Game:                               Result: Pts:   Avg:
+ 1. Leverkusen v Internazionale          0 - 2   29   1.933
+ 2. Lokomotiv v Madrid                   0 - 1   28   1.867
+ 3. Deportivo v Man. United              2 - 0   27   1.800
+ 4. Besiktas v Lazio                     1 - 2   22   1.467
+ 5. Valencia v Arsenal                   2 - 1   18   1.200
+ 6. Boavista v Malaga                    1 - 0   16   1.067
+ 7. Newcastle v Barcelona                0 - 2   14   0.933
+ 8. Roma v Ajax                          1 - 1   12   0.800
+ 9. Panathinaikos v Porto                0 - 1    8   0.533
+10. Liverpool v Celtic                   0 - 2    4   0.267
+11. Basel v Juventus                     2 - 1    3   0.200
+12. Milan v Dortmund                     0 - 1    3   0.200
+
+Competitors = 15
+Total points scored = 184
+Average points scored = 12.267
+Average points per game = 1.022

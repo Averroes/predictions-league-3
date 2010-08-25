@@ -1,0 +1,11 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Chelsea v Fenerbahce                 2 -  0   24   3.429
+ 2. Man. United v Roma                   1 -  0   17   2.429
+ 3. Barcelona v Schalke                  1 -  0   14   2.000
+ 4. Liverpool v Arsenal                  4 -  2    2   0.286
+
+Competitors = 7
+Total points scored = 57
+Average points scored = 8.143
+Average points per game = 2.036

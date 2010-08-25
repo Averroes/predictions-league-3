@@ -1,0 +1,21 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Barcelona v Stuttgart                3 -  1   18   2.571
+ 2. Real Madrid v Lazio                  3 -  1   16   2.286
+ 3. Porto v Besiktas                     2 -  0   16   2.286
+ 4. Fenerbahce v CSKA Moskva             3 -  1   16   2.286
+ 5. Roma v Man. United                   1 -  1   15   2.143
+ 6. PSV v Internazionale                 0 -  1   14   2.000
+ 7. Slavia v Sevilla                     0 -  3   14   2.000
+ 8. Arsenal v Steaua                     2 -  1   12   1.714
+ 9. Schalke v Rosenborg                  3 -  1   12   1.714
+10. Sporting v Dynamo Kyiv               3 -  0   10   1.429
+11. Olympiacos v Bremen                  3 -  0    6   0.857
+12. Marseille v Liverpool                0 -  4    6   0.857
+13. Rangers v Lyon                       0 -  3    4   0.571
+14. Chelsea v Valencia                   0 -  0    0   0.000
+
+Competitors = 7
+Total points scored = 159
+Average points scored = 22.714
+Average points per game = 1.622

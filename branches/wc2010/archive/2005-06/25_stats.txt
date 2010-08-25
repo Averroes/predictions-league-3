@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Middlesbrough v Steaua               4 -  2   18   1.500
+ 2. Sevilla v Schalke                    0 -  0   14   1.167
+
+Competitors = 12
+Total points scored = 32
+Average points scored = 2.667
+Average points per game = 1.333

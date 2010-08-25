@@ -1,0 +1,16 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( +2) The Wielder of the Scythe       2  16  30   5   0   5
+  2. ( -1) Pivotalgubbins                  2  16  30   3   4   3
+  3. ( -1) Diesel                          2  16  28   3   2   5
+  4. ( +1) Timofei Shatrov                 2  16  27   2   3   5
+  5. ( +2) Miljenko                        2  16  26   4   0   5
+  6. ( -2) Mark Goodge                     2  16  25   3   1   5
+  7. ( +1) Nick the Greek                  2  16  22   3   0   5
+  8. ( +1) Chris F                         2  16  22   2   2   4
+  9. ( -3) Stephen Weir                    2  16  22   1   4   3
+ 10. ( +2) Hari Seldon                     2  16  20   2   2   3
+ 11. ( - ) Dougal                          2  16  14   1   0   5
+ 12. ( -2) biz                             2  16  14   1   0   5
+ 13. ( - ) AGCM Oracle                     2  16  11   1   1   2
+ 14. ( - ) Toby                            2  16   9   1   1   1

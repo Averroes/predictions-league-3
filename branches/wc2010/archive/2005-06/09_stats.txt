@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Basel v Tromso                       4 -  3   28   2.333
+ 2. CSKA Sofia v Viking                  2 -  0   26   2.167
+ 3. Sevilla v Guimaraes                  3 -  1   25   2.083
+ 4. Steaua v Halmstad                    3 -  0   22   1.833
+ 5. M. Petach-Tikva v Lokomotiv Moskva   0 -  4   20   1.667
+ 6. Rapid v PAOK                         1 -  0   17   1.417
+ 7. Slavia v Monaco                      0 -  2   14   1.167
+ 8. Sampdoria v Hertha                   0 -  0   13   1.083
+ 9. Litex v AZ                           0 -  2   10   0.833
+10. Rennes v Shakhtar                    0 -  1    9   0.750
+11. Levski v Marseille                   1 -  0    8   0.667
+12. Brondby v Espanyol                   1 -  1    8   0.667
+13. Besiktas v Zenit                     1 -  1    7   0.583
+14. Dinamo Bucuresti v CSKA Moskva       1 -  0    4   0.333
+15. Crvena Zvezda v Roma                 3 -  1    2   0.167
+16. Grasshoppers v Dnipro                2 -  3    0   0.000
+
+Competitors = 12
+Total points scored = 213
+Average points scored = 17.750
+Average points per game = 1.109

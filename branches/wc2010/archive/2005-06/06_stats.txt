@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Brondby v M. Petah-Tikva             2 -  0   41   2.733
+ 2. Hamburg v Viking                     2 -  0   40   2.667
+ 3. Bolton v Zenit                       1 -  0   37   2.467
+ 4. Strasbourg v Tromso                  2 -  0   34   2.267
+ 5. Middlesbrough v Dnipro               3 -  0   28   1.867
+ 6. Lens v Halmstad                      5 -  0   26   1.733
+ 7. Sevilla v Besiktas                   3 -  0   24   1.600
+ 8. Crvena Zvezda v Basel                1 -  2   21   1.400
+ 9. Heerenveen v CSKA Moskva             0 -  0   20   1.333
+10. Rapid v Rennes                       2 -  0   20   1.333
+11. Levski v Dinamo Bucuresti            1 -  0   19   1.267
+12. Slavia v CSKA Sofia                  4 -  2   15   1.000
+13. Litex v Grasshoppers                 2 -  1    6   0.400
+14. Sampdoria v Steaua                   0 -  0    5   0.333
+15. Stuttgart v Shakhtar                 0 -  2    4   0.267
+16. Palermo v Lokomotiv Moskva           0 -  0    3   0.200
+
+Competitors = 15
+Total points scored = 343
+Average points scored = 22.867
+Average points per game = 1.429

@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Arsenal v Olympiacos                 2 -  0    9   0   0     6   1   2    31   3.444
+ 2. Unirea Urziceni v Stuttgart          1 -  1    0   7   2     7   0   0    28   3.111
+ 3. Real Madrid v Marseille              3 -  0    9   0   0     4   0   5    26   2.889
+ 4. Bordeaux v Maccabi Haifa             1 -  0    9   0   0     3   0   6    24   2.667
+ 5. Barcelona v Dynamo                   2 -  0    8   0   1     4   0   4    24   2.667
+ 6. CSKA Moskva v Besiktas               2 -  1    8   1   0     1   5   2    23   2.556
+ 7. Man. United v Wolfsburg              2 -  1    8   1   0     2   2   4    22   2.444
+ 8. APOEL v Chelsea                      0 -  1    0   2   7     2   1   4    19   2.111
+ 9. Debrecen v Lyon                      0 -  4    1   0   8     0   0   8    16   1.778
+10. Bayern v Juventus                    0 -  0    3   5   1     1   3   1    15   1.667
+11. Rangers v Sevilla                    1 -  4    1   2   6     0   0   6    12   1.333
+12. Rubin v Internazionale               1 -  1    0   3   6     3   0   0    12   1.333
+13. Porto v Atletico                     2 -  0    4   4   1     2   0   2    12   1.333
+14. Milan v Zurich                       0 -  1    8   0   1     1   0   0     4   0.444
+15. AZ v Standard                        1 -  1    7   1   1     1   0   0     4   0.444
+16. Fiorentina v Liverpool               2 -  0    0   3   6     0   0   0     0   0.000
+
+Competitors = 9
+Total points scored = 272
+Average points scored = 30.222
+Average points per game = 1.889

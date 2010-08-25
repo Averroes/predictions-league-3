@@ -1,0 +1,23 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Mlada Boleslav v Villarreal          1 -  2   20   2.857
+ 2. H. Tel-Aviv v Tottenham              0 -  2   16   2.286
+ 3. Fiorentina v Elfsborg                6 -  1   14   2.000
+ 4. Spartak Moskva v Leverkusen          2 -  1   13   1.857
+ 5. Larissa v Zenit                      2 -  3   11   1.571
+ 6. AaB v Anderlecht                     1 -  1   11   1.571
+ 7. Nurnberg v Everton                   0 -  2   10   1.429
+ 8. Aberdeen v Lokomotiv Moskva          1 -  1    8   1.143
+ 9. Aris v Crvena Zvezda                 3 -  0    6   0.857
+10. Kobenhavn v Panathinaikos            0 -  1    5   0.714
+11. Austria Wien v Bordeaux              1 -  2    4   0.571
+12. Galatasaray v Helsingborg            2 -  3    3   0.429
+13. Rennes v Brann                       1 -  1    0   0.000
+14. Toulouse v Sparta                    2 -  3    0   0.000
+15. Bayern v Bolton                      2 -  2    0   0.000
+16. Dinamo Zagreb v Basel                0 -  0    0   0.000
+
+Competitors = 7
+Total points scored = 121
+Average points scored = 17.286
+Average points per game = 1.080

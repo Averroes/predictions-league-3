@@ -1,0 +1,8 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Villarreal v Steaua                  2 -  0   48   3.000
+
+Competitors = 16
+Total points scored = 48
+Average points scored = 3.000
+Average points per game = 3.000

@@ -1,0 +1,16 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. CSKA Moskva v Partizan               2 -  0   40   2.353
+ 2. Sporting v Middlesbrough             1 -  0   36   2.118
+ 3. Internazionale v Porto               3 -  1   33   1.941
+ 4. Parma v Sevilla                      1 -  0   33   1.941
+ 5. Newcastle v Olympiacos               4 -  0   30   1.765
+ 6. Alkmaar v Shakhtar                   2 -  1   29   1.706
+ 7. Steaua v Villarreal                  0 -  0   20   1.176
+ 8. Auxerre v Lille                      0 -  0   12   0.706
+ 9. Zaragoza v Austria                   2 -  2   10   0.588
+
+Competitors = 17
+Total points scored = 243
+Average points scored = 14.294
+Average points per game = 1.588

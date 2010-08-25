@@ -1,0 +1,16 @@
+    Competitor:                   Pts: Res:
+ 1. Dan                            18   2
+ 2. Guru                           18   1
+ 3. The Wielder of the Scythe      16   2
+ 4. James Williams                 15   1
+ 5. Eduardo Liguori                15   1
+ 6. Miljenko                       14   2
+ 7. Michael Pallisgaard Jensen     13   1
+ 8. gary scholes                   13   1
+ 9. Bryvoski                       13   0
+10. Eddy de Visser                 10   1
+11. Ivo                            10   1
+12. Marc Robbins                    9   0
+13. agyemang                        8   1
+14. Klaa                            6   1
+15. Erik Jorstad                    6   1

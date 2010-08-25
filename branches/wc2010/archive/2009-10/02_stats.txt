@@ -1,0 +1,32 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Genoa v Slavia                       2 -  0    7   1   1     3   0   4    20   2.222
+ 2. Villarreal v Levski                  1 -  0    9   0   0     1   0   8    20   2.222
+ 3. Everton v AEK                        4 -  0    8   0   1     1   0   7    18   2.000
+ 4. Nacional v Werder                    2 -  3    1   1   7     0   4   3    18   2.000
+ 5. CSKA Sofia v Fulham                  1 -  1    4   4   1     4   0   0    16   1.778
+ 6. Athletic v Austria Wien              3 -  0    8   1   0     0   0   8    16   1.778
+ 7. Benfica v BATE                       2 -  0    6   3   0     2   0   4    16   1.778
+ 8. Sparta v PSV                         2 -  2    0   5   4     1   3   1    15   1.667
+ 9. CFR Cluj v Kobenhavn                 2 -  0    6   3   0     1   0   5    14   1.556
+10. Lille v Valencia                     1 -  1    0   3   6     3   0   0    12   1.333
+11. Heerenveen v Sporting                2 -  3    0   6   3     0   3   0     9   1.000
+12. Club Brugge v Shakhtar               1 -  4    0   5   4     0   0   4     8   0.889
+13. Partizan v Toulouse                  2 -  3    3   3   3     0   1   2     7   0.778
+14. Hertha v Ventspils                   1 -  1    8   1   0     1   0   0     4   0.444
+15. Dinamo Zagreb v Anderlecht           0 -  2    4   3   2     0   0   2     4   0.444
+16. Rapid v Hamburg                      3 -  0    2   1   6     0   0   2     4   0.444
+17. Sturm v Dinamo Bucuresti             0 -  1    5   3   1     0   1   0     3   0.333
+18. H. Tel-Aviv v Celtic                 2 -  1    1   5   3     0   1   0     3   0.333
+19. Steaua v Sheriff                     0 -  0    8   1   0     0   0   1     2   0.222
+20. Basel v Roma                         2 -  0    1   2   6     0   0   1     2   0.222
+21. Panathinaikos v Galatasaray          1 -  3    4   4   1     0   0   1     2   0.222
+22. Fenerbahce v Twente                  1 -  2    7   2   0     0   0   0     0   0.000
+23. Ajax v Timisoara                     0 -  0    8   0   1     0   0   0     0   0.000
+24. Lazio v Salzburg                     1 -  2    8   1   0     0   0   0     0   0.000
+
+Competitors = 9
+Total points scored = 213
+Average points scored = 23.667
+Average points per game = 0.986

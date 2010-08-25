@@ -1,0 +1,9 @@
+    Game:                                Result: Pts:   Avg:
+------------------------------------------------------------
+ 1. Germany v Turkey                     3 -  2   23   1.769
+ 2. Russia v Spain                       0 -  3    6   0.462
+
+Competitors = 13
+Total points scored = 29
+Average points scored = 2.231
+Average points per game = 1.115

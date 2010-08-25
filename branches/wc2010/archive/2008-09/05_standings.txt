@@ -1,0 +1,12 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Timofei Shatrov                 5  80 117   9  11  24
+  2. ( +1) Mark Goodge                     5  80 110  10   8  23
+  3. ( -1) Miljenko                        5  80 105  10   7  22
+  4. ( +1) Nick the Greek                  5  80 101  10   3  26
+  5. ( -1) Toby                            5  80  99  11   5  20
+  6. ( - ) biz                             4  64  80   7  10  11
+  7. ( - ) Chris F                         3  48  63   8   5   8
+  8. ( - ) AGCM Oracle                     5  80  53   4   7   8
+  9. ( - ) The Wielder of the Scythe       3  48  49   3   5  11
+ 10. ( - ) traveler                        1  16  19   2   1   4
