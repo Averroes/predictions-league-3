@@ -4,7 +4,7 @@
 Austria Wien,GAK,Rapid,Salzburg,Sturm
 
 BATE
-Anderlecht,Beveren,Club Brugge,Genk,La Louviere,Lokeren,Standard,Zulte Waregem
+Anderlecht,Beveren,Club Brugge,Genk,Gent,La Louviere,Lokeren,Standard,Zulte Waregem
 
 CSKA Sofia,Levski,Litex
 Dinamo Zagreb,Hajduk
@@ -23,7 +23,7 @@ Debrecen,Ferencvaros,MTK
 
 
 H. Ramat-Gan,H. Tel-Aviv,M. Haifa,M. Petah-Tikva,M. Tel-Aviv
-Fiorentina,Genoa,Internazionale,Juventus,Lazio,Livorno,Milan,Palermo,Parma,Perugia,Roma,Sampdoria,Udinese
+Fiorentina,Genoa,Internazionale,Juventus,Lazio,Livorno,Milan,Napoli,Palermo,Parma,Perugia,Roma,Sampdoria,Udinese
 
 Ventspils
 
@@ -47,6 +47,6 @@ Artmedia,Zilina
 Maribor,Olimpija
 Athletic,Atletico,Barcelona,Betis,Celta,Deportivo,Espanyol,Getafe,Malaga,Mallorca,Osasuna,Racing Santander,Real Madrid,Real Sociedad,Sevilla,Valencia,Villarreal,Zaragoza
 AIK,Djurgarden,Elfsborg,Halmstad,Hammarby,Helsingborg,Malmo
-Basel,Grasshoppers,Thun,Xamax,Zurich
-Besiktas,Denizlispor,Fenerbahce,Galatasaray,Gaziantepspor,Genclerbirligi,Trabzonspor
-Dnipro,Dynamo Kyiv,Metalist,Shakhtar
+Basel,Grasshoppers,Lausanne,Thun,Xamax,Young Boys,Zurich
+Besiktas,Bursaspor,Denizlispor,Fenerbahce,Galatasaray,Gaziantepspor,Genclerbirligi,Trabzonspor
+Dnipro,Dynamo Kyiv,Karpaty,Metalist,Shakhtar
