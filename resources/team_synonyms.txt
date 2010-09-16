@@ -38,3 +38,4 @@ Slavia Praha;Slavia
 Sparta Praha;Sparta
 Brugge;Club Brugge
 Rapid Wien;Rapid
+FC Lausanne-Sport;Lausanne
