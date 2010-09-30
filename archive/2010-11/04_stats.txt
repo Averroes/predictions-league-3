@@ -1,0 +1,32 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Rosenborg v Aris                     2 -  1    8   0   0     0   6   2    22   2.750
+ 2. PSG v Karpaty                        2 -  0    8   0   0     2   0   6    20   2.500
+ 3. Zenit v AEK                          4 -  2    7   1   0     0   5   2    19   2.375
+ 4. Palermo v Lausanne                   1 -  0    7   1   0     2   0   5    18   2.250
+ 5. CSKA Sofia v Porto                   0 -  1    0   1   7     2   0   5    18   2.250
+ 6. CSKA Moskva v Sparta Praha           3 -  0    8   0   0     0   0   8    16   2.000
+ 7. OB v Stuttgart                       1 -  2    1   2   5     2   2   1    16   2.000
+ 8. PAOK v Dinamo Zagreb                 1 -  0    4   2   2     3   1   0    15   1.875
+ 9. Villarreal v Club Brugge             2 -  1    7   1   0     0   1   6    15   1.875
+10. Sporting v Levski                    5 -  0    7   0   1     0   0   7    14   1.750
+11. Sampdoria v Debrecen                 1 -  0    6   2   0     1   0   5    14   1.750
+12. Utrecht v Liverpool                  0 -  0    0   3   5     1   2   0    10   1.250
+13. Metalist v PSV                       0 -  2    1   3   4     1   0   3    10   1.250
+14. Rapid Wien v Besiktas                1 -  2    1   4   3     1   1   1     9   1.125
+15. Lech v Salzburg                      2 -  0    4   2   2     0   0   4     8   1.000
+16. Atletico v Leverkusen                1 -  1    5   2   1     2   0   0     8   1.000
+17. Gent v Lille                         1 -  1    1   2   5     1   1   0     7   0.875
+18. Hajduk Split v Anderlecht            1 -  0    2   2   4     1   0   1     6   0.750
+19. BATE v AZ                            4 -  1    3   2   3     0   0   3     6   0.750
+20. Young Boys v Getafe                  2 -  0    3   4   1     0   0   3     6   0.750
+21. Sheriff v Dynamo Kyiv                2 -  0    2   1   5     0   0   2     4   0.500
+22. Man. City v Juventus                 1 -  1    7   1   0     1   0   0     4   0.500
+23. Steaua v Napoli                      3 -  3    3   1   4     0   0   1     2   0.250
+24. Dortmund v Sevilla                   0 -  1    3   4   1     0   0   1     2   0.250
+
+Competitors = 8
+Total points scored = 269
+Average points scored = 33.625
+Average points per game = 1.401
