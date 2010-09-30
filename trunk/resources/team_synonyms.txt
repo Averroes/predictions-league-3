@@ -39,3 +39,5 @@ Sparta Praha;Sparta
 Brugge;Club Brugge
 Rapid Wien;Rapid
 FC Lausanne-Sport;Lausanne
+Hajduk Split;Hajduk
+Shakhtar Donetsk;Shakhtar

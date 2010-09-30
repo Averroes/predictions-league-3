@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Chelsea v Marseille                  2 -  0    8   0   0     5   2   1    28   3.500
+ 2. Auxerre v Real Madrid                0 -  1    0   1   7     1   3   3    19   2.375
+ 3. Rangers v Bursaspor                  1 -  0    7   0   1     2   1   4    19   2.375
+ 4. Partizan v Arsenal                   1 -  3    0   1   7     1   2   4    18   2.250
+ 5. Basel v Bayern                       1 -  2    0   2   6     1   3   2    17   2.125
+ 6. Tottenham v Twente                   4 -  1    8   0   0     0   0   8    16   2.000
+ 7. Roma v CFR Cluj                      2 -  1    6   1   1     1   1   4    15   1.875
+ 8. Spartak Moskva v Zilina              3 -  0    7   1   0     0   0   7    14   1.750
+ 9. Internazionale v Bremen              4 -  0    6   2   0     0   0   6    12   1.500
+10. H. Tel-Aviv v Lyon                   1 -  3    2   0   6     0   0   6    12   1.500
+11. Ajax v Milan                         1 -  1    1   3   4     3   0   0    12   1.500
+12. Valencia v Man. United               0 -  1    3   3   2     1   1   0     7   0.875
+13. Braga v Shakhtar Donetsk             0 -  3    1   5   2     0   0   2     4   0.500
+14. Schalke v Benfica                    2 -  0    2   4   2     0   0   2     4   0.500
+15. Rubin v Barcelona                    1 -  1    1   1   6     1   0   0     4   0.500
+16. Panathinaikos v Kobenhavn            0 -  2    5   2   1     0   0   1     2   0.250
+
+Competitors = 8
+Total points scored = 203
+Average points scored = 25.375
+Average points per game = 1.586
