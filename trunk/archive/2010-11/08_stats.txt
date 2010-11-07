@@ -1,0 +1,32 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Leverkusen v Aris                    1 -  0    6   0   0     1   0   5    14   2.333
+ 2. PSG v Dortmund                       0 -  0    1   5   0     0   4   1    14   2.333
+ 3. BATE v Sheriff                       3 -  1    5   1   0     0   2   3    12   2.000
+ 4. PSV v Debrecen                       3 -  0    5   0   1     1   0   4    12   2.000
+ 5. Levski v Lille                       2 -  2    0   4   2     0   4   0    12   2.000
+ 6. Dynamo Kyiv v AZ                     2 -  0    4   1   1     1   1   2    11   1.833
+ 7. CSKA Moskva v Palermo                3 -  1    5   0   1     0   1   4    11   1.833
+ 8. Sevilla v Karpaty                    4 -  0    5   1   0     0   0   5    10   1.667
+ 9. Rosenborg v Atletico                 1 -  2    1   2   3     1   1   1     9   1.500
+10. Liverpool v Napoli                   3 -  1    4   1   1     0   1   3     9   1.500
+11. PAOK v Villarreal                    1 -  0    2   1   3     2   0   0     8   1.333
+12. AEK v Anderlecht                     1 -  1    2   2   2     2   0   0     8   1.333
+13. Steaua v Utrecht                     3 -  1    3   2   1     0   0   3     6   1.000
+14. Hajduk Split v Zenit                 2 -  3    1   3   2     0   2   0     6   1.000
+15. Getafe v Stuttgart                   0 -  3    3   1   2     0   0   2     4   0.667
+16. OB v Young Boys                      2 -  0    2   2   2     0   0   2     4   0.667
+17. Lausanne v Sparta Praha              1 -  3    2   3   1     0   0   1     2   0.333
+18. Juventus v Salzburg                  0 -  0    5   1   0     0   0   1     2   0.333
+19. Lech v Man. City                     3 -  1    0   0   6     0   0   0     0   0.000
+20. Gent v Sporting                      3 -  1    0   3   3     0   0   0     0   0.000
+21. Sampdoria v Metalist                 0 -  0    6   0   0     0   0   0     0   0.000
+22. Club Brugge v Dinamo Zagreb          0 -  2    3   3   0     0   0   0     0   0.000
+23. Rapid Wien v CSKA Sofia              1 -  2    5   1   0     0   0   0     0   0.000
+24. Porto v Besiktas                     1 -  1    5   0   1     0   0   0     0   0.000
+
+Competitors = 6
+Total points scored = 154
+Average points scored = 25.667
+Average points per game = 1.069
