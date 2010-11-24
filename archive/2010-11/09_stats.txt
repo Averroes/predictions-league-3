@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Basel v CFR Cluj                     1 -  0    5   0   1     4   0   1    18   3.000
+ 2. Rubin v Kobenhavn                    1 -  0    5   0   1     3   2   0    18   3.000
+ 3. Internazionale v Twente              1 -  0    5   0   1     1   0   4    12   2.000
+ 4. Auxerre v Milan                      0 -  2    0   1   5     1   0   4    12   2.000
+ 5. Rangers v Man. United                0 -  1    1   2   3     2   1   0    11   1.833
+ 6. Tottenham v Bremen                   3 -  0    4   1   1     1   0   3    10   1.667
+ 7. Partizan v Shakhtar Donetsk          0 -  3    0   1   5     0   0   5    10   1.667
+ 8. Valencia v Bursaspor                 6 -  1    5   0   1     0   0   5    10   1.667
+ 9. Chelsea v Zilina                     2 -  1    5   1   0     0   0   5    10   1.667
+10. Panathinaikos v Barcelona            0 -  3    1   0   5     0   0   5    10   1.667
+11. Roma v Bayern                        3 -  2    3   3   0     0   2   1     8   1.333
+12. Ajax v Real Madrid                   0 -  4    1   2   3     0   0   3     6   1.000
+13. Schalke v Lyon                       3 -  0    3   2   1     0   0   3     6   1.000
+14. Spartak Moskva v Marseille           0 -  3    2   1   3     0   0   3     6   1.000
+15. Braga v Arsenal                      2 -  0    1   0   5     0   0   1     2   0.333
+16. H. Tel-Aviv v Benfica                3 -  0    0   0   6     0   0   0     0   0.000
+
+Competitors = 6
+Total points scored = 149
+Average points scored = 24.833
+Average points per game = 1.552
