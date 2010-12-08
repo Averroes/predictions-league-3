@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Zilina v Spartak Moskva              1 -  2    0   1   6     2   3   1    19   2.714
+ 2. Barcelona v Rubin                    2 -  0    6   1   0     2   0   4    16   2.286
+ 3. Arsenal v Partizan                   3 -  1    7   0   0     0   2   5    16   2.286
+ 4. Shakhtar Donetsk v Braga             2 -  0    6   1   0     1   2   3    16   2.286
+ 5. Bayern v Basel                       3 -  0    6   0   1     0   0   6    12   1.714
+ 6. Real Madrid v Auxerre                4 -  0    6   0   1     0   0   6    12   1.714
+ 7. Kobenhavn v Panathinaikos            3 -  1    4   1   2     0   0   4     8   1.143
+ 8. Bursaspor v Rangers                  1 -  1    2   2   3     2   0   0     8   1.143
+ 9. Man. United v Valencia               1 -  1    4   2   1     2   0   0     8   1.143
+10. Marseille v Chelsea                  1 -  0    2   3   2     1   1   0     7   1.000
+11. CFR Cluj v Roma                      1 -  1    0   1   6     1   0   0     4   0.571
+12. Twente v Tottenham                   3 -  3    0   2   5     0   0   2     4   0.571
+13. Benfica v Schalke                    1 -  2    4   2   1     0   0   1     2   0.286
+14. Milan v Ajax                         0 -  2    6   0   1     0   0   1     2   0.286
+15. Lyon v H. Tel-Aviv                   2 -  2    6   0   1     0   0   0     0   0.000
+16. Bremen v Internazionale              3 -  0    0   2   5     0   0   0     0   0.000
+
+Competitors = 7
+Total points scored = 134
+Average points scored = 19.143
+Average points per game = 1.196
