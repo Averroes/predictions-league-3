@@ -231,6 +231,7 @@ season;round;games;competition_id;stage_id
 2010-11;09;*;1;G
 2010-11;10;*;2;G
 2010-11;11;*;1;G
+2010-11;12;*;2;G
 Euro 2004;01;*;3;G
 Euro 2004;02;*;3;G
 Euro 2004;03;*;3;G
