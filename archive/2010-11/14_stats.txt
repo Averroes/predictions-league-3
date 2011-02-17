@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Benfica v Stuttgart                  2 -  1    7   1   0     0   2   5    16   2.000
+ 2. Metalist v Leverkusen                0 -  4    0   1   7     0   0   7    14   1.750
+ 3. Rangers v Sporting                   1 -  1    2   3   3     3   0   0    12   1.500
+ 4. Anderlecht v Ajax                    0 -  3    0   2   6     0   0   6    12   1.500
+ 5. Lech v Braga                         1 -  0    3   2   3     1   1   1     9   1.125
+ 6. PAOK v CSKA Moskva                   0 -  1    2   3   3     1   0   2     8   1.000
+ 7. Aris v Man. City                     0 -  0    0   2   5     1   1   0     7   1.000
+ 8. BATE v PSG                           2 -  2    2   2   4     1   1   0     7   0.875
+ 9. Young Boys v Zenit                   2 -  1    2   1   5     1   1   0     7   0.875
+10. Lille v PSV                          2 -  2    6   2   0     0   1   1     5   0.625
+11. Besiktas v Dynamo Kyiv               1 -  4    5   1   2     0   0   2     4   0.500
+12. Sevilla v Porto                      1 -  2    2   4   2     0   0   2     4   0.500
+13. Basel v Spartak Moskva               2 -  3    6   1   1     0   1   0     3   0.375
+14. Napoli v Villarreal                  0 -  0    4   1   3     0   1   0     3   0.375
+15. Rubin v Twente                       0 -  2    5   2   1     0   0   1     2   0.250
+16. Sparta Praha v Liverpool             0 -  0    2   1   5     0   0   1     2   0.250
+
+Competitors = 8
+Total points scored = 115
+Average points scored = 14.375
+Average points per game = 0.898
