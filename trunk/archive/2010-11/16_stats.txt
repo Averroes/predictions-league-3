@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Leverkusen v Metalist                2 -  0    6   0   1     4   0   2    20   2.857
+ 2. Ajax v Anderlecht                    2 -  0    7   0   0     3   0   4    20   2.857
+ 3. Man. City v Aris                     3 -  0    6   0   1     3   0   3    18   2.571
+ 4. Zenit v Young Boys                   3 -  1    6   0   1     0   4   2    16   2.286
+ 5. Liverpool v Sparta Praha             1 -  0    6   1   0     2   0   4    16   2.286
+ 6. Villarreal v Napoli                  2 -  1    4   2   1     2   1   1    13   1.857
+ 7. Braga v Lech                         2 -  0    4   3   0     2   0   2    12   1.714
+ 8. Dynamo Kyiv v Besiktas               4 -  0    4   3   0     0   0   4     8   1.143
+ 9. PSV v Lille                          3 -  1    3   3   1     0   1   2     7   1.000
+10. Porto v Sevilla                      0 -  1    4   1   2     0   1   1     5   0.714
+11. PSG v BATE                           0 -  0    4   2   1     0   1   1     5   0.714
+12. Twente v Rubin                       2 -  2    6   1   0     0   1   0     3   0.429
+13. Sporting v Rangers                   2 -  2    3   1   3     0   1   0     3   0.429
+14. Stuttgart v Benfica                  0 -  2    3   3   1     0   0   1     2   0.286
+15. Spartak Moskva v Basel               1 -  1    6   0   1     0   0   0     0   0.000
+16. CSKA Moskva v PAOK                   1 -  1    7   0   0     0   0   0     0   0.000
+
+Competitors = 7
+Total points scored = 148
+Average points scored = 21.143
+Average points per game = 1.321
