@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Barcelona v Arsenal                  3 -  1    4   2   1     0   3   1    11   1.571
+ 2. Tottenham v Milan                    0 -  0    3   3   1     0   3   0     9   1.286
+ 3. Shakhtar Donetsk v Roma              3 -  0    3   4   0     0   0   3     6   0.857
+ 4. Schalke v Valencia                   3 -  1    2   3   2     0   1   1     5   0.714
+
+Competitors = 7
+Total points scored = 31
+Average points scored = 4.429
+Average points per game = 1.107
