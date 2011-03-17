@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Man. United v Marseille              2 -  1    7   0   0     0   4   3    18   2.571
+ 2. Real Madrid v Lyon                   3 -  0    5   2   0     1   0   4    12   1.714
+ 3. Bayern v Internazionale              2 -  3    2   4   1     0   1   0     3   0.429
+ 4. Chelsea v Kobenhavn                  0 -  0    7   0   0     0   0   0     0   0.000
+
+Competitors = 7
+Total points scored = 33
+Average points scored = 4.714
+Average points per game = 1.179
