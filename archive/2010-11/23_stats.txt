@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Man. United v Chelsea                2 -  1    5   0   2     1   3   1    15   2.143
+ 2. Shakhtar Donetsk v Barcelona         0 -  1    2   2   3     1   2   0    10   1.429
+ 3. Schalke v Internazionale             2 -  1    2   0   5     1   0   1     6   0.857
+ 4. Tottenham v Real Madrid              0 -  1    2   3   2     0   2   0     6   0.857
+
+Competitors = 7
+Total points scored = 37
+Average points scored = 5.286
+Average points per game = 1.321
