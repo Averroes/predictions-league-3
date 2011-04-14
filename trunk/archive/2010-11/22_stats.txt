@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Porto v Spartak Moskva               5 -  1    6   2   0     0   0   6    12   1.500
+ 2. Benfica v PSV                        4 -  1    6   2   0     0   0   6    12   1.500
+ 3. Villarreal v Twente                  5 -  1    6   0   2     0   0   6    12   1.500
+ 4. Dynamo Kyiv v Braga                  1 -  1    7   0   1     0   0   0     0   0.000
+
+Competitors = 8
+Total points scored = 36
+Average points scored = 4.500
+Average points per game = 1.125
