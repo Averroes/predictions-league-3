@@ -1,0 +1,10 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Benfica v Braga                      2 -  1    5   0   1     2   2   1    16   2.667
+ 2. Porto v Villarreal                   5 -  1    5   1   0     0   0   5    10   1.667
+
+Competitors = 6
+Total points scored = 26
+Average points scored = 4.333
+Average points per game = 2.167
