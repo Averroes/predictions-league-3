@@ -1,0 +1,9 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. AGCM Oracle                     7   1  1  0
+ 2. Mark Goodge                     7   1  1  0
+ 3. Nick the Greek                  6   1  0  1
+ 4. Hamish                          3   0  1  0
+ 5. Big_B                           2   0  0  1
+ 6. The Wielder of the Scythe       2   0  0  1
+ 7. Miljenko                        0   0  0  0

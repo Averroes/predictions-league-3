@@ -1,0 +1,10 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Man. United v Schalke                4 -  1    6   1   0     0   1   5    13   1.857
+ 2. Barcelona v Real Madrid              1 -  1    5   2   0     1   1   0     7   1.000
+
+Competitors = 7
+Total points scored = 20
+Average points scored = 2.857
+Average points per game = 1.429
