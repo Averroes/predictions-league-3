@@ -1,0 +1,9 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Porto v Braga                        1 -  0    6   0   1     2   0   4    16   2.286
+
+Competitors = 7
+Total points scored = 16
+Average points scored = 2.286
+Average points per game = 2.286
