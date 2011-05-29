@@ -1,0 +1,9 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Barcelona v Man. United              3 -  1    2   2   2     0   0   2     4   0.667
+
+Competitors = 6
+Total points scored = 4
+Average points scored = 0.667
+Average points per game = 0.667
