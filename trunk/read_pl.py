@@ -1,5 +1,5 @@
 import csv, os, re, string, struct, time
-from pysqlite2 import dbapi2 as sqlite
+from sqlite3 import dbapi2 as sqlite
 
 class AutoVivification(dict):
   """Implementation of perl's autovivification feature.
