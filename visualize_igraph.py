@@ -1,7 +1,7 @@
 import time
 import cairo
 import igraph
-from pysqlite2 import dbapi2 as sqlite
+from sqlite3 import dbapi2 as sqlite
 
 WIDTH, HEIGHT = 5000, 5000
 DEFAULT_VERTEX_SIZE = 9
