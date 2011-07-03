@@ -10,15 +10,16 @@ CREATE TABLE IF NOT EXISTS country
 );
 
 CREATE TABLE IF NOT EXISTS country_stats
-( stat_id    INTEGER,
+( id         INTEGER PRIMARY KEY,
+  stat_id    INTEGER,
   country_id INTEGER,
   season_id  TEXT,
   sum        FLOAT,
   count      INTEGER,
-  average    FLOAT,
-  PRIMARY KEY(stat_id, country_id, season_id)
+  average    FLOAT
 );
 
+CREATE UNIQUE INDEX IF NOT EXISTS country_stats_real_pk ON country_stats(stat_id, country_id, season_id);
 CREATE INDEX IF NOT EXISTS country_stats_idx ON country_stats(country_id);
 
 CREATE TABLE IF NOT EXISTS country_stats_description
@@ -50,16 +51,17 @@ CREATE TABLE IF NOT EXISTS player
 CREATE UNIQUE INDEX IF NOT EXISTS player_name_idx ON player(name);
 
 CREATE TABLE IF NOT EXISTS player_country_stats
-( stat_id    INTEGER,
+( id         INTEGER PRIMARY KEY,
+  stat_id    INTEGER,
   player_id  INTEGER,
   country_id INTEGER,
   season_id  TEXT,
   sum        FLOAT,
   count      INTEGER,
-  average    FLOAT,
-  PRIMARY KEY(stat_id, player_id, country_id, season_id)
+  average    FLOAT
 );
 
+CREATE UNIQUE INDEX IF NOT EXISTS player_country_stats_real_pk ON player_country_stats(stat_id, player_id, country_id, season_id);
 CREATE INDEX IF NOT EXISTS player_country_stats_player_idx ON player_country_stats(player_id);
 CREATE INDEX IF NOT EXISTS player_country_stats_country_idx ON player_country_stats(country_id);
 
@@ -71,16 +73,17 @@ CREATE TABLE IF NOT EXISTS player_country_stats_description
 );
 
 CREATE TABLE IF NOT EXISTS player_team_stats
-( stat_id   INTEGER,
+( id        INTEGER PRIMARY KEY,
+  stat_id   INTEGER,
   player_id INTEGER,
   team_id   INTEGER,
   season_id TEXT,
   sum       FLOAT,
   count     INTEGER,
-  average   FLOAT,
-  PRIMARY KEY(stat_id, player_id, team_id, season_id)
+  average   FLOAT
 );
 
+CREATE UNIQUE INDEX IF NOT EXISTS player_team_stats_real_pk ON player_team_stats(stat_id, player_id, team_id, season_id);
 CREATE INDEX IF NOT EXISTS player_team_stats_player_idx ON player_team_stats(player_id);
 CREATE INDEX IF NOT EXISTS player_team_stats_team_idx ON player_team_stats(team_id);
 
@@ -103,10 +106,12 @@ CREATE TABLE IF NOT EXISTS prediction
 );
 
 CREATE TABLE IF NOT EXISTS round
-( season_id      TEXT,
-  id             INTEGER,
-  PRIMARY KEY(season_id, id)
+( id             INTEGER PRIMARY KEY,
+  season_id      TEXT,
+  round_id       INTEGER
 );
+
+CREATE UNIQUE INDEX IF NOT EXISTS round_real_pk ON round(season_id, round_id);
 
 CREATE TABLE IF NOT EXISTS season
 ( id    TEXT PRIMARY KEY,
@@ -127,15 +132,16 @@ CREATE TABLE IF NOT EXISTS team
 CREATE UNIQUE INDEX IF NOT EXISTS team_name_idx ON team(name);
 
 CREATE TABLE IF NOT EXISTS team_stats
-( stat_id   INTEGER,
+( id        INTEGER PRIMARY KEY,
+  stat_id   INTEGER,
   team_id   INTEGER,
   season_id TEXT,
   sum       FLOAT,
   count     INTEGER,
-  average   FLOAT,
-  PRIMARY KEY(stat_id, team_id, season_id)
+  average   FLOAT
 );
 
+CREATE UNIQUE INDEX IF NOT EXISTS team_stats_real_pk ON team_stats(stat_id, team_id, season_id);
 CREATE INDEX IF NOT EXISTS team_stats_idx ON team_stats(team_id);
 
 CREATE TABLE IF NOT EXISTS team_stats_description
