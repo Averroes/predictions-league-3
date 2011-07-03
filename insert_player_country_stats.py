@@ -16,7 +16,7 @@ def calculate_stats(stat_sql, stat_id, key, stat, season):
 def get_season_total(home_stat_id, away_stat_id, total_stat_id, season):
   """Calculates overall stats for given season (home and away combined)."""
 
-  total_insert = """INSERT INTO player_country_stats
+  total_insert = """INSERT INTO player_country_stats(stat_id, player_id, country_id, season_id, sum, count, average)
                          SELECT %s, player_id, country_id, season_id, SUM(sum), SUM(count), CAST(SUM(sum) AS FLOAT) / SUM(count)
                            FROM player_country_stats
                           WHERE (stat_id = %s OR stat_id = %s)
@@ -28,7 +28,7 @@ def get_season_total(home_stat_id, away_stat_id, total_stat_id, season):
 def sum_all_seasons(all_seasons_const):
   """Calculates overall stats for all seasons (home and away combined)."""
 
-  total_insert = """INSERT INTO player_country_stats
+  total_insert = """INSERT INTO player_country_stats(stat_id, player_id, country_id, season_id, sum, count, average)
                          SELECT stat_id, player_id, country_id, '%s', SUM(sum), SUM(count), CAST(SUM(sum) AS FLOAT) / SUM(count)
                            FROM player_country_stats
                           GROUP BY stat_id, player_id, country_id"""
@@ -40,7 +40,7 @@ con = sqlite.connect('agcmpl.db')
 cur = con.cursor()
 time.clock()
 
-stat_insert = """INSERT INTO player_country_stats
+stat_insert = """INSERT INTO player_country_stats(stat_id, player_id, country_id, season_id, sum, count, average)
                       SELECT %s, player_id, team.country_id, season_id, SUM(%s), COUNT(*), CAST(SUM(%s) AS FLOAT) / COUNT(*)
                         FROM prediction, game, team
                        WHERE prediction.game_id = game.id

@@ -154,7 +154,7 @@ for root, dirs, files in os.walk(start_dir):
           cur.execute('INSERT INTO season(id) VALUES(?)', (season, ))
       cur.execute('SELECT * FROM round WHERE season_id = ? AND id = ?', (season, r))
       if not cur.fetchall():
-        cur.execute('INSERT INTO round(season_id, id) VALUES(?, ?)', (season, r))
+        cur.execute('INSERT INTO round(season_id, round_id) VALUES(?, ?)', (season, r))
       # read results
       f = f[:3] + 'results.txt'
       results_file = os.path.join(root, f)
