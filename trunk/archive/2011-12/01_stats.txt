@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Chelsea v Leverkusen                 2 -  0    4   1   0     3   1   0    15   3.000
+ 2. Basel v Otelul Galati                2 -  1    6   0   0     1   4   1    18   3.000
+ 3. Dinamo Zagreb v Real Madrid          0 -  1    0   1   5     2   0   3    14   2.333
+ 4. Porto v Shakhtar Donetsk             2 -  1    4   1   0     0   1   3     9   1.800
+ 5. Dortmund v Arsenal                   1 -  1    1   2   2     2   0   0     8   1.600
+ 6. Villarreal v Bayern                  0 -  2    0   3   3     0   1   2     7   1.167
+ 7. Plzen v BATE                         1 -  1    4   1   0     1   0   0     4   0.800
+ 8. Ajax v Lyon                          0 -  0    4   1   1     0   1   0     3   0.500
+ 9. Internazionale v Trabzonspor         0 -  1    5   0   1     0   0   1     2   0.333
+10. Lille v CSKA Moskva                  2 -  2    5   1   0     0   0   1     2   0.333
+11. APOEL v Zenit                        2 -  1    0   3   2     0   0   0     0   0.000
+12. Barcelona v Milan                    2 -  2    5   0   0     0   0   0     0   0.000
+13. Genk v Valencia                      0 -  0    1   0   4     0   0   0     0   0.000
+14. Benfica v Man. United                1 -  1    0   0   6     0   0   0     0   0.000
+15. Man. City v Napoli                   1 -  1    5   0   1     0   0   0     0   0.000
+16. Olympiacos v Marseille               0 -  1    4   1   0     0   0   0     0   0.000
+
+Competitors = 6
+Total points scored = 82
+Average points scored = 13.667
+Average points per game = 0.854

@@ -41,3 +41,4 @@ Rapid Wien;Rapid
 FC Lausanne-Sport;Lausanne
 Hajduk Split;Hajduk
 Shakhtar Donetsk;Shakhtar
+Wisla Krakow;Wisla

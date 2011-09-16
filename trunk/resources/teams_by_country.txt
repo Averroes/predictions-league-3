@@ -8,20 +8,20 @@ Anderlecht,Beveren,Club Brugge,Genk,Gent,La Louviere,Lokeren,Standard,Zulte Ware
 
 CSKA Sofia,Levski,Litex
 Dinamo Zagreb,Hajduk
-Anorthosis,APOEL
-Banik,Liberec,Mlada Boleslav,Sigma,Slavia,Sparta,Teplice
+AEK Larnaca,Anorthosis,APOEL
+Banik,Liberec,Mlada Boleslav,Plzen,Sigma,Slavia,Sparta,Teplice
 AaB,Brondby,Kobenhavn,Nordsjaelland,OB
-Arsenal,Aston Villa,Blackburn,Bolton,Chelsea,Everton,Fulham,Liverpool,Manchester City,Man. United,Middlesbrough,Millwall,Newcastle,Portsmouth,Southampton,Tottenham
+Arsenal,Aston Villa,Birmingham,Blackburn,Bolton,Chelsea,Everton,Fulham,Liverpool,Manchester City,Man. United,Middlesbrough,Millwall,Newcastle,Portsmouth,Southampton,Stoke,Tottenham
 
 
 
 Auxerre,Bordeaux,Lens,Lille,Lyon,Marseille,Monaco,Nancy,PSG,Rennes,Saint-Etienne,Sochaux,Strasbourg,Toulouse
 Dinamo Tbilisi
-Aachen,Bayern,Bochum,Bremen,Dortmund,Eintracht,Hamburg,Hertha,Leverkusen,Nurnberg,Schalke,Stuttgart,Wolfsburg
+Aachen,Bayern,Bochum,Bremen,Dortmund,Eintracht,Hamburg,Hannover,Hertha,Leverkusen,Nurnberg,Schalke,Stuttgart,Wolfsburg
 AEK,Aris,Egaleo,Larissa,Olympiacos,PAOK,Panathinaikos,Panionios
 Debrecen,Ferencvaros,MTK
 
-
+Shamrock Rovers
 H. Ramat-Gan,H. Tel-Aviv,M. Haifa,M. Petah-Tikva,M. Tel-Aviv
 Fiorentina,Genoa,Internazionale,Juventus,Lazio,Livorno,Milan,Napoli,Palermo,Parma,Perugia,Roma,Sampdoria,Udinese
 
@@ -36,17 +36,17 @@ Sheriff
 AZ Alkmaar,Ajax,Feyenoord,Heerenveen,NAC,NEC Nijmegen,PSV,Twente,Utrecht,Vitesse
 
 Brann,Lyn,Molde,Odd,Rosenborg,Tromso,Valerenga,Viking
-Amica,Groclin,Lech,Wisla
+Amica,Groclin,Lech,Legia,Wisla
 Benfica,Boavista,Braga,Guimaraes,Leiria,Maritimo,Nacional,Porto,Sporting
-CFR Cluj,Dinamo Bucuresti,Rapid Bucuresti,Steaua,Timisoara,Unirea Urziceni
+CFR Cluj,Dinamo Bucuresti,Otelul Galati,Rapid Bucuresti,Steaua,Timisoara,Unirea Urziceni,Vaslui
 CSKA Moskva,Lokomotiv Moskva,Rubin,Spartak Moskva,Torpedo Moskva,Zenit
 
 Aberdeen,Celtic,Dundee,Hearts,Rangers
 Crvena Zvezda,Partizan
-Artmedia,Zilina
+Artmedia,Slovan Bratislava,Zilina
 Maribor,Olimpija
 Athletic,Atletico,Barcelona,Betis,Celta,Deportivo,Espanyol,Getafe,Malaga,Mallorca,Osasuna,Racing Santander,Real Madrid,Real Sociedad,Sevilla,Valencia,Villarreal,Zaragoza
 AIK,Djurgarden,Elfsborg,Halmstad,Hammarby,Helsingborg,Malmo
 Basel,Grasshoppers,Lausanne,Thun,Xamax,Young Boys,Zurich
 Besiktas,Bursaspor,Denizlispor,Fenerbahce,Galatasaray,Gaziantepspor,Genclerbirligi,Trabzonspor
-Dnipro,Dynamo Kyiv,Karpaty,Metalist,Shakhtar
+Dnipro,Dynamo Kyiv,Karpaty,Metalist,Shakhtar,Vorskla
