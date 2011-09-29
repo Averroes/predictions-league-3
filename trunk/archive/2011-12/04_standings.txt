@@ -1,0 +1,8 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Miljenko                        4  80 123  13   7  25
+  2. ( - ) Nick the Greek                  4  80 121  12  11  20
+  3. ( - ) Mark Goodge                     4  80 104  10   8  20
+  4. ( - ) Hamish                          4  80  92   7   8  20
+  5. ( - ) The Wielder of the Scythe       4  80  81  10   3  16
+  6. ( - ) AGCM Oracle                     4  80  64   3  10  11
