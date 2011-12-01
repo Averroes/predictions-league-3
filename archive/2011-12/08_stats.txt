@@ -1,0 +1,32 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. M. Tel-Aviv v Stoke                  1 -  2    1   1   5     1   4   0    16   2.286
+ 2. Shamrock Rovers v PAOK               1 -  3    0   1   6     0   3   3    15   2.143
+ 3. Lazio v Zurich                       1 -  0    7   0   0     0   0   7    14   2.000
+ 4. PSG v Slovan Bratislava              1 -  0    6   1   0     1   0   5    14   2.000
+ 5. Twente v OB                          3 -  2    6   1   0     0   2   4    14   2.000
+ 6. Fulham v Wisla                       4 -  1    6   1   0     0   1   5    13   1.857
+ 7. Atletico v Udinese                   4 -  0    6   1   0     0   0   6    12   1.714
+ 8. Vorskla v Standard Liege             1 -  3    0   2   5     1   0   4    12   1.714
+ 9. Braga v Maribor                      5 -  1    6   0   1     0   0   6    12   1.714
+10. Steaua v M. Haifa                    4 -  2    5   1   1     0   0   5    10   1.429
+11. Besiktas v Dynamo Kyiv               1 -  0    3   3   1     1   2   0    10   1.429
+12. Legia v Rapid Bucuresti              3 -  1    5   1   1     0   0   5    10   1.429
+13. Anderlecht v Sturm                   3 -  0    5   1   1     0   0   5    10   1.429
+14. AEK v Lokomotiv Moskva               1 -  3    1   3   3     1   1   1     9   1.286
+15. Metalist v Malmo                     3 -  1    4   2   1     0   1   3     9   1.286
+16. Austria Wien v AZ                    2 -  2    2   3   2     0   2   1     8   1.143
+17. Celtic v Rennes                      3 -  1    4   2   1     0   0   4     8   1.143
+18. Birmingham v Club Brugge             2 -  2    4   2   1     0   2   0     6   0.857
+19. Salzburg v Athletic                  0 -  1    2   3   2     0   2   0     6   0.857
+20. PSV v H. Tel-Aviv                    3 -  3    5   2   0     0   1   1     5   0.714
+21. Kobenhavn v Hannover                 1 -  2    3   3   1     1   0   0     4   0.571
+22. Schalke v AEK Larnaca                0 -  0    6   1   0     0   1   0     3   0.429
+23. Rubin v Tottenham                    1 -  0    1   2   4     0   1   0     3   0.429
+24. Vaslui v Sporting                    1 -  0    0   2   5     0   0   0     0   0.000
+
+Competitors = 7
+Total points scored = 223
+Average points scored = 31.857
+Average points per game = 1.327
