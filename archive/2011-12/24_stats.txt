@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Valencia v AZ                        4 -  0    5   1   0     0   0   5    10   1.667
+ 2. Athletic v Schalke                   2 -  2    4   2   0     2   0   0     8   1.333
+ 3. Metalist v Sporting                  1 -  1    4   2   0     2   0   0     8   1.333
+ 4. Hannover v Atletico                  1 -  2    3   2   1     0   0   1     2   0.333
+
+Competitors = 6
+Total points scored = 28
+Average points scored = 4.667
+Average points per game = 1.167

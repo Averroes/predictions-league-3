@@ -1,0 +1,32 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Austria Wien v Malmo                 2 -  0    6   0   0     2   0   4    16   2.667
+ 2. Steaua v AEK Larnaca                 3 -  1    6   0   0     0   2   4    14   2.333
+ 3. Lazio v Sporting                     2 -  0    5   0   1     2   0   3    14   2.333
+ 4. Birmingham v Maribor                 1 -  0    4   1   1     3   0   1    14   2.333
+ 5. PSG v Athletic                       4 -  2    5   0   1     0   3   2    13   2.167
+ 6. PAOK v Rubin                         1 -  1    2   3   1     3   0   0    12   2.000
+ 7. Atletico v Rennes                    3 -  1    5   1   0     0   2   3    12   2.000
+ 8. PSV v Rapid Bucuresti                2 -  1    5   0   1     0   1   4    11   1.833
+ 9. Shamrock Rovers v Tottenham          0 -  4    1   0   5     0   0   5    10   1.667
+10. Hannover v Vorskla                   3 -  1    4   1   1     0   2   2    10   1.667
+11. Anderlecht v Lokomotiv Moskva        5 -  3    4   1   1     0   1   3     9   1.500
+12. Sturm v AEK                          1 -  3    3   0   3     1   0   2     8   1.333
+13. Club Brugge v Braga                  1 -  1    4   2   0     2   0   0     8   1.333
+14. H. Tel-Aviv v Legia                  2 -  0    4   0   2     0   0   4     8   1.333
+15. Slovan Bratislava v Salzburg         2 -  3    2   1   3     0   2   1     8   1.333
+16. Udinese v Celtic                     1 -  1    4   2   0     1   1   0     7   1.167
+17. M. Haifa v Schalke                   0 -  3    3   0   3     0   0   3     6   1.000
+18. Wisla v Twente                       2 -  1    2   2   2     0   2   0     6   1.000
+19. Besiktas v Stoke                     3 -  1    2   4   0     0   0   2     4   0.667
+20. Zurich v Vaslui                      2 -  0    2   1   3     0   0   2     4   0.667
+21. Kobenhavn v Standard Liege           0 -  1    2   3   1     0   1   0     3   0.500
+22. Fulham v OB                          2 -  2    5   1   0     0   0   1     2   0.333
+23. Dynamo Kyiv v M. Tel-Aviv            3 -  3    6   0   0     0   0   0     0   0.000
+24. AZ v Metalist                        1 -  1    6   0   0     0   0   0     0   0.000
+
+Competitors = 6
+Total points scored = 199
+Average points scored = 33.167
+Average points per game = 1.382

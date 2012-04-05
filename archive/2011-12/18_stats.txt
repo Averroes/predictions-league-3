@@ -1,0 +1,16 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Twente v Schalke                     1 -  0    4   1   2     1   2   1    12   1.714
+ 2. Atletico v Besiktas                  3 -  1    5   1   1     0   2   3    12   1.714
+ 3. Valencia v PSV                       4 -  2    5   1   1     0   1   4    11   1.571
+ 4. AZ v Udinese                         2 -  0    3   3   1     0   0   3     6   0.857
+ 5. Standard Liege v Hannover            2 -  2    4   2   1     0   2   0     6   0.857
+ 6. Metalist v Olympiacos                0 -  1    4   2   1     0   1   0     3   0.429
+ 7. Sporting v Man. City                 1 -  0    0   1   6     0   0   0     0   0.000
+ 8. Man. United v Athletic               2 -  3    6   1   0     0   0   0     0   0.000
+
+Competitors = 7
+Total points scored = 50
+Average points scored = 7.143
+Average points per game = 0.893

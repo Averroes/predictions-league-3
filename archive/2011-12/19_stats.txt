@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Real Madrid v CSKA Moskva            4 -  1    6   0   0     1   2   3    16   2.667
+ 2. Internazionale v Marseille           2 -  1    6   0   0     0   3   3    15   2.500
+ 3. Chelsea v Napoli                     3 -  1    4   1   1     1   1   2    11   1.833
+ 4. Bayern v Basel                       7 -  0    5   1   0     0   0   5    10   1.667
+
+Competitors = 6
+Total points scored = 52
+Average points scored = 8.667
+Average points per game = 2.167
