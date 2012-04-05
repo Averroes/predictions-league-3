@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Benfica v Otelul Galati              1 -  0    7   0   0     3   1   3    21   3.000
+ 2. Barcelona v BATE                     4 -  0    6   0   1     1   0   5    14   2.000
+ 3. Man. City v Bayern                   2 -  0    6   1   0     0   1   5    13   1.857
+ 4. Dinamo Zagreb v Lyon                 1 -  7    0   2   5     0   0   5    10   1.429
+ 5. Chelsea v Valencia                   3 -  0    4   3   0     0   0   4     8   1.143
+ 6. Villarreal v Napoli                  0 -  2    2   2   3     0   0   3     6   0.857
+ 7. Ajax v Real Madrid                   0 -  3    2   2   3     0   0   3     6   0.857
+ 8. Olympiacos v Arsenal                 3 -  1    2   1   4     0   0   2     4   0.571
+ 9. APOEL v Shakhtar Donetsk             0 -  2    3   3   1     0   0   1     2   0.286
+10. Plzen v Milan                        2 -  2    1   1   5     0   0   1     2   0.286
+11. Basel v Man. United                  2 -  1    1   1   5     0   0   1     2   0.286
+12. Internazionale v CSKA Moskva         1 -  2    5   2   0     0   0   0     0   0.000
+13. Porto v Zenit                        0 -  0    7   0   0     0   0   0     0   0.000
+14. Genk v Leverkusen                    1 -  1    1   0   6     0   0   0     0   0.000
+15. Dortmund v Marseille                 2 -  3    7   0   0     0   0   0     0   0.000
+16. Lille v Trabzonspor                  0 -  0    7   0   0     0   0   0     0   0.000
+
+Competitors = 7
+Total points scored = 88
+Average points scored = 12.571
+Average points per game = 0.786

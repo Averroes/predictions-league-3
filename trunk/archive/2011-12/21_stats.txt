@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. APOEL v Real Madrid                  0 -  3    0   1   4     0   0   4     8   1.600
+ 2. Milan v Barcelona                    0 -  0    1   2   2     0   2   0     6   1.200
+ 3. Marseille v Bayern                   0 -  2    0   3   2     0   1   1     5   1.000
+ 4. Benfica v Chelsea                    0 -  1    2   3   0     0   0   0     0   0.000
+
+Competitors = 5
+Total points scored = 19
+Average points scored = 3.800
+Average points per game = 0.950

@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Atletico v Lazio                     1 -  0    5   0   1     2   1   2    15   2.500
+ 2. Valencia v Stoke                     1 -  0    5   1   0     2   0   3    14   2.333
+ 3. Olympiacos v Rubin                   1 -  0    4   1   1     2   1   1    13   2.167
+ 4. Athletic v Lokomotiv Moskva          1 -  0    4   1   1     2   0   2    12   2.000
+ 5. Sporting v Legia                     1 -  0    5   1   0     1   0   4    12   2.000
+ 6. Man. City v Porto                    4 -  0    4   1   1     0   0   4     8   1.333
+ 7. Twente v Steaua                      1 -  0    3   3   0     1   0   2     8   1.333
+ 8. PSV v Trabzonspor                    4 -  1    4   1   1     0   0   4     8   1.333
+ 9. Metalist v Salzburg                  4 -  1    3   1   2     0   0   3     6   1.000
+10. Club Brugge v Hannover               0 -  1    3   2   1     0   1   0     3   0.500
+11. Besiktas v Braga                     0 -  1    4   1   1     0   1   0     3   0.500
+12. PAOK v Udinese                       0 -  3    3   2   1     0   0   1     2   0.333
+13. Man. United v Ajax                   1 -  2    5   1   0     0   0   0     0   0.000
+14. Standard Liege v Wisla               0 -  0    6   0   0     0   0   0     0   0.000
+15. Anderlecht v AZ                      0 -  1    3   3   0     0   0   0     0   0.000
+16. Schalke v Plzen                      1 -  1    5   0   1     0   0   0     0   0.000
+
+Competitors = 6
+Total points scored = 104
+Average points scored = 17.333
+Average points per game = 1.083
