@@ -1,0 +1,10 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Athletic v Sporting                  3 -  1    5   1   0     0   3   2    13   2.167
+ 2. Valencia v Atletico                  0 -  1    4   1   1     1   0   0     4   0.667
+
+Competitors = 6
+Total points scored = 17
+Average points scored = 2.833
+Average points per game = 1.417

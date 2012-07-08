@@ -1,0 +1,6 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. (new) Mark Goodge                     1   8   9   1   1   1
+  2. (new) The Wielder of the Scythe       1   8   7   0   1   2
+  3. (new) Miljenko                        1   8   6   0   0   3
+  4. (new) Nick the Greek                  1   8   4   1   0   0

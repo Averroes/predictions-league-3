@@ -1,0 +1,10 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Real Madrid v Bayern                 2 -  1    4   2   0     0   2   2    10   1.667
+ 2. Barcelona v Chelsea                  2 -  2    4   2   0     0   1   1     5   0.833
+
+Competitors = 6
+Total points scored = 15
+Average points scored = 2.500
+Average points per game = 1.250
