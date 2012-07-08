@@ -1,0 +1,6 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Nick the Greek                 10   0  2  2
+ 2. The Wielder of the Scythe       8   0  0  4
+ 3. Mark Goodge                     5   0  1  1
+ 4. Miljenko                        4   0  0  2

@@ -1,0 +1,16 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. England v Ukraine                    1 -  0    3   1   0     2   1   0    11   2.750
+ 2. Italy v Republic of Ireland          2 -  0    4   0   0     1   0   3    10   2.500
+ 3. Denmark v Germany                    1 -  2    0   0   4     0   2   2    10   2.500
+ 4. Croatia v Spain                      0 -  1    1   1   2     0   0   2     4   1.000
+ 5. Portugal v Netherlands               2 -  1    1   1   2     1   0   0     4   1.000
+ 6. Czech Republic v Poland              1 -  0    1   0   3     1   0   0     4   1.000
+ 7. Sweden v France                      2 -  0    0   0   4     0   0   0     0   0.000
+ 8. Greece v Russia                      1 -  0    0   0   4     0   0   0     0   0.000
+
+Competitors = 4
+Total points scored = 43
+Average points scored = 10.750
+Average points per game = 1.344

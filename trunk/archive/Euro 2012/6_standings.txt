@@ -1,0 +1,6 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Nick the Greek                  6  31  42   4   6   4
+  2. ( - ) Miljenko                        6  31  41   3   3  10
+  3. ( - ) Mark Goodge                     6  31  37   3   5   5
+  4. ( - ) The Wielder of the Scythe       6  31  29   2   1   9

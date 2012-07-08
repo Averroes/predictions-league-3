@@ -1,0 +1,9 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Spain v Italy                        4 -  0    0   2   2     0   0   0     0   0.000
+
+Competitors = 4
+Total points scored = 0
+Average points scored = 0.000
+Average points per game = 0.000
