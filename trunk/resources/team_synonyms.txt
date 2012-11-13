@@ -43,3 +43,6 @@ Hajduk Split;Hajduk
 Shakhtar Donetsk;Shakhtar
 Wisla Krakow;Wisla
 Standard Liege;Standard
+Anji;Anzhi
+LOSC;Lille
+Nordsjalland;Nordsjaelland
