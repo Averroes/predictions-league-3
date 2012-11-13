@@ -1,0 +1,7 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Nick the Greek                  2  40  64   3   8  14
+  2. ( +2) Miljenko                        2  40  53   2   5  15
+  3. ( - ) AGCM Oracle                     2  40  52   5   6   7
+  4. ( +1) Hamish                          2  40  45   3   5   9
+  5. ( -3) The Wielder of the Scythe       2  40  37   4   1   9
