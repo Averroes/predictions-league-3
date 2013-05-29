@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Lazio v Monchengladbach              2 -  0    5   0   0     1   0   4    12   2.400
+ 2. Bordeaux v Dynamo Kyiv               1 -  0    3   1   1     0   2   1     8   1.600
+ 3. Liverpool v Zenit                    3 -  1    3   1   1     0   1   2     7   1.400
+ 4. Fenerbahce v BATE                    1 -  0    3   2   0     0   1   2     7   1.400
+ 5. CFR Cluj v Internazionale            0 -  3    0   2   3     0   0   3     6   1.200
+ 6. Plzen v Napoli                       2 -  0    2   2   1     0   1   1     5   1.000
+ 7. Metalist v Newcastle                 0 -  1    4   0   1     1   0   0     4   0.800
+ 8. Hannover v Anji                      1 -  1    1   1   3     1   0   0     4   0.800
+ 9. Dnipro v Basel                       1 -  1    3   1   1     1   0   0     4   0.800
+10. Genk v Stuttgart                     0 -  2    2   2   1     1   0   0     4   0.800
+11. Lyon v Tottenham                     1 -  1    3   1   1     1   0   0     4   0.800
+12. Benfica v Leverkusen                 2 -  1    2   2   1     0   0   2     4   0.800
+13. Chelsea v Sparta Praha               1 -  1    5   0   0     0   0   0     0   0.000
+14. Rubin v Atletico                     0 -  1    2   3   0     0   0   0     0   0.000
+15. Olympiacos v Levante                 0 -  1    3   2   0     0   0   0     0   0.000
+16. Steaua v Ajax                        2 -  0    0   1   4     0   0   0     0   0.000
+
+Competitors = 5
+Total points scored = 69
+Average points scored = 13.800
+Average points per game = 0.863

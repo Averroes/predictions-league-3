@@ -1,0 +1,10 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Chelsea v Basel                      3 -  1    5   0   0     0   2   3    12   2.400
+ 2. Benfica v Fenerbahce                 3 -  1    4   0   1     1   1   2    11   2.200
+
+Competitors = 5
+Total points scored = 23
+Average points scored = 4.600
+Average points per game = 2.300

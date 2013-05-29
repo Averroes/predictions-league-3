@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Newcastle v Benfica                  1 -  1    1   3   1     3   0   0    12   2.400
+ 2. Basel v Tottenham                    2 -  2    0   1   4     0   1   0     3   0.600
+ 3. Lazio v Fenerbahce                   1 -  1    3   1   1     0   1   0     3   0.600
+ 4. Rubin v Chelsea                      3 -  2    1   1   3     0   1   0     3   0.600
+
+Competitors = 5
+Total points scored = 21
+Average points scored = 4.200
+Average points per game = 1.050

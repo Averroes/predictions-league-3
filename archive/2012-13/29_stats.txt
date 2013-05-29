@@ -1,0 +1,9 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Benfica v Chelsea                    1 -  2    0   2   3     1   1   1     9   1.800
+
+Competitors = 5
+Total points scored = 9
+Average points scored = 1.800
+Average points per game = 1.800
