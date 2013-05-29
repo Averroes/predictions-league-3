@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Juventus v Celtic                    2 -  0    5   0   0     2   0   3    14   2.800
+ 2. Man. United v Real Madrid            1 -  2    1   0   3     1   1   1     9   2.250
+ 3. Dortmund v Shakhtar Donetsk          3 -  0    2   2   0     0   0   2     4   1.000
+ 4. PSG v Valencia                       1 -  1    4   1   0     0   1   0     3   0.600
+
+Competitors = 5
+Total points scored = 30
+Average points scored = 6.000
+Average points per game = 1.500
