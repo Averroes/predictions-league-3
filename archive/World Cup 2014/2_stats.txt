@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Belgium v Russia                     1 -  0    5   1   1     4   1   0    19   2.714
+ 2. Colombia v Cote d'Ivoire             2 -  1    5   2   0     3   0   2    16   2.286
+ 3. Australia v Netherlands              2 -  3    1   0   6     0   0   6    12   1.714
+ 4. Argentina v Iran                     1 -  0    6   1   0     0   0   6    12   1.714
+ 5. Cameroon v Croatia                   0 -  4    0   1   6     0   0   6    12   1.714
+ 6. Honduras v Ecuador                   1 -  2    1   2   4     0   3   1    11   1.571
+ 7. Switzerland v France                 2 -  5    0   2   5     0   0   5    10   1.429
+ 8. Japan v Greece                       0 -  0    2   2   3     0   1   1     5   0.714
+ 9. USA v Portugal                       2 -  2    0   2   5     0   1   1     5   0.714
+10. Korea Republic v Algeria             2 -  4    3   3   1     0   1   0     3   0.429
+11. Uruguay v England                    2 -  1    1   2   4     0   1   0     3   0.429
+12. Germany v Ghana                      2 -  2    7   0   0     0   0   0     0   0.000
+13. Nigeria v Bosnia and Herzegovina     1 -  0    0   0   7     0   0   0     0   0.000
+14. Brazil v Mexico                      0 -  0    6   0   1     0   0   0     0   0.000
+15. Spain v Chile                        0 -  2    5   2   0     0   0   0     0   0.000
+16. Italy v Costa Rica                   0 -  1    7   0   0     0   0   0     0   0.000
+
+Competitors = 7
+Total points scored = 108
+Average points scored = 15.429
+Average points per game = 0.964

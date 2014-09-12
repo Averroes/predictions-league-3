@@ -1,0 +1,10 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Valencia v Sevilla                   3 -  1    2   1   1     0   1   1     5   1.250
+ 2. Juventus v Benfica                   0 -  0    3   0   1     0   0   0     0   0.000
+
+Competitors = 4
+Total points scored = 5
+Average points scored = 1.250
+Average points per game = 0.625

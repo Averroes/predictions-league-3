@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Napoli v Swansea                     3 -  1    4   0   0     1   2   1    12   3.000
+ 2. Trabzonspor v Juventus               0 -  2    0   0   4     1   0   3    10   2.500
+ 3. Tottenham v Dnipro                   3 -  1    3   1   0     1   1   1     9   2.250
+ 4. Eintracht Frankfurt v Porto          3 -  3    0   3   1     0   1   2     7   1.750
+ 5. Benfica v PAOK                       3 -  0    3   0   1     0   0   3     6   1.500
+ 6. Lyon v Chornomorets Odesa            1 -  0    3   0   1     0   0   3     6   1.500
+ 7. Basel v M. Tel-Aviv                  3 -  0    3   1   0     0   0   3     6   1.500
+ 8. Sevilla v Maribor                    2 -  1    2   1   1     0   0   2     4   1.000
+ 9. AZ v Liberec                         1 -  1    3   1   0     0   1   0     3   0.750
+10. Valencia v Dynamo Kyiv               0 -  0    3   1   0     0   1   0     3   0.750
+11. Fiorentina v Esbjerg                 1 -  1    3   1   0     0   1   0     3   0.750
+12. Salzburg v Ajax                      3 -  1    1   1   2     0   0   1     2   0.500
+13. Ludogorets v Lazio                   3 -  3    0   1   3     0   0   1     2   0.500
+14. Rubin v Betis                        0 -  2    3   0   1     0   0   1     2   0.500
+15. Genk v Anji                          0 -  2    3   1   0     0   0   0     0   0.000
+16. Shakhtar Donetsk v Plzen             1 -  2    4   0   0     0   0   0     0   0.000
+
+Competitors = 4
+Total points scored = 75
+Average points scored = 18.750
+Average points per game = 1.172

@@ -6,6 +6,8 @@ from sqlite3 import dbapi2 as sqlite
 WIDTH, HEIGHT = 5000, 5000
 DEFAULT_VERTEX_SIZE = 9
 
+season_weights = {'2013-14': 1, '2012-13': 0.5, '2011-12': 0.25}
+
 def print_timing(func):
   def wrapper(*arg):
     t1 = time.time()
@@ -21,7 +23,7 @@ def add_vertices(g):
   teams = {}
   for x in cur.fetchall():
     teams[x[0]] = x[1]
-  g.add_vertices(len(teams) - 1)
+  g.add_vertices(len(teams))
 
   for v in g.vs:
     v['color'] = 'darkred'
@@ -35,12 +37,15 @@ def add_vertices(g):
 def add_edges(g):
   edges = []
   weights = []
+  weights_alt = []
   cur.execute("SELECT * FROM game")
   for x in cur.fetchall():
     edges.append((x[5] - 1, x[6] - 1)) # home->away edge
     weights.append(x[10]) # home->away edge weight is away's points scored
+    weights_alt.append(x[10] * season_weights.get(x[2], 0.1))
     edges.append((x[6] - 1, x[5] - 1)) # away->home edge
     weights.append(x[9]) # away->home edge weight is home's points scored
+    weights_alt.append(x[9] * season_weights.get(x[2], 0.1))
   con.commit()
   
   g.add_edges(edges)
@@ -51,7 +56,7 @@ def add_edges(g):
     e['weight'] = weights[e.index]
 
   print 'Added %d edges.' % g.ecount()
-  return weights
+  return weights, weights_alt
 
 @print_timing
 def draw_layout(g, layout_func, surface):
@@ -77,14 +82,13 @@ def prepare_cairo_surface():
   
   return surface
 
-def calculate_pagerank(g, weights=None):
+def calculate_pagerank(g, weights=None, file_suffix=''):
   print 'Teams ranked by PageRank:'
-  pr = g.pagerank(directed=True, weights=weights_list)
-  f = open('teams_by_pagerank.txt', 'w')
-  for i, (team, pr_value) in enumerate(sorted(zip(g.vs, pr), key=lambda x: x[1], reverse=True)):
-    f.write('%3d. %-30s %6.3f %4d\n' % (i + 1, team['label'], pr_value * 1000, team['size'] - DEFAULT_VERTEX_SIZE))
-    print '%3d. %-30s %6.3f %4d' % (i + 1, team['label'], pr_value * 1000, team['size'] - DEFAULT_VERTEX_SIZE)
-  f.close()
+  pr = g.pagerank(directed=True, weights=weights)
+  with open('teams_by_pagerank' + file_suffix + '.txt', 'w') as f:
+    for i, (team, pr_value) in enumerate(sorted(zip(g.vs, pr), key=lambda x: x[1], reverse=True)):
+      f.write('%3d. %-30s %6.3f %4d\n' % (i + 1, team['label'], pr_value * 1000, team['size'] - DEFAULT_VERTEX_SIZE))
+      print '%3d. %-30s %6.3f %4d' % (i + 1, team['label'], pr_value * 1000, team['size'] - DEFAULT_VERTEX_SIZE)
 
 if __name__ == '__main__':
   g = igraph.Graph(directed=True)
@@ -93,7 +97,7 @@ if __name__ == '__main__':
   cur = con.cursor()
 
   add_vertices(g)
-  weights_list = add_edges(g)
+  weights_list, weights_alt = add_edges(g)
 
   if g.is_connected():
     print 'Graph is connected.'
@@ -101,9 +105,10 @@ if __name__ == '__main__':
     print 'Graph is not connected.'
 
   calculate_pagerank(g, weights_list)
+  calculate_pagerank(g, weights_alt, '_weighted')
 
   print 'Simplifying graph...'
-  g.to_undirected(collapse=False)
+  g.to_undirected()
   g.simplify()
   print 'Edges after simplification:', g.ecount()
 

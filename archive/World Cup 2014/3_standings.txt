@@ -1,0 +1,9 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. ( - ) Stephen Weir                    3  48  70   4  10  12
+  2. ( - ) Nick the Greek                  3  48  68   4   8  14
+  3. ( - ) Mark Goodge                     3  48  66   3   6  18
+  4. ( - ) Miljenko                        3  48  62   3   6  16
+  5. ( +2) The Wielder of the Scythe       3  48  56   6   4  10
+  6. ( - ) Mikael Scholer                  3  48  51   3   5  12
+  7. ( -2) AGCM Oracle                     3  48  44   4   2  11

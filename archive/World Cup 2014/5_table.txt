@@ -1,0 +1,8 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. The Wielder of the Scythe      10   2  0  1
+ 2. Nick the Greek                  5   0  1  1
+ 3. Mark Goodge                     4   1  0  0
+ 4. Miljenko                        4   1  0  0
+ 5. Stephen Weir                    4   1  0  0
+ 6. AGCM Oracle                     2   0  0  1

@@ -1,0 +1,6 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. The Wielder of the Scythe      40   5  4  4
+ 2. Miljenko                       39   5  1  8
+ 3. Nick the Greek                 37   3  3  8
+ 4. AGCM Oracle                    33   4  3  4

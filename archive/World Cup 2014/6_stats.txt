@@ -1,0 +1,10 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Netherlands v Argentina              0 -  0    1   4   1     2   2   0    14   2.333
+ 2. Brazil v Germany                     1 -  7    2   2   2     0   0   2     4   0.667
+
+Competitors = 6
+Total points scored = 18
+Average points scored = 3.000
+Average points per game = 1.500

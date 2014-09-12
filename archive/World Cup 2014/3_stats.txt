@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Cameroon v Brazil                    1 -  4    0   0   6     0   3   3    15   2.500
+ 2. Bosnia and Herzegovina v Iran        3 -  1    7   0   0     0   3   4    17   2.429
+ 3. Algeria v Russia                     1 -  1    2   4   1     4   0   0    16   2.286
+ 4. Australia v Spain                    0 -  3    0   1   5     1   0   4    12   2.000
+ 5. Japan v Colombia                     1 -  4    0   2   5     0   1   4    11   1.571
+ 6. Honduras v Switzerland               0 -  3    0   2   5     0   1   4    11   1.571
+ 7. Nigeria v Argentina                  2 -  3    1   1   5     0   1   4    11   1.571
+ 8. USA v Germany                        0 -  1    1   2   4     0   2   2    10   1.429
+ 9. Ecuador v France                     0 -  0    0   3   4     1   2   0    10   1.429
+10. Costa Rica v England                 0 -  0    2   3   2     0   3   0     9   1.286
+11. Italy v Uruguay                      0 -  1    2   2   3     1   1   1     9   1.286
+12. Korea Republic v Belgium             0 -  1    1   2   4     0   0   4     8   1.143
+13. Portugal v Ghana                     2 -  1    2   3   2     0   0   2     4   0.571
+14. Croatia v Mexico                     1 -  3    4   1   1     0   0   1     2   0.333
+15. Netherlands v Chile                  2 -  0    0   5   1     0   0   0     0   0.000
+16. Greece v Cote d'Ivoire               2 -  1    0   2   5     0   0   0     0   0.000
+
+Competitors = 7
+Total points scored = 145
+Average points scored = 20.714
+Average points per game = 1.295

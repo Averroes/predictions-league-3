@@ -1,0 +1,9 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Stephen Weir                   22   1  2  6
+ 2. Miljenko                       18   1  2  4
+ 3. Mark Goodge                    17   1  1  5
+ 4. Nick the Greek                 15   1  1  4
+ 5. AGCM Oracle                    14   1  2  2
+ 6. Mikael Scholer                 12   1  0  4
+ 7. The Wielder of the Scythe      10   1  0  3
