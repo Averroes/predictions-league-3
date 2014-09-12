@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Bayern v Man. United                 3 -  1    4   0   0     2   1   1    13   3.250
+ 2. Chelsea v Paris                      2 -  0    4   0   0     2   0   2    12   3.000
+ 3. Atletico v Barcelona                 1 -  0    2   2   0     0   1   1     5   1.250
+ 4. Dortmund v Real Madrid               2 -  0    0   2   2     0   0   0     0   0.000
+
+Competitors = 4
+Total points scored = 30
+Average points scored = 7.500
+Average points per game = 1.875

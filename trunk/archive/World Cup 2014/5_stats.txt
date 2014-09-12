@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Brazil v Colombia                    2 -  1    4   1   1     2   1   1    13   2.167
+ 2. Argentina v Belgium                  1 -  0    4   1   1     2   0   2    12   2.000
+ 3. Netherlands v Costa Rica             0 -  0    4   1   1     1   0   0     4   0.667
+ 4. France v Germany                     0 -  1    2   3   0     0   0   0     0   0.000
+
+Competitors = 6
+Total points scored = 29
+Average points scored = 4.833
+Average points per game = 1.208

@@ -1,0 +1,9 @@
+Pos:  Ch:  Name:                          R: Gm: Pt: 4P: 3P: 2P:
+----------------------------------------------------------------
+  1. (new) Stephen Weir                    1  16  28   1   6   3
+  2. (new) Nick the Greek                  1  16  26   2   4   3
+  3. (new) Mark Goodge                     1  16  24   1   2   7
+  4. (new) The Wielder of the Scythe       1  16  22   4   0   3
+  5. (new) Mikael Scholer                  1  16  22   2   2   4
+  6. (new) Miljenko                        1  16  22   1   2   6
+  7. (new) AGCM Oracle                     1  16  20   2   0   6

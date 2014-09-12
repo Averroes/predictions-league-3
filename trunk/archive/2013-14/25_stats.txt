@@ -1,0 +1,10 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Atletico v Chelsea                   0 -  0    2   2   0     0   1   1     5   1.250
+ 2. Real Madrid v Bayern                 1 -  0    1   3   0     0   1   0     3   0.750
+
+Competitors = 4
+Total points scored = 8
+Average points scored = 2.000
+Average points per game = 1.000

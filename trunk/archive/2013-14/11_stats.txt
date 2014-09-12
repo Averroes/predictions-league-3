@@ -1,0 +1,24 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Kobenhavn v Real Madrid              0 -  2    1   0   4     4   0   0    16   3.200
+ 2. Marseille v Dortmund                 1 -  2    0   0   5     2   2   1    16   3.200
+ 3. Real Sociedad v Leverkusen           0 -  1    0   1   4     1   2   1    12   2.400
+ 4. Olympiacos v Anderlecht              3 -  1    4   1   0     1   1   2    11   2.200
+ 5. Schalke v Basel                      2 -  0    4   1   0     1   0   3    10   2.000
+ 6. Atletico v Porto                     2 -  0    4   1   0     1   0   3    10   2.000
+ 7. Barcelona v Celtic                   6 -  1    5   0   0     0   0   5    10   2.000
+ 8. Chelsea v Steaua                     1 -  0    4   1   0     0   0   4     8   1.600
+ 9. Man. United v Shakhtar Donetsk       1 -  0    4   1   0     0   0   4     8   1.600
+10. Benfica v Paris                      2 -  1    2   2   1     0   1   1     5   1.000
+11. Plzen v CSKA Moskva                  2 -  1    1   2   2     1   0   0     4   0.800
+12. Milan v Ajax                         0 -  0    4   1   0     0   1   0     3   0.600
+13. Austria Wien v Zenit                 4 -  1    0   2   3     0   0   0     0   0.000
+14. Galatasaray v Juventus               1 -  0    0   3   2     0   0   0     0   0.000
+15. Bayern v Man. City                   2 -  3    4   1   0     0   0   0     0   0.000
+16. Napoli v Arsenal                     2 -  0    0   4   1     0   0   0     0   0.000
+
+Competitors = 5
+Total points scored = 113
+Average points scored = 22.600
+Average points per game = 1.413

@@ -1,0 +1,12 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Lyon v Juventus                      0 -  1    0   0   4     2   0   2    12   3.000
+ 2. AZ v Benfica                         0 -  1    1   0   3     1   1   1     9   2.250
+ 3. Porto v Sevilla                      1 -  0    3   1   0     0   1   2     7   1.750
+ 4. Basel v Valencia                     3 -  0    2   2   0     0   0   2     4   1.000
+
+Competitors = 4
+Total points scored = 32
+Average points scored = 8.000
+Average points per game = 2.000

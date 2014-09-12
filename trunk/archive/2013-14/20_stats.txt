@@ -1,0 +1,16 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Fiorentina v Juventus                0 -  1    0   0   4     2   0   2    12   3.000
+ 2. Valencia v Ludogorets                1 -  0    3   0   1     0   0   3     6   1.500
+ 3. Anji v AZ                            0 -  0    2   2   0     0   2   0     6   1.500
+ 4. Betis v Sevilla                      0 -  2    1   1   2     0   1   1     5   1.250
+ 5. Plzen v Lyon                         2 -  1    1   2   1     1   0   0     4   1.000
+ 6. Benfica v Tottenham                  2 -  2    3   1   0     1   0   0     4   1.000
+ 7. Salzburg v Basel                     1 -  2    3   0   1     0   1   0     3   0.750
+ 8. Napoli v Porto                       2 -  2    3   0   1     0   0   0     0   0.000
+
+Competitors = 4
+Total points scored = 40
+Average points scored = 10.000
+Average points per game = 1.250

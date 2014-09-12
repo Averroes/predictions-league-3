@@ -1,0 +1,6 @@
+    Name:                          P:  4: 3: 2:
+-----------------------------------------------
+ 1. Mark Goodge                    31   3  3  5
+ 2. Nick the Greek                 30   3  2  6
+ 3. Miljenko                       28   2  2  7
+ 4. AGCM Oracle                    21   2  1  5

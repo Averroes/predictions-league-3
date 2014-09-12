@@ -32,6 +32,7 @@ FC Barcelona;Barcelona
 Man. City;Manchester City
 FC Dynamo Kyiv;Dynamo Kyiv
 FC Shakhtar Donetsk;Shakhtar
+Shakhtar Donetsk;Shakhtar
 Maccabi Haifa;M. Haifa
 Werder;Bremen
 Slavia Praha;Slavia
@@ -40,9 +41,11 @@ Brugge;Club Brugge
 Rapid Wien;Rapid
 FC Lausanne-Sport;Lausanne
 Hajduk Split;Hajduk
-Shakhtar Donetsk;Shakhtar
 Wisla Krakow;Wisla
 Standard Liege;Standard
 Anji;Anzhi
 LOSC;Lille
 Nordsjalland;Nordsjaelland
+Eintracht;Eintracht Frankfurt
+Shakhter;Shakhter Karagandy
+Paris;PSG
