@@ -18,6 +18,7 @@ FI
 FR
 GE
 DE
+GI
 GR
 HU
 IS
