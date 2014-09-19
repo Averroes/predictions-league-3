@@ -1,0 +1,32 @@
+                                                  Predicted:      Scored:               
+    Game:                                Result:  1:  X:  2:    4p: 3p: 2p:  Pts:   Avg:
+----------------------------------------------------------------------------------------
+ 1. Kobenhavn v HJK                      2 -  0    5   0   1     3   0   2    16   2.667
+ 2. PSV v Estoril                        1 -  0    6   0   0     2   0   4    16   2.667
+ 3. Napoli v Sparta Praha                3 -  1    6   0   0     0   4   2    16   2.667
+ 4. Fiorentina v Guingamp                3 -  0    6   0   0     1   0   5    14   2.333
+ 5. Legia v Lokeren                      1 -  0    4   2   0     2   1   1    13   2.167
+ 6. Steaua v AaB                         6 -  0    6   0   0     0   0   6    12   2.000
+ 7. Dnipro v Internazionale              0 -  1    2   1   3     2   1   0    11   1.833
+ 8. Club Brugge v Torino                 0 -  0    3   3   0     1   2   0    10   1.667
+ 9. Sevilla v Feyenoord                  2 -  0    3   2   1     2   0   1    10   1.667
+10. Apollon v Zurich                     3 -  2    3   3   0     0   3   0     9   1.500
+11. Standard Liege v Rijeka              2 -  0    4   2   0     0   0   4     8   1.333
+12. Panathinaikos v Dinamo Moskva        1 -  2    2   2   2     1   1   0     7   1.167
+13. Everton v Wolfsburg                  4 -  1    3   2   1     0   0   3     6   1.000
+14. PAOK v Dinamo Minsk                  6 -  1    3   3   0     0   0   3     6   1.000
+15. Young Boys v Slovan Bratislava       5 -  0    3   3   0     0   0   3     6   1.000
+16. Dinamo Zagreb v Astra                5 -  1    3   3   0     0   0   3     6   1.000
+17. Rio Ave v Dynamo Kyiv                0 -  3    2   2   2     0   0   2     4   0.667
+18. Monchengladbach v Villarreal         1 -  1    5   1   0     1   0   0     4   0.667
+19. Qarabag v St-Etienne                 0 -  0    3   1   2     0   1   0     3   0.500
+20. Partizan v Tottenham                 0 -  0    2   1   3     0   1   0     3   0.500
+21. LOSC v Krasnodar                     1 -  1    6   0   0     0   0   0     0   0.000
+22. Besiktas v Asteras                   1 -  1    5   0   1     0   0   0     0   0.000
+23. Metalist v Trabzonspor               1 -  2    5   1   0     0   0   0     0   0.000
+24. Salzburg v Celtic                    2 -  2    6   0   0     0   0   0     0   0.000
+
+Competitors = 6
+Total points scored = 180
+Average points scored = 30.000
+Average points per game = 1.250
